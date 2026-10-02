@@ -6,9 +6,9 @@ source_description: "Index of the Google Drive export (the Dzongsar tracking she
 
 # Dzongsar Drive export — Heart Sūtra
 
-**From:** `Dzongsar_corpus.zip`, `Dzongsar_folders_docs.zip` in ~/Downloads (exported from Google Drive on 2026-10-02 with the Claude in Chrome extension). Copied 2026-10-02; checksums are in `raw-data/dzongsar-drive/manifest.json`.
+**From:** `Dzongsar_corpus.zip`, `Dzongsar_folders_docs.zip`, `Dzongsar_missing_heart.zip` in ~/Downloads (exported from Google Drive on 2026-10-02 with the Claude in Chrome extension). Copied 2026-10-02; checksums are in `raw-data/dzongsar-drive/manifest.json`.
 
-**What's here:** the `02_ཤེས་རབ་སྙིང་པོ།` section of the tracking sheet. That is 98 files: metadata sheets, clean texts, TOCs, segmentations, and root-text and commentary alignment docs. The folder paths are exactly as they were inside the zips. Three files are shared by all texts and copied whole: `Dzongsar_sheet.csv`, `links_manifest.csv` (which says what was downloaded from each sheet cell), and `Tibetan_Catalogue_Seg-Align_full_workbook.xlsx` (the master catalogue, with its authors and segmentation-guideline tabs).
+**What's here:** the `02_ཤེས་རབ་སྙིང་པོ།` section of the tracking sheet. That is 561 files: metadata sheets, clean texts, TOCs, segmentations, and root-text and commentary alignment docs. The folder paths are exactly as they were inside the zips. Three files are shared by all texts and copied whole: `Dzongsar_sheet.csv`, `links_manifest.csv` (which says what was downloaded from each sheet cell), and `Tibetan_Catalogue_Seg-Align_full_workbook.xlsx` (the master catalogue, with its authors and segmentation-guideline tabs).
 
 **Re-routed:** sheet rows 75–81 sit under the སྤྱོད་འཇུག heading but are Heart Sūtra commentaries. Their segmentation docs are kept at their zip path, `Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/`. Each is the same Google Doc as the copy in the folders zip, and the text is identical.
 
@@ -39,11 +39,11 @@ Column letters are the sheet's columns. A Metadata · B Clean text · C TOC · D
 
 ## Failed downloads
 
-These links in the sheet could not be exported (permission, or a non-Google file). Fetch them by hand if they matter.
+These links in the sheet could not be exported on the first pass. "Second pass" shows the result of the follow-up download (see below).
 
-| Row | Column | Label | Link |
-|---|---|---|---|
-| — | | none | |
+| Row | Column | Label | Link | Second pass |
+|---|---|---|---|---|
+| — | | none | | |
 
 ## External links in the sheet
 
@@ -96,6 +96,34 @@ Skipped uploaded files:
 - [Others/RBEAD9D91 ཤེར་སྙིང་གི་མདོའི་སྦས་དོན་མངོན་རྟོགས་གསལ་བའི་ཉི་མ།.txt](https://drive.google.com/file/d/1lsX0VTYpghE-rxRFgrQytTyl090aymNd/view)
 - [Others/R46878C73 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ་ཟབ་མོ་སྣང་བའི་གཏེར་སྒོ་ཞེས་བྱ་བ་བཞུགས་སོ། །-B2.pdf](https://drive.google.com/file/d/1_xrXCsFnFziymPpgnjvs0CclzipetVUb/view)
 - [OCR/RA6E8F24A  ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས། -B2.pdf](https://drive.google.com/file/d/1jWLA0kfMPp5D8T2Kcnv68E0ffW9xSMOf/view)
+
+## Second pass: `Dzongsar_missing_heart.zip`
+
+The first two zips skipped or failed some links. The Chrome extension then fetched every link the sheet lists for this text that was still missing, including the Tibetan, Chinese and General-list tabs and everything inside linked folders. The result is in `raw-data/dzongsar-drive/Dzongsar_missing_heart/`. Each top-level name starts with its number in the request: A = linked on the Dzongsar tab but never crawled, B = failed on the first pass, C = uploaded files skipped in the commentary folders, D = linked only from the other tabs.
+
+- **Downloaded:** 461 files (A: 6, C: 14, D: 441).
+- **Renamed:** 116 paths. A name over 200 bytes was shortened at a tsheg, keeping its ID and extension, and extension-less files got one. Some nested Tibetan folder names had pushed full paths past macOS's 1024-byte limit. `path-renames.json` maps each original path to its new one; `missing_manifest.csv` still uses the original paths.
+- **Overlap:** many items, especially a text's main folder, contain copies of files already in the first two zips. Nothing has been de-duplicated.
+
+Still unavailable (15 distinct links). Reasons: Uploaded .docx you can view, but it is not shared by link (15).
+
+| # | Item | Status | Link |
+|---|---|---|---|
+| C6 | common_spell.docx | failed | [open](https://drive.google.com/file/d/1J_XIstfcHJmZRlHSd1BKBxn5QWTYkkW9/view) |
+| C8 | common_spell.docx | failed | [open](https://drive.google.com/file/d/11_lA5xirVzlY-T-Db-AOY2Kzc-wb0ZYK/view) |
+| C11 | common_spell.docx | failed | [open](https://drive.google.com/file/d/1dsKZKLRgfjYbllyor561PkWplygSPUey/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1m74XAvQN6JpMqfKjvKUA9ub3pJ6Ua-4n/view) |
+| D1 | common_spell with note.docx | failed | [open](https://drive.google.com/file/d/19vN7icTZB25GbKtXoCRKjns6nwXCSZo2/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/11f4uI_xpUgZUO4xLGjNRlJm8WO1jm0eF/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1NwmPpSiFO5SsfehDERfaP3Q9A-9v5WZk/view) |
+| D1 | common_spell with note.docx | failed | [open](https://drive.google.com/file/d/1L31yg_oKairGrEsXCWhbx1F_rWboKQdw/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1sPMwg_jSdXGkJOLnfdkan6EzXc7Wzf2X/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1ZU4A_VYYSZK1zf3eRZjNcxSJ7xmPIdWT/view) |
+| D1 | common_spell with spell.docx | failed | [open](https://drive.google.com/file/d/1-WXU9Ew6gQHDZKLPba2fblyEYxN-qqW0/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1U-G0-U-M9JFT13GJN4iQKNRyDlKbThC-/view) |
+| D1 | common_spell With Note.docx | failed | [open](https://drive.google.com/file/d/1-yq-cID5TCuGUPKukyj6djtfDouDEzn6/view) |
+| D1 | common_spell with note.docx | failed | [open](https://drive.google.com/file/d/10Fe2dhazEH5n3k5uqq41k34AiuymGiHQ/view) |
+| D1 | common_spell with Note.docx | failed | [open](https://drive.google.com/file/d/1rC8Rf1cqjBlaf8bUyLDuLUK2aATzB-gy/view) |
 
 ## Next step
 

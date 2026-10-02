@@ -12,6 +12,15 @@
    "bytes": 7913986,
    "sha256": "5f940f73e3c52cd8e014e8630f7551357bc51e75f8ca4eb0f36d23ac82239dcb",
    "modified": "2026-10-02"
+  },
+  "Dzongsar_missing_heart.zip": {
+   "path": "/Users/tashitsering/Downloads/Dzongsar_missing_heart.zip",
+   "bytes": 395518847,
+   "sha256": "a6dd10e5cdfd5572a9966e46ce8a01e984d626b254271e48a609fea3d66870e0",
+   "modified": "2026-10-02",
+   "content": "second pass by the Claude in Chrome extension: links listed in the sheet but missing from the first two zips",
+   "copied_to": "Dzongsar_missing_heart/",
+   "path_renames": "Dzongsar_missing_heart/path-renames.json (116 paths)"
   }
  },
  "copied": "2026-10-02",
@@ -27,5 +36,5 @@
   "Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/RA6E8F24A ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས། -Segmentation.docx"
  ],
  "rerouted_note": "sheet rows 75-81 sit under the སྤྱོད་འཇུག heading but are Heart Sutra commentaries; their files are kept at their zip path (04_སྤྱོད་འཇུག/...).",
- "files": 98
+ "files": 561
 }
