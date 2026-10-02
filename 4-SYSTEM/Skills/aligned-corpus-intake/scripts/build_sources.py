@@ -509,6 +509,17 @@ def _heading_level(spec, para):
     return None
 
 
+def _ref_fix(spec, prefix, paragraph):
+    """A human-decided reading of a written number (manifest ref_corrections):
+    {"<written, spaces/dots removed>": {refs, reason, paragraphs?}}. With
+    `paragraphs`, the reading applies only there (the same written number
+    elsewhere stays as written)."""
+    fix = (spec.get("ref_corrections") or {}).get(re.sub(r"[\s.．\u200b\ufeff]", "", prefix or ""))
+    if fix and (not fix.get("paragraphs") or paragraph in fix["paragraphs"]):
+        return fix
+    return None
+
+
 def adapt_ref_commentary(ctx, spec, rep):
     """Commentary whose paragraphs carry typed (or auto-numbered) references
     to the target's numbered segments (Pecha convention: '12.', '4-12.',
@@ -529,6 +540,7 @@ def adapt_ref_commentary(ctx, spec, rep):
         paras = [q for p in paras for q in explode_lines(p)]
     excluded = []
     carry, carried_prefixes = None, []
+    seen_comments = set()
     for p in paras:
         if not p["text"].strip():
             continue
@@ -568,13 +580,13 @@ def adapt_ref_commentary(ctx, spec, rep):
         segs, cur, off = [], None, 0
         for li, line in enumerate(lines):
             refs, prefix, rest = parse_ref_prefix(line, ref_style) if refs_mode != "none" else (None, "", line)
-            fix = (spec.get("ref_corrections") or {}).get(re.sub(r"[\s.．]", "", prefix)) if refs else None
+            fix = _ref_fix(spec, prefix, p["index"]) if refs else None
             if fix:
                 refs = list(fix["refs"])
                 rep.setdefault("ref_corrections_applied", []).append(
                     {"paragraph": p["index"], "written": prefix.strip(), "read_as": refs})
             if cur is None or refs:
-                cur = {"lines": [], "refs": refs, "prefix": prefix, "start": off, "line": li}
+                cur = {"lines": [], "refs": refs, "prefix": prefix, "start": off, "line": li, "fix": fix}
                 segs.append(cur)
                 cur["lines"].append(rest if refs else line)
                 cur["prefix_len"] = len(prefix) if refs else 0
@@ -609,10 +621,14 @@ def adapt_ref_commentary(ctx, spec, rep):
                                **({"typed_prefix": s["prefix"]} if s["prefix"] else {}),
                                **({"ref_correction": {"written": s["prefix"].strip(),
                                                       "read_as": s["refs"],
-                                                      "reason": spec["ref_corrections"][re.sub(r"[\s.．]", "", s["prefix"])]["reason"]}}
-                                  if s["prefix"] and re.sub(r"[\s.．]", "", s["prefix"]) in (spec.get("ref_corrections") or {}) else {}),
+                                                      "reason": s["fix"]["reason"]}}
+                                  if s.get("fix") else {}),
                                **({"auto_number": auto} if k == 0 and auto else {})},
                     "annotations": ann}
+            new_c = [c for c in p.get("comment_ids") or [] if c in doc["comments"] and c not in seen_comments]
+            if new_c:
+                seen_comments.update(new_c)
+                item["comments"] = [doc["comments"][c] for c in new_c]
             if refs:
                 if refs_mode == "align" and ref_map is not None:
                     item["source"]["refs"] = refs
@@ -804,6 +820,60 @@ def apply_overlays(ctx, spec, items, rep):
                          "doc": ov["doc"], "paragraph": p["index"]})
                 placed += 1
             rep[f"overlay:refs_doc:{ov.get('label', '')}"] = {"placed": placed, "unplaced": lost}
+        elif typ == "docx_comments":
+            # Word reviewer comments made on another copy of the same text:
+            # each commented paragraph is projected onto the built blocks
+            doc = ctx.docx(ov["doc"])
+            src = "\n".join(p["text"] for p in doc["paragraphs"])
+            proj = Projector(src, text)
+            pos = placed = lost = 0
+            seen = set()
+            for p in doc["paragraphs"]:
+                # a comment spanning several paragraphs is placed once, at its start
+                cids = [c for c in p.get("comment_ids") or [] if c in doc["comments"] and c not in seen]
+                seen.update(cids)
+                if cids:
+                    sp = proj.span(pos, pos + len(p["text"]))
+                    hits = _locate_span(offs, *sp) if sp else []
+                    if hits:
+                        i, s, e = hits[0]
+                        items[i].setdefault("comments", []).extend(
+                            dict(doc["comments"][c], doc=ov["doc"], paragraph=p["index"]) for c in cids)
+                        placed += len(cids)
+                    else:
+                        lost += len(cids)
+                pos += len(p["text"]) + 1
+            rep[f"overlay:docx_comments:{ov['doc'].split('/')[-1]}"] = {"placed": placed, "unplaced": lost}
+        elif typ == "docx_footnotes":
+            # a collation apparatus kept as Word footnotes on another copy of
+            # the same text: "lemma]V1,V2: reading; V4: reading;" anchored
+            # right after the lemma. Each note is projected onto the block
+            # holding its lemma; the sigla legend comes from the manifest.
+            doc = ctx.docx(ov["doc"])
+            src = "\n".join(p["text"] for p in doc["paragraphs"])
+            proj = Projector(src, text)
+            pos = placed = lost = 0
+            for p in doc["paragraphs"]:
+                for ref in p.get("footnote_refs") or []:
+                    note = doc["footnotes"].get(ref["id"], "")
+                    lemma = note.split("]", 1)[0].strip() if "]" in note else ""
+                    end = pos + ref["offset"]
+                    start = max(pos, end - len(lemma)) if lemma else end - 1
+                    sp = proj.span(start, end)
+                    hits = _locate_span(offs, *sp) if sp else []
+                    if not hits:
+                        lost += 1
+                        continue
+                    i, s, e = hits[-1]
+                    items[i].setdefault("annotations", []).append(
+                        {"start": s, "end": e, "layer": ov.get("label", "footnote"), "note": note,
+                         "reading": src[start:end], "footnote_id": ref["id"], "doc": ov["doc"]})
+                    placed += 1
+                pos += len(p["text"]) + 1
+            rep[f"overlay:docx_footnotes:{ov.get('label', ov['doc'].split('/')[-1])}"] = {
+                "placed": placed, "unplaced": lost, "projection": proj.stats}
+            if ov.get("sigla"):
+                out.setdefault("sigla", {}).update(ov["sigla"])
         elif typ == "formatting":
             doc = ctx.docx(ov["doc"])
             src = "\n".join(p["text"] for p in doc["paragraphs"])
@@ -840,6 +910,20 @@ def tsadrel_crosscheck(ctx, spec, items, rep):
     blk_idx = LetterIndex(blk)
     rows_r = _row_lines(ctx, spec["tsadrel"]["root_rows"])
     rows_c = _row_lines(ctx, spec["tsadrel"]["other"])
+    if spec["tsadrel"].get("pair_by") == "number":
+        # pair the two sides by their Word list numbers (row i <-> row i of
+        # the list), for pairs where one side has extra unnumbered lines
+        def by_num(rows):
+            d = {}
+            for r in rows:
+                v = (r["numbering"] or {}).get("value")
+                if v is not None:
+                    d.setdefault(v, []).append(r["text"])
+            return d
+        nr, nc = by_num(rows_r), by_num(rows_c)
+        keys = sorted(set(nr) | set(nc))
+        rows_r = [{"text": "\n".join(nr.get(k, []))} for k in keys]
+        rows_c = [{"text": "\n".join(nc.get(k, []))} for k in keys]
     out, hint_r, hint_c, agree, total = [], 0, 0, 0, 0
     for i in range(max(len(rows_r), len(rows_c))):
         rt = rows_r[i]["text"] if i < len(rows_r) else ""

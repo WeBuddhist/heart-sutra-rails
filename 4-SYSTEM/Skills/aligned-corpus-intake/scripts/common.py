@@ -15,15 +15,19 @@ _D = r"[^\D\u0F20-\u0F29]"
 # (4-SYSTEM/Skills/aligned-corpus-intake/references/pecha-conventions.md):
 #   "12."  "12-15."  "1-3,5,6."  "17-19 "   — a single number needs its dot,
 # a range may omit it. An optional Tibetan tsheg may follow the dot.
+# Whitespace around a typed number, including the zero-width spaces Google
+# Docs leaves after a shad ("\u200b46 དང་པོ་ནི།").
+_S = r"[\s\u200b\ufeff]"
+
 REF_PREFIX = re.compile(
-    rf"^(?P<all>\s*(?P<refs>{_D}+(?:\s*[-–~]\s*{_D}+)?(?:\s*[,，、]\s*{_D}+(?:\s*[-–~]\s*{_D}+)?)*)"
-    r"(?P<dot>\s*[\.．])?་?\s*)")
+    rf"^(?P<all>{_S}*(?P<refs>{_D}+(?:\s*[-–~]\s*{_D}+)?(?:\s*[,，、]\s*{_D}+(?:\s*[-–~]\s*{_D}+)?)*)"
+    rf"(?P<dot>\s*[\.．])?་?{_S}*)")
 
 
 # Bare style (Tibetan commentaries): "14 ", "1-3 ", "198,199,201 " — never
 # followed by a dot (a dotted number there is a heading's outline number).
 REF_PREFIX_BARE = re.compile(
-    rf"^(?P<all>\s*(?P<refs>{_D}+(?:\s*[-–~]\s*{_D}+)?(?:\s*[,，、]\s*{_D}+(?:\s*[-–~]\s*{_D}+)?)*)(?![\d.．])\s*)")
+    rf"^(?P<all>{_S}*(?P<refs>{_D}+(?:\s*[-–~]\s*{_D}+)?(?:\s*[,，、]\s*{_D}+(?:\s*[-–~]\s*{_D}+)?)*)(?![\d.．]){_S}*)")
 
 
 def parse_ref_prefix(line, style="dotted"):
