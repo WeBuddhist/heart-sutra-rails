@@ -1,0 +1,482 @@
+[
+ {
+  "instance_id": "88UIsXzJTkawquPqwKgBu",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "openpecha.org",
+   "text_id": "ysb3nzBwYpMPcS9Jm064y",
+   "title": {
+    "tib": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽"
+   },
+   "alt_titles": [],
+   "language": "tib",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "www.openpecha.org",
+   "text_id": "8LbtYe5XRXQODfqkBkKJy",
+   "title": {
+    "tibphono": "chomdendé ma sherab kyi parol tu chinpa i nyingpo"
+   },
+   "alt_titles": [],
+   "language": "tibphono",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "1EENMb457ICcq3d2DwQBs",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "lotsawahouse.org",
+   "text_id": "MrsRfx7ML8QZxQPnhGesn",
+   "title": {
+    "en": "The Sūtra of the Heart of Transcendent Wisdom"
+   },
+   "alt_titles": [],
+   "language": "en",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "nfH3TnjSun60KYj8zR8FX",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "unknown",
+   "text_id": "xksSxJZ3iCqimY5iI4bdL",
+   "title": {
+    "lzh": "Delete This"
+   },
+   "alt_titles": [],
+   "language": "lzh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "ZaYU5VpL3ba7u7K2zKj5A",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "unknown",
+   "text_id": "iewFhiw3IX7ZSewQz2P8J",
+   "title": {
+    "lzh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "lzh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "pCmMXJbNPuKKYgQj0EYTJ",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "unknown",
+   "text_id": "qSckBKUXYlLYDkldJIxrn",
+   "title": {
+    "lzh": "般若波羅蜜多心經(法成敦煌石室本)"
+   },
+   "alt_titles": [],
+   "language": "lzh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "X37DnuYQTF7ECDUG2VBrD",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "unknown",
+   "text_id": "fbtp6Ud6jFXqlqLVn3Pg9",
+   "title": {
+    "lzh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "lzh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "uyjBhEHugwuylGYxYp5EF",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "unknown",
+   "text_id": "R0MXZxVEZt81mFd4KlqkU",
+   "title": {
+    "zh": "般若波羅蜜多心經"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "XxeliHAMM7VhmI6o5vqIg",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "V1msCX4JC841NhSXpQw5K",
+   "title": {
+    "it": "Il Cuore della Perfezione della Saggezza Easy to Read"
+   },
+   "alt_titles": [],
+   "language": "it",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "BeFSDXoEaTmisNFpFuoPV",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "Skhsropp0zx8s8AKPGyVi",
+   "title": {
+    "it": "Il Cuore della Perfezione della Saggezza AI Draft"
+   },
+   "alt_titles": [],
+   "language": "it",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "1OXlkqA6sHcYIWaRo0TKh",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "0caS916V51FVQ0HLTSt3f",
+   "title": {
+    "it": "Il Cuore della Perfezione della Saggezza Word by Word"
+   },
+   "alt_titles": [],
+   "language": "it",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "WFQOeTbOdS9GmjuQyZviL",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "OpenPecha",
+   "text_id": "y7Ufx0I2sJMVYsWQxcLfG",
+   "title": {
+    "sa": "प्रज्ञापारमिताहृदय"
+   },
+   "alt_titles": [],
+   "language": "sa",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "sIVNzewTg9LbPo42GSsAq",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha",
+   "text_id": "gCSZGAoXNRVG6JoMIS1Kk",
+   "title": {
+    "zh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "bqSl3sf5R4WmZvA1VFmE2",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "vXeghvCgI3SmlruRdam3z",
+   "title": {
+    "en": "The Heart of the Perfection of Wisdom Easy to Read"
+   },
+   "alt_titles": [],
+   "language": "en",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "KOiIQTZNroNzPNZiLIo28",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "aFGfDqyf2zJ0rqPAfg8eq",
+   "title": {
+    "en": "The Heart of the Perfection of Wisdom AI Draft"
+   },
+   "alt_titles": [],
+   "language": "en",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "2ZJXd4x13GPesQBKg98JT",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "WeefpEW5eTmL6YF3dT4mZ",
+   "title": {
+    "en": "The Heart of the Perfection of Wisdom Word by Word"
+   },
+   "alt_titles": [],
+   "language": "en",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "VmWaU9fICDJpQMmff2qGF",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "tAxj2D2Y2owylqH1Qona3",
+   "title": {
+    "zh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "kR8fLfqq5gRfpqO0MeNq8",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "wlsJFvraB1V4MiXNKPNci",
+   "title": {
+    "zh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "5EEUzf5oAUXj4POzzkeet",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "Wfy50w2KXCSOfkmigVpES",
+   "title": {
+    "zh": "Delete this"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "urcgJ7ld25AUCVd1w2Dgn",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "VnuDhqML5AviT34Yke02z",
+   "title": {
+    "hi": "प्रज्ञापारमिता हृदय Easy to Read"
+   },
+   "alt_titles": [],
+   "language": "hi",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "7A5wd1w8P3mMAaprZCVnW",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Openpecha AI",
+   "text_id": "Scmpagjbh4jBqsP40Bt8C",
+   "title": {
+    "hi": "प्रज्ञापारमिता हृदय AI Draft"
+   },
+   "alt_titles": [],
+   "language": "hi",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "DQBO5AtZmxLdsQDo7Jpy3",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "Kumarajiva",
+   "text_id": "pfNkwPTSQKw8ZHqkXF5vv",
+   "title": {
+    "zh": "般若波羅蜜多心經 Modern Chinese"
+   },
+   "alt_titles": [],
+   "language": "zh",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "translation"
+ },
+ {
+  "instance_id": "oyaWUzbJHrhqrOJ97H3Bs",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "VhyyCPfVImxrmZ7fsTadY",
+   "title": {
+    "bo": "ཤེར་སྙིང་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་བ་བཞུགས།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "IR4y9pazBzA0ukYUzLDsP",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "ahfeD2MfiDP6tmYrRzQfX",
+   "title": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ་བཞུགས་སོ།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "WSasdEWD0XrUBqcBWeMch",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "bxTFl1Q3u8M3ZtyaCJmnm",
+   "title": {
+    "bo": "ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "bcaMB1FOXpWhfMPtCiMjj",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "L8AO1YmhubqOfyug5QZaX",
+   "title": {
+    "bo": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "zTFh2qw6du5ekDZ8xy9Rs",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "Pt1LXGuYoBLCO7ttGCVxM",
+   "title": {
+    "bo": "འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "WDWz01L08hrOZnd0Swdff",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "LGfOnYVOex14LpoqvjHgy",
+   "title": {
+    "bo": "གཞུང་མཆོག་ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་དོན་པད་དཀར་བཞད་པོའི་ཉིན་བྱེད་ཅེས་བྱ་བ་བཞུགས།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "8ShdxSlniG4jEChiOIOhH",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "tDGw9s3CFxH6H1zo7nuGU",
+   "title": {
+    "bo": "ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ་བཞུགས་སོ།།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ },
+ {
+  "instance_id": "Ul8k7VmgZPfGXKUBTHAu2",
+  "metadata": {
+   "instance_type": "critical",
+   "source": "bdrc.io",
+   "text_id": "ON1w05E9Wi9MQT4Pmgc6F",
+   "title": {
+    "bo": "ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག་ཅེས་བྱ་བ་བཞུགས་སོ།"
+   },
+   "alt_titles": [],
+   "language": "bo",
+   "contributions": []
+  },
+  "annotation": null,
+  "relationship": "commentary"
+ }
+]
