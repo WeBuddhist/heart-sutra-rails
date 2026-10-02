@@ -126,8 +126,12 @@ def adapt_rows(ctx, spec, rep):
     doc = ctx.docx(spec["text"])
     items = []
     comments = doc["comments"]
+    title_para = spec.get("title_paragraph")
     for p in doc["paragraphs"]:
         if not p["text"].strip():
+            continue
+        if title_para is not None and p["index"] == title_para:
+            rep["title_text"] = p["text"]
             continue
         items.append({"kind": "block", "text": p["text"], "id": str(p["index"] + 1),
                       "source": {"doc": spec["text"], "paragraph": p["index"]},
@@ -971,7 +975,7 @@ def adapt_op_translation(ctx, spec, rep):
         sp = proj.span(pr["target_start"], pr["target_end"])
         ids = [b for b, s, e in offs if sp and s < sp[1] and e > sp[0]]
         by_seg.setdefault((pr["start"], pr["end"]), []).extend(x for x in ids if x not in by_seg.get((pr["start"], pr["end"]), []))
-    blocks, order, unmapped = {}, [], []
+    blocks, order, unmapped, pending = {}, [], [], []
     heads, pending_head, n_head = [], None, 0
     title_re = spec.get("title_pattern")
     head_re = spec.get("heading_pattern")
@@ -995,9 +999,11 @@ def adapt_op_translation(ctx, spec, rep):
         ids = [t for t in ids if t != TITLE_ID]
         if not ids:
             # never drop text: keep it with the preceding block, flagged
-            unmapped.append({"segment": sgm["id"], "text": text, "kept_in_block": order[-1] if order else None})
             if not order:
-                raise ValueError(f"{spec['key']}: segment {sgm['id']} before any aligned segment has no counterpart")
+                # before any aligned segment: kept with the following block
+                pending.append((sgm, text))
+                continue
+            unmapped.append({"segment": sgm["id"], "text": text, "kept_in_block": order[-1]})
             b = blocks[order[-1]]
             b["lines"].append(text.strip())
             b["source"]["openpecha_segments"].append({"id": sgm["id"], "start": sgm["start"], "end": sgm["end"],
@@ -1008,6 +1014,13 @@ def adapt_op_translation(ctx, spec, rep):
             blocks[key] = {"kind": "block", "id": key, "lines": [], "targets": [],
                            "source": {"openpecha_segments": []}}
             order.append(key)
+            for psg, ptext in pending:
+                blocks[key]["lines"].append(ptext.strip())
+                blocks[key]["source"]["openpecha_segments"].append(
+                    {"id": psg["id"], "start": psg["start"], "end": psg["end"],
+                     "flag": "no aligned counterpart; kept with the following block"})
+                unmapped.append({"segment": psg["id"], "text": ptext, "kept_in_block": key})
+            pending = []
         if pending_head:
             heads.append((key, pending_head))
             pending_head = None
@@ -1030,12 +1043,37 @@ def adapt_op_translation(ctx, spec, rep):
                                  "alignment_annotation": m["alignment"]["annotation_id"]}}
 
 
+def adapt_op_text(ctx, spec, rep):
+    """An OpenPecha text with no upstream alignment: one block per segment of
+    its segmentation annotation, flat ids 1..n, no transclusions. A segment
+    matching `title_pattern` becomes the title line."""
+    m = ctx.op(spec["openpecha_text"])
+    items, n = [], 0
+    for sgm in m["segments"]:
+        text = m["content"][sgm["start"]:sgm["end"]]
+        if not text.strip():
+            continue
+        clean = text.strip().strip("\u200e")
+        if spec.get("title_pattern") and not items and re.fullmatch(spec["title_pattern"], clean):
+            rep["title_text"] = clean
+            continue
+        n += 1
+        items.append({"kind": "block", "id": str(n), "text": text.strip(),
+                      "source": {"openpecha_segment": sgm["id"], "start": sgm["start"], "end": sgm["end"]}})
+    # text outside every segment (if any) is kept, never dropped
+    covered = sum(s["end"] - s["start"] for s in m["segments"])
+    rep.update({"blocks": len(items), "openpecha_segments": len(m["segments"]),
+                "uncovered_chars": len(m["content"]) - covered})
+    return items, {"openpecha": {"text_id": m["text_id"], "instance_id": m["instance_id"]}}
+
+
 ADAPTERS = {
     "rows": adapt_rows,
     "numbered": adapt_numbered,
     "parallel": adapt_parallel,
     "ref_commentary": adapt_ref_commentary,
     "op_translation": adapt_op_translation,
+    "op_text": adapt_op_text,
 }
 
 
@@ -1068,17 +1106,18 @@ def build(manifest_path, vault, only=None, dry=False, out=None):
         key = spec["key"]
         rep = {"key": key, "path": spec["path"], "adapter": spec["adapter"]}
         items, extra = ADAPTERS[spec["adapter"]](ctx, spec, rep)
+        sdir = spec.get("sidecar_dir", sidecar_dir)
         fm = dict(spec.get("frontmatter") or {})
         fm["raw_sources"] = provenance(ctx, raw_files(spec))
         if spec.get("openpecha_text"):
             fm.setdefault("openpecha_text_id", spec["openpecha_text"])
         fm["intake"] = {"skill": "aligned-corpus-intake", "adapter": spec["adapter"],
                         "date": datetime.date.today().isoformat(),
-                        "annotations": f"{sidecar_dir}/{pathlib.Path(spec['path']).stem}.annotations.json"}
+                        "annotations": f"{sdir}/{pathlib.Path(spec['path']).stem}.annotations.json"}
         target_path = ctx.works[spec["target"]]["path"] if spec.get("target") else None
         work = {"path": spec["path"], "frontmatter": fm, "title": rep.get("title_text") or spec["title"],
                 "id_scheme": spec.get("id_scheme", "flat"), "target_file": target_path,
-                "sidecar": f"{sidecar_dir}/{pathlib.Path(spec['path']).stem}.annotations.json",
+                "sidecar": f"{sdir}/{pathlib.Path(spec['path']).stem}.annotations.json",
                 "items": items,
                 "extra": {"legend": spec.get("legend"), "notes": spec.get("notes"), **extra}}
         built.append(work)

@@ -78,7 +78,7 @@ def parse(body):
 def source_text(ctx_raw, spec, op_root):
     """The raw text the work's body was made from."""
     ad = spec["adapter"]
-    if ad == "op_translation":
+    if ad in ("op_translation", "op_text"):
         return openpecha_model.load(op_root, spec["openpecha_text"])["content"]
     rel = spec["pair"]["other"] if ad == "parallel" else spec["text"]
     doc = docx_model.read(raw_path(ctx_raw, rel))
@@ -103,7 +103,7 @@ def main():
         md = root / spec["path"]
         heads, blocks, trans = parse(read_md(md))
         ids_by_file[spec["path"]] = {b[0] for b in blocks if b[0]}
-        side = json.loads((root / side_dir / f"{md.stem}.annotations.json").read_text(encoding="utf-8"))
+        side = json.loads((root / spec.get("sidecar_dir", side_dir) / f"{md.stem}.annotations.json").read_text(encoding="utf-8"))
         problems = []
         # structure
         ids = [b[0] for b in blocks]

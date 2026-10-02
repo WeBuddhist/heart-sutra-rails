@@ -1,0 +1,2461 @@
+# Intake manifest — Heart Sūtra corpus (བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།)
+#
+# Read by 4-SYSTEM/Skills/aligned-corpus-intake/scripts/build_sources.py and verify.py.
+# One entry per work, in build order (a work can only align to a work above it).
+# Paths are relative to raw_root, written with plain spaces (the Drive export's
+# no-break spaces are resolved by common.raw_path). Every value comes from the raw
+# data: the per-work Dzongsar metadata sheets (cell text, never hyperlinks), the
+# Resources catalogue (person ids only where its work id and author match the
+# work's own sheet), OpenPecha text.json, and the docs. Empty = not recorded upstream.
+# Human decisions are recorded where they apply (ref_corrections, notes), dated 2026-10-02.
+# Inventory and characterisation: 0-INBOX/dzongsar-drive-inventory.md,
+# 0-INBOX/openpecha-api-inventory.md, 0-INBOX/heart-sutra-intake-report.md.
+
+raw_root: 0-INBOX/raw-data
+openpecha_root: openpecha-api
+sidecar_dir: 1-SOURCES/Annotations
+
+works:
+
+# ── Tibetan root (numbered root the commentaries were aligned against) ────────
+- key: bo-root
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+  adapter: numbered
+  number_source: auto
+  number_offset: -1
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/M29C34F4A ཤེས་རབ་སྙིང་པོ།  Root text Alignments/M29C34F4A ཤེས་རབ་སྙིང་པོ། -Segmentation.docx
+  alt_segmentations:
+  - label: Clean text (29 numbered rows)
+    doc: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/M29C34F4A ཤེས་རབ་སྙིང་པོ།  Root text Alignments/M29C34F4A ཤེས་རབ་སྙིང་པོ། - Clean text.docx
+  - label: Clean text Tsawa (B_Clean_Text; reads ཕྱིན་པ་ at ^7 and ^12)
+    doc: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/B_Clean_Text/M29C34F4A ཤེས་རབ་སྙིང་པོ། - Clean text Tsawa.docx
+  - label: Tibetan side of the Tibetan–Sanskrit pair (31 rows)
+    doc: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/M29C34F4A ཤེས་རབ་སྙིང་པོ། Tibetan- Sanskrit.docx
+  - label: Tibetan side of the Tibetan–Chinese pair (111 rows, another edition)
+    doc: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/M29C34F4A ཤེས་རབ་སྙིང་པོ། Tibetan-Chinese.docx
+  overlays:
+  - type: docx_footnotes
+    label: collation of 15 witnesses V1–V15 (common_spell-foot note)
+    doc: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/M29C34F4A ཤེས་རབ་སྙིང་པོ།  Root text Alignments/Other/common_spell-foot note.docx
+  extra_raw:
+  - dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/M29C34F4A ཤེས་རབ་སྙིང་པོ།  Root text Alignments/M29C34F4A ཤེས་རབ་སྙིང་པོ། Metadata.xlsx
+  - dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/M29C34F4A ཤེས་རབ་སྙིང་པོ།  Root text Alignments/Other/Common_Spell-without foot note.docx
+  - openpecha-api/texts/BdfDD44nDSOqa13HgTvd7/text.json
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Block ^N is human root segment N: the numbering every commentary''s alignment numbers use (1 = རྒྱ་གར་སྐད་དུ, 5 = འདི་སྐད་བདག་གིས་ཐོས་པ…, 80 = colophon; the title is unnumbered, as in the catalogue''s segmentation guideline, Tibetan_Catalogue tab དུམ་བུར་བཅད་སྟངས། D5). The Google Doc''s Word list also numbers the title, so its numbers are N+1 (number_offset -1; the Word number is kept as source.rendered). Reading at ^7 and ^12 (ཕ་རོལ་ཏུ་ཟབ་མོའི, without ཕྱིན་པ་) kept by decision of the vault owner, 2026-10-02: it is the reading of witnesses V1,V2,V6,V9,V10,V13,V14,V15 of the team''s collation; V3,V5,V7,V8,V11,V12, Clean text Tsawa and OpenPecha have ཕྱིན་པ་ (recorded in the sidecar). The 186 collation footnotes (sigla V1–V15 not resolved upstream) are carried as variant notes.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    alt_titles:
+    - ཤེར་རབ་སྙིང་པོ།
+    - ཤེར་སྙིང་།
+    - འཕགས་པ་བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    title_in_english: The Heart of Wisdom
+    author: སྟོན་པ་བཅོམ་ལྡན་འདས།
+    translator: སྒྲོ་ལོ་ཙཱ་བ་རིན་ཆེན་སྡེ། [bdrc:P1256]
+    language: Tibetan
+    lang_tag: bo
+    file_type: root-text
+    verse_id_format: verse
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1pKO17IZmZEMH2FdbfTGAmTGoUIZVdkpY3YNPU-BBKPo/edit
+    bdrc_work_id: WA0RK0529
+    other_ids:
+    - 'Dzongsar: M29C34F4A'
+    - 'OpenPecha: BdfDD44nDSOqa13HgTvd7'
+    source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། -Segmentation' — the numbered root (80 segments + title) the Dzongsar team aligned every Tibetan commentary against; block ^N is segment N. Translator from OpenPecha text.json.
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+
+# ── Translations / parallels aligned to the root ──────────────────────────────
+- key: sa-hrdaya
+  path: 1-SOURCES/Translations/sa-prajnaparamita-hrdaya.md
+  adapter: parallel
+  id_scheme: flat
+  target: bo-root
+  root_work: bo-root
+  pair:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/M29C34F4A ཤེས་རབ་སྙིང་པོ། Tibetan- Sanskrit.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/M29C34F4A ཤེས་རབ་སྙིང་པོ། Sanskrit-Tsawa Align.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: y7Ufx0I2sJMVYsWQxcLfG
+  extra_raw:
+  - openpecha-api/texts/y7Ufx0I2sJMVYsWQxcLfG/text.json
+  title: प्रज्ञापारमिताहृदय
+  notes: 'Human row pairing reproduced exactly as made (decision of the vault owner, 2026-10-02: keep, needs-review): row 1 pairs the Tibetan title with ''[विस्तरमातृका]'' (so it is this file''s title line), row 2 pairs རྒྱ་གར་སྐད་དུ with ॥नमः सर्वज्ञाय॥, and at rows 14–15 रूपान्न पृथक्… faces a blank Tibetan row (kept with ^14, flagged) while यद्रूपं सा शून्यता… faces གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན (^16). OpenPecha y7Ufx… (identical letters) carries the same pairing; kept as an overlay.'
+  frontmatter:
+    title: प्रज्ञापारमिताहृदय
+    language: Sanskrit
+    lang_tag: sa
+    file_type: translation
+    alignment_status: needs-review
+    license: cc0
+    source: https://docs.google.com/document/d/1PDtR6wX987NkpHL86t3onLwokdqcJnHCaDjiX2hIWZo/edit
+    other_ids:
+    - 'Dzongsar: M29C34F4A (Sanskrit Tsawa Align)'
+    - 'OpenPecha: y7Ufx0I2sJMVYsWQxcLfG'
+    source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། Sanskrit-Tsawa Align', row-paired with 'Tibetan- Sanskrit'. Original-language parallel, filed as a translation of the Tibetan (the alignment relation the library models). Title from OpenPecha text.json.
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: lzh-xinjing
+  path: 1-SOURCES/Translations/lzh-xinjing.md
+  adapter: parallel
+  id_scheme: flat
+  target: bo-root
+  pair:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/M29C34F4A ཤེས་རབ་སྙིང་པོ། Tibetan-Chinese.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/M29C34F4A ཤེས་རབ་སྙིང་པོ། 心經 Chinese -Tibetan.docx
+  title: 般若波羅密多心經
+  notes: Row pairing exactly as made; the Tibetan side is another edition (spelling differences, ཨོཾ in the mantra), located in the root by letters. Row 3 (Sanskrit title in another transliteration) is kept with ^1 and flagged.
+  frontmatter:
+    title: 般若波羅密多心經
+    language: Classical Chinese
+    lang_tag: lzh
+    file_type: translation
+    license: unknown
+    source: https://docs.google.com/document/d/1U1FAXWHGWtqTdTClz25n_vSvV_KHNSYiQzQKC_fEp7I/edit
+    other_ids:
+    - 'Dzongsar: M29C34F4A (Chinese Tsawa Align)'
+    source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། 心經 Chinese -Tibetan', row-paired (111 rows) with 'Tibetan-Chinese'. Shares 368 of 578 letters with OpenPecha qSckBKUXYlLYDkldJIxrn (般若波羅蜜多心經(法成敦煌石室本)); no translator recorded.
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: en-lotsawahouse
+  path: 1-SOURCES/Translations/en-lotsawahouse.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: MrsRfx7ML8QZxQPnhGesn
+  extra_raw:
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/text.json
+  frontmatter:
+    title: The Sūtra of the Heart of Transcendent Wisdom
+    language: English
+    lang_tag: en
+    source_description: OpenPecha backend text MrsRfx7ML8QZxQPnhGesn (instance source lotsawahouse.org, licence CC BY-NC), aligned upstream 27↔27 to the OpenPecha root, projected onto the root's 80 segments.
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc-by-nc
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/MrsRfx7ML8QZxQPnhGesn
+    other_ids:
+    - 'OpenPecha: MrsRfx7ML8QZxQPnhGesn'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: The Sūtra of the Heart of Transcendent Wisdom
+
+- key: bo-colloquial
+  path: 1-SOURCES/Translations/bo-colloquial.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: ysb3nzBwYpMPcS9Jm064y
+  extra_raw:
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/text.json
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽
+    language: Tibetan
+    lang_tag: bo
+    source_description: 'OpenPecha backend text ysb3nzBwYpMPcS9Jm064y: colloquial Tibetan (ཁ་སྐད།) rendering, instance source openpecha.org, aligned upstream 27↔27.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: public
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/ysb3nzBwYpMPcS9Jm064y
+    other_ids:
+    - 'OpenPecha: ysb3nzBwYpMPcS9Jm064y'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽
+
+- key: zh-modern-1
+  path: 1-SOURCES/Translations/zh-modern-xinjing-1.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: R0MXZxVEZt81mFd4KlqkU
+  notes: 'Upstream alignment reproduced as made but visibly shifted (e.g. 舍利弗！色不相異於空… ↔ དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས, 三世諸佛… ↔ གཟུགས་ལས་སྟོང་པ་ཉིད…): needs review (decision of the vault owner, 2026-10-02: include, flagged).'
+  extra_raw:
+  - openpecha-api/texts/R0MXZxVEZt81mFd4KlqkU/text.json
+  frontmatter:
+    title: 般若波羅蜜多心經
+    language: Chinese
+    lang_tag: zh
+    alignment_status: needs-review
+    source_description: 'OpenPecha backend text R0MXZxVEZt81mFd4KlqkU (source unknown): modern vernacular Chinese of the short version (舍利弗…), aligned upstream 7↔7 to the long Tibetan.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/R0MXZxVEZt81mFd4KlqkU
+    other_ids:
+    - 'OpenPecha: R0MXZxVEZt81mFd4KlqkU'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: 般若波羅蜜多心經
+
+- key: zh-modern-2
+  path: 1-SOURCES/Translations/zh-modern-xinjing-2.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: pfNkwPTSQKw8ZHqkXF5vv
+  notes: 'The introductory paragraph is aligned upstream to the root''s title, so it is this file''s title line. Upstream alignment visibly shifted (舍利弗！ ↔ དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས): needs review (decision of the vault owner, 2026-10-02).'
+  extra_raw:
+  - openpecha-api/texts/pfNkwPTSQKw8ZHqkXF5vv/text.json
+  frontmatter:
+    title: 般若波羅蜜多心經 Modern Chinese
+    language: Chinese
+    lang_tag: zh
+    alignment_status: needs-review
+    source_description: 'OpenPecha backend text pfNkwPTSQKw8ZHqkXF5vv (instance source ''Kumarajiva'', licence CC0): modern Chinese of the short version with an introductory paragraph, aligned upstream 15↔15 to the long Tibetan.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/pfNkwPTSQKw8ZHqkXF5vv
+    other_ids:
+    - 'OpenPecha: pfNkwPTSQKw8ZHqkXF5vv'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: 般若波羅蜜多心經 Modern Chinese
+
+- key: lzh-facheng
+  path: 1-SOURCES/Translations/lzh-facheng-dunhuang.md
+  adapter: op_text
+  id_scheme: flat
+  openpecha_text: qSckBKUXYlLYDkldJIxrn
+  extra_raw:
+  - openpecha-api/texts/qSckBKUXYlLYDkldJIxrn/text.json
+  title: 般若波羅蜜多心經(法成敦煌石室本)
+  notes: No alignment exists upstream; one block per OpenPecha segment, no transclusions.
+  frontmatter:
+    title: 般若波羅蜜多心經(法成敦煌石室本)
+    language: Classical Chinese
+    lang_tag: lzh
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/qSckBKUXYlLYDkldJIxrn
+    other_ids:
+    - 'OpenPecha: qSckBKUXYlLYDkldJIxrn'
+    source_description: OpenPecha backend text qSckBKUXYlLYDkldJIxrn (source unknown), 9 segments, not aligned upstream.
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+
+# ── Tibetan commentaries (alignment numbers = root segment ids, transcluded as written) ───
+- key: bo-taranatha-tsikdrel
+  path: 1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/C_TOC/RB76B7B48 ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས། -TOC.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RB76B7B48 ཤེས་རབ་སྙིང་པོ། -Root Text Tsadel.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RB76B7B48 ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས། -Tsa.docx
+    pair_by: number
+  overlays:
+  - type: openpecha_alignment
+    text_id: bxTFl1Q3u8M3ZtyaCJmnm
+  title: ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས།
+  notes: 'TOC doc = Citation/Sentence-Segm docs + 18 magenta headings with flat Tibetan-numeral counters (༢༽…༢༡༽, kept as text) + alignment numbers. Copy filed as B_Clean_Text ''-Cle'' is this same doc. Tsadrel pair matched by Word list number (an unnumbered root row shifts row indices). Comma numbers read as ranges (27,31): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས།
+    title_in_english: Tāranātha, Word-for Word Commentary on the Heart Sūtra
+    author: ཇོ་ནང་རྗེ་བཙུན་ཏཱ་ར་ནཱ་ཐ། [bdrc:P1428]
+    registered_id: taranatha-tsikdrel
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1BqtUpRkoXdsPEHvitlI42_mq6aPC_5c1lFw9xTyQjCs/edit
+    bdrc_work_id: WA0XLBC8FE150050C
+    other_ids:
+    - 'Dzongsar: RB76B7B48'
+    - 'OpenPecha: bxTFl1Q3u8M3ZtyaCJmnm'
+    source_description: Dzongsar Google Doc 'RB76B7B48 ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས། -TOC' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    27,31:
+      refs:
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      paragraphs:
+      - 125
+      reason: 'Written ''27,31'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 27-31 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-vairocana-ngagsu-trelwa
+  path: 1-SOURCES/Commentaries/bo-vairocana-ngagsu-trelwa.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/C_TOC/R64282E1A ཤེར་སྙིང་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ། - TOC.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/R64282E1A ཤེས་རབ་སྙིང་པོ། - Root Text Tsadel.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/R64282E1A ཤེར་སྙིང་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ། Tsadel.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: VhyyCPfVImxrmZ7fsTadY
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ།
+  notes: 'TOC doc = Citation doc + alignment numbers. The Tsadel / OpenPecha text is an older spelling state (about 20 letters). Colophon: composed by Śrī Siṃha, explained into mantra by Vairocana; the sheet names Vairocana as author. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ།
+    title_in_english: Vairocana, Unravelling Mantra’s Meaning in The Heart of Wisdom Sūtra
+    author: ལོ་ཆེན་བཻ་རོ་ཙ་ན། [bdrc:P5013]
+    registered_id: vairocana-ngagsu-trelwa
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/13A442uVFB-JbN12nMfn0oI4cftWuMG_JpH-exvFyBmU/edit
+    bdrc_work_id: WA0XLEABEC8EFB500
+    other_ids:
+    - 'Dzongsar: R64282E1A'
+    - 'OpenPecha: VhyyCPfVImxrmZ7fsTadY'
+    source_description: Dzongsar Google Doc 'R64282E1A ཤེར་སྙིང་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ། - TOC' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-vajrapani-dongyi-dronma
+  path: 1-SOURCES/Commentaries/bo-vajrapani-dongyi-dronma.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/RA88988D0 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་…/RA88988D0 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་…/Other/RA88988D0 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་….docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RA88988D0 ཤེས་རབ་སྙིང་པོ། -Root text Tsadel.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RA88988D0 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: ahfeD2MfiDP6tmYrRzQfX
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ་ཞེས་བྱ་བ།
+  notes: The only doc carrying alignment numbers (filed under Resources/…/Other). Its Tsadrel pair is staggered (root line and comment in adjacent rows), so the row cross-check is weak; the OpenPecha alignment pairs by content. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ་ཞེས་བྱ་བ།
+    alt_titles:
+    - བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ།
+    - ཤེར་ཕྱིན་སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ།
+    title_in_english: Vajrapani, The Essence of the Heart Sutra
+    author: ཕྱག་ན་རྡོ་རྗེ། [bdrc:P8232]
+    registered_id: vajrapani-dongyi-dronma
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1kO0e3_WRuzWwCzOdpSH41m5oNQvDkgh2p2ZWBnE1pVo/edit
+    bdrc_work_id: WA0RT3165
+    other_ids:
+    - 'Dzongsar: RA88988D0'
+    - 'OpenPecha: ahfeD2MfiDP6tmYrRzQfX'
+    source_description: Dzongsar Google Doc 'RA88988D0 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་འགྲེལ་…' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-vimalamitra-tika
+  path: 1-SOURCES/Commentaries/bo-vimalamitra-tika.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།… (2).docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/R429207AA ཤེས་རབ་སྙིང་པོ། - Clean Root Tsadel.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: L8AO1YmhubqOfyug5QZaX
+  - type: docx_comments
+    doc: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།-B7-…/R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།….docx
+  title: ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།
+  notes: 'TOC doc (no headings despite the name). Karma Yonten''s 6 Word comments on the ''B7 #'' copy are carried onto the blocks. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།
+    alt_titles:
+    - ཤེར་ཕྱིན་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།
+    title_in_english: Vimalamitra, The Extensive Commentary to the Heart Sūtra
+    author: པཎ་ཆེན་དྲི་མེད་བཤེས་གཉེན། [bdrc:P5011]
+    registered_id: vimalamitra-tika
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1LXB70GsbYAkxmCD5Cnrb7u_JQwXlBlIU7aaBCU5G0uo/edit
+    bdrc_work_id: WA0RT3163
+    other_ids:
+    - 'Dzongsar: R429207AA'
+    - 'OpenPecha: L8AO1YmhubqOfyug5QZaX'
+    source_description: Dzongsar Google Doc 'R429207AA འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།… (2)' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-prasastrasena-tika
+  path: 1-SOURCES/Commentaries/bo-prasastrasena-tika.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/RCD3C8F1C འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།/RCD3C8F1C འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།/RCD3C8F1C འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།….docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RCD3C8F1C ཤེས་རབ་སྙིང་པོ། - Tsawa.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RCD3C8F1C འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: Pt1LXGuYoBLCO7ttGCVxM
+  title: འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་འགྲེལ་པ།
+  notes: Magenta = the commentary's ten-topic outline (inline). Five unnumbered paragraphs quoting a root lemma stay unaligned. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་འགྲེལ་པ།
+    alt_titles:
+    - ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།
+    - Praśāstrasena
+    - ཤེར་ཕྱིན་སྙིང་པོའི་རྒྱ་ཆེར་འགྲེལ་པ།
+    title_in_english: Praśāstrasena, Extensive Commentary on the Heart Sutra
+    author: སློབ་དཔོན་པྲ་ཤཱ་སྟྲ་སེ། [bdrc:P4CZ15646]
+    registered_id: prasastrasena-tika
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/15QJJrUYlXp9VpNzBspFCzfK8dXQhXQ4z2Gq0uMMYiVQ/edit
+    bdrc_work_id: WA0RT3166
+    other_ids:
+    - 'Dzongsar: RCD3C8F1C'
+    - 'OpenPecha: Pt1LXGuYoBLCO7ttGCVxM'
+    source_description: Dzongsar Google Doc 'RCD3C8F1C འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྒྱ་ཆེར་འགྲེལ་པ།…' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-ngawang-nyima-drelwa
+  path: 1-SOURCES/Commentaries/bo-ngawang-nyima-drelwa.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D2__RCDDEF0BE ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།/RCDDEF0BE ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།-TOC.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RCDDEF0BE ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།-Tsawa.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RCDDEF0BE ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།-Tsadel.docx
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།
+  notes: TOC doc; 'Annotation Specification.docx' and 'Copy of Copy of …-Tsadel' are copies of it. Root words inside ༼…༽ brackets are text. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།
+    title_in_english: Ngawang Nyima, Commentary on the Heart Sutra
+    author: སྒོ་མང་མཁན་ཟུར་ངག་དབང་ཉི་མ། [bdrc:P4796]
+    registered_id: ngawang-nyima-drelwa
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1fnAVQW8JOIUFANddoeAnfJn7x-DCL3svceKyjMguFUU/edit
+    bdrc_work_id: WA0XLB18EA1811A74
+    other_ids:
+    - 'Dzongsar: RCDDEF0BE'
+    source_description: Dzongsar Google Doc 'RCDDEF0BE ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ།-TOC' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-atisa-namshe
+  path: 1-SOURCES/Commentaries/bo-atisa-namshe.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D10__R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ།/R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ། -TOC.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_missing_heart/Heart/D10__R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ།/R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ། -Tsawa - Delwa.docx
+    other: dzongsar-drive/Dzongsar_missing_heart/Heart/D11__R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ། -Tsadel Align.docx
+  overlays:
+  - type: openpecha_notes
+    text_id: zlm8VM6YLBDMu4sG4nrGe
+  title: ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ།
+  notes: 'Atiśa''s commentary. Sparse alignment numbers (26). Variant readings (Narthang/Peking) from OpenPecha zlm8VM6YLBDMu4sG4nrGe (= nalanda-printed/At_3CGr_.md). Comma numbers read as ranges (56,58): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ།
+    title_in_english: The Commentary on the Heart of Wisdom.
+    author: ཨ་ཏི་ཤ། [bdrc:P3379]
+    registered_id: atisa-namshe
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1z4bd5Y_fPQbIzDf3VsLTr4_IEXgpPoTWH9YUjnvajus/edit
+    bdrc_work_id: WA0RT3168
+    other_ids:
+    - 'Dzongsar: R9CCC84A4'
+    source_description: Dzongsar Google Doc 'R9CCC84A4ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ། -TOC' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    56,58:
+      refs:
+      - 56
+      - 57
+      - 58
+      paragraphs:
+      - 114
+      reason: 'Written ''56,58'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 56-58 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-lobzang-gyaltsen-senge-nyinje
+  path: 1-SOURCES/Commentaries/bo-lobzang-gyaltsen-senge-nyinje.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D17__R42066499 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད།/R42066499 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད། -TOC.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/R42066499 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད། -Tsawa.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/R42066499 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད། -Tsadel.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: LGfOnYVOex14LpoqvjHgy
+  title: གཞུང་མཆོག་ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་དོན་པད་དཀར་བཞད་པའི་ཉིན་བྱེད།
+  notes: 'TOC / Sentence-Segm doc (one file). Bold-italic covers opening verses, intro prose, closing verses and colophons (unaligned). Comma numbers read as ranges (56,58, 13,52, 70,76, 72,76): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: གཞུང་མཆོག་ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་དོན་པད་དཀར་བཞད་པའི་ཉིན་བྱེད།
+    title_in_english: Lobsang Gyaltsen Sangge, Commentary on the Heart of Wisdom
+    author: གཙོས་ཁྲི་སྤྲུལ ༠༢་བློ་བཟང་རྒྱལ་མཚན་སེངྒེ། [bdrc:P305]
+    registered_id: lobzang-gyaltsen-senge-nyinje
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1g3GChPNv-rQKAYG-PVkOLdsLzDVCmi7TnTW1DE7NwvM/edit
+    bdrc_work_id: WA0XL9624A799C650
+    other_ids:
+    - 'Dzongsar: R42066499'
+    - 'OpenPecha: LGfOnYVOex14LpoqvjHgy'
+    source_description: Dzongsar Google Doc 'R42066499 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད། -TOC' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    56,58:
+      refs:
+      - 56
+      - 57
+      - 58
+      paragraphs:
+      - 302
+      reason: 'Written ''56,58'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 56-58 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    13,52:
+      refs:
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 49
+      - 50
+      - 51
+      - 52
+      paragraphs:
+      - 316
+      reason: 'Written ''13,52'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 13-52 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    70,76:
+      refs:
+      - 70
+      - 71
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      paragraphs:
+      - 376
+      reason: 'Written ''70,76'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 70-76 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    72,76:
+      refs:
+      - 72
+      - 73
+      - 74
+      - 75
+      - 76
+      paragraphs:
+      - 382
+      reason: 'Written ''72,76'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 72-76 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-gendun-rinchen-migje
+  path: 1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D18__RA7B8FF79 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག/Others/Copy of RA7B8FF79 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག -Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RA7B8FF79 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག -Tsawa.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RA7B8FF79 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག -Tsadel.docx
+    pair_by: number
+  overlays:
+  - type: openpecha_alignment
+    text_id: ON1w05E9Wi9MQT4Pmgc6F
+  title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག
+  notes: Tsadrel pair matched by Word list number (the commentary side has extra unnumbered rows). Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག
+    title_in_english: 'Gendün Rinchen, Eye of Perfect View: Commentary on the Heart of Wisdom'
+    author: འབྲུག་རྗེ་མཁན་པོ ༦༩་དགེ་འདུན་རིན་ཆེན། [bdrc:P758]
+    registered_id: gendun-rinchen-migje
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1udiW1WB_CdR3ppgRO7uazTYMrS8XsoOJ2puu2Bt8iUU/edit
+    bdrc_work_id: WA0XL29B7CCC47F6B
+    other_ids:
+    - 'Dzongsar: RA7B8FF79'
+    - 'OpenPecha: ON1w05E9Wi9MQT4Pmgc6F'
+    source_description: Dzongsar Google Doc 'Copy of RA7B8FF79 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག -Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-lama-kunga-shebum
+  path: 1-SOURCES/Commentaries/bo-lama-kunga-shebum.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D19__RA25D53E9 འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།/Copy of RA25D53E9 འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  tsadrel:
+    root_rows: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/H_Root_text/RA25D53E9 འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།-Tsawa.docx
+    other: dzongsar-drive/Dzongsar_corpus/Dzongsar/02_ཤེས་རབ་སྙིང་པོ།/I_Commentary_OtherLang/RA25D53E9 འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།-Tsadel.docx
+  overlays:
+  - type: openpecha_alignment
+    text_id: tDGw9s3CFxH6H1zo7nuGU
+  title: འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།
+  notes: Intro (bold-italic, with magenta+bold-italic sa bcad) unaligned. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།
+    title_in_english: Lama Kunga, Hundred thousand explanations on the Heart Sutra.
+    author: བླ་མ་ཀུན་དགའ། [bdrc:P7840]
+    registered_id: lama-kunga-shebum
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: public
+    source: https://docs.google.com/document/d/1yjztFfGnr3bbl_Q0vM_8GZSiPdmPT5kPSEGNAs7dP88/edit
+    bdrc_work_id: WA0XLBA22F3396909
+    other_ids:
+    - 'Dzongsar: RA25D53E9'
+    - 'OpenPecha: tDGw9s3CFxH6H1zo7nuGU'
+    source_description: Dzongsar Google Doc 'Copy of RA25D53E9 འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ།-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-samdhong-katri
+  path: 1-SOURCES/Commentaries/bo-samdhong-katri.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D7__R799C7389 ཤེས་རབ་སྙིང་པོའི་སྐོར་དང་དེའི་བཀའ་ཁྲིད།-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་སྐོར་དང་དེའི་བཀའ་ཁྲིད།
+  notes: Oral teaching; spoken preamble in bold-italic. Unnumbered magenta heading + root-section paragraphs stay unaligned. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་སྐོར་དང་དེའི་བཀའ་ཁྲིད།
+    author: སློབ་དཔོན་ཟམ་གདོང་རིན་པོ་ཆེ།
+    registered_id: samdhong-katri
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1VxnsPbhsf1J1nJoDjCxF9LpcMhPLfRuqZBEXiMd6Tp0&usp=drive_copy
+    other_ids:
+    - 'Dzongsar: R799C7389'
+    source_description: Dzongsar Google Doc 'D7__R799C7389 ཤེས་རབ་སྙིང་པོའི་སྐོར་དང་དེའི་བཀའ་ཁྲིད།-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-trinle-dorje-zabmo-nangwe-tergo
+  path: 1-SOURCES/Commentaries/bo-trinle-dorje-zabmo-nangwe-tergo.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/R46878C73ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ་ཟབ་མོ་སྣང་བའི་གཏེར་སྒོ་ཞེས་བྱ་བ་བཞུག.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ་བཟོ་མོ་སྣོང་བའི་ཞེས་བྱ་བ།
+  notes: 'Bold-italic = homage, preamble and colophon (unaligned). Comma numbers read as ranges (32,43, 61,65): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ་བཟོ་མོ་སྣོང་བའི་ཞེས་བྱ་བ།
+    author: མཁན་རིན་པོ་ཆེ་ཕྲིན་ལས་རྡོ་རྗེ་དང་ཀུན་མཁྱེན་པདྨ་དཀར་པོ།
+    registered_id: trinle-dorje-zabmo-nangwe-tergo
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1ddhbU4Ihww-XeWrX9ghq3tgv8s4Onhlcq5s69uccKXY
+    other_ids:
+    - 'Dzongsar: R46878C73'
+    - 'BDRC instance: MW1KG24246'
+    source_description: Dzongsar Google Doc 'R46878C73ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ་ཟབ་མོ་སྣང་བའི་གཏེར་སྒོ་ཞེས་བྱ་བ་བཞུག' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    32,43:
+      refs:
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      paragraphs:
+      - 421
+      reason: 'Written ''32,43'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 32-43 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    61,65:
+      refs:
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      paragraphs:
+      - 609
+      reason: 'Written ''61,65'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 61-65 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-alak-sha-tendar-norbui-o
+  path: 1-SOURCES/Commentaries/bo-alak-sha-tendar-norbui-o.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/R4D2984CC ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་དོན་གསལ་ནོར་བུའི་འོད།-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་དོན་གསལ་ནོར་བུའི་འོད།
+  notes: 'Bold-italic = introduction, preliminaries, excursus and colophon (unaligned). Comma numbers read as ranges (27,31, 32,43, 46,48, 61,69): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་དོན་གསལ་ནོར་བུའི་འོད།
+    author: ཨ་ལག་ཤ་བསྟན་དར། [bdrc:P303]
+    registered_id: alak-sha-tendar-norbui-o
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1LbqOl81uQv7sBig4YTvtNz9VF6P8bTnFERIpXrGSIGU
+    bdrc_work_id: WA7303
+    other_ids:
+    - 'Dzongsar: R4D2984CC'
+    source_description: Dzongsar Google Doc 'R4D2984CC ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་དོན་གསལ་ནོར་བུའི་འོད།-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    27,31:
+      refs:
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      paragraphs:
+      - 252
+      reason: 'Written ''27,31'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 27-31 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    32,43:
+      refs:
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      paragraphs:
+      - 254
+      reason: 'Written ''32,43'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 32-43 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    46,48:
+      refs:
+      - 46
+      - 47
+      - 48
+      paragraphs:
+      - 258
+      reason: 'Written ''46,48'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 46-48 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    61,69:
+      refs:
+      - 61
+      - 62
+      - 63
+      - 64
+      - 65
+      - 66
+      - 67
+      - 68
+      - 69
+      paragraphs:
+      - 297
+      reason: 'Written ''61,69'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 61-69 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-chone-dekona-nyi-selje
+  path: 1-SOURCES/Commentaries/bo-chone-dekona-nyi-selje.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/R73677AF7 ཤེར་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་མོའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེར་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་མོའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི་ཉི་མ།
+  notes: One Word comment (Karma Yonten). Part 1 (bold-italic) and part 3 (essay) are unnumbered. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེར་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་མོའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི་ཉི་མ།
+    author: ཅོ་ནེ་གྲགས་པ་བཤད་སྒྲུབ། [bdrc:P1629]
+    registered_id: chone-dekona-nyi-selje
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1WDnPgvs4fel18sNW6gfWto9EFzkwztrkOyh98DQYR-M
+    bdrc_work_id: WA0XLB01FCA67F626
+    other_ids:
+    - 'Dzongsar: R73677AF7'
+    source_description: Dzongsar Google Doc 'R73677AF7 ཤེར་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་མོའི་དེ་ཁོ་ན་ཉིད་གསལ་བར་བྱེད་པའི' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-rongton-yumdon-rabsel
+  path: 1-SOURCES/Commentaries/bo-rongton-yumdon-rabsel.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/R93128D03 ཤེར་སྙིང་རྣམ་བཤད་ཡུམ་དོན་རབ་གསལ།-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེར་སྙིང་རྣམ་བཤད་ཡུམ་དོན་རབ་གསལ།
+  frontmatter:
+    title: ཤེར་སྙིང་རྣམ་བཤད་ཡུམ་དོན་རབ་གསལ།
+    alt_titles:
+    - ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡུམ་དོན་རབ་གསལ།
+    author: རོང་སྟོན་ཤེས་བྱ་ཀུན་རིག
+    registered_id: rongton-yumdon-rabsel
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=17CSHZC8_CQqebOEBnnF2Fbu44VgcPxwGGuEbpgXui6g
+    other_ids:
+    - 'Dzongsar: R93128D03'
+    - 'BDRC instance: MW28942_5219E7'
+    source_description: Dzongsar Google Doc 'R93128D03 ཤེར་སྙིང་རྣམ་བཤད་ཡུམ་དོན་རབ་གསལ།-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    27,31:
+      refs:
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      paragraphs:
+      - 91
+      reason: 'Written ''27,31'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 27-31 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    32,43:
+      refs:
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      paragraphs:
+      - 93
+      reason: 'Written ''32,43'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 32-43 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    56,58:
+      refs:
+      - 56
+      - 57
+      - 58
+      paragraphs:
+      - 117
+      reason: 'Written ''56,58'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 56-58 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+  notes: 'Comma numbers read as ranges (27,31, 32,43, 56,58): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+
+- key: bo-chendrel-dordu
+  path: 1-SOURCES/Commentaries/bo-chendrel-dordu.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/RA6E8F24A ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས། -Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས།
+  notes: Bold = the complete root text interleaved with annotations. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས།
+    author: བཙུན་གཟུགས་པ།
+    registered_id: chendrel-dordu
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1OXXjYOfWNmJB99MitAUP3CVaMC0H7Bp5nOp4mkC0gGg
+    bdrc_work_id: WA0XL11F97427B40A
+    other_ids:
+    - 'Dzongsar: RA6E8F24A'
+    source_description: Dzongsar Google Doc 'RA6E8F24A ཤེས་རབ་སྙིང་པོའི་མཆན་འགྲེལ་མདོར་བསྡུས། -Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-drongtse-bedon-nyima
+  path: 1-SOURCES/Commentaries/bo-drongtse-bedon-nyima.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/RBEAD9D91 ཤེར་སྙིང་གི་མདོའི་སྦས་དོན་མངོན་རྟོགས་གསལ་བའི་ཉི་མ། B-2 Segme.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེར་སྙིང་གི་མདོའི་སྦས་དོན་མངོན་རྟོགས་གསལ་བའི་ཉི་མ།
+  frontmatter:
+    title: ཤེར་སྙིང་གི་མདོའི་སྦས་དོན་མངོན་རྟོགས་གསལ་བའི་ཉི་མ།
+    alt_titles:
+    - བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་མདོའི་སྦས་དོན་མངོན་རྟོགས་ཀྱི་རིམ་པ་གསལ་བའི་ཉི་མ།
+    author: འབྲོང་རྩེ་བློ་བཟང་ཚུལ་ཁྲིམས། [bdrc:P311]
+    registered_id: drongtse-bedon-nyima
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1gkIKOXzUbe7-my0TQJlDe17_CXusmQH5fBFDfMvKXjY
+    bdrc_work_id: WA0XLB7BAC4C14643
+    other_ids:
+    - 'Dzongsar: RBEAD9D91'
+    source_description: Dzongsar Google Doc 'RBEAD9D91 ཤེར་སྙིང་གི་མདོའི་སྦས་དོན་མངོན་རྟོགས་གསལ་བའི་ཉི་མ། B-2 Segme' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  notes: Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+
+- key: bo-sempa-dorje-nyingpo-seljey
+  path: 1-SOURCES/Commentaries/bo-sempa-dorje-nyingpo-seljey.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_corpus/Dzongsar/04_སྤྱོད་འཇུག/I_Commentary_OtherLang/RF09D1EEF ཤེར་སྙིང་རྣམ་བཤད་སྙིང་པོ་གསལ་བྱེད།--Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེར་སྙིང་རྣམ་བཤད་སྙིང་པོ་གསལ་བྱེད།
+  notes: 'Large commentary; Tibetan outline markers ཀ༽ / ༡) in the text are not alignment numbers. Comma numbers read as ranges (14,17, 27,31, 32,43, 46,48): see ref_corrections. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.'
+  frontmatter:
+    title: ཤེར་སྙིང་རྣམ་བཤད་སྙིང་པོ་གསལ་བྱེད།
+    alt_titles:
+    - explaining the prajnaparamita-heart-sutra, an essential elucidation
+    - Śer sñiṅ rnam bśad sñiṅ po gsal byed ces bya ba bźugs so /Sems-dpaʼ-rdo-rje
+    author: སེམས་དཔའ་རྡོ་རྗེ། [bdrc:P00EGS1016936]
+    registered_id: sempa-dorje-nyingpo-seljey
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1-FDfIL9vOdZz2nLSX3-gtQd1ZJf8snEzpqluA2qAACY
+    bdrc_work_id: WA00EGS1016937
+    other_ids:
+    - 'Dzongsar: RF09D1EEF'
+    source_description: Dzongsar Google Doc 'RF09D1EEF ཤེར་སྙིང་རྣམ་བཤད་སྙིང་པོ་གསལ་བྱེད།--Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  ref_corrections:
+    14,17:
+      refs:
+      - 14
+      - 15
+      - 16
+      - 17
+      paragraphs:
+      - 1120
+      reason: 'Written ''14,17'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 14-17 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    27,31:
+      refs:
+      - 27
+      - 28
+      - 29
+      - 30
+      - 31
+      paragraphs:
+      - 1642
+      reason: 'Written ''27,31'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 27-31 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    32,43:
+      refs:
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      paragraphs:
+      - 1644
+      reason: 'Written ''32,43'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 32-43 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+    46,48:
+      refs:
+      - 46
+      - 47
+      - 48
+      paragraphs:
+      - 1648
+      reason: 'Written ''46,48'' (comma = list in the catalogue guideline) but the paragraph''s own wording runs X ཞེས་པ་ནས … Y ཞེས་པའི་བར over the whole span; read as 46-48 by decision of the vault owner, 2026-10-02 (rule: range only where the text says ནས…བར).'
+
+- key: bo-pema-karpo-lugrub-gongsel
+  path: 1-SOURCES/Commentaries/bo-pema-karpo-lugrub-gongsel.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D16__R13386554ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཀླུ་སྒྲུབ་ཀྱི་དགོངས་པ་གསལ་བར་བསྟན་….docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཀླུ་སྒྲུབ་ཀྱི་དགོངས་པ་གསལ་བར་བསྟན་པ།
+  notes: Bold (not 980000) is the main root-quote marker. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཀླུ་སྒྲུབ་ཀྱི་དགོངས་པ་གསལ་བར་བསྟན་པ།
+    alt_titles:
+    - ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་དང་ཆོས་འཁོར་དྭོགས་གཅོད།
+    author: པདྨ་དཀར་པོ།
+    registered_id: pema-karpo-lugrub-gongsel
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1c0IX3DUscBcpujCLTU6nLuN-JGoqCyQBVXS_gwZCjHU&usp=drive_copy
+    bdrc_work_id: WA0XL46482D5A1CE6
+    other_ids:
+    - 'Dzongsar: R13386554'
+    source_description: Dzongsar Google Doc 'D16__R13386554ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཀླུ་སྒྲུབ་ཀྱི་དགོངས་པ་གསལ་བར་བསྟན་…' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-drakkar-zabdon-dronme
+  path: 1-SOURCES/Commentaries/bo-drakkar-zabdon-dronme.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D9__R16A6BB62 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་ཟབ་དོན་གསལ་བའི་སྒྲོན་མེ།-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་ཟབ་དོན་གསལ་བའི་སྒྲོན་མེ།
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་ཟབ་དོན་གསལ་བའི་སྒྲོན་མེ།
+    author: བྲག་དཀར་བློ་བཟང་དཔལ་ལྡན་བསྟན་སྙན་གྲགས། [bdrc:P269]
+    registered_id: drakkar-zabdon-dronme
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=13iGNQJkSZryZWkDKi3iiUOJVWXdWGKvMyd8sHrULHdc&usp=drive_copy
+    bdrc_work_id: WA0XL472E9FF7FA94
+    other_ids:
+    - 'Dzongsar: R16A6BB62'
+    source_description: Dzongsar Google Doc 'D9__R16A6BB62 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་ཟབ་དོན་གསལ་བའི་སྒྲོན་མེ།-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+  notes: Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+
+- key: bo-patrul-sabche
+  path: 1-SOURCES/Commentaries/bo-patrul-sabche.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R49197A93 ཤེས་རབ་སྙིང་པོའི་མདོའི་ས་བཅད་བཞུགས།/R49197A93 ཤེས་རབ་སྙིང་པོའི་མདོའི་ས་བཅད་བཞུགས།-Best E-text/R49197A93 ཤེས་རབ་སྙིང་པོའི་མདོའི་ས་བཅད་བཞུགས། B-2-Segmentation.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: སྡོམ་གསུམ་རྣམ་ངེས། སྤྱོད་འཇུག་དང་ཤེར་སྙིང་བཅས་ཀྱི་ས་བཅད།
+  notes: A sa bcad outline of the sūtra; magenta = divisions. Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: སྡོམ་གསུམ་རྣམ་ངེས། སྤྱོད་འཇུག་དང་ཤེར་སྙིང་བཅས་ཀྱི་ས་བཅད།
+    alt_titles:
+    - སྡོམ་གསུམ་རྣམ་པར་ངེས་པའི་ས་བཅད། བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པའི་ས་བཅད་དོན་གསལ་མེ་ལོང་དང་ཤེས་རབ་སྙིང་པོའི་མདོའི་ས་བཅད།
+    author: རྫ་དཔལ་སྤྲུལ་ཨོ་རྒྱན་འཇིགས་མེད་ཆོས་ཀྱི་དབང་པོ། [bdrc:P270]
+    registered_id: patrul-sabche
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1K6gIJbathC6A2YkDxO43044vpGKojdiiiLqtadQiI40/edit
+    bdrc_work_id: WA8LS16587
+    other_ids:
+    - 'Dzongsar: R49197A93'
+    source_description: Dzongsar Google Doc 'R49197A93 ཤེས་རབ་སྙིང་པོའི་མདོའི་ས་བཅད་བཞུགས། B-2-Segmentation' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-taktsang-dudon
+  path: 1-SOURCES/Commentaries/bo-taktsang-dudon.md
+  adapter: ref_commentary
+  id_scheme: h2
+  target: bo-root
+  root_work: bo-root
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/RE65C3D14 ཤེར་སྙིང་གི་བསྡུས་དོན།/RE65C3D14 ཤེར་སྙིང་གི་བསྡུས་དོན།-E2.docx
+  title_paragraph: 0
+  ref_style: bare
+  lemma_colours:
+  - '980000'
+  legend:
+    '980000': quoted root lemma / root passage
+    00ff00: closing formula after a lemma (ཞེས་པ་ / སོགས་)
+    ff9900: text of a citation
+    00ffff: citation source and closing formula (… ལས། / ཞེས་གསུངས)
+    ff00ff: sa bcad announcement (whole paragraph or lead-in; unnumbered, kept as text)
+    '343434': author line
+    ff0000: reviewer flag
+    5f6368: editor statistics tail
+  title: ཤེར་སྙིང་གི་བསྡུས་དོན།
+  notes: Summary outline; an unpaired ༼ opens heads and lemmata (kept as text). Unnumbered paragraphs (including root-quote lead-ins) carry no transclusion.
+  frontmatter:
+    title: ཤེར་སྙིང་གི་བསྡུས་དོན།
+    author: སྟག་ཚང་ལོ་ཙཱ་བ་ཤེས་རབ་རིན་ཆེན། [bdrc:P79]
+    registered_id: taktsang-dudon
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1ics25b9vJ_ecGGerCu5gg0tD_ryAtx6WjfQtRGS3Ob8/edit
+    bdrc_work_id: WA0XL5FDDBD316D82
+    other_ids:
+    - 'Dzongsar: RE65C3D14'
+    source_description: Dzongsar Google Doc 'RE65C3D14 ཤེར་སྙིང་གི་བསྡུས་དོན།-E2' (sentence segmentation, citation colours and root alignment numbers by the Dzongsar team).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+
+# ── Works without human segmentation or alignment (clean bases, unaligned) ────
+- key: bo-mahajana-don-yongshe
+  path: 1-SOURCES/Commentaries/bo-mahajana-don-yongshe.md
+  adapter: rows
+  id_scheme: flat
+  text: 'dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R3EEE889B ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ།/Cleaned text/R3EEE889B ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ། - B4 #.docx'
+  title_paragraph: 1
+  title: ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Base: ''B4 #''. Other editions (E3, E2/B5/B6 OCR) not ingested.'
+  frontmatter:
+    title: ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ།
+    alt_titles:
+    - Mahājana
+    - ཤེར་ཕྱིན་སྙིང་པོ་དོན་ཡོངས་སུ་ཤེས་པ།
+    author: ཁ་ཆེའི་པཎྜི་ཏ་མ་ཧཱ་ཛྙཱ་ན། [bdrc:P8226]
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1BDnw3EUU5_9FmeUnhQyZQ7fBZV21alh3mRjiO7yK-uM/edit
+    bdrc_work_id: WA0RT3167
+    other_ids:
+    - 'Dzongsar: R3EEE889B'
+    source_description: 'Dzongsar Drive doc ''R3EEE889B ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་དོན་ཡོངས་སུ་ཤེས་པ། - B4 #'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-gungthang-ngagnamshe
+  path: 1-SOURCES/Commentaries/bo-gungthang-ngagnamshe.md
+  adapter: rows
+  id_scheme: flat
+  text: 'dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R4DC3256Fཤེས་རབ་སྙིང་པོའི་སྔགས་ཀྱི་རྣམ་བཤད་སྦས་དོན་གསལ་བ།/Cleaned text/R4DC3256Fཤེས་རབ་སྙིང་པོའི་སྔགས་ཀྱི་རྣམ་བཤད་སྦས་དོན་གསལ་བ། B3 #.docx'
+  title_paragraph: 0
+  title: ཤེས་རབ་སྙིང་པོའི་སྔགས་ཀྱི་རྣམ་བཤད་སྦས་དོན་གསལ་བ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Base: ''B3 #''. Resources_catalog rows 31/32 swap R4DC3256F and R9CCC84A4; the per-folder sheet (used here) matches the text.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་སྔགས་ཀྱི་རྣམ་བཤད་སྦས་དོན་གསལ་བ།
+    author: གུང་ཐང་བསྟན་པའི་སྒྲོན་མེ། [bdrc:P298]
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/15eGoa3erpBMzefPgKsS_L1HpaG1YbUmHIV122ch0qzc/edit
+    bdrc_work_id: WA0XLFA92132A4022
+    other_ids:
+    - 'Dzongsar: R4DC3256F'
+    source_description: 'Dzongsar Drive doc ''R4DC3256Fཤེས་རབ་སྙིང་པོའི་སྔགས་ཀྱི་རྣམ་བཤད་སྦས་དོན་གསལ་བ། B3 #'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-rongton-tika
+  path: 1-SOURCES/Commentaries/bo-rongton-tika.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R66066983 ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ/R66066983 ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ-Best E-Text/R66066983 ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ -B2-Without Note.docx
+  title_paragraph: 0
+  title: ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Karma Yonten''s 55 open proofreading comments (2024-05-27/29, ''འདིར་བརྟག'') are kept in the sidecar.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ
+    author: རོང་སྟོན་ཤེས་བྱ་ཀུན་རིག
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1Umeo9BaRrvrZQfvgftBznTrOzCbgmE1y_idMFDtKp-Y/edit
+    bdrc_work_id: WA0XLFF6A6FECF18F
+    other_ids:
+    - 'Dzongsar: R66066983'
+    source_description: 'Dzongsar Drive doc ''R66066983 ཤེས་རབ་སྙིང་པོའི་ཏྲི་ཀ -B2-Without Note'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-nedrugpa-drelwa
+  path: 1-SOURCES/Commentaries/bo-nedrugpa-drelwa.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R6AB777BA ཤེར་སྙིང་གི་འགྲེལ་པ།/R6AB777BA ཤེར་སྙིང་གི་འགྲེལ་པ། - ཡིག་རྐྱང་རྩེ་ཕུད། (Best E-text)/R6AB777BA ཤེར་སྙིང་གི་འགྲེལ་པ། B-3.docx
+  title_paragraph: 1
+  title: ཤེར་སྙིང་གི་འགྲེལ་པ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Copy with 131 Word comments (''B-3'') used; the inline ༼…༽ note (folio 3 verso missing) is source text.'
+  frontmatter:
+    title: ཤེར་སྙིང་གི་འགྲེལ་པ།
+    author: གནས་དྲུག་པ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1U1QRqdpxAA7ECD-cY6VncX-xLJNtVTv9i91gzGQBoKk/edit
+    bdrc_work_id: WA0XL67BBEB695A25
+    other_ids:
+    - 'Dzongsar: R6AB777BA'
+    source_description: 'Dzongsar Drive doc ''R6AB777BA ཤེར་སྙིང་གི་འགྲེལ་པ། B-3'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-ngodrub-palbar-nyinje
+  path: 1-SOURCES/Commentaries/bo-ngodrub-palbar-nyinje.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R706382F3 ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཉིན་བྱེད་དབང་པོ།/Cleaned text/R706382F3ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཉིན་བྱེད་དབང་པོ།.docx
+  title_paragraph: 1
+  title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཉིན་བྱེད་དབང་པོ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Unproofed transcription (title line reads སྒྱུ་་ཡུམ་…), kept verbatim.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཉིན་བྱེད་དབང་པོ།
+    author: གཞུང་བརྒྱ་པ་དངོས་གྲུབ་དཔལ་འབར། [bdrc:P986]
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1AYwV0IvzYyehnJuJsv9P5BJ1YwkQLoIQV6sURKIEVFI/edit
+    bdrc_work_id: WA1CZ1116
+    other_ids:
+    - 'Dzongsar: R706382F3'
+    source_description: 'Dzongsar Drive doc ''R706382F3ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཉིན་བྱེད་དབང་པོ།'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-zabdon-nyingpo-lhenthab
+  path: 1-SOURCES/Commentaries/bo-zabdon-nyingpo-lhenthab.md
+  adapter: rows
+  id_scheme: flat
+  text: 'dzongsar-drive/Dzongsar_missing_heart/Heart/D12__RABA2516A ཤེར་སྙིང་ཉམས་ལེན་གྱི་ལྷན་ཐབས་ཟབ་དོན་སྙིང་པོ།/Cleaned text/RABA2516A ཤེར་སྙིང་ཉམས་ལེན་གྱི་ལྷན་ཐབས་ཟབ་དོན་སྙིང་པོ། B-2 #.docx'
+  title_paragraph: 0
+  title: ཤེར་སྙིང་ཉམས་ལེན་གྱི་ལྷན་ཐབས་ཟབ་དོན་སྙིང་པོ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Practice manual. Author conflict: sheet ངོར་མཁན་ཆེན་ཀུན་དགའ་བཟང་པོ, colophon of edition E-5 སངས་རྒྱས་ཕུན་ཚོགས.'
+  frontmatter:
+    title: ཤེར་སྙིང་ཉམས་ལེན་གྱི་ལྷན་ཐབས་ཟབ་དོན་སྙིང་པོ།
+    author: ངོར་མཁན་ཆེན ༠༡་ཀུན་དགའ་བཟང་པོ། [bdrc:P1132]
+    language: Tibetan
+    lang_tag: bo
+    file_type: commentary
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1Pg_v6eYhsCiRHX_kZ7L4Qzbr6m_GXrUnPZ4xoVyU_q0/edit
+    bdrc_work_id: WA0XL99299035D6C2
+    other_ids:
+    - 'Dzongsar: RABA2516A'
+    source_description: 'Dzongsar Drive doc ''RABA2516A ཤེར་སྙིང་ཉམས་ལེན་གྱི་ལྷན་ཐབས་ཟབ་དོན་སྙིང་པོ། B-2 #'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-kongtrul-shernying-dudlok
+  path: 1-SOURCES/References/bo-kongtrul-shernying-dudlok.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D15__R77290726 བཀའ་འཁོར་ལོ་བར་པའི་ཡང་བཅུད་ཤེས་རབ་སྙིང་པོའི་མདོ་ལ་བརྟེན་….docx
+  title_paragraph: 0
+  title: བཀའ་འཁོར་ལོ་བར་པའི་ཡང་བཅུད་ཤེས་རབ་སྙིང་པོའི་མདོ་ལ་བརྟེན་པའི་བདུད་ཟློག་བར་ཆད་ཀུན་སེལ་ལག་ལེན།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Repelling ritual based on the sūtra (catalogue type རྒྱུ་ཆ་གཞན།).'
+  frontmatter:
+    title: བཀའ་འཁོར་ལོ་བར་པའི་ཡང་བཅུད་ཤེས་རབ་སྙིང་པོའི་མདོ་ལ་བརྟེན་པའི་བདུད་ཟློག་བར་ཆད་ཀུན་སེལ་ལག་ལེན།
+    alt_titles:
+    - ཤེར་སྙིང་བདུད་ཟློག
+    - བཀའ་འཁོར་ལོ་བར་པའི་ཡང་བཅུད་ཤེས་རབ་སྙིང་པོའི་མདོ་ལ་བརྟེན་པའི་བདུད་ཟློག་བར་ཆད་ཀུན་སེལ་ལག་ལེན། བལྟས་ཆོག་ཏུ་བཀོད་པ་རྣམ་ཐར་སྟོབས་སྐྱེས།
+    author: འཇམ་མགོན་ཀོང་སྤྲུལ་བློ་གྲོས་མཐའ་ཡས། [bdrc:P264]
+    language: Tibetan
+    lang_tag: bo
+    file_type: reference
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://drive.google.com/open?id=1wv3AXzhO2gW9zSvEuH5-qmmU2IJeLEXcHjzWI7wRW18&usp=drive_copy
+    bdrc_work_id: WA0XLDE1DCEBB16EB
+    other_ids:
+    - 'Dzongsar: R77290726'
+    source_description: 'Dzongsar Drive doc ''D15__R77290726 བཀའ་འཁོར་ལོ་བར་པའི་ཡང་བཅུད་ཤེས་རབ་སྙིང་པོའི་མདོ་ལ་བརྟེན་…'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-shernying-dokpa
+  path: 1-SOURCES/References/bo-shernying-dokpa.md
+  adapter: rows
+  id_scheme: flat
+  text: 'dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/RD98669EC ཤེར་སྙིང་ཟློག་པ།/Cleaned text/ཤེར་སྙིང་ཟློག་པ། B-3 #.docx'
+  title_paragraph: 0
+  title: ཤེར་སྙིང་ཟློག་པ།
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Short repelling liturgy (catalogue type རྒྱུ་ཆ་གཞན།); no author recorded.'
+  frontmatter:
+    title: ཤེར་སྙིང་ཟློག་པ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: reference
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1IzMS3tv_NXgzVPhfDE_nexGN9dhW-l0GcJIYGg0hvko/edit
+    bdrc_work_id: WA0XLCE88BDB64E9A
+    other_ids:
+    - 'Dzongsar: RD98669EC'
+    source_description: 'Dzongsar Drive doc ''ཤེར་སྙིང་ཟློག་པ། B-3 #'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-jamthang-parjang
+  path: 1-SOURCES/References/bo-jamthang-parjang.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Resources/R6E8386C0 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་ཚིག/R6E8386C0 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་…/R6E8386C0 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་….docx
+  title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་ཚིག
+  notes: 'No human segmentation or alignment exists: one block per paragraph of the clean base, no transclusions. Printing colophon (par byang) of Tāranātha''s སྔོན་མེད་ལེགས་བཤད, not a commentary.'
+  frontmatter:
+    title: ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་ཚིག
+    author: འཛམ་ཐང་མཁན་པོ་ངག་དབང་ཡོན་ཏན་བཟང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: reference
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1SNSvtOv1pZHD4kJP7Du4EASIcJV6muSoFn3yBDCTsQw/edit
+    other_ids:
+    - 'Dzongsar: R6E8386C0'
+    - 'BDRC instance: MW1KG5698_99029A'
+    source_description: 'Dzongsar Drive doc ''R6E8386C0 ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔོན་མེད་ལེགས་བཤད་ཀྱི་པར་བྱང་སྨོན་…'': clean e-text, not segmented or aligned by the team (one block per source paragraph).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+
+# ── Other witnesses of the root (MAF75A533 cleaned e-texts, unaligned) ────────
+- key: bo-root-derge-o9
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-derge-o9.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 སྡེ་དགེ་བཀའ་འགྱུར་དུ་བཞུགས་པའི་ཤེས་རབ་སྙིང་པོ། O-9.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1u9DVFnLLkqqoHTtNgdsljS6ESumcV0Ccu6cc5YhN-fk/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 སྡེ་དགེ་བཀའ་འགྱུར་དུ་བཞུགས་པའི་ཤེས་རབ་སྙིང་པོ། O-9' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-jang-o9
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-jang-o9.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 འཇང་བཀའ་འགྱུར་དུ་བཞུགས་པའི་ཤེས་རབ་སྙིང་པོ། O-9.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1cIo7OLgtH_GLiFGWUS5l-CsmW7thjOGga4qKduwEXrQ/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 འཇང་བཀའ་འགྱུར་དུ་བཞུགས་པའི་ཤེས་རབ་སྙིང་པོ། O-9' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-o8
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-o8.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་།-O8.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/13NpCuIX3_tdg1kBisZMDUC-26gn1z84J8v9LEQ3JGKw/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་།-O8' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-o12
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-o12.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ༄༅། །ཤེས་རབ་སྙིང་པོ་བཞུགས་སོ། ། O-12.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1-0rWhhhD1NvQ1hMigEQ1pRCz_Oyu2L_KsIaK5I5iC0g/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ༄༅། །ཤེས་རབ་སྙིང་པོ་བཞུགས་སོ། ། O-12' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b2
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b2.md
+  adapter: rows
+  id_scheme: flat
+  text: 'dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་། B-2 #.docx'
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1yZzkkvHeUEeXer0sVXyvM-zTADGNXz8AkmM28Myp30E/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: 'Dzongsar Drive doc ''MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་། B-2 #'' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).'
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b3
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b3.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་། B-3.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1PeelROtPJLOhPmZPFqSLhMxZUY6wHWEElHUeXrevcYU/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེར་རབ་ཀྱི་ཕར་རོལ་དུ་ཕྱིན་པའི་སྙིང་། B-3' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b4
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b4.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ཤེར་སྙིང་།-B4.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1pG3dePbd_cZ6BNtusKZxORUuuzJ2wuPSklEItDrZDro/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ཤེར་སྙིང་།-B4' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b6
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b6.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-6.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/10B4LNIsNvTJorbslP6pHXcGDJb4x9DjuRyiy7uQi1os/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-6' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b8
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b8.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-8.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1H7gHw2Cnm8Yuf-mwiTMEV8pJAXhODpzi8bRuhiXSoG8/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-8' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b11
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b11.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-11.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1e1Y_JgocmTOu12Th6tB-sQF2_sSsqXnkMHNjay9ny_M/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-11' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b12
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b12.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-12.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1JkCxoalkes-DlYcdtr6QcLzeb1wReWm1q3YHXAX0Mog/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-12' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-b14
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-b14.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-14.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1Ybmn8CPHEcg8IYJNStycJqNrKXBsbVFb4-otADAop9g/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། B-14' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-e2
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-e2.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ཤེས་རབ་སྙིང་པོ། E-2.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/13Zdu9IZ6DT6kBRieAvzLeDv-RoMMa_9xCC_d_1KcIuc/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ཤེས་རབ་སྙིང་པོ། E-2' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-e3
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-e3.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ཤེས་རབ་སྙིང་པོ།-E3.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1WVf_ReKYX-OVMM24rUBRGLcO4GG_4NaIhqE8rqJ1apg/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ཤེས་རབ་སྙིང་པོ།-E3' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-e5
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-e5.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ཤེས་རབ་སྙིང་པོ།-E5.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1SlRArXpNT_cpK1potr82tQgA6D9DT2MG3nWCOSmpQLI/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ཤེས་རབ་སྙིང་པོ།-E5' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+- key: bo-root-e6
+  path: 1-SOURCES/Text/bo-prajnaparamita-hrdaya-e6.md
+  adapter: rows
+  id_scheme: flat
+  text: dzongsar-drive/Dzongsar_missing_heart/Heart/D1__M29C34F4A ཤེས་རབ་སྙིང་པོ།/Others/Cleaned text/MAF75A533 ཤེས་རབ་སྙིང་པོ། E-6.docx
+  title_paragraph: 0
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+  notes: 'Another witness of the root (Dzongsar MAF75A533 ''Cleaned text''), unsegmented: one block per source paragraph, not aligned to the numbered root.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།
+    language: Tibetan
+    lang_tag: bo
+    file_type: edition
+    edition_of: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    alignment: none
+    verse_id_format: verse
+    category_id: null
+    license: unknown
+    source: https://docs.google.com/document/d/1_5vXsLTPLebrSEsf9bkmyuVrAeyej5HYXu5G_zsLENU/edit
+    other_ids:
+    - 'Dzongsar: MAF75A533'
+    source_description: Dzongsar Drive doc 'MAF75A533 ཤེས་རབ་སྙིང་པོ། E-6' (MAF75A533, cleaned e-text of a witness of the root; no metadata sheet).
+    text_id: null
+    edition_id: null
+    toc_id: null
+
+
+# ── Machine baseline (OpenPecha AI) — 3-TRANSFORMATIONS, not sources ──────────
+- key: ai-en-ai-draft
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/en-ai-draft.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: aFGfDqyf2zJ0rqPAfg8eq
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/aFGfDqyf2zJ0rqPAfg8eq/text.json
+  frontmatter:
+    title: The Heart of the Perfection of Wisdom AI Draft
+    language: English
+    lang_tag: en
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text aFGfDqyf2zJ0rqPAfg8eq). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/aFGfDqyf2zJ0rqPAfg8eq
+    other_ids:
+    - 'OpenPecha: aFGfDqyf2zJ0rqPAfg8eq'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: The Heart of the Perfection of Wisdom AI Draft
+
+- key: ai-en-easy-to-read
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/en-easy-to-read.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: vXeghvCgI3SmlruRdam3z
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/vXeghvCgI3SmlruRdam3z/text.json
+  frontmatter:
+    title: The Heart of the Perfection of Wisdom Easy to Read
+    language: English
+    lang_tag: en
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text vXeghvCgI3SmlruRdam3z). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/vXeghvCgI3SmlruRdam3z
+    other_ids:
+    - 'OpenPecha: vXeghvCgI3SmlruRdam3z'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: The Heart of the Perfection of Wisdom Easy to Read
+
+- key: ai-en-word-by-word
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/en-word-by-word.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: WeefpEW5eTmL6YF3dT4mZ
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/WeefpEW5eTmL6YF3dT4mZ/text.json
+  frontmatter:
+    title: The Heart of the Perfection of Wisdom Word by Word
+    language: English
+    lang_tag: en
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text WeefpEW5eTmL6YF3dT4mZ). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/WeefpEW5eTmL6YF3dT4mZ
+    other_ids:
+    - 'OpenPecha: WeefpEW5eTmL6YF3dT4mZ'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: The Heart of the Perfection of Wisdom Word by Word
+
+- key: ai-hi-ai-draft
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/hi-ai-draft.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: Scmpagjbh4jBqsP40Bt8C
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/Scmpagjbh4jBqsP40Bt8C/text.json
+  frontmatter:
+    title: प्रज्ञापारमिता हृदय AI Draft
+    language: Hindi
+    lang_tag: hi
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text Scmpagjbh4jBqsP40Bt8C). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/Scmpagjbh4jBqsP40Bt8C
+    other_ids:
+    - 'OpenPecha: Scmpagjbh4jBqsP40Bt8C'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: प्रज्ञापारमिता हृदय AI Draft
+
+- key: ai-hi-easy-to-read
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/hi-easy-to-read.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: VnuDhqML5AviT34Yke02z
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/VnuDhqML5AviT34Yke02z/text.json
+  frontmatter:
+    title: प्रज्ञापारमिता हृदय Easy to Read
+    language: Hindi
+    lang_tag: hi
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text VnuDhqML5AviT34Yke02z). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/VnuDhqML5AviT34Yke02z
+    other_ids:
+    - 'OpenPecha: VnuDhqML5AviT34Yke02z'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: प्रज्ञापारमिता हृदय Easy to Read
+
+- key: ai-it-ai-draft
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/it-ai-draft.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: Skhsropp0zx8s8AKPGyVi
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/Skhsropp0zx8s8AKPGyVi/text.json
+  frontmatter:
+    title: Il Cuore della Perfezione della Saggezza AI Draft
+    language: Italian
+    lang_tag: it
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text Skhsropp0zx8s8AKPGyVi). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/Skhsropp0zx8s8AKPGyVi
+    other_ids:
+    - 'OpenPecha: Skhsropp0zx8s8AKPGyVi'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: Il Cuore della Perfezione della Saggezza AI Draft
+
+- key: ai-it-easy-to-read
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/it-easy-to-read.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: V1msCX4JC841NhSXpQw5K
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/V1msCX4JC841NhSXpQw5K/text.json
+  frontmatter:
+    title: Il Cuore della Perfezione della Saggezza Easy to Read
+    language: Italian
+    lang_tag: it
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text V1msCX4JC841NhSXpQw5K). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/V1msCX4JC841NhSXpQw5K
+    other_ids:
+    - 'OpenPecha: V1msCX4JC841NhSXpQw5K'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: Il Cuore della Perfezione della Saggezza Easy to Read
+
+- key: ai-it-word-by-word
+  path: 3-TRANSFORMATIONS/Translations/openpecha-ai/it-word-by-word.md
+  adapter: op_translation
+  id_scheme: flat
+  target: bo-root
+  openpecha_text: 0caS916V51FVQ0HLTSt3f
+  sidecar_dir: 3-TRANSFORMATIONS/Translations/openpecha-ai/annotations
+  notes: Machine output, filed as a machine baseline outside 1-SOURCES by decision of the vault owner (2026-10-02).
+  extra_raw:
+  - openpecha-api/texts/0caS916V51FVQ0HLTSt3f/text.json
+  frontmatter:
+    title: Il Cuore della Perfezione della Saggezza Word by Word
+    language: Italian
+    lang_tag: it
+    machine_generated: true
+    status: draft
+    source_description: 'Machine translation from the OpenPecha backend (instance source ''Openpecha AI'', text 0caS916V51FVQ0HLTSt3f). Machine baseline: never marked complete, never cited.'
+    file_type: translation
+    root_text: 1-SOURCES/Text/bo-prajnaparamita-hrdaya.md
+    verse_id_format: verse
+    category_id: null
+    license: cc0
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/0caS916V51FVQ0HLTSt3f
+    other_ids:
+    - 'OpenPecha: 0caS916V51FVQ0HLTSt3f'
+    text_id: null
+    edition_id: null
+    toc_id: null
+  title: Il Cuore della Perfezione della Saggezza Word by Word
+

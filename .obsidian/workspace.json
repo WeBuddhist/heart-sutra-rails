@@ -193,8 +193,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "1078ec9f223d5d51",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "0-INBOX/raw-data/intake-manifest.yaml",
     "README.md",
     "4-SYSTEM/Skills/aligned-corpus-intake/templates/manifest.example.yaml",
     "4-SYSTEM/Skills/aligned-corpus-intake/templates",
@@ -229,7 +230,6 @@
     "4-SYSTEM/Skills/glossary-select/SKILL.md",
     "4-SYSTEM/Skills/interlinear-gloss/SKILL.md",
     "4-SYSTEM/Skills/glossary-combine/SKILL.md",
-    "4-SYSTEM/Skills/glossary-extract-raw/SKILL.md",
-    "4-SYSTEM/Skills/format-commentary/SKILL.md"
+    "4-SYSTEM/Skills/glossary-extract-raw/SKILL.md"
   ]
 }
