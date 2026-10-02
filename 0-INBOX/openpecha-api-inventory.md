@@ -43,6 +43,19 @@ source_description: "Index of the verbatim OpenPecha backend API v2 download in 
 | 22 | commentary | Tibetan | ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ་བཞུགས་སོ།། | `tDGw9s3CFxH6H1zo7nuGU` | bdrc.io · Public Domain Mark | 35,605 | 536 | ✓ 29 ↔ 29 |  |
 | 23 | commentary | Tibetan | ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག་ཅེས་བྱ་བ་བཞུགས་སོ། | `ON1w05E9Wi9MQT4Pmgc6F` | bdrc.io · Public Domain Mark | 25,409 | 76 | ✓ 27 ↔ 27 |  |
 
+## Indian commentaries (not linked upstream)
+
+These were copied from `Nalanda-texts-rails`. Upstream they are standalone texts, so they are **not aligned** to the root. Each comes in two versions:
+
+- the OpenPecha API JSON, in `raw-data/openpecha-api/texts/<text_id>/`;
+- the printed-book version, in `raw-data/nalanda-printed/` (the version Nalanda-texts-rails now keeps in `1-SOURCES/Text/`).
+
+The author attributions come from Nalanda-texts-rails' identification triage, which is not verified. Details are in `raw-data/openpecha-api/unlinked-commentaries.json`.
+
+| Work | Author | Tibetan title | API text | Printed version |
+|---|---|---|---|---|
+| Explanation of the Heart of Wisdom (Heart Sūtra commentary) | Atiśa Dīpaṃkaraśrījñāna | ཤེས་རབ་སྙིང་པོའི་རྣམ་པར་བཤད་པ། | `zlm8VM6YLBDMu4sG4nrGe` (BDRC `WA0RT3168`) · 14,073 chars | `raw-data/nalanda-printed/At_3CGr_.md` ([3CGr](https://wb.pub/3CGr)) |
+
 ## Not downloaded
 
 Texts linked to this tree upstream but titled "Delete this" (test records):
