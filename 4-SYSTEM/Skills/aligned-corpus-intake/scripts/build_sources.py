@@ -33,11 +33,12 @@ import yaml
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import docx_model                                  # noqa: E402
 import openpecha_model                             # noqa: E402
-from common import LetterIndex, letters_only, parse_ref_prefix, sha1   # noqa: E402
+from common import LetterIndex, letters_only, parse_ref_prefix, raw_path, sha1   # noqa: E402
 from project import Projector                      # noqa: E402
 import vault_writer                                # noqa: E402
 
 NEUTRAL = docx_model.NEUTRAL_COLOURS
+TITLE_ID = "0"          # the target's '# title ^0' line, as a mapping target
 
 
 # --------------------------------------------------------------------------
@@ -55,10 +56,7 @@ class Ctx:
 
     def docx(self, rel):
         if rel not in self._docx:
-            p = self.raw / rel
-            if not p.exists():
-                raise FileNotFoundError(p)
-            self._docx[rel] = docx_model.read(p)
+            self._docx[rel] = docx_model.read(raw_path(self.raw, rel))
         return self._docx[rel]
 
     def op(self, text_id):
@@ -109,7 +107,10 @@ def para_colour(para):
 def provenance(ctx, rels):
     out = []
     for rel in rels:
-        p = ctx.raw / rel
+        try:
+            p = raw_path(ctx.raw, rel)
+        except FileNotFoundError:
+            continue
         if p.exists():
             out.append({"file": f"{ctx.m.get('raw_root', '0-INBOX/raw-data')}/{rel}", "sha1": sha1(p)})
     return out
@@ -144,9 +145,16 @@ def adapt_numbered(ctx, spec, rep):
                    typed — a number typed at the start of the paragraph
                            ("    12. text"), moved into the sidecar.
     An unnumbered paragraph before the first number is the title; any other
-    unnumbered text is reported (it has no human id)."""
+    unnumbered text is reported (it has no human id).
+
+    number_offset: added to every number, for a doc whose list numbering is
+    shifted against the numbering the aligners used (e.g. -1 when Word also
+    numbered the title line, which the human numbering does not count). A
+    paragraph whose number becomes 0 is the title. The number the doc shows
+    stays in the sidecar ("rendered" / "typed_prefix")."""
     doc = ctx.docx(spec["text"])
     typed = spec.get("number_source", "auto") == "typed"
+    offset = int(spec.get("number_offset") or 0)
     items, unnumbered = [], []
     for p in doc["paragraphs"]:
         if not p["text"].strip():
@@ -160,6 +168,14 @@ def adapt_numbered(ctx, spec, rep):
         elif (p["numbering"] or {}).get("value"):
             n = p["numbering"]["value"]
             src["rendered"] = p["numbering"].get("rendered")
+        if n is not None and offset:
+            n += offset
+            if n == 0 and not items and "title_text" not in rep:
+                rep["title_text"] = text           # numbered title line
+                rep["title_source"] = src
+                continue
+            if n < 1:
+                raise ValueError(f"{spec['key']}: number_offset {offset} gives id {n} at paragraph {p['index']}")
         if n is not None:
             off = len(src.get("typed_prefix", ""))
             ann = [dict(a, start=a["start"] - off, end=a["end"] - off)
@@ -174,12 +190,16 @@ def adapt_numbered(ctx, spec, rep):
         rep["unnumbered_paragraphs"] = unnumbered
     apply_text_corrections(spec, items, rep)
     extra = {}
+    if rep.get("title_source"):
+        extra["title_source"] = rep.pop("title_source")
     if spec.get("align_via"):
         extra["raw_alignment"] = _align_via(ctx, spec, items, rep)
     if spec.get("alt_segmentations"):
         extra["alt_segmentations"] = [_alt_segmentation(ctx, a, items, rep) for a in spec["alt_segmentations"]]
     if spec.get("headings_from_openpecha"):
         items = _headings_from_openpecha(ctx, spec["headings_from_openpecha"], items, rep)
+    if spec.get("overlays"):
+        extra["overlay_summary"] = apply_overlays(ctx, spec, items, rep)
     return items, extra
 
 
@@ -325,7 +345,7 @@ def adapt_parallel(ctx, spec, rep):
     n = max(len(rows_r), len(rows_o))
     blocks, order = {}, []
     unmapped, root_only, raw_pairs = [], [], []
-    last = None
+    last = title_row = None
     for i in range(n):
         r = rows_r[i] if i < len(rows_r) else None
         o = rows_o[i] if i < len(rows_o) else None
@@ -337,6 +357,15 @@ def adapt_parallel(ctx, spec, rep):
             continue
         ids = mapper.ids(i) if rt.strip() else []
         raw_pairs.append({"row": i + 1, "root_row_text": rt, "targets": ids})
+        if ids and set(ids) == {TITLE_ID}:
+            if title_row is None and not order:
+                # the row paired with the target's title is this file's title line
+                title_row = {"row": i + 1, "text": ot, "root_row_text": rt,
+                             "annotations": formatted_runs(o, spec.get("legend"))}
+                rep["title_text"] = ot.strip()
+                continue
+            ids = []
+        ids = [t for t in ids if t != TITLE_ID]
         flag = None
         if not ids:
             # never drop text: keep the row as a further line of the previous
@@ -377,7 +406,12 @@ def adapt_parallel(ctx, spec, rep):
     identity = all(b["targets"] == [b["id"]] for b in items)
     rep.update({"blocks": len(items), "rows": n, "identity_alignment": identity,
                 "rows_without_counterpart": root_only, "unmapped_rows": unmapped})
-    return items, {"raw_alignment": raw_pairs}
+    extra = {"raw_alignment": raw_pairs}
+    if title_row:
+        extra["title_row"] = title_row
+    if spec.get("overlays"):
+        extra["overlay_summary"] = apply_overlays(ctx, spec, items, rep)
+    return items, extra
 
 
 def explode_lines(para):
@@ -409,7 +443,11 @@ class RowMapper:
 
     def __init__(self, ctx, target, rows):
         self.rows = rows
-        tblocks = ctx.works[target]["blocks"]
+        tblocks = list(ctx.works[target]["blocks"])
+        if ctx.works[target].get("title"):
+            # the title line is a counterpart too: a row paired with it must
+            # not be pushed onto the first block that shares its words
+            tblocks = [(TITLE_ID, ctx.works[target]["title"])] + tblocks
         ttext = self.ttext = "\n".join(t for _, t in tblocks)
         self.toffs, pos = [], 0
         for bid, t in tblocks:
@@ -421,8 +459,9 @@ class RowMapper:
             self.roffs.append((pos, pos + len(r)))
             pos += len(r) + 1
         self.proj = Projector(rtext, ttext)
-        self.idx = ctx.index(target)
+        self.idx = LetterIndex(tblocks)
         self.hint = 0
+        self.past_title = False
 
     def ids(self, i):
         sp = self.proj.span(*self.roffs[i])
@@ -434,10 +473,23 @@ class RowMapper:
                     share = len(letters_only(self.ttext[max(s, sp[0]):min(e, sp[1])]))
                     if share >= min(3, len(letters_only(self.rows[i]))):
                         out.append(bid)
+            if self.past_title:
+                out = [t for t in out if t != TITLE_ID]
             if out:
-                return out
-        ids, self.hint = self.idx.find(self.rows[i], self.hint)
-        return ids or []
+                return self._seen(out)
+        # once a row has reached the body, the title is behind us: search on
+        # from the first block, so a body row repeating the title's words is
+        # not sent back to the title line
+        hint = self.hint
+        if self.past_title and self.idx.ids and self.idx.ids[0] == TITLE_ID:
+            hint = max(hint, self.idx.ends[0])
+        ids, self.hint = self.idx.find(self.rows[i], hint)
+        return self._seen(ids or [])
+
+    def _seen(self, ids):
+        if any(t != TITLE_ID for t in ids):
+            self.past_title = True
+        return ids
 
 
 def _heading_level(spec, para):
@@ -822,11 +874,12 @@ def adapt_op_translation(ctx, spec, rep):
     m = ctx.op(spec["openpecha_text"])
     parent = ctx.op(m["alignment"]["parent_text"])
     tgt = ctx.works[spec["target"]]
-    tgt_text = "\n".join(t for _, t in tgt["blocks"])
+    tblocks = ([(TITLE_ID, tgt["title"])] if tgt.get("title") else []) + list(tgt["blocks"])
+    tgt_text = "\n".join(t for _, t in tblocks)
     proj = Projector(parent["content"], tgt_text)
-    # target block offsets in tgt_text
+    # target block offsets in tgt_text (the title line first, as TITLE_ID)
     offs, pos = [], 0
-    for bid, t in tgt["blocks"]:
+    for bid, t in tblocks:
         offs.append((bid, pos, pos + len(t)))
         pos += len(t) + 1
     by_seg = {}
@@ -844,7 +897,7 @@ def adapt_op_translation(ctx, spec, rep):
             continue
         clean = text.strip().strip("\u200e")
         if title_re and re.fullmatch(title_re, clean):
-            rep["title_segment"] = clean
+            rep["title_segment"] = rep["title_text"] = clean
             continue
         if head_re and re.fullmatch(head_re, clean):
             n_head += 1
@@ -852,8 +905,19 @@ def adapt_op_translation(ctx, spec, rep):
                             "source": {"openpecha_segment": sgm["id"]}}
             continue
         ids = by_seg.get((sgm["start"], sgm["end"]), [])
+        if ids and set(ids) == {TITLE_ID} and not order and "title_segment" not in rep:
+            rep["title_segment"] = rep["title_text"] = clean   # aligned upstream to the parent's title
+            continue
+        ids = [t for t in ids if t != TITLE_ID]
         if not ids:
-            unmapped.append({"segment": sgm["id"], "text": text})
+            # never drop text: keep it with the preceding block, flagged
+            unmapped.append({"segment": sgm["id"], "text": text, "kept_in_block": order[-1] if order else None})
+            if not order:
+                raise ValueError(f"{spec['key']}: segment {sgm['id']} before any aligned segment has no counterpart")
+            b = blocks[order[-1]]
+            b["lines"].append(text.strip())
+            b["source"]["openpecha_segments"].append({"id": sgm["id"], "start": sgm["start"], "end": sgm["end"],
+                                                      "flag": "no aligned counterpart; kept with the preceding block"})
             continue
         key = ids[0]
         if key not in blocks:
@@ -936,7 +1000,7 @@ def build(manifest_path, vault, only=None, dry=False, out=None):
         built.append(work)
         # remember the rendered block ids for later works
         blocks = _rendered_blocks(work)
-        ctx.works[key] = {"path": spec["path"], "blocks": blocks}
+        ctx.works[key] = {"path": spec["path"], "blocks": blocks, "title": work["title"]}
         rep["ids"] = f"{blocks[0][0]}..{blocks[-1][0]}" if blocks else "-"
         rep["transclusions"] = sum(len(i.get("targets") or []) for i in items if i["kind"] == "block")
         ctx.report.append(rep)

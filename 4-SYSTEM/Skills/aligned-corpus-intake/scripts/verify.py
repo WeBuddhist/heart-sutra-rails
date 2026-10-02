@@ -33,7 +33,7 @@ import yaml
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import docx_model                    # noqa: E402
 import openpecha_model               # noqa: E402
-from common import letters_only, parse_ref_prefix      # noqa: E402
+from common import letters_only, parse_ref_prefix, raw_path      # noqa: E402
 
 ID_RE = re.compile(r"\s\^([A-Za-z0-9]+(?:-[A-Za-z0-9]+)*)\s*$")
 TRANS_RE = re.compile(r"^!\[\[(.+?)#\^([A-Za-z0-9-]+)\]\]$")
@@ -81,7 +81,7 @@ def source_text(ctx_raw, spec, op_root):
     if ad == "op_translation":
         return openpecha_model.load(op_root, spec["openpecha_text"])["content"]
     rel = spec["pair"]["other"] if ad == "parallel" else spec["text"]
-    doc = docx_model.read(ctx_raw / rel)
+    doc = docx_model.read(raw_path(ctx_raw, rel))
     return "\n".join(p["text"] for p in doc["paragraphs"])
 
 
