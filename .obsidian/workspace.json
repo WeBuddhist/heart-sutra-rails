@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+                "file": "1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sa-prajnaparamita-hrdaya"
+              "title": "bo-gendun-rinchen-migje"
             }
           }
         ]
@@ -199,14 +199,10 @@
   },
   "active": "1078ec9f223d5d51",
   "lastOpenFiles": [
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
-    "1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md",
     "1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md",
     "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
     "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+    "1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md",
     "3-TRANSFORMATIONS/Translations/About Translations.md",
     "4-SYSTEM/Skills/aligned-corpus-intake/scripts/toc_rows.py",
     "0-INBOX/heart-sutra-intake-report.md",
@@ -224,6 +220,9 @@
     "1-SOURCES/Annotations/sa-prajnaparamita-hrdaya.annotations.json",
     "1-SOURCES/Annotations/bo-vimalamitra-tika.annotations.json",
     "1-SOURCES/Annotations/bo-vajrapani-dongyi-dronma.annotations.json",
+    "1-SOURCES/Annotations/bo-vairocana-ngagsu-trelwa.annotations.json",
+    "1-SOURCES/Annotations/bo-taranatha-tsikdrel.annotations.json",
+    "1-SOURCES/Annotations/bo-prasastrasena-tika.annotations.json",
     "2-RAILS/Sections/Raw/toc-tree/lama-kunga-shebum.md",
     "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-lama-kunga-shebum.md",
     "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-lama-kunga-shebum.md",
@@ -234,6 +233,7 @@
     "0-INBOX/dzongsar-drive-inventory.md",
     "README.md",
     "4-SYSTEM/Skills/aligned-corpus-intake/SKILL.md",
-    "4-SYSTEM/Skills/aligned-corpus-intake/references/pecha-conventions.md"
+    "4-SYSTEM/Skills/aligned-corpus-intake/references/pecha-conventions.md",
+    "0-INBOX/raw-data/nalanda-printed/At_3CGr_.md"
   ]
 }
