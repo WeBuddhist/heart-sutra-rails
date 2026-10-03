@@ -4,14 +4,17 @@ description: >
   Turn a human-made, human-segmented and human-aligned corpus — OpenPecha API
   downloads and Dzongsar-style Google-Docs exports (.docx Tsadel/Tsadrel
   line-parallel alignments, sentence segmentations, citation and sa-bcad TOC
-  docs, numbered alignment references, metadata sheets) — into vault source
+  docs, numbered alignment references, metadata sheets; or the same Docs
+  downloaded as Markdown row-for-row pairs with CSV metadata) — into vault source
   files in 1-SOURCES/ that the WeBuddhist library linter/parser publishes:
   root texts, aligned translations and commentaries with headings, block ids
   and transclusions, plus a lossless sidecar of every annotation layer.
   Use it when the user says: "parse the raw data", "ingest these docs",
   "convert the docx alignments", "bring the commentaries and translations into
   sources", "make these ready for the webuddhist library", "import the
-  OpenPecha download", "keep all the human segmentation and alignment".
+  OpenPecha download", "keep all the human segmentation and alignment",
+  "I downloaded the docs as .md and the sheets as .csv", "map each
+  commentary's alignment onto the display segmentation".
 profile: rails-vault
 ---
 
@@ -127,6 +130,40 @@ Sidecar (`<stem>.annotations.json`): `blocks.<id>` → `source` (raw doc, paragr
 
 ---
 
+## Route B — Markdown/CSV exports of row-aligned Docs (`adapter: md_rows`)
+
+Use this route when the Google Docs arrive as **Markdown** (`Download → Markdown`) and the metadata sheets as **CSV**: every alignment doc is a numbered list, and **row N of one doc is paired with row N of the other** (`references/md-export-format.md`). There are no typed alignment numbers and no colours; the pairing is positional. Worked example: the Heart Sūtra intake of 2026-10-03 (`0-INBOX/raw-data/intake-manifest.yaml`, `0-INBOX/heart-sutra-intake-report.md`, and the how-to guide `4-SYSTEM/How-to guides/Ingest a row-aligned corpus.md`).
+
+**The problem it solves.** Each human alignment was made against its *own copy* of the root text, cut into rows its own way (one cut per commentary, another for each translation). The library stores **one** root text with **one** segmentation. Every alignment must reach that segmentation without changing any segmentation — the stored root's, the commentary's, or the translation's.
+
+**How.** `scripts/concordance.py` diffs the letters of each copy against the stored root (punctuation and spacing ignored) and lets every letter of a copy row vote for the stored segment it lands in. A commentary row then transcludes the stored segments its paired copy row falls in. Rows are never merged or split: a row smaller than a stored segment shares that segment with its neighbours; a row larger than one transcludes two or three whole segments; an edition variant (a word present on one side only) is recorded and does not shift anything after it; a row whose counterpart is empty transcludes nothing.
+
+### B-Procedure
+
+1. **Inventory and read the pairs.** For each pair, check the two files have the same row count and that rows line up at the start, middle and end (`python3 scripts/md_export.py <file.md>` lists rows). Decide: which cut is the **stored** segmentation of each text; which way each translation relation runs (the source language is the root; texts aligned to a translation point at that translation, never past it); which files are copies of the same text (`Concordance(...).stats` — letters matched, copy-only, target-only).
+2. **Read every short pair in full** (root ↔ translation) and list rows whose pairing looks wrong. Only a human decides a fix; record it as `pair_corrections` (re-pairing) or `text_corrections` (a stray character) **with reason, who, and date**. The original pairing stays in the sidecar.
+3. **Metadata.** From the CSV sheets (`md_export.py <file.csv> --meta`); ids not in the sheets may come from an earlier intake of a letter-identical document (say so in `source_description`). `category_id` stays empty for a human.
+4. **Write the manifest** in dependency order: the root, its translation(s), then everything aligned to them. Each work: `text` (its own rows), `pair` (`own_side`, `target_side`), `target`, `title`, `frontmatter`, and `toc`. Template: `templates/manifest.example.yaml` (md_rows entries).
+5. **TOC first — ids come from it.** Content ids are derived from the sections (`h2`: `^<top-level>-<n>`), so headings must exist before ids and transclusions are written:
+   - `toc.kind: labels` — a TOC doc gives heading labels (e.g. `༥༽ …`). List them **verbatim, in order**; the build finds each in the doc, projects it onto the commentary, moves an in-row label out of its row into the heading, and places it at a row boundary.
+   - `toc.kind: tree` — no TOC doc: run `toc-generate` (below).
+   - `toc.kind: none` (with `reason`) — no outline exists; every block is section 0.
+   - A text with no TOC at all (a short root, a translation) uses `id_scheme: flat`: **id = the human row number** (gaps where a row is empty on this side), so `^N` is row N of the alignment doc.
+6. **toc-generate on row-segmented text.** Headings may only fall *between* rows, and `toc-generate`'s tree prompts emit no line pointers, so:
+   1. `python3 scripts/build_sources.py <manifest> --stage pre-toc` writes `0-INBOX/temp/TOC-<id>/source.md` (`# title` + one paragraph per row, no frontmatter, so metadata edits never shift a line) and `source.json` (sha1, line → row).
+   2. Run `toc-generate` Phases 0–C on that file exactly as its SKILL.md says (chunk; isolated subagents per chunk for A and B; merge; one tree subagent).
+   3. **Placement** — one isolated subagent with `prompts/place-toc-at-rows.md`: it appends `[[line]]` to every node (the row before which the heading stands) plus a TSV of the opening clauses.
+   4. Phase D with **both** checkers (`qc_check_tree.py` against candidates+enumerations, `qc_tree_vs_source.py` against `source.md`); repair rounds per `toc-generate`, re-running placement if a repair rewrites the tree.
+   5. Promote to `2-RAILS/Sections/Raw/toc-tree/<id>.md` with `pointer_source: 0-INBOX/temp/TOC-<id>/source.md` and `pointer_source_sha1: <sha1>` in its frontmatter. The build refuses a tree whose sha1 no longer matches the pre-TOC text (rebuild the tree instead).
+   6. The build performs Phase E: each heading goes before the row its pointer names (ids `^<path>-0`, a title-only root node excluded).
+   A commentary whose candidate scan finds no *sa bcad* gets `toc.kind: none` with that reason.
+7. **Test build, verify, dry-run** exactly as steps 7–8 of the procedure above. `verify.py` adds, per md_rows work: `rows=` (every row with letters is exactly one block), `aligned_ok=` (transclusions equal the row pairing), `content_ok=` (the paired row's letters are really in the transcluded segments; 50–90 % rows listed as edition variants).
+8. **Build into the vault, verify again, register, report** (steps 6, 9, 10 above).
+
+**What the sidecar keeps per block** (`1-SOURCES/Annotations/<stem>.annotations.json`): the row number and raw export text, every emphasis span, the paired row's text, every target with the number of letters and character span it covers, the variants between the two editions, dropped boundary overlaps, any human correction with the original pairing, and for headings the label's source line and where inside a row it really fell.
+
+---
+
 ## Completion check
 
 - [ ] In every commentary, each numbered block transcludes exactly the root ids its number names; unnumbered blocks transclude nothing; numbers that name no root segment are listed as review items
@@ -137,3 +174,4 @@ Sidecar (`<stem>.annotations.json`): `blocks.<id>` → `source` (raw doc, paragr
 - [ ] Every review item (drift, typo'd reference, candidate refs, inferred refs, misfiled docs) is in the report
 - [ ] New `registered_id`s and the `Annotations/` folder are in the vault annex
 - [ ] Nothing under `0-INBOX/raw-data/` changed
+- [ ] Route B: every md_rows work shows `rows` = blocks (+ label-only rows), `aligned_ok n/n`, `content_ok n/n`; every heading sits between rows; every `pair_correction`/`text_correction` carries reason, who and date; every commentary's `toc` is `labels`, a QC-clean `tree`, or `none` with a reason

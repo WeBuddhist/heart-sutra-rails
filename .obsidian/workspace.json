@@ -178,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 410.8359375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +193,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "1078ec9f223d5d51",
   "lastOpenFiles": [
+    "0-INBOX/dzongsar-drive-inventory.md",
     "0-INBOX/raw-data/intake-manifest.yaml",
     "README.md",
     "4-SYSTEM/Skills/aligned-corpus-intake/templates/manifest.example.yaml",
@@ -208,8 +209,6 @@
     "4-SYSTEM/Skills/aligned-corpus-intake/scripts/common.py",
     "4-SYSTEM/Skills/aligned-corpus-intake/scripts/build_sources.py",
     "4-SYSTEM/Skills/aligned-corpus-intake/references/pecha-conventions.md",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts",
-    "0-INBOX/dzongsar-drive-inventory.md",
     "0-INBOX/raw-data/nalanda-printed/At_3CGr_.md",
     "gemini-scribe/Prompts/example-expert.md",
     "CLAUDE.md",

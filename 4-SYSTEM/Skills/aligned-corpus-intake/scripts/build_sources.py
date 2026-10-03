@@ -1081,20 +1081,50 @@ def register_adapter(name, fn):
     ADAPTERS[name] = fn
 
 
+import md_adapter                                  # noqa: E402
+register_adapter("md_rows", md_adapter.adapt_md_rows)
+
+
 # --------------------------------------------------------------------------
 # driver
 # --------------------------------------------------------------------------
 
 def raw_files(spec):
     out = []
-    for k in ("text", "toc", "segmentation", "citations"):
+    for k in ("text", "toc", "segmentation", "citations", "meta"):
         if isinstance(spec.get(k), str):
             out.append(spec[k])
+    if isinstance(spec.get("toc"), dict) and spec["toc"].get("doc"):
+        out.append(spec["toc"]["doc"])
     for k in ("pair", "tsadrel"):
         if spec.get(k):
             out += [v for v in spec[k].values() if isinstance(v, str)]
     out += spec.get("extra_raw") or []
     return out
+
+
+def write_pretoc(manifest_path, vault, only=None):
+    """Write the pre-TOC text of every md_rows work whose headings come from a
+    toc-generate tree: 0-INBOX/temp/TOC-<id>/source.md (what toc-generate
+    chunks, and what its [[line]] pointers count) plus source.json (sha1 and
+    line -> row). Works are built in order first, so this needs nothing but
+    the raw data; it never touches 1-SOURCES/."""
+    manifest = yaml.safe_load(pathlib.Path(manifest_path).read_text(encoding="utf-8"))
+    ctx = Ctx(manifest, vault)
+    for spec in manifest["works"]:
+        toc = spec.get("toc") or {}
+        if spec["adapter"] != "md_rows" or toc.get("kind") != "tree":
+            continue
+        if only and spec["key"] not in only:
+            continue
+        text, rows = md_adapter.pretoc_source(ctx, spec)
+        d = ctx.vault / "0-INBOX" / "temp" / f"TOC-{toc['id']}"
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "source.md").write_text(text, encoding="utf-8")
+        meta = {"work": spec["key"], "file": spec["path"], "sha1": md_adapter.sha1_text(text),
+                "lines": text.count("\n"), "line_to_row": rows}
+        (d / "source.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"{spec['key']:34s} -> {d / 'source.md'}  sha1={meta['sha1']} lines={meta['lines']}", file=sys.stderr)
 
 
 def build(manifest_path, vault, only=None, dry=False, out=None):
@@ -1167,8 +1197,8 @@ def _rendered_blocks(work):
     out, h2, counters, nxt = [], "0", {}, 1
     for it in work["items"]:
         if it["kind"] == "heading":
-            if len(str(it["path"]).split(".")) == 1:
-                h2 = str(it["path"])
+            if vault_writer.heading_level(it) == 1:
+                h2 = vault_writer.top_label(it)
             continue
         if not vault_writer.clean_lines(it["text"]):
             continue
@@ -1190,7 +1220,13 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--out", help="write outputs under this root instead of the vault (for a test build)")
     ap.add_argument("--report", help="write the JSON intake report here")
+    ap.add_argument("--stage", choices=["pre-toc", "full"], default="full",
+                    help="pre-toc: only write the texts toc-generate reads (0-INBOX/temp/TOC-<id>/source.md)")
+    ap.add_argument("--only", help="comma-separated work keys (pre-toc stage)")
     a = ap.parse_args()
+    if a.stage == "pre-toc":
+        write_pretoc(a.manifest, a.vault, only=set(a.only.split(",")) if a.only else None)
+        return
     ctx = build(a.manifest, a.vault, dry=a.dry_run, out=a.out)
     if a.report:
         pathlib.Path(a.report).write_text(json.dumps(ctx.report, ensure_ascii=False, indent=1), encoding="utf-8")
