@@ -80,16 +80,16 @@ Every commentary file in `1-SOURCES/Commentaries/` declares a `registered_id` in
 | `registered_id` | Author / Title | School or tradition | BDRC work | Language | TOC source | File |
 | --------------- | -------------- | ------------------- | --------- | -------- | ---------- | ---- |
 | `vairocana-ngagsu-trelwa` | ལོ་ཆེན་བཻ་རོ་ཙ་ན། — ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ། | — | WA0XLEABEC8EFB500 | Tibetan | none (no *sa bcad*) | `1-SOURCES/Commentaries/bo-vairocana-ngagsu-trelwa.md` |
-| `vajrapani-dongyi-dronma` | ཕྱག་ན་རྡོ་རྗེ། — …སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ་ཞེས་བྱ་བ། | — | WA0RT3165 | Tibetan | see intake report | `1-SOURCES/Commentaries/bo-vajrapani-dongyi-dronma.md` |
+| `vajrapani-dongyi-dronma` | ཕྱག་ན་རྡོ་རྗེ། — …སྙིང་པོའི་འགྲེལ་པ་དོན་གྱི་སྒྲོན་མ་ཞེས་བྱ་བ། | — | WA0RT3165 | Tibetan | `toc-generate` tree (one announced division) | `1-SOURCES/Commentaries/bo-vajrapani-dongyi-dronma.md` |
 | `taranatha-tsikdrel` | ཇོ་ནང་རྗེ་བཙུན་ཏཱ་ར་ནཱ་ཐ། — ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས། | Jonang | WA0XLBC8FE150050C | Tibetan | Dzongsar TOC doc labels | `1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md` |
-| `vimalamitra-tika` | པཎ་ཆེན་དྲི་མེད་བཤེས་གཉེན། — ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ། | — | WA0RT3163 | Tibetan | see intake report | `1-SOURCES/Commentaries/bo-vimalamitra-tika.md` |
+| `vimalamitra-tika` | པཎ་ཆེན་དྲི་མེད་བཤེས་གཉེན། — ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ། | — | WA0RT3163 | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-vimalamitra-tika.md` |
 | `ngawang-nyima-drelwa` | སྒོ་མང་མཁན་ཟུར་ངག་དབང་ཉི་མ། — ཤེས་རབ་སྙིང་པོའི་འགྲེལ་བ། | — | WA0XLB18EA1811A74 | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-ngawang-nyima-drelwa.md` |
 | `prasastrasena-tika` | སློབ་དཔོན་པྲ་ཤཱ་སྟྲ་སེ། — འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་འགྲེལ་པ། | — | WA0RT3166 | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-prasastrasena-tika.md` |
 | `lobzang-gyaltsen-senge-nyinje` | གཙོས་ཁྲི་སྤྲུལ ༠༢་བློ་བཟང་རྒྱལ་མཚན་སེངྒེ། — གཞུང་མཆོག་ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཟབ་དོན་པད་དཀར་བཞད་པའི་ཉིན་བྱེད། | — | WA0XL9624A799C650 | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-lobzang-gyaltsen-senge-nyinje.md` |
 | `gendun-rinchen-migje` | འབྲུག་རྗེ་མཁན་པོ ༦༩་དགེ་འདུན་རིན་ཆེན། — ཤེས་རབ་སྙིང་པོའི་རྣམ་བཤད་ཡང་དག་ལྟ་བའི་མིག | — | WA0XL29B7CCC47F6B | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md` |
 | `lama-kunga-shebum` | བླ་མ་ཀུན་དགའ། — འཕྲ་ཏིག་དང་པོ། ཤེས་རབ་སྙིང་པོའི་བཤད་འབུམ། | — | WA0XLBA22F3396909 | Tibetan | `toc-generate` tree | `1-SOURCES/Commentaries/bo-lama-kunga-shebum.md` |
 
-School is left blank where the raw data does not record it (the Jonang attribution of Tāranātha is in his name as recorded, ཇོ་ནང་རྗེ་བཙུན་). The "TOC source" column is final once the intake report is written; check it there.
+School is left blank where the raw data does not record it (the Jonang attribution of Tāranātha is in his name as recorded, ཇོ་ནང་རྗེ་བཙུན་).
 
 **Tier ordering.** These are independent works, not a root commentary with sub-commentaries. Present them in the order of this roster (the order of the Dzongsar catalogue). Do not invent a hierarchy.
 

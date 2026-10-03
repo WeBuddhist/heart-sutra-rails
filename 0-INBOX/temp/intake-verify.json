@@ -1,0 +1,251 @@
+[
+ {
+  "key": "sa-root",
+  "md": {
+   "rows": 29
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 29,
+  "headings": 1,
+  "transclusions": 0,
+  "letters": 2062,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": null
+ },
+ {
+  "key": "bo-display",
+  "md": {
+   "rows": 31,
+   "aligned_ok": "31/31",
+   "content_ok": "28/28"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 31,
+  "headings": 1,
+  "transclusions": 28,
+  "letters": 2463,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "sa-root"
+ },
+ {
+  "key": "zh-translation",
+  "md": {
+   "rows": 111,
+   "aligned_ok": "111/111",
+   "content_ok": "111/111",
+   "edition_variant_rows": 4,
+   "_variants": [
+    {
+     "block": "3",
+     "row": 3,
+     "letters_found": 0.79,
+     "targets": [
+      "2"
+     ]
+    },
+    {
+     "block": "65",
+     "row": 65,
+     "letters_found": 0.84,
+     "targets": [
+      "20"
+     ]
+    },
+    {
+     "block": "88",
+     "row": 88,
+     "letters_found": 0.89,
+     "targets": [
+      "25"
+     ]
+    },
+    {
+     "block": "93",
+     "row": 93,
+     "letters_found": 0.9,
+     "targets": [
+      "27"
+     ]
+    }
+   ]
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 111,
+  "headings": 1,
+  "transclusions": 111,
+  "letters": 618,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-vairocana-ngagsu-trelwa",
+  "md": {
+   "rows": 64,
+   "aligned_ok": "64/64",
+   "content_ok": "60/60"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 64,
+  "headings": 1,
+  "transclusions": 61,
+  "letters": 8830,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-vajrapani-dongyi-dronma",
+  "md": {
+   "rows": 81,
+   "aligned_ok": "81/81",
+   "content_ok": "53/53"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 81,
+  "headings": 5,
+  "transclusions": 54,
+  "letters": 20529,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-taranatha-tsikdrel",
+  "md": {
+   "rows": 80,
+   "aligned_ok": "79/79",
+   "content_ok": "61/61"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 79,
+  "headings": 24,
+  "transclusions": 62,
+  "letters": 15877,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-vimalamitra-tika",
+  "md": {
+   "rows": 62,
+   "aligned_ok": "62/62",
+   "content_ok": "55/55"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 62,
+  "headings": 10,
+  "transclusions": 56,
+  "letters": 31434,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-ngawang-nyima-drelwa",
+  "md": {
+   "rows": 54,
+   "aligned_ok": "54/54",
+   "content_ok": "42/42"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 54,
+  "headings": 18,
+  "transclusions": 42,
+  "letters": 10780,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-prasastrasena-tika",
+  "md": {
+   "rows": 70,
+   "aligned_ok": "70/70",
+   "content_ok": "57/57"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 70,
+  "headings": 12,
+  "transclusions": 59,
+  "letters": 20235,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-lobzang-gyaltsen-senge-nyinje",
+  "md": {
+   "rows": 50,
+   "aligned_ok": "50/50",
+   "content_ok": "28/28"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 50,
+  "headings": 30,
+  "transclusions": 32,
+  "letters": 23369,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-gendun-rinchen-migje",
+  "md": {
+   "rows": 62,
+   "aligned_ok": "62/62",
+   "content_ok": "37/37"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 62,
+  "headings": 35,
+  "transclusions": 40,
+  "letters": 17861,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ },
+ {
+  "key": "bo-lama-kunga-shebum",
+  "md": {
+   "rows": 91,
+   "aligned_ok": "91/91",
+   "content_ok": "72/72"
+  },
+  "numbered": 0,
+  "matching": 0,
+  "blocks": 91,
+  "headings": 72,
+  "transclusions": 74,
+  "letters": 25189,
+  "missing": 0,
+  "extra": 0,
+  "problems": [],
+  "target": "bo-display"
+ }
+]

@@ -1,0 +1,723 @@
+[
+ {
+  "key": "sa-root",
+  "path": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+  "adapter": "md_rows",
+  "rows": 29,
+  "blocks": 29,
+  "ids": "1..32",
+  "transclusions": 0
+ },
+ {
+  "key": "bo-display",
+  "path": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+  "adapter": "md_rows",
+  "rows": 31,
+  "concordance": {
+   "copy_letters": 2062,
+   "target_letters": 2062,
+   "matched": 2062,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 0,
+   "ratio": 1.0
+  },
+  "aligned_blocks": 28,
+  "unaligned_blocks": [
+   2,
+   3,
+   4
+  ],
+  "blocks_spanning_several_targets": [],
+  "target_side_rows_without_counterpart": [
+   15
+  ],
+  "alignment_review": [],
+  "blocks": 31,
+  "ids": "1..32",
+  "transclusions": 28
+ },
+ {
+  "key": "zh-translation",
+  "path": "1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md",
+  "adapter": "md_rows",
+  "rows": 111,
+  "concordance": {
+   "copy_letters": 2424,
+   "target_letters": 2463,
+   "matched": 2383,
+   "replaced": 3,
+   "copy_only": 38,
+   "target_only": 77,
+   "ratio": 0.9752
+  },
+  "aligned_blocks": 111,
+  "unaligned_blocks": [],
+  "blocks_spanning_several_targets": [],
+  "target_side_rows_without_counterpart": [],
+  "alignment_review": [],
+  "blocks": 111,
+  "ids": "1..111",
+  "transclusions": 111
+ },
+ {
+  "key": "bo-vairocana-ngagsu-trelwa",
+  "path": "1-SOURCES/Commentaries/bo-vairocana-ngagsu-trelwa.md",
+  "adapter": "md_rows",
+  "rows": 64,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 60,
+  "unaligned_blocks": [
+   2,
+   4,
+   41,
+   84
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 8,
+    "targets": [
+     "6",
+     "7"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   3,
+   5,
+   6,
+   7,
+   32,
+   33,
+   34,
+   36,
+   37,
+   38,
+   39,
+   40,
+   42,
+   43,
+   44,
+   45,
+   46,
+   49,
+   83
+  ],
+  "alignment_review": [],
+  "blocks": 64,
+  "ids": "0-1..0-64",
+  "transclusions": 61
+ },
+ {
+  "key": "bo-vajrapani-dongyi-dronma",
+  "path": "1-SOURCES/Commentaries/bo-vajrapani-dongyi-dronma.md",
+  "adapter": "md_rows",
+  "rows": 81,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 53,
+  "unaligned_blocks": [
+   2,
+   5,
+   7,
+   19,
+   21,
+   23,
+   27,
+   29,
+   32,
+   34,
+   36,
+   41,
+   43,
+   45,
+   49,
+   51,
+   53,
+   55,
+   59,
+   61,
+   63,
+   65,
+   71,
+   102,
+   104,
+   106,
+   108,
+   110
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 9,
+    "targets": [
+     "6",
+     "7"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   3,
+   4,
+   6,
+   20,
+   22,
+   24,
+   28,
+   30,
+   33,
+   35,
+   37,
+   40,
+   42,
+   44,
+   48,
+   50,
+   52,
+   54,
+   58,
+   60,
+   62,
+   64,
+   70,
+   101,
+   103,
+   105,
+   107
+  ],
+  "alignment_review": [],
+  "headings": 4,
+  "blocks": 81,
+  "ids": "0-1..1-63",
+  "transclusions": 54
+ },
+ {
+  "key": "bo-taranatha-tsikdrel",
+  "path": "1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md",
+  "adapter": "md_rows",
+  "rows": 80,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 61,
+  "unaligned_blocks": [
+   2,
+   14,
+   18,
+   24,
+   33,
+   39,
+   41,
+   43,
+   46,
+   48,
+   52,
+   57,
+   60,
+   69,
+   71,
+   79,
+   84,
+   85,
+   86
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 8,
+    "targets": [
+     "6",
+     "7"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   3,
+   6,
+   7,
+   83
+  ],
+  "alignment_review": [],
+  "headings": 23,
+  "toc_labels_moved_from_rows": [
+   {
+    "row": 14,
+    "text": "༤༽ ཤེར་ཕྱིན་ལ་སྤྱོད་ཚུལ་མདོར་བསྟན་པ།"
+   },
+   {
+    "row": 14,
+    "text": "ལན་བསྟན་པ།"
+   },
+   {
+    "row": 18,
+    "text": "༦༽ རང་བཞིན་ཤེར་ཕྱིན་གཏན་ལ་དབབ་པ།"
+   },
+   {
+    "row": 18,
+    "text": "༥༽ ཤེར་ཕྱིན་གྱི་ངོ་བོ་རྒྱས་པར་བཤད་པ།"
+   },
+   {
+    "row": 33,
+    "text": "༨༽ ཕུང་པོ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 33,
+    "text": "༧༽ ལམ་ཤེར་ཕྱིན་སྒོམ་ཚུལ།"
+   },
+   {
+    "row": 39,
+    "text": "༩༽སྐྱེ་མཆེད་ལ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 41,
+    "text": "༡༠༽ཁམས་ལ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 43,
+    "text": "༡༡༽ རྟེན་ན་འབྲེལ་ལ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 46,
+    "text": "༡༢༽བདེན་པ་ལ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 48,
+    "text": "༡༣༽གནས་དང་གནས་མིན་ལ་མཁས་པར་བྱ་བ།"
+   },
+   {
+    "row": 52,
+    "text": "༡༥༽ དེ་རྟོགས་པའི་ལམ་གྱི་ཕན་ཡོན།"
+   },
+   {
+    "row": 57,
+    "text": "༡༦༽ ལམ་དེས་རྟོགས་པའི་འབྲས་བུ་བཤད་པ།"
+   },
+   {
+    "row": 60,
+    "text": "༡༧༽ ཕན་ཡོན་དང་བཅས་པའི་གཟུངས་སྔགས་བསྟན་པ།"
+   },
+   {
+    "row": 69,
+    "text": "༡༨༽ དོན་བསྡུའི་ཚུལ་དུ་ཤེར་ཕྱིན་ལ་སློབ་པར་གདམས་པ།"
+   },
+   {
+    "row": 71,
+    "text": "༼༡༩༽ མཐུན་འགྱུར་གྱི་སྒོ་ནས་ཐེ་ཚོམ་བསལ་བ།"
+   },
+   {
+    "row": 79,
+    "text": "༢༠༽རྩ་བའི་གསུམ་པ། ​ཡི་རང་མངོན་པར་བསྟོད་པ།"
+   },
+   {
+    "row": 85,
+    "text": "༢༡༽ཐ་མར་དགེ་བ་མཇུག མཛད་བྱང་།"
+   }
+  ],
+  "rows_that_were_only_toc_labels": [
+   85
+  ],
+  "blocks": 79,
+  "ids": "0-1..23-1",
+  "transclusions": 62
+ },
+ {
+  "key": "bo-vimalamitra-tika",
+  "path": "1-SOURCES/Commentaries/bo-vimalamitra-tika.md",
+  "adapter": "md_rows",
+  "rows": 62,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 55,
+  "unaligned_blocks": [
+   2,
+   4,
+   6,
+   7,
+   66,
+   68,
+   69
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 10,
+    "targets": [
+     "6",
+     "7"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   3,
+   5,
+   8,
+   9,
+   54,
+   67
+  ],
+  "alignment_review": [],
+  "headings": 9,
+  "blocks": 62,
+  "ids": "0-1..1-59",
+  "transclusions": 56
+ },
+ {
+  "key": "bo-ngawang-nyima-drelwa",
+  "path": "1-SOURCES/Commentaries/bo-ngawang-nyima-drelwa.md",
+  "adapter": "md_rows",
+  "rows": 54,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 42,
+  "unaligned_blocks": [
+   1,
+   3,
+   4,
+   8,
+   10,
+   23,
+   25,
+   50,
+   51,
+   52,
+   54,
+   57
+  ],
+  "blocks_spanning_several_targets": [],
+  "target_side_rows_without_counterpart": [
+   2,
+   7,
+   9,
+   55,
+   58,
+   60
+  ],
+  "alignment_review": [],
+  "headings": 17,
+  "blocks": 54,
+  "ids": "0-1..1-52",
+  "transclusions": 42
+ },
+ {
+  "key": "bo-prasastrasena-tika",
+  "path": "1-SOURCES/Commentaries/bo-prasastrasena-tika.md",
+  "adapter": "md_rows",
+  "rows": 70,
+  "concordance": {
+   "copy_letters": 2415,
+   "target_letters": 2463,
+   "matched": 2415,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 48,
+   "ratio": 0.9902
+  },
+  "aligned_blocks": 57,
+  "unaligned_blocks": [
+   2,
+   16,
+   17,
+   26,
+   27,
+   28,
+   29,
+   58,
+   68,
+   70,
+   72,
+   82,
+   85
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 6,
+    "targets": [
+     "6",
+     "7"
+    ]
+   },
+   {
+    "row": 15,
+    "targets": [
+     "13",
+     "15"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   4,
+   5,
+   23,
+   67,
+   69,
+   71,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   84
+  ],
+  "alignment_review": [],
+  "headings": 11,
+  "blocks": 70,
+  "ids": "0-1..1-69",
+  "transclusions": 59
+ },
+ {
+  "key": "bo-lobzang-gyaltsen-senge-nyinje",
+  "path": "1-SOURCES/Commentaries/bo-lobzang-gyaltsen-senge-nyinje.md",
+  "adapter": "md_rows",
+  "rows": 50,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 28,
+  "unaligned_blocks": [
+   2,
+   3,
+   4,
+   6,
+   10,
+   12,
+   16,
+   20,
+   22,
+   26,
+   28,
+   30,
+   33,
+   34,
+   37,
+   39,
+   42,
+   45,
+   47,
+   49,
+   51,
+   53
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 11,
+    "targets": [
+     "6",
+     "7"
+    ]
+   },
+   {
+    "row": 48,
+    "targets": [
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   {
+    "row": 50,
+    "targets": [
+     "30",
+     "31"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   1,
+   7,
+   8
+  ],
+  "alignment_review": [],
+  "headings": 29,
+  "blocks": 50,
+  "ids": "0-1..1-48",
+  "transclusions": 32
+ },
+ {
+  "key": "bo-gendun-rinchen-migje",
+  "path": "1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md",
+  "adapter": "md_rows",
+  "rows": 62,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 37,
+  "unaligned_blocks": [
+   0,
+   2,
+   7,
+   10,
+   12,
+   16,
+   18,
+   20,
+   23,
+   24,
+   27,
+   35,
+   39,
+   43,
+   45,
+   46,
+   48,
+   51,
+   53,
+   58,
+   60,
+   62,
+   64,
+   66,
+   67
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 44,
+    "targets": [
+     "21",
+     "22"
+    ]
+   },
+   {
+    "row": 47,
+    "targets": [
+     "22",
+     "23"
+    ]
+   },
+   {
+    "row": 57,
+    "targets": [
+     "28",
+     "29"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   5,
+   19,
+   59,
+   61,
+   63,
+   65
+  ],
+  "alignment_review": [],
+  "headings": 34,
+  "blocks": 62,
+  "ids": "0-1..3-6",
+  "transclusions": 40
+ },
+ {
+  "key": "bo-lama-kunga-shebum",
+  "path": "1-SOURCES/Commentaries/bo-lama-kunga-shebum.md",
+  "adapter": "md_rows",
+  "rows": 91,
+  "concordance": {
+   "copy_letters": 2453,
+   "target_letters": 2463,
+   "matched": 2453,
+   "replaced": 0,
+   "copy_only": 0,
+   "target_only": 10,
+   "ratio": 0.998
+  },
+  "aligned_blocks": 72,
+  "unaligned_blocks": [
+   1,
+   8,
+   11,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   26,
+   27,
+   28,
+   29,
+   72,
+   74,
+   80,
+   82,
+   96
+  ],
+  "blocks_spanning_several_targets": [
+   {
+    "row": 91,
+    "targets": [
+     "28",
+     "29"
+    ]
+   },
+   {
+    "row": 92,
+    "targets": [
+     "30",
+     "31"
+    ]
+   }
+  ],
+  "target_side_rows_without_counterpart": [
+   4,
+   5,
+   6,
+   95
+  ],
+  "alignment_review": [],
+  "headings": 71,
+  "blocks": 91,
+  "ids": "1-1..4-1",
+  "transclusions": 74
+ }
+]

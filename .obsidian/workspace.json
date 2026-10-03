@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Translations/About Translations.md",
+                "file": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Translations"
+              "title": "sa-prajnaparamita-hrdaya"
             }
           }
         ]
@@ -197,8 +197,32 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "1078ec9f223d5d51",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md",
+    "1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md",
+    "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+    "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+    "3-TRANSFORMATIONS/Translations/About Translations.md",
+    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/toc_rows.py",
+    "0-INBOX/heart-sutra-intake-report.md",
+    "0-INBOX/temp/intake-verify.json",
+    "0-INBOX/temp/intake-build-report.json",
+    "1-SOURCES/Commentaries/bo-lama-kunga-shebum.md",
+    "1-SOURCES/Commentaries/bo-lobzang-gyaltsen-senge-nyinje.md",
+    "1-SOURCES/Commentaries/bo-prasastrasena-tika.md",
+    "1-SOURCES/Commentaries/bo-ngawang-nyima-drelwa.md",
+    "1-SOURCES/Commentaries/bo-vimalamitra-tika.md",
+    "1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md",
+    "1-SOURCES/Commentaries/bo-vajrapani-dongyi-dronma.md",
+    "1-SOURCES/Commentaries/bo-vairocana-ngagsu-trelwa.md",
+    "1-SOURCES/Annotations/zh-prajnaparamita-hrdaya.annotations.json",
+    "1-SOURCES/Annotations/sa-prajnaparamita-hrdaya.annotations.json",
+    "1-SOURCES/Annotations/bo-vimalamitra-tika.annotations.json",
+    "1-SOURCES/Annotations/bo-vajrapani-dongyi-dronma.annotations.json",
+    "1-SOURCES/Annotations/bo-vairocana-ngagsu-trelwa.annotations.json",
+    "1-SOURCES/Annotations/bo-taranatha-tsikdrel.annotations.json",
+    "1-SOURCES/Annotations/bo-prasastrasena-tika.annotations.json",
     "2-RAILS/Sections/Raw/toc-tree/lama-kunga-shebum.md",
     "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-lama-kunga-shebum.md",
     "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-lama-kunga-shebum.md",
@@ -207,33 +231,9 @@
     "0-INBOX/temp/TOC-lama-kunga-shebum/qc-source-round1.md",
     "0-INBOX/raw-data/sherab-comm-1(root-com).md",
     "0-INBOX/dzongsar-drive-inventory.md",
-    "0-INBOX/raw-data/intake-manifest.yaml",
     "README.md",
-    "4-SYSTEM/Skills/aligned-corpus-intake/templates/manifest.example.yaml",
-    "4-SYSTEM/Skills/aligned-corpus-intake/templates",
     "4-SYSTEM/Skills/aligned-corpus-intake/SKILL.md",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/verify.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/vault_writer.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/project.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/openpecha_model.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/docx_model.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/common.py",
-    "4-SYSTEM/Skills/aligned-corpus-intake/scripts/build_sources.py",
     "4-SYSTEM/Skills/aligned-corpus-intake/references/pecha-conventions.md",
-    "0-INBOX/raw-data/nalanda-printed/At_3CGr_.md",
-    "gemini-scribe/Prompts/example-expert.md",
-    "CLAUDE.md",
-    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
-    "4-SYSTEM/Skills/verse-context/SKILL.md",
-    "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
-    "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-combined/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-raw/SKILL.md",
-    "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/property-creator/SKILL.md",
-    "4-SYSTEM/Skills/json-to-source-text/SKILL.md"
+    "0-INBOX/raw-data/nalanda-printed/At_3CGr_.md"
   ]
 }

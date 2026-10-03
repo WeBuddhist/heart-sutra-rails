@@ -1,0 +1,2967 @@
+{
+ "file": "1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md",
+ "id_scheme": "flat",
+ "target_file": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+ "headings": [],
+ "blocks": {
+  "1": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 1
+   },
+   "targets": [
+    "1"
+   ],
+   "alignment": {
+    "pair_row": 1,
+    "target_side_text": "ཤེས་རབ་སྙིང་པོ།",
+    "targets": {
+     "1": {
+      "letters": 11,
+      "of": 38,
+      "span": [
+       15,
+       51
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "བཅོམལྡནའདསམ",
+      "target_block": "1"
+     },
+     {
+      "copy": "",
+      "target": "ཀྱིཕརོལཏུཕྱིནཔའི",
+      "target_block": "1"
+     }
+    ]
+   },
+   "text": "般若波羅密多心經"
+  },
+  "2": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 2
+   },
+   "targets": [
+    "2"
+   ],
+   "alignment": {
+    "pair_row": 2,
+    "target_side_text": "༄༅། རྒྱ་གར་སྐད་དུ།",
+    "targets": {
+     "2": {
+      "letters": 10,
+      "of": 31,
+      "span": [
+       6,
+       19
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "印度語（梵語）裡"
+  },
+  "3": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 3
+   },
+   "targets": [
+    "2"
+   ],
+   "alignment": {
+    "pair_row": 3,
+    "target_side_text": "བྷ་ག་ཝ་ཏཱི་པྲཛྙཱ་པཱ་ར་མི་ཏཱ་ཧྲི་ད་ཡ།",
+    "targets": {
+     "2": {
+      "letters": 20,
+      "of": 31,
+      "span": [
+       21,
+       53
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "ཝ",
+      "target": "བ",
+      "target_block": "2"
+     },
+     {
+      "copy": "ཱ",
+      "target": "",
+      "target_block": "2"
+     },
+     {
+      "copy": "ཱ",
+      "target": "",
+      "target_block": "2"
+     },
+     {
+      "copy": "ཱ",
+      "target": "",
+      "target_block": "2"
+     },
+     {
+      "copy": "",
+      "target": "ྀ",
+      "target_block": "2"
+     },
+     {
+      "copy": "ི",
+      "target": "",
+      "target_block": "2"
+     }
+    ]
+   },
+   "text": "般若波羅蜜多心經"
+  },
+  "4": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 4
+   },
+   "targets": [
+    "3"
+   ],
+   "alignment": {
+    "pair_row": 4,
+    "target_side_text": "བོད་སྐད་དུ།",
+    "targets": {
+     "3": {
+      "letters": 8,
+      "of": 46,
+      "span": [
+       0,
+       10
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "藏語裡"
+  },
+  "5": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 5
+   },
+   "targets": [
+    "3"
+   ],
+   "alignment": {
+    "pair_row": 5,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+    "targets": {
+     "3": {
+      "letters": 38,
+      "of": 46,
+      "span": [
+       12,
+       63
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "般若波羅蜜多心經"
+  },
+  "6": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 6
+   },
+   "targets": [
+    "4"
+   ],
+   "alignment": {
+    "pair_row": 6,
+    "target_side_text": "བམ་པོ་གཅིག་གོ",
+    "targets": {
+     "4": {
+      "letters": 10,
+      "of": 10,
+      "span": [
+       0,
+       13
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "第一卷"
+  },
+  "7": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 7
+   },
+   "targets": [
+    "5"
+   ],
+   "alignment": {
+    "pair_row": 7,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་ཕྱག་འཚལ་ལོ།།",
+    "targets": {
+     "5": {
+      "letters": 39,
+      "of": 39,
+      "span": [
+       0,
+       54
+      ],
+      "whole": true
+     }
+    },
+    "variants": [
+     {
+      "copy": "ཏ",
+      "target": "ད",
+      "target_block": "5"
+     }
+    ]
+   },
+   "text": "敬禮薄伽梵母般若波羅蜜多"
+  },
+  "8": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 8
+   },
+   "targets": [
+    "6"
+   ],
+   "alignment": {
+    "pair_row": 8,
+    "target_side_text": "འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན།",
+    "targets": {
+     "6": {
+      "letters": 24,
+      "of": 24,
+      "span": [
+       1,
+       33
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "如是我聞，一時"
+  },
+  "9": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 9
+   },
+   "targets": [
+    "7"
+   ],
+   "alignment": {
+    "pair_row": 9,
+    "target_side_text": "བཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ་བྱ་རྒོད་ཕུང་པོའི་རི་ལ་དགེ་སློང་གི་དགེ་འདུན་ཆེན་པོ་དང་།",
+    "targets": {
+     "7": {
+      "letters": 59,
+      "of": 102,
+      "span": [
+       0,
+       78
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "薄伽梵 住王舍城 鷲峰山中，與大苾蒭眾"
+  },
+  "10": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 10
+   },
+   "targets": [
+    "7"
+   ],
+   "alignment": {
+    "pair_row": 10,
+    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའི་དགེ་འདུན་ཆེན་པོ་དང་ཐབས་ཅིག་ཏུ་བཞུགས་ཏེ།",
+    "targets": {
+     "7": {
+      "letters": 43,
+      "of": 102,
+      "span": [
+       82,
+       138
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "及諸菩薩摩訶薩俱"
+  },
+  "11": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 11
+   },
+   "targets": [
+    "8"
+   ],
+   "alignment": {
+    "pair_row": 11,
+    "target_side_text": "དེའི་ཚེ་བཅོམ་ལྡན་འདས་ཟབ་མོ་སྣང་བ་ཞེས་བྱ་བའི་ཆོས་ཀྱི་རྣམ་གྲངས་ཀྱི་ཏིང་ངེ་འཛིན་ལ་སྙོམས་པར་ཞུགས་སོ།",
+    "targets": {
+     "8": {
+      "letters": 71,
+      "of": 71,
+      "span": [
+       0,
+       95
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "爾時世尊等入甚深明瞭三摩地法之異門"
+  },
+  "12": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 12
+   },
+   "targets": [
+    "9"
+   ],
+   "alignment": {
+    "pair_row": 12,
+    "target_side_text": "ཡང་དེའི་ཚེ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་",
+    "targets": {
+     "9": {
+      "letters": 56,
+      "of": 102,
+      "span": [
+       1,
+       74
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "複于爾時，觀自在菩薩摩訶薩"
+  },
+  "13": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 13
+   },
+   "targets": [
+    "9"
+   ],
+   "alignment": {
+    "pair_row": 13,
+    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་ཉིད་ལ་རྣམ་པར་ལྟ་ཞིང་",
+    "targets": {
+     "9": {
+      "letters": 43,
+      "of": 102,
+      "span": [
+       75,
+       138
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "འི",
+      "target_block": "9"
+     },
+     {
+      "copy": "",
+      "target": "བ",
+      "target_block": "9"
+     }
+    ]
+   },
+   "text": "行深般若波羅蜜多時"
+  },
+  "14": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 14
+   },
+   "targets": [
+    "10"
+   ],
+   "alignment": {
+    "pair_row": 14,
+    "target_side_text": "ཕུང་པོ་ལྔ་པོ་དེ་དག་ལ་ཡང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ལྟའོ།",
+    "targets": {
+     "10": {
+      "letters": 41,
+      "of": 42,
+      "span": [
+       0,
+       57
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "བ",
+      "target_block": "10"
+     }
+    ]
+   },
+   "text": "觀察照見五蘊體性悉皆是空"
+  },
+  "15": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 15
+   },
+   "targets": [
+    "11"
+   ],
+   "alignment": {
+    "pair_row": 15,
+    "target_side_text": "དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས།",
+    "targets": {
+     "11": {
+      "letters": 18,
+      "of": 92,
+      "span": [
+       1,
+       24
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "時具壽舍利子承佛威力"
+  },
+  "16": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 16
+   },
+   "targets": [
+    "11"
+   ],
+   "alignment": {
+    "pair_row": 16,
+    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
+    "targets": {
+     "11": {
+      "letters": 74,
+      "of": 92,
+      "span": [
+       27,
+       126
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "སེམསདཔའ",
+      "target": "",
+      "target_block": "11"
+     }
+    ]
+   },
+   "text": "舍利子 觀自在菩薩摩訶薩曰"
+  },
+  "17": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 17
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 17,
+    "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པ་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ།",
+    "targets": {
+     "12": {
+      "letters": 68,
+      "of": 325,
+      "span": [
+       0,
+       98
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "འི",
+      "target_block": "12"
+     },
+     {
+      "copy": "",
+      "target": "ར",
+      "target_block": "12"
+     }
+    ]
+   },
+   "text": "善男子 欲修行甚深般若波羅蜜多者 複當云何修學"
+  },
+  "18": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 18
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 18,
+    "target_side_text": "དེ་སྐད་ཅེས་སྨྲས་པ་དང་།",
+    "targets": {
+     "12": {
+      "letters": 15,
+      "of": 325,
+      "span": [
+       100,
+       120
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "作是語已"
+  },
+  "19": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 19
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 19,
+    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་",
+    "targets": {
+     "12": {
+      "letters": 51,
+      "of": 325,
+      "span": [
+       123,
+       189
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "觀自在菩薩摩訶薩答"
+  },
+  "20": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 20
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 20,
+    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
+    "targets": {
+     "12": {
+      "letters": 34,
+      "of": 325,
+      "span": [
+       190,
+       238
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "ི",
+      "target": "",
+      "target_block": "12"
+     }
+    ]
+   },
+   "text": "具壽舍利子言"
+  },
+  "21": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 21
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 21,
+    "target_side_text": "ཤཱ་རིའི་བུ། རིགས་ཀྱི་བུའམ།",
+    "targets": {
+     "12": {
+      "letters": 19,
+      "of": 325,
+      "span": [
+       242,
+       266
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "舍利子 善男子"
+  },
+  "22": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 22
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 22,
+    "target_side_text": "རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་",
+    "targets": {
+     "12": {
+      "letters": 15,
+      "of": 325,
+      "span": [
+       268,
+       289
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善女人等"
+  },
+  "23": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 23
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 23,
+    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ།",
+    "targets": {
+     "12": {
+      "letters": 64,
+      "of": 325,
+      "span": [
+       290,
+       380
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "འི",
+      "target_block": "12"
+     }
+    ]
+   },
+   "text": "欲修行甚深般若波羅蜜多者 彼應如是觀察"
+  },
+  "24": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 24
+   },
+   "targets": [
+    "12"
+   ],
+   "alignment": {
+    "pair_row": 24,
+    "target_side_text": "ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ།",
+    "targets": {
+     "12": {
+      "letters": 54,
+      "of": 325,
+      "span": [
+       383,
+       456
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "五蘊本性皆空"
+  },
+  "25": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 25
+   },
+   "targets": [
+    "13"
+   ],
+   "alignment": {
+    "pair_row": 25,
+    "target_side_text": "གཟུགས་སྟོང་པའོ།",
+    "targets": {
+     "13": {
+      "letters": 12,
+      "of": 27,
+      "span": [
+       1,
+       15
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "色即是空"
+  },
+  "26": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 26
+   },
+   "targets": [
+    "13"
+   ],
+   "alignment": {
+    "pair_row": 26,
+    "target_side_text": "སྟོང་པ་ཉིད་གཟུགས་སོ།",
+    "targets": {
+     "13": {
+      "letters": 15,
+      "of": 27,
+      "span": [
+       18,
+       37
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "空即是色"
+  },
+  "27": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 27
+   },
+   "targets": [
+    "15"
+   ],
+   "alignment": {
+    "pair_row": 27,
+    "target_side_text": "གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན།",
+    "targets": {
+     "15": {
+      "letters": 22,
+      "of": 49,
+      "span": [
+       1,
+       30
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "空不異色"
+  },
+  "28": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 28
+   },
+   "targets": [
+    "15"
+   ],
+   "alignment": {
+    "pair_row": 28,
+    "target_side_text": "སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ།",
+    "targets": {
+     "15": {
+      "letters": 27,
+      "of": 49,
+      "span": [
+       32,
+       68
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "色不異空"
+  },
+  "29": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 29
+   },
+   "targets": [
+    "16"
+   ],
+   "alignment": {
+    "pair_row": 29,
+    "target_side_text": "དེ་བཞིན་དུ་ཚོར་བ་དང་།",
+    "targets": {
+     "16": {
+      "letters": 14,
+      "of": 51,
+      "span": [
+       1,
+       20
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "如是 受"
+  },
+  "30": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 30
+   },
+   "targets": [
+    "16"
+   ],
+   "alignment": {
+    "pair_row": 30,
+    "target_side_text": "འདུ་ཤེས་དང་།",
+    "targets": {
+     "16": {
+      "letters": 8,
+      "of": 51,
+      "span": [
+       24,
+       34
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "想"
+  },
+  "31": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 31
+   },
+   "targets": [
+    "16"
+   ],
+   "alignment": {
+    "pair_row": 31,
+    "target_side_text": "འདུ་བྱེད་དང་།",
+    "targets": {
+     "16": {
+      "letters": 9,
+      "of": 51,
+      "span": [
+       37,
+       48
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "行"
+  },
+  "32": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 32
+   },
+   "targets": [
+    "16"
+   ],
+   "alignment": {
+    "pair_row": 32,
+    "target_side_text": "རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ།",
+    "targets": {
+     "16": {
+      "letters": 20,
+      "of": 51,
+      "span": [
+       51,
+       77
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "識亦複皆空"
+  },
+  "33": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 33
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 33,
+    "target_side_text": "ཤཱ་རིའི་བུ།",
+    "targets": {
+     "17": {
+      "letters": 8,
+      "of": 95,
+      "span": [
+       1,
+       11
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "舍利子"
+  },
+  "34": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 34
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 34,
+    "target_side_text": "དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
+    "targets": {
+     "17": {
+      "letters": 25,
+      "of": 95,
+      "span": [
+       12,
+       47
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是故 諸法皆空"
+  },
+  "35": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 35
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 35,
+    "target_side_text": "མཚན་ཉིད་མེད་པ།",
+    "targets": {
+     "17": {
+      "letters": 10,
+      "of": 95,
+      "span": [
+       49,
+       62
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "空相"
+  },
+  "36": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 36
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 36,
+    "target_side_text": "མ་སྐྱེས་པ།",
+    "targets": {
+     "17": {
+      "letters": 7,
+      "of": 95,
+      "span": [
+       64,
+       73
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不生"
+  },
+  "37": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 37
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 37,
+    "target_side_text": "མ་འགགས་པ།",
+    "targets": {
+     "17": {
+      "letters": 6,
+      "of": 95,
+      "span": [
+       76,
+       84
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不滅"
+  },
+  "38": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 38
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 38,
+    "target_side_text": "དྲི་མ་མེད་པ།",
+    "targets": {
+     "17": {
+      "letters": 8,
+      "of": 95,
+      "span": [
+       86,
+       97
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不垢"
+  },
+  "39": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 39
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 39,
+    "target_side_text": "དྲི་མ་དང་བྲལ་བ་མེད་པ།",
+    "targets": {
+     "17": {
+      "letters": 14,
+      "of": 95,
+      "span": [
+       99,
+       119
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不離垢"
+  },
+  "40": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 40
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 40,
+    "target_side_text": "བྲི་བ་མེད་པ།",
+    "targets": {
+     "17": {
+      "letters": 8,
+      "of": 95,
+      "span": [
+       122,
+       133
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不減"
+  },
+  "41": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 41
+   },
+   "targets": [
+    "17"
+   ],
+   "alignment": {
+    "pair_row": 41,
+    "target_side_text": "གང་བ་མེད་པའོ།",
+    "targets": {
+     "17": {
+      "letters": 9,
+      "of": 95,
+      "span": [
+       135,
+       147
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "不增"
+  },
+  "42": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 42
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 42,
+    "target_side_text": "ཤཱ་རིའི་བུ།",
+    "targets": {
+     "18": {
+      "letters": 8,
+      "of": 146,
+      "span": [
+       1,
+       11
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "舍利子"
+  },
+  "43": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 43
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 43,
+    "target_side_text": "དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད།",
+    "targets": {
+     "18": {
+      "letters": 24,
+      "of": 146,
+      "span": [
+       12,
+       45
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是故 空性之中無色"
+  },
+  "44": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 44
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 44,
+    "target_side_text": "ཚོར་བ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 7,
+      "of": 146,
+      "span": [
+       47,
+       56
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無受"
+  },
+  "45": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 45
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 45,
+    "target_side_text": "འདུ་ཤེས་མེད།",
+    "targets": {
+     "18": {
+      "letters": 9,
+      "of": 146,
+      "span": [
+       59,
+       70
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無想"
+  },
+  "46": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 46
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 46,
+    "target_side_text": "འདུ་བྱེད་ནམས་མེད།",
+    "targets": {
+     "18": {
+      "letters": 10,
+      "of": 146,
+      "span": [
+       72,
+       84
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "ནམས",
+      "target": "",
+      "target_block": "18"
+     }
+    ]
+   },
+   "text": "無行"
+  },
+  "47": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 47
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 47,
+    "target_side_text": "རྣམ་པར་ཤེས་པ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 12,
+      "of": 146,
+      "span": [
+       86,
+       102
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無識"
+  },
+  "48": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 48
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 48,
+    "target_side_text": "མིག་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       104,
+       111
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無眼"
+  },
+  "49": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 49
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 49,
+    "target_side_text": "རྣ་བ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       113,
+       121
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無耳"
+  },
+  "50": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 50
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 50,
+    "target_side_text": "སྣ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 5,
+      "of": 146,
+      "span": [
+       123,
+       129
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無鼻"
+  },
+  "51": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 51
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 51,
+    "target_side_text": "ལྕེ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       131,
+       138
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無舌"
+  },
+  "52": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 52
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 52,
+    "target_side_text": "ལུས་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       140,
+       147
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無身"
+  },
+  "53": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 53
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 53,
+    "target_side_text": "ཡིད་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       149,
+       156
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無意"
+  },
+  "54": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 54
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 54,
+    "target_side_text": "གཟུགས་མེད།",
+    "targets": {
+     "18": {
+      "letters": 8,
+      "of": 146,
+      "span": [
+       158,
+       167
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無色"
+  },
+  "55": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 55
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 55,
+    "target_side_text": "སྒྲ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       169,
+       176
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無聲"
+  },
+  "56": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 56
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 56,
+    "target_side_text": "དྲི་མེད།",
+    "targets": {
+     "18": {
+      "letters": 6,
+      "of": 146,
+      "span": [
+       178,
+       185
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無香"
+  },
+  "57": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 57
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 57,
+    "target_side_text": "རོ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 5,
+      "of": 146,
+      "span": [
+       187,
+       193
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無味"
+  },
+  "58": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 58
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 58,
+    "target_side_text": "རེག་བྱ་མེད།",
+    "targets": {
+     "18": {
+      "letters": 8,
+      "of": 146,
+      "span": [
+       195,
+       205
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無觸"
+  },
+  "59": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 59
+   },
+   "targets": [
+    "18"
+   ],
+   "alignment": {
+    "pair_row": 59,
+    "target_side_text": "ཆོས་མེད་དོ།",
+    "targets": {
+     "18": {
+      "letters": 8,
+      "of": 146,
+      "span": [
+       207,
+       217
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無法"
+  },
+  "60": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 60
+   },
+   "targets": [
+    "19"
+   ],
+   "alignment": {
+    "pair_row": 60,
+    "target_side_text": "མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
+    "targets": {
+     "19": {
+      "letters": 26,
+      "of": 60,
+      "span": [
+       1,
+       36
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無眼界 無意界"
+  },
+  "61": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 61
+   },
+   "targets": [
+    "19"
+   ],
+   "alignment": {
+    "pair_row": 61,
+    "target_side_text": "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ།",
+    "targets": {
+     "19": {
+      "letters": 34,
+      "of": 60,
+      "span": [
+       38,
+       84
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無意識界"
+  },
+  "62": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 62
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 62,
+    "target_side_text": "མ་རིག་པ་མེད།",
+    "targets": {
+     "20": {
+      "letters": 8,
+      "of": 110,
+      "span": [
+       1,
+       12
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無無明"
+  },
+  "63": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 63
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 63,
+    "target_side_text": "མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་་མེད།",
+    "targets": {
+     "20": {
+      "letters": 21,
+      "of": 110,
+      "span": [
+       15,
+       46
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "亦無無明盡 無老死"
+  },
+  "64": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 64
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 64,
+    "target_side_text": "རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ།",
+    "targets": {
+     "20": {
+      "letters": 20,
+      "of": 110,
+      "span": [
+       49,
+       77
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "亦無老死盡。"
+  },
+  "65": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 65
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 65,
+    "target_side_text": "དེ་བཞིན་དུ་སྡུག་བསྔལ་བ་དང་།",
+    "targets": {
+     "20": {
+      "letters": 11,
+      "of": 110,
+      "span": [
+       81,
+       95
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "དེབཞིནདུ",
+      "target": "",
+      "target_block": "20"
+     }
+    ]
+   },
+   "text": "是故 無苦"
+  },
+  "66": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 66
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 66,
+    "target_side_text": "ཀུན་འབྱུང་བ་དང་།",
+    "targets": {
+     "20": {
+      "letters": 11,
+      "of": 110,
+      "span": [
+       98,
+       112
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "集"
+  },
+  "67": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 67
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 67,
+    "target_side_text": "འགོག་པ་དང་།",
+    "targets": {
+     "20": {
+      "letters": 7,
+      "of": 110,
+      "span": [
+       115,
+       124
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "滅 及"
+  },
+  "68": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 68
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 68,
+    "target_side_text": "ལམ་མེད།",
+    "targets": {
+     "20": {
+      "letters": 5,
+      "of": 110,
+      "span": [
+       127,
+       133
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無道"
+  },
+  "69": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 69
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 69,
+    "target_side_text": "ཡེ་ཤེས་མེད།",
+    "targets": {
+     "20": {
+      "letters": 8,
+      "of": 110,
+      "span": [
+       135,
+       145
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無智"
+  },
+  "70": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 70
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 70,
+    "target_side_text": "ཐོབ་པ་མེད།",
+    "targets": {
+     "20": {
+      "letters": 7,
+      "of": 110,
+      "span": [
+       147,
+       156
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無得"
+  },
+  "71": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 71
+   },
+   "targets": [
+    "20"
+   ],
+   "alignment": {
+    "pair_row": 71,
+    "target_side_text": "མ་ཐོབ་པ་ཡང་མེད་དོ།",
+    "targets": {
+     "20": {
+      "letters": 12,
+      "of": 110,
+      "span": [
+       158,
+       175
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "亦無不得"
+  },
+  "72": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 72
+   },
+   "targets": [
+    "21"
+   ],
+   "alignment": {
+    "pair_row": 72,
+    "target_side_text": "ཤཱ་རིའི་བུ།",
+    "targets": {
+     "21": {
+      "letters": 8,
+      "of": 79,
+      "span": [
+       1,
+       11
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "舍利子"
+  },
+  "73": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 73
+   },
+   "targets": [
+    "21"
+   ],
+   "alignment": {
+    "pair_row": 73,
+    "target_side_text": "དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར།",
+    "targets": {
+     "21": {
+      "letters": 38,
+      "of": 79,
+      "span": [
+       12,
+       63
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是故 諸菩薩眾 以無所得故"
+  },
+  "74": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 74
+   },
+   "targets": [
+    "21"
+   ],
+   "alignment": {
+    "pair_row": 74,
+    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ།",
+    "targets": {
+     "21": {
+      "letters": 33,
+      "of": 79,
+      "span": [
+       65,
+       110
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "依止般若波羅蜜多"
+  },
+  "75": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 75
+   },
+   "targets": [
+    "22"
+   ],
+   "alignment": {
+    "pair_row": 75,
+    "target_side_text": "སེམས་ལ་སྒྲིབ་པ་མེད་པས་",
+    "targets": {
+     "22": {
+      "letters": 16,
+      "of": 67,
+      "span": [
+       0,
+       21
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "心無障礙"
+  },
+  "76": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 76
+   },
+   "targets": [
+    "22"
+   ],
+   "alignment": {
+    "pair_row": 76,
+    "target_side_text": "སྐྲག་པ་མེད་དེ།",
+    "targets": {
+     "22": {
+      "letters": 10,
+      "of": 67,
+      "span": [
+       22,
+       35
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "無有恐怖"
+  },
+  "77": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 77
+   },
+   "targets": [
+    "22"
+   ],
+   "alignment": {
+    "pair_row": 77,
+    "target_side_text": "ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ།",
+    "targets": {
+     "22": {
+      "letters": 41,
+      "of": 67,
+      "span": [
+       37,
+       93
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "超過顛倒 究竟涅槃"
+  },
+  "78": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 78
+   },
+   "targets": [
+    "23"
+   ],
+   "alignment": {
+    "pair_row": 78,
+    "target_side_text": "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་།",
+    "targets": {
+     "23": {
+      "letters": 37,
+      "of": 115,
+      "span": [
+       1,
+       49
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "三世諸佛"
+  },
+  "79": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 79
+   },
+   "targets": [
+    "23"
+   ],
+   "alignment": {
+    "pair_row": 79,
+    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས།",
+    "targets": {
+     "23": {
+      "letters": 27,
+      "of": 115,
+      "span": [
+       50,
+       87
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "依般若波羅蜜多故"
+  },
+  "80": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 80
+   },
+   "targets": [
+    "23"
+   ],
+   "alignment": {
+    "pair_row": 80,
+    "target_side_text": "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ།",
+    "targets": {
+     "23": {
+      "letters": 51,
+      "of": 115,
+      "span": [
+       88,
+       157
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "證得無上正等菩提"
+  },
+  "81": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 81
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 81,
+    "target_side_text": "དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས།",
+    "targets": {
+     "24": {
+      "letters": 32,
+      "of": 165,
+      "span": [
+       1,
+       45
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是故當知般若波羅蜜多大密咒者"
+  },
+  "82": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 82
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 82,
+    "target_side_text": "རིག་པ་ཆེན་པོའི་སྔགས།",
+    "targets": {
+     "24": {
+      "letters": 15,
+      "of": 165,
+      "span": [
+       47,
+       66
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是大明咒"
+  },
+  "83": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 83
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 83,
+    "target_side_text": "བླ་ན་མེད་པའི་སྔགས།",
+    "targets": {
+     "24": {
+      "letters": 13,
+      "of": 165,
+      "span": [
+       68,
+       85
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是無上咒"
+  },
+  "84": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 84
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 84,
+    "target_side_text": "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
+    "targets": {
+     "24": {
+      "letters": 18,
+      "of": 165,
+      "span": [
+       87,
+       111
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "是無等等咒"
+  },
+  "85": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 85
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 85,
+    "target_side_text": "སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས།",
+    "targets": {
+     "24": {
+      "letters": 32,
+      "of": 165,
+      "span": [
+       113,
+       155
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "能除一切諸苦之咒"
+  },
+  "86": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 86
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 86,
+    "target_side_text": "མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ།",
+    "targets": {
+     "24": {
+      "letters": 25,
+      "of": 165,
+      "span": [
+       157,
+       191
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "真實不虛"
+  },
+  "87": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 87
+   },
+   "targets": [
+    "24"
+   ],
+   "alignment": {
+    "pair_row": 87,
+    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
+    "targets": {
+     "24": {
+      "letters": 30,
+      "of": 165,
+      "span": [
+       193,
+       233
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "故說般若波羅蜜多咒"
+  },
+  "88": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 88
+   },
+   "targets": [
+    "25"
+   ],
+   "alignment": {
+    "pair_row": 88,
+    "target_side_text": "ཏདྱ་ཐཱ། ཨོཾ་ག་ཏེ་ག་ཏེ་པཱ་ར་ག་ཏེ་པཱ་ར་སཾ་ག་ཏེ་བོ་དྷི་སྭཱ་ཧཱ།",
+    "targets": {
+     "25": {
+      "letters": 34,
+      "of": 34,
+      "span": [
+       0,
+       55
+      ],
+      "whole": true
+     }
+    },
+    "variants": [
+     {
+      "copy": "ཨོཾ",
+      "target": "",
+      "target_block": "25"
+     },
+     {
+      "copy": "ཱ",
+      "target": "",
+      "target_block": "25"
+     }
+    ]
+   },
+   "text": "唵 揭諦揭諦 波羅揭諦 波羅僧揭諦 菩提薩婆訶"
+  },
+  "89": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 89
+   },
+   "targets": [
+    "26"
+   ],
+   "alignment": {
+    "pair_row": 89,
+    "target_side_text": "ཤཱ་རིའི་བུ་",
+    "targets": {
+     "26": {
+      "letters": 8,
+      "of": 72,
+      "span": [
+       0,
+       10
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "舍利子"
+  },
+  "90": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 90
+   },
+   "targets": [
+    "26"
+   ],
+   "alignment": {
+    "pair_row": 90,
+    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་",
+    "targets": {
+     "26": {
+      "letters": 25,
+      "of": 72,
+      "span": [
+       11,
+       43
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "ས",
+      "target": "",
+      "target_block": "26"
+     }
+    ]
+   },
+   "text": "菩薩摩訶薩"
+  },
+  "91": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 91
+   },
+   "targets": [
+    "26"
+   ],
+   "alignment": {
+    "pair_row": 91,
+    "target_side_text": "དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ།",
+    "targets": {
+     "26": {
+      "letters": 39,
+      "of": 72,
+      "span": [
+       44,
+       98
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "應如是修學甚深般若波羅蜜多"
+  },
+  "92": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 92
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 92,
+    "target_side_text": "དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ་",
+    "targets": {
+     "27": {
+      "letters": 34,
+      "of": 128,
+      "span": [
+       1,
+       46
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "爾時世尊從彼定起"
+  },
+  "93": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 93
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 93,
+    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
+    "targets": {
+     "27": {
+      "letters": 44,
+      "of": 128,
+      "span": [
+       48,
+       108
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "ས",
+      "target_block": "27"
+     },
+     {
+      "copy": "སགཟིག",
+      "target": "",
+      "target_block": "27"
+     }
+    ]
+   },
+   "text": "告聖者觀自在菩薩摩訶薩曰"
+  },
+  "94": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 94
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 94,
+    "target_side_text": "ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས།",
+    "targets": {
+     "27": {
+      "letters": 18,
+      "of": 128,
+      "span": [
+       109,
+       133
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善哉"
+  },
+  "95": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 95
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 95,
+    "target_side_text": "ལེགས་སོ།",
+    "targets": {
+     "27": {
+      "letters": 6,
+      "of": 128,
+      "span": [
+       135,
+       142
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善哉"
+  },
+  "96": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 96
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 96,
+    "target_side_text": "ལེགས་སོ།",
+    "targets": {
+     "27": {
+      "letters": 6,
+      "of": 128,
+      "span": [
+       143,
+       150
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善哉"
+  },
+  "97": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 97
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 97,
+    "target_side_text": "རིགས་ཀྱི་བུ།",
+    "targets": {
+     "27": {
+      "letters": 9,
+      "of": 128,
+      "span": [
+       152,
+       163
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善男子"
+  },
+  "98": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 98
+   },
+   "targets": [
+    "27"
+   ],
+   "alignment": {
+    "pair_row": 98,
+    "target_side_text": "དེ་དེ་བཞིན་ནོ།",
+    "targets": {
+     "27": {
+      "letters": 10,
+      "of": 128,
+      "span": [
+       164,
+       177
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "如是"
+  },
+  "99": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 99
+   },
+   "targets": [
+    "28"
+   ],
+   "alignment": {
+    "pair_row": 99,
+    "target_side_text": "རིགས་ཀྱི་བུ།",
+    "targets": {
+     "28": {
+      "letters": 9,
+      "of": 78,
+      "span": [
+       0,
+       11
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "善男子"
+  },
+  "100": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 100
+   },
+   "targets": [
+    "28"
+   ],
+   "alignment": {
+    "pair_row": 100,
+    "target_side_text": "དེ་དེ་བཞིན་ཏེ།",
+    "targets": {
+     "28": {
+      "letters": 10,
+      "of": 78,
+      "span": [
+       12,
+       25
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "如是"
+  },
+  "101": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 101
+   },
+   "targets": [
+    "28"
+   ],
+   "alignment": {
+    "pair_row": 101,
+    "target_side_text": "ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།",
+    "targets": {
+     "28": {
+      "letters": 59,
+      "of": 78,
+      "span": [
+       27,
+       108
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "如汝所說 彼當如是修學般若波羅蜜多"
+  },
+  "102": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 102
+   },
+   "targets": [
+    "29"
+   ],
+   "alignment": {
+    "pair_row": 102,
+    "target_side_text": "དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་།",
+    "targets": {
+     "29": {
+      "letters": 31,
+      "of": 31,
+      "span": [
+       0,
+       41
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "一切如來亦當隨喜"
+  },
+  "103": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 103
+   },
+   "targets": [
+    "30"
+   ],
+   "alignment": {
+    "pair_row": 103,
+    "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+    "targets": {
+     "30": {
+      "letters": 30,
+      "of": 30,
+      "span": [
+       1,
+       40
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "薄伽梵說是語已"
+  },
+  "104": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 104
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 104,
+    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་རྭ་ཏིའི་བུ་དང་།",
+    "targets": {
+     "31": {
+      "letters": 21,
+      "of": 165,
+      "span": [
+       0,
+       30
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "ར",
+      "target": "ད",
+      "target_block": "31"
+     }
+    ]
+   },
+   "text": "具壽舍利子"
+  },
+  "105": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 105
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 105,
+    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་།",
+    "targets": {
+     "31": {
+      "letters": 45,
+      "of": 165,
+      "span": [
+       33,
+       91
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "འཕགསཔ",
+      "target": "",
+      "target_block": "31"
+     }
+    ]
+   },
+   "text": "聖者觀自在菩薩摩訶薩"
+  },
+  "106": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 106
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 106,
+    "target_side_text": "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
+    "targets": {
+     "31": {
+      "letters": 23,
+      "of": 165,
+      "span": [
+       94,
+       125
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "一切世間"
+  },
+  "107": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 107
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 107,
+    "target_side_text": "ལྷ་དང་།",
+    "targets": {
+     "31": {
+      "letters": 4,
+      "of": 165,
+      "span": [
+       129,
+       134
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "神"
+  },
+  "108": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 108
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 108,
+    "target_side_text": "མི་དང་།",
+    "targets": {
+     "31": {
+      "letters": 4,
+      "of": 165,
+      "span": [
+       137,
+       142
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "人及"
+  },
+  "109": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 109
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 109,
+    "target_side_text": "ལྷ་མ་ཡིན་དང་།",
+    "targets": {
+     "31": {
+      "letters": 8,
+      "of": 165,
+      "span": [
+       145,
+       156
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "阿修羅及"
+  },
+  "110": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 110
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 110,
+    "target_side_text": "དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ།",
+    "targets": {
+     "31": {
+      "letters": 26,
+      "of": 165,
+      "span": [
+       159,
+       193
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "乾闥婆等 聞佛所說 皆大歡喜"
+  },
+  "111": {
+   "source": {
+    "file": "sherab-root-zh(bo-zh).md",
+    "row": 111
+   },
+   "targets": [
+    "31"
+   ],
+   "alignment": {
+    "pair_row": 111,
+    "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
+    "targets": {
+     "31": {
+      "letters": 34,
+      "of": 165,
+      "span": [
+       195,
+       239
+      ],
+      "whole": false
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "འཕགསཔཤེསརབཀྱིཕརོལཏུཕྱིནཔའིསྙིངཔོརྫོགསསོ",
+      "target_block": "32"
+     }
+    ]
+   },
+   "text": "薄伽梵傳授 讚頌"
+  }
+ },
+ "legend": null,
+ "notes": "Aligned row for row (111 rows) by the Dzongsar team with a Tibetan text of another edition (sherab-root-bo(bo-zh).md: spelling variants, ཨོཾ in the mantra, short title, no colophon). That Tibetan is located in the display Tibetan by its letters; the Chinese keeps its own 111 segments.",
+ "target_side_rows_without_counterpart": [],
+ "concordance": {
+  "copy_letters": 2424,
+  "target_letters": 2463,
+  "matched": 2383,
+  "replaced": 3,
+  "copy_only": 38,
+  "target_only": 77,
+  "ratio": 0.9752
+ },
+ "toc": {
+  "kind": "none"
+ }
+}
