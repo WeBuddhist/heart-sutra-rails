@@ -11,10 +11,14 @@
             "id": "1078ec9f223d5d51",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3-TRANSFORMATIONS/Translations/About Translations.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "About Translations"
             }
           }
         ]
@@ -76,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 367.81640625
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -193,8 +197,15 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "1078ec9f223d5d51",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "2-RAILS/Sections/Raw/toc-tree/lama-kunga-shebum.md",
+    "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-lama-kunga-shebum.md",
+    "2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-lama-kunga-shebum.md",
+    "2-RAILS/Sections/Raw/toc-enumerations/lama-kunga-shebum.md",
+    "2-RAILS/Sections/Raw/toc-candidates/lama-kunga-shebum.md",
+    "0-INBOX/temp/TOC-lama-kunga-shebum/qc-source-round1.md",
+    "0-INBOX/raw-data/sherab-comm-1(root-com).md",
     "0-INBOX/dzongsar-drive-inventory.md",
     "0-INBOX/raw-data/intake-manifest.yaml",
     "README.md",
@@ -223,12 +234,6 @@
     "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/property-creator/SKILL.md",
-    "4-SYSTEM/Skills/json-to-source-text/SKILL.md",
-    "4-SYSTEM/Skills/local-wiki-article/SKILL.md",
-    "4-SYSTEM/Skills/json-to-commentary/SKILL.md",
-    "4-SYSTEM/Skills/glossary-select/SKILL.md",
-    "4-SYSTEM/Skills/interlinear-gloss/SKILL.md",
-    "4-SYSTEM/Skills/glossary-combine/SKILL.md",
-    "4-SYSTEM/Skills/glossary-extract-raw/SKILL.md"
+    "4-SYSTEM/Skills/json-to-source-text/SKILL.md"
   ]
 }
