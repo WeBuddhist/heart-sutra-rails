@@ -7,7 +7,7 @@
   "numbered": 0,
   "matching": 0,
   "blocks": 29,
-  "headings": 25,
+  "headings": 3,
   "transclusions": 0,
   "letters": 2062,
   "missing": 0,
@@ -18,16 +18,16 @@
  {
   "key": "bo-display",
   "md": {
-   "rows": 31,
-   "aligned_ok": "31/31",
+   "rows": 32,
+   "aligned_ok": "32/32",
    "content_ok": "28/28"
   },
   "numbered": 0,
   "matching": 0,
-  "blocks": 31,
-  "headings": 26,
+  "blocks": 32,
+  "headings": 4,
   "transclusions": 28,
-  "letters": 2463,
+  "letters": 2642,
   "missing": 0,
   "extra": 0,
   "problems": [],
@@ -37,49 +37,33 @@
   "key": "zh-translation",
   "md": {
    "rows": 111,
-   "aligned_ok": "111/111",
-   "content_ok": "111/111",
-   "edition_variant_rows": 4,
+   "aligned_ok": "30/30",
+   "content_ok": "30/30",
+   "edition_variant_rows": 2,
    "_variants": [
     {
-     "block": "1-2",
-     "row": 3,
-     "letters_found": 0.79,
+     "block": "1-1",
+     "row": 2,
+     "letters_found": 0.85,
      "targets": [
       "1-1"
      ]
     },
     {
-     "block": "1-64",
-     "row": 65,
-     "letters_found": 0.84,
-     "targets": [
-      "1-18"
-     ]
-    },
-    {
-     "block": "1-87",
+     "block": "2-14",
      "row": 88,
      "letters_found": 0.89,
      "targets": [
-      "1-23"
-     ]
-    },
-    {
-     "block": "1-92",
-     "row": 93,
-     "letters_found": 0.9,
-     "targets": [
-      "1-25"
+      "2-14"
      ]
     }
    ]
   },
   "numbered": 0,
   "matching": 0,
-  "blocks": 111,
-  "headings": 25,
-  "transclusions": 111,
+  "blocks": 30,
+  "headings": 3,
+  "transclusions": 30,
   "letters": 618,
   "missing": 0,
   "extra": 0,
@@ -144,13 +128,13 @@
   "key": "bo-vimalamitra-tika",
   "md": {
    "rows": 62,
-   "aligned_ok": "62/62",
+   "aligned_ok": "65/65",
    "content_ok": "55/55"
   },
   "numbered": 0,
   "matching": 0,
-  "blocks": 62,
-  "headings": 10,
+  "blocks": 65,
+  "headings": 9,
   "transclusions": 56,
   "letters": 31434,
   "missing": 0,

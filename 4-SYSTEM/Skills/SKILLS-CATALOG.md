@@ -106,6 +106,12 @@ Finds the inline structural-announcement phrases in a formatted text, wraps the 
 Builds one commentary's routing index from its own outline nodes onto the canonical spine slots of the root text. Once per commentary, then reused by every claims run.
 → [`spine-map/SKILL.md`](spine-map/SKILL.md)
 
+### `wiki-toc-import` **[exists]**
+**Purpose:** Take a text's table of contents from its proofread Wikisource Index page (or, on request, its Wikipedia article) and apply it to the root, its translations (headings in each file's own language) and any commentary with its own Index page, replacing a missing or over-granular TOC.
+**Inputs:** Wikisource Index page (or Wikipedia) links for the text and its commentaries, and an `aligned-corpus-intake` manifest of row-aligned works.
+**Outputs:** `2-RAILS/Sections/Raw/toc-wikisource/<id>.md` (revision-pinned outline placed on rows, labels per language), the manifest's `toc: {kind: outline}` plus any human-decided `row_splits` / `supplement_rows`, and the rebuilt `1-SOURCES/` files with ids and transclusions regenerated.
+→ [`wiki-toc-import/SKILL.md`](wiki-toc-import/SKILL.md)
+
 ---
 
 ## 4. Segmentation, block IDs, transclusion

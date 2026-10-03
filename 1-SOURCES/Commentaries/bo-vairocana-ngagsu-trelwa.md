@@ -34,7 +34,7 @@ intake:
   adapter: md_rows
   date: '2026-10-03'
   annotations: 1-SOURCES/Annotations/bo-vairocana-ngagsu-trelwa.annotations.json
-covers_verses: 1-5–1-29
+covers_verses: 1-5–2-20
 ---
 
 # ཤེས་རབ་སྙིང་པོའི་འགྲེལ་པ་སྔགས་སུ་བཀྲལ་པ། ^0
@@ -60,229 +60,229 @@ covers_verses: 1-5–1-29
 
 ལྟ་བའི་དོན་རང་ནི་ཕུང་པོ་དེ་ཉིད་དེ་དེ་ལྔ་ནི་གྲངས་ཀྱི་ངེས་པ་ཡིན་ལ། ཕུང་པོ་ལྔ་ལ་ཐུན་མོང་གི་ལྔ་ནི་གཟུགས་ལ་སོགས་པ་ལྔ། ཁྱད་པར་གྱི་ལྔ་ནི་རིགས་ལྔའི་སངས་རྒྱས་ཏེ། ཕུང་པོ་ལྔའི་ཡོན་ཏན་ལ་བླ་ན་མེད་པའི་ཡེ་ཤེས་ལྔ་ལ། དེ་ནི་ཕུང་པོ་ལྔའི་ངོ་བོ་དེ་རྣམས་ལ་དག་པ་སྟེ། བློ་ཡིས་བསམས་ནས་དག་པར་བསྟན་པ་ནི་ལམ་སྟེ། མོས་པའི་གང་ཟག་གོ །།རང་བཞིན་གྱིས་དག་པར་ལྟ་བ་ནི་དོན་ཐུགས་སུ་ཆུད་པའོ། །དེ་ཡང་དག་པའི་དོན་དེ་ཉིད་སྟོང་པ་སྟེ། སྟོང་པ་ལྟོས་པའི་སྟོང་པ་གཅིག་ལ་གཅིག་མེད་པ་ལྟ་བུ་མིན། །མེད་པའི་སྟོང་པ་རིག་པའི་ངོ་བོ་ལ་སོགས་པ་དང་། གཞིག་བཅོམ་བྱས་པའི་སྟོང་པ་རྡུལ་ཕྲ་རབ་ཏུ་གྲུབ་པ་དང་། རང་བཞིན་གྱིས་སྟོང་པ་དངོས་པོ་མ་དམིགས་པ་སྟེ་སྙིང་པོའི་དོན་ནོ། །དེ་ལྟ་བུ་ལ་དམིགས་པ་མེད་པའི་ཤེས་རབ་ནི་ལྟ་བའི་དོན་ནོ། ། ^0-6
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-10]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-1]]
 
 དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས། ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་ཞེས་པ་ནི་སྤྱན་རས་གཟིགས་ལ་ཤཱ་རིའི་བུས་དྲིས་པ་སྟེ། དེ་ཡང་སངས་རྒྱས་ཤཱཀྱ་ཐུབ་པའི་མཐུས་སྤྱན་རས་གཟིགས་གྲོལ་ལ། དེའི་མཐུས་ཤཱ་རིའི་བུས་དྲི་བའི་སྟོབས་དང་ལྡན་པར་ནུས་པ་སྟེ། དེའི་ཕྱིར་ན་སངས་རྒྱས་ཀྱི་མཐུས་སོ། །སྐྱེ་འཆི་ལས་གྲོལ་བས་འཆི་མེད་ཀྱི་ཚེ་དང་ལྡན་ཞིང་། རིགས་གཞན་མ་ཡོངས་སུ་སྤངས་པ་སྟེ། མ་ཤཱཀྱའི་རིགས་སོ། །དེ་ཉིད་ཀྱི་གཞན་དོན་ལ་དམིགས་ཏེ་ཞུས་པའི་དོན་གྱིས་སྨྲས། ^0-7
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-11]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-2]]
 
 ཐེག་པ་ཆེན་པོ་ལ་མོས་པའི་རིགས་ཀྱི་བུ་ལ་ལ་དག་ནི། དམིགས་པ་མེད་པའི་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་དོན་ལ་སྤྱན་རས་གཟིགས་སྤྱོད་པ་དེ་ལ་གཞན་སྤྱད་པར་འདོད་ན་བསླབ་པའི་ཐབས་ཇི་ལྟར་བསླབ་ཅེས་དྲིས་པའོ། ། ^0-8
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-11]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-2]]
 
 བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ་ཞེས་པ་ནི་ཞུས་པའི་ལན་བསྟན་པའོ། ། ^0-9
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-11]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-2]]
 
 ཤཱ་རིའི་བུ་རིགས་ཀྱི་བུའམ་རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ་ཞེས་པ་ནི་གསུང་བར་ཞལ་གྱིས་བཞེས་པ་སྟེ། ཐེག་པ་ཆེན་པོ་ལ་མོས་པའི་རིགས་ཕོའམ་མོ་གང་ལ་ལ་དམིགས་པ་མེད་པའི་ཤེས་རབ་ལ་ང་སྤྱོད་པའི་དོན་ལ་ཁྱེད་སྤྱོད་པར་འདོད་ན་འདི་ལྟར་སློབ་ཞེས་པའི་དོན་ཏོ། ། ^0-10
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-11]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-2]]
 
 ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་རྗེས་སུ་བལྟའོ་ཞེས་པ་ནི་ཐུན་མོང་གི་ཕུང་པོ་ལྔ་ལ་སོགས་པ་དེ་རྣམས་ནི་ཡེ་ནས་སྟོང་པ་ཡིན་པས། དེ་དག་ཁྱེད་ཀྱིས་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ངའི་རྗེས་སུ་ལྟོས་ཤིག །དེ་རྣམས་ལ་མོས་པའི་དོན་གྱིས་ཞེས་པའོ། ། ^0-11
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-12]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-3]]
 
 གཟུགས་སྟོང་པའོ་ཞེས་པ་ནི་གཟུགས་ཀྱི་ངོ་བོ་ཉིད་སྟོང་པའི་རང་བཞིན་ནོ། ། ^0-12
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-12]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-3]]
 
 སྟོང་པ་ཉིད་གཟུགས་སོ་ཞེས་པ་ནི་སྟོང་པ་ཉིད་ཀྱི་དོན་རིག་པ་མ་འགགས་པས་གཟུགས་ལྟར་སྣང་བའོ། ། ^0-13
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-13]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-4]]
 
 གཟུགས་སྟོང་པ་ཉིད་ལས་གཞན་མ་ཡིན་ནོ་ཞེས་པ་ནི་གཟུགས་སྟོང་པ་དེ་ལས་འཁོར་འདས་ཀྱི་ཆོས་གཞན་སྣང་བ་མ་ཡིན་ཞེས་པའོ། ། ^0-14
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-13]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-4]]
 
 སྟོང་པའི་ཡོན་ཏན་མ་འགགས་པ་དེ་ལས་གཞན་གཟུགས་སྣང་བ་གཞན་མ་ཡིན་ནོ། ། ^0-15
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-14]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-5]]
 
 གཟུགས་དེ་བཞིན་དུ་གནས་པ་དེ་བཞིན་དུ། དེ་ལས་གཞན་པའི་ཚོར་བ་དང་། འདུ་ཤེས་དང་། འདུ་བྱེད་དང་ རྣམ་པར་ཤེས་པ་རྣམས་ཀྱང་གཟུགས་བཞིན་དུ་གནས་པའི་དོན་ཏོ། ། ^0-16
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 ཤཱ་རིའི་བུ། དེ་ལྟར་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ་ཞེས་པ་ནི། ཤཱ་རིའི་བུ་འཁོར་བའི་དངོས་པོ་གཟུགས་ལ་སོགས་པ་དངོས་པོ་མེད་པར་སྟོང་པ་ཉིད་དུ་བལྟ་བས་ན། མྱ་ངན་ལས་འདས་པའི་ཆོས་ཐམས་ཅད་ཀྱང་རང་བཞིན་གྱི་སྟོང་པ་ཉིད་དོ། ། ^0-17
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 སྟོང་པ་ཉིད་དོན་སྟོང་པ་ཉིད་ཀྱི་དོན་རང་ནི་འདི་ལྟ་བུ་སྟེ། གཟུགས་སམ་སྟོང་པའི་མཚན་ཉིད་གང་ཡང་མེད་པ། ^0-18
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 རྒྱུ་རྐྱེན་གང་གིས་ཀྱང་མ་སྐྱེས་པ། ^0-19
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 རང་གི་ངོ་བོའི་ཡོན་ཏན་གང་དུ་ཡང་མ་འགགས་པ། ^0-20
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 དངོས་པོའི་དྲི་མ་གང་ཡང་མེད་པ། ^0-21
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 དེ་ཡང་ཡེ་ཐོག་མ་ནས་གཟུང་འཛིན་གྱི་ཕྱོགས་གང་དུ་ཡང་མ་ལྷུང་བས་དྲི་མ་དང་བྲལ་བ། ^0-22
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 སྙིང་པོའི་དོན་དེ་རྐྱེན་གྱིས་བྲི་བ་མེད་པ། ^0-23
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-15]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-6]]
 
 རྒྱུ་གཞན་ལྟ་གཅིག་གིས་བསྐྱེད་ནས། ཡོན་ཏན་གྱིས་གང་བའི་རྒྱུ་ཡང་མེད་དོ། ། ^0-24
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-16]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-7]]
 
 ཤཱ་རིའི་བུ། དེ་ལྟ་བས་ན་ཞེས་པ་ནི་དམིགས་པར་བྱ་བའི་སྟོང་པ་དེ་ཉིད་ལས། ཉམས་སུ་བླང་བའི་རྒྱུ་དངོས་པོ་གྲུབ་པ་མེད་དེ། གཟུགས་སྟོང་པ་ཉིད་ཡིན་པའི་ཕྱིར་ན། ^0-25
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-16]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-7]]
 
 ཚོར་བ་ལ་སོགས་པ་ཡང་གཉིས་སུ་མེད་ལ། ^0-26
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-16]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-7]]
 
 མིག་ལ་སོགས་པའི་དབང་པོ་སྒོ་ལྔ་དང་། ^0-27
 
 དེ་ལས་ལས་ལྔ་ལ་སོགས་པ་དང༌། ^0-28
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-16]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-7]]
 
 ཆོས་ལྔ་ཡང་གང་ཡང་དམིགས་སུ་མེད་དོ། ། ^0-29
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-17]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-8]]
 
 དེ་རྣམས་ཀྱི་མིག་ལ་སོགས་པའི་ཁམས་ཀྱང་དབྱེར་མི་ཕྱེད་པའོ། ། ^0-30
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 དེ་ལྟར་ན་སྙིང་པོའི་དོན་དེ་ལ་མ་རིག་པ་ཡང་མེད་དེ། ^0-31
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 དེ་ཟད་པའི་རྒྱུ་ཡང་མེད་དོ། །སྟོང་པའི་དོན་དེ་ཉིད་ལ་རྒས་པ་དང་ཤི་བ་ཡང་མེད་དེ། ^0-32
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 དེ་ལྟར་སྐྱེ་རྒ་ན་འཆི་རྟེན་འབྲེལ་ལ་ཟད་པ་ཡང་མེད་དོ། ། ^0-33
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 དེ་ལྟར་དོན་དེ་ཉིད་ལ་སྡུག་བསྔལ་ཏེ་དུག་ལྔ་ལས་གྲུབ་པ་ཡང་མེད་ལ། དེ་ལས་བྱུང་བའི་ཀུན་ནས་ཉོན་མོངས་པ་མེད་དོ། །དེའི་དོན་གྱིས་སྡུག་བསྔལ་བ་མེད་པས་འགོག་པ་ཡང་མེད་ལ། དེའི་དོན་གྱིས་འཁོར་བའི་དངོས་པོ་ཉམས་སུ་བླང་བ་མེད་ན། མྱ་ངན་ལས་འདས་པར་བྱེད་པའི་ལམ་ལ་ཡང་ཐོབ་པའི་རྒྱུ་མེད་དེ། ལམ་དང་ས་རྣམས་ཀྱང་སྦྱང་ཞིང་བགྲོད་དུ་མེད་དོ། ། ^0-34
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 ཐུན་མོང་གི་ཡེ་ཤེས་ལྔ་ལ་སོགས་པ་ཡང་མེད་དེ་ ^0-35
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 སྙིང་པོའི་དོན་དེ་ལས་གཞན་ནས་ཐོབ་པ་ཡང་མེད་ལ། ^0-36
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-18]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-9]]
 
 རང་གི་དངོས་པོའི་དོན་ཡེ་ནས་རང་ཆས་སུ་ཡོད་པས་མ་ཐོབ་པའི་རྒྱུ་ཡང་མེད་དོ། ། ^0-37
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-19]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-10]]
 
 ཤཱ་རིའི་བུ། དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ལ་ཐོབ་པ་མེད་པའི་ཕྱིར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ། ཞེས་པ་ནི་ཤཱ་རིའི་བུ་ལམ་ལ་གཞན་ནས་ཐོབ་པའི་རྒྱུ་མེད་པ་དེ་ལྟ་བས་ན། འབྲས་བུ་གཞན་ནས་ཐོབ་པ་པ་མེད་པའི་ཕྱིར་ན། ^0-38
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-19]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-10]]
 
 དམིགས་པ་མེད་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་སྙིང་པོའི་ཆོས་ཀུན་ཞེས་བྱ་སྟེ། འབྲས་བུ་དེ་ཁ་ལ་བརྟེན་ཅིང་ ^0-39
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-19]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-10]]
 
 གནས་པ་ཞེས་བྱའོ། ། ^0-40
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-20]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-11]]
 
 སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ་ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས། མྱ་ངན་ལས་འདས་པའི་མཐར་ཕྱིན་ཏོ། །ཞེས་པ་ནི་འབྲས་བུའི་དོན་རང་ཆས་སུ་གནས་པས། དེ་ལས་གཞན་མེད་པས་སེམས་ལ་སྒྲིབ་པའི་ཆོས་མེད་ལ། གཞན་ནས་མ་ཐོབ་ཀྱིས་དོགས་པའི་སྐྲག་པ་ཡང་མེད་དོ། ། ^0-41
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-20]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-11]]
 
 ལོག་པའི་ཤེས་པ་རྣམས་ལས་ཤིན་ཏུ་འདས་ཏེ། ^0-42
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-20]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-11]]
 
 འཁོར་བའི་དམིགས་པའི་ཤེས་པ་མེད་པར་མྱ་ངན་ལས་འདས་ནས། སངས་རྒྱས་ཀྱི་ས་ལ་མཐར་ཕྱིན་ཏོ། ། ^0-43
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-21]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-12]]
 
 དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ། །ཞེས་པ་ནི་དེ་ལྟར་ན་འབྲས་བུའི་རྒྱུ་གཅིག་ལ་བཞག་ནས་ཐོབ་པའི་རྒྱུ་མེད་པ་མ་ཡིན་ཏེ། འདས་པ་དང་། མ་བྱོན་པ་དང་། ད་ལྟར་གྱི་སངས་རྒྱས་རྣམས་ཀྱང་དམིགས་པ་མེད་པའི་དོན་ལ་བརྟེན་ནས། ^0-44
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-21]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-12]]
 
 སངས་རྒྱས་ཐམས་ཅད་ཀྱི་བླ་ན་མེད་པའི་ལས་ལོག་པའི་དོན་མེད་དེ། ཡང་དག་པར་སྟོན་པ་ལ་སོགས་པ་རྫོགས་པ། ཤེས་བྱའི་སྒྲིབ་པ་རྣམས་བྱང་བ། སྙིང་པོ་དོན་ལ་བྱ་བར་གཞན་གྱི་དོན། རང་ལ་རང་ཆས་སུ་མངོན་པར་ཡོན་ཏན་ཐམས་ཅད་རྫོགས་པར་སངས་རྒྱས་སོ། ། ^0-45
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས། ཞེས་པ་ནི་དེ་ལྟ་བུར་དམིགས་པའི་ཡུལ་དང་། ཉམས་སུ་བླང་བའི་ཐབས་དང་། མཐར་ཕྱིན་པའི་འབྲས་བུ་རྣམས་གཞན་ནས་འབྱུང་བའམ། ཐོབ་པའི་རྒྱུ་མེད་པས་ན་དེའི་དོན་ནི་ཤེས་པའི་རབ་འཁོར་བའི་ཕ་རོལ་ཕྱིན་པ་སྟེ། དེའི་དོན་སྔགས་ཞེས་བྱ་བ་ནི། ཡོན་ཏན་ལྔ་དང་ལྡན་པའོ། །གཞན་གྱི་དོན་ལ་རག་མ་ལུས་རང་ཉིད་ལ་གནས་པས་སྔགས་ཞེས་བྱའོ། ། ^0-46
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 དེའི་ཡོན་ཏན་ཡང་རང་ཉིད་ཀྱིས་རང་རིག་པས་རིག་པ་ཆེན་པོའི་སྔགས་ལ། ^0-47
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 གཞན་ལ་ཟློས་སུ་མེད་པས་བླ་ན་མེད་པ། ^0-48
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 དངོས་པོར་གྲུབ་པ་མེད་པས་མཚན་མ་དང་མི་མཉམ་པ། མཚན་མ་ཉིད་དེའི་ཡོན་ཏན་ཡིན་པས་ན་དབྱེར་མི་ཕྱེད་པས་སྙིང་པོའི་དོན་དུ་མཉམ་པའོ། ། ^0-49
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 སྙིང་པོའི་དོན་དེ་རྟོགས་ནས་ལོག་པའི་སྡུག་བསྔལ་རྣམས་རབ་ཏུ་མཆོག་ཏུ་ཞི་བར་བྱེད་དོ། ། ^0-50
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 དམིགས་པ་མེད་པའི་ངང་ལ་གནས་པའི་སྔགས་དེའི་དོན་མི་བརྫུན་ཏེ་སྙིང་པོའི་དོན་དུ་བདེན་པར་ཤེས་ཏེ། ^0-51
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-22]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-13]]
 
 དེའི་ཕྱིར་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཐམས་ཅད་ཀྱི་སྔགས་སྤྱན་རས་གཟིགས་ཀྱིས་སྨྲས་པ། ^0-52
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-23]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-14]]
 
 ཏདྱ་ཐཱ། ཞེས་པ་ནི་འཁོར་འདས་ཀྱི་དོན་སྙིང་པོར་གཅིག་པ་འདི་ལྟ་སྟེ། ཞེས་པའི་དོན་ནོ། །དེ་ཡང་དམིགས་པ་མེད་པར་གཅིག་པ། འབྱེད་པ་མེད་པར་གཅིག་པ། རང་བཞིན་མི་འགྱུར་བའི་དོན་འདི་ལྟ་སྟེ། ཨོཾ་ནི་འཁོར་བའི་དུས་སུ་དུག་ལྔ་ལྟར་དུ་སྣང་བ་འབྲས་བུའི་དུས་སུ་རིགས་ལྔ་ཡབ་ཡེ་ཤེས་ལྔ་ལྟར་སྣང་བ་དེ་ནི་ལོག་པའི་ཤེས་པ་ལ་སྣང་གི དེ་ཉིད་ལ་དམིགས་པ་མེད་པའོ། །ཤེས་རབ་གཞན་མི་གནས་པར་རྟོགས་པས་འབྲས་བུའི་ཕ་རོལ་ཏུ་ག་ཏེ་བདག་དོན་དུ་ཕྱིན་ལ། གཞན་དོན་དུ་ཡང་ག་ཏེ་ཕྱིན་པའི་དོན་ཏོ། པ་ར་ག་ཏེ་ནི་བདག་དོན་གྱིས་མཆོག་ཏུ་ཕྱིན་ཏེ། གཞན་ལ་རེ་བ་ཡུལ་མེད་དོ་ཞེས་པའོ། །པ་ར་སཾ་ག་ཏེ་ནི་གཞན་དོན་གྱི་མཆོག་གམ་ཕུལ་དུ་ཕྱིན་ཏེ། གདུལ་བྱ་དམིགས་པའི་ཐུགས་རྗེ་འབྱུང་བ་སྤངས། གདུལ་བྱས་ལས་དག་པ་ལ་སྣང་བ་སྤྲུལ་སྐུ། རང་བཞིན་དག་པ་ལ་སྣང་བ་ལོངས་སྐུ། བོ་དྷི་རྒྱུན་མི་ཆད་པ་ཐུགས་རྗེ། གདུལ་བྱ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་དོན་ཏུ་འབྱུང་ངོ༌། །སྭཱ་ཧཱ་ཞེས་པ་ནི་རྒྱུད་རྣམས་རང་བཞིན་གྱིས་གྲོལ་ལོ་ཞེས་བྱ་བའི་དོན་ཏེ། དེ་ཡང་ཉིད་ཀྱིས་ཉིད་གྲོལ་བའི་དོན་ཏོ། །གཞན་ལ་སྙིང་པོའི་དོན་ནམ་རག་ལུས་པ་མེད་པའོ། ། ^0-53
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-24]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-15]]
 
 ཤཱ་རིའི་བུ་དེ་ལྟར་ཟབ་པའི་དོནལ་བསླབ་པར་བྱའོ་ཞེས་བསྟན་པའོ། ། ^0-54
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-25]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-16]]
 
 དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས་ཞེས་པ་ནི། དུས་གཞན་གྱིས་བར་མ་ཆོད་པར་སྤྱན་རས་གཟིགས་ཀྱིས་ཤཱ་རིའི་བུ་དེས་བསྟན་པའི་རྗེས། དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་འཁོར་སྨིན་པར་བྱེད་པ་ཏིང་ངེ་འཛིན་ལས་བཞེངས་ནས་ ^0-55
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-25]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-16]]
 
 འཕགས་པ་སྤྱན་རས་གཟིགས་ལ་དམ་པའི་ཆོས་མ་ནོར་བར་ངས་བསྟན་པ་ལྟར་ཁྱོད་སྟོན་པ་ལེགས་པར་བྱིན་བྱོན་ནོ། ། ^0-56
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-25]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-16]]
 
 དེ་ལྟར་སྟོན་པ་ལེགས་སོ། ། ^0-57
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-25]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-16]]
 
 རིགས་ཀྱི་བུ་རང་དོན་དེ་དེ་བཞིན་ནོ། ། ^0-58
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-26]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-17]]
 
 གཞན་གྱི་དོན་དང་རང་ཆོས་སུ་ངས་གཞི་ལམ་འབྲས་བུར་ཆས་པར་སྟོན་པ་དེ་དེ་བཞིན་ཏེ། ^0-59
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-26]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-17]]
 
 འཕགས་པ་སྤྱན་རས་གཟིགས་ཁྱོད་ཀྱི་ཤཱ་རིའི་བུ་ལ་བསྟན་པ་དེ་བཞིན་དུ་གདུལ་བྱ་རྣམས་ཀྱི་ཡེ་ཤེས་རང་ལ་རང་ཆས་སུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཡོད་པས་བསླབ་པར་བྱའོ་ཞེས་བཅོམ་པལྡན་འདས་ཀྱིས་གསུངས་པའི་བཀའ་དངོས་སོ། ། ^0-60
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-27]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-18]]
 
 དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་ཞེས་པ་ནི་བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པའི་བཀའ་དངོས་དང༌། བྱིན་གྱིས་བརླབས་པའི་བཀའ་སྤྱན་རས་གཟིགས་གཉིས་མཐུན་པས་དེ་བཞིན་གཤེགས་པའི་རིགས་ཐམས་ཅད་ཀྱང་བཀའ་མཐུན་པའི་དོན་དེ་ལ་ཡི་རང་ངོ༌། ། ^0-61
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-28]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-19]]
 
 བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས་ཞེས་པ་ལ་སོགས་པ་ནི་བཀའ་མཐུན་པའི་དོན་ལ་དགྱེས་ཏེ་ ^0-62
 
-![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^1-29]]
+![[1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md#^2-20]]
 
 སྟོན་པ་ཆོས་དང་འཁོར་འཕགས་པ་སྤྱན་རས་གཟིགས་ལ་བསྟན་པའོ། །འཁོར་རྣམ་པ་བཞི་ལ་སོགས་པའི་འཁོར་དང་། ལྷའི་དབང་པོ་བརྒྱ་བྱིན་དམ་པའམ་མཆོག་ཏུ་གྱུར་པ་དང༌། ལྷ་མ་ཡིན་གྱི་རྒྱལ་པོ་ཐག་བཟང་རིས་དང་། དྲི་ཟའི་རྒྱལ་པོ་ཟུར་ཕུད་ལྔ་པ་ལ་སོགས་པ་རྣམས་ཀྱིས་བསྟོད་པའོ། ། ^0-63
 

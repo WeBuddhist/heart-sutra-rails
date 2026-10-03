@@ -308,13 +308,13 @@
     "row": 10
    },
    "targets": [
-    "1-10"
+    "2-1"
    ],
    "alignment": {
     "pair_row": 10,
     "target_side_text": "​དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས། ​ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །​",
     "targets": {
-     "1-10": {
+     "2-1": {
       "letters": 92,
       "of": 92,
       "span": [
@@ -333,13 +333,13 @@
     "row": 11
    },
    "targets": [
-    "1-11"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 11,
     "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ།",
     "targets": {
-     "1-11": {
+     "2-2": {
       "letters": 71,
       "of": 325,
       "span": [
@@ -358,13 +358,13 @@
     "row": 12
    },
    "targets": [
-    "1-11"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 12,
     "target_side_text": "དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །",
     "targets": {
-     "1-11": {
+     "2-2": {
       "letters": 100,
       "of": 325,
       "span": [
@@ -383,13 +383,13 @@
     "row": 13
    },
    "targets": [
-    "1-11"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 13,
     "target_side_text": "​ཤཱ་རིའི་བུ་རིགས་ཀྱི་བུའམ། རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ།",
     "targets": {
-     "1-11": {
+     "2-2": {
       "letters": 95,
       "of": 325,
       "span": [
@@ -403,7 +403,7 @@
      {
       "copy": "",
       "target": "ཕྱིནཔ",
-      "target_block": "1-11"
+      "target_block": "2-2"
      }
     ]
    },
@@ -415,13 +415,13 @@
     "row": 14
    },
    "targets": [
-    "1-11"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 14,
     "target_side_text": "​ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ། །",
     "targets": {
-     "1-11": {
+     "2-2": {
       "letters": 54,
       "of": 325,
       "span": [
@@ -440,14 +440,14 @@
     "row": 15
    },
    "targets": [
-    "1-12",
-    "1-13"
+    "2-3",
+    "2-4"
    ],
    "alignment": {
     "pair_row": 15,
     "target_side_text": "​གཟུགས་སྟོང་པའོ། །སྟོང་པ་ཉིད་གཟུགས་སོ། །​གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན། སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ། །",
     "targets": {
-     "1-12": {
+     "2-3": {
       "letters": 27,
       "of": 27,
       "span": [
@@ -456,7 +456,7 @@
       ],
       "whole": true
      },
-     "1-13": {
+     "2-4": {
       "letters": 49,
       "of": 49,
       "span": [
@@ -500,13 +500,13 @@
     "row": 18
    },
    "targets": [
-    "1-14"
+    "2-5"
    ],
    "alignment": {
     "pair_row": 18,
     "target_side_text": "​དེ་བཞིན་དུ་ཚོར་བ་དང་། ​འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ། །",
     "targets": {
-     "1-14": {
+     "2-5": {
       "letters": 51,
       "of": 51,
       "span": [
@@ -525,13 +525,13 @@
     "row": 19
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 19,
     "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 33,
       "of": 95,
       "span": [
@@ -550,13 +550,13 @@
     "row": 20
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 20,
     "target_side_text": "མཚན་ཉིད་མེད་པ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 10,
       "of": 95,
       "span": [
@@ -575,13 +575,13 @@
     "row": 21
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 21,
     "target_side_text": "མ་སྐྱེས་པ། མ་འགགས་པ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 13,
       "of": 95,
       "span": [
@@ -600,13 +600,13 @@
     "row": 22
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 22,
     "target_side_text": "དྲི་མ་མེད་པ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 8,
       "of": 95,
       "span": [
@@ -625,13 +625,13 @@
     "row": 24
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 24,
     "target_side_text": "​བྲི་བ་མེད་པ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 8,
       "of": 95,
       "span": [
@@ -650,13 +650,13 @@
     "row": 25
    },
    "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 25,
     "target_side_text": "གང་བ་མེད་པའོ། །",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 9,
       "of": 95,
       "span": [
@@ -719,13 +719,13 @@
     "row": 30
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 30,
     "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 32,
       "of": 146,
       "span": [
@@ -744,13 +744,13 @@
     "row": 31
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 31,
     "target_side_text": "ཚོར་བ་མེད། ​འདུ་ཤེས་མེད། འདུ་བྱེད་མེད། རྣམ་པར་ཤེས་པ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 38,
       "of": 146,
       "span": [
@@ -769,13 +769,13 @@
     "row": 32
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 32,
     "target_side_text": "མིག་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -794,13 +794,13 @@
     "row": 33
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 33,
     "target_side_text": "རྣ་བ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -819,13 +819,13 @@
     "row": 34
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 34,
     "target_side_text": "སྣ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 5,
       "of": 146,
       "span": [
@@ -844,13 +844,13 @@
     "row": 35
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 35,
     "target_side_text": "ལྕེ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -869,13 +869,13 @@
     "row": 36
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 36,
     "target_side_text": "ལུས་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -894,13 +894,13 @@
     "row": 37
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 37,
     "target_side_text": "ཡིད་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -919,13 +919,13 @@
     "row": 38
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 38,
     "target_side_text": "གཟུགས་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 8,
       "of": 146,
       "span": [
@@ -944,13 +944,13 @@
     "row": 39
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 39,
     "target_side_text": "སྒྲ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -969,13 +969,13 @@
     "row": 40
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 40,
     "target_side_text": "དྲི་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 6,
       "of": 146,
       "span": [
@@ -994,13 +994,13 @@
     "row": 41
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 41,
     "target_side_text": "རོ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 5,
       "of": 146,
       "span": [
@@ -1019,13 +1019,13 @@
     "row": 42
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 42,
     "target_side_text": "རེག་བྱ་མེད།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 8,
       "of": 146,
       "span": [
@@ -1044,13 +1044,13 @@
     "row": 43
    },
    "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 43,
     "target_side_text": "ཆོས་མེད་དོ། །",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 8,
       "of": 146,
       "span": [
@@ -1069,13 +1069,13 @@
     "row": 44
    },
    "targets": [
-    "1-17"
+    "2-8"
    ],
    "alignment": {
     "pair_row": 44,
     "target_side_text": "​མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
     "targets": {
-     "1-17": {
+     "2-8": {
       "letters": 26,
       "of": 60,
       "span": [
@@ -1094,13 +1094,13 @@
     "row": 45
    },
    "targets": [
-    "1-17"
+    "2-8"
    ],
    "alignment": {
     "pair_row": 45,
     "target_side_text": "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ། །",
     "targets": {
-     "1-17": {
+     "2-8": {
       "letters": 34,
       "of": 60,
       "span": [
@@ -1119,13 +1119,13 @@
     "row": 46
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 46,
     "target_side_text": "​མ་རིག་པ་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 8,
       "of": 110,
       "span": [
@@ -1144,13 +1144,13 @@
     "row": 47
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 47,
     "target_side_text": "​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 21,
       "of": 110,
       "span": [
@@ -1169,13 +1169,13 @@
     "row": 48
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 48,
     "target_side_text": "​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། །",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 20,
       "of": 110,
       "span": [
@@ -1194,13 +1194,13 @@
     "row": 49
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 49,
     "target_side_text": "སྡུག་བསྔལ་བ་དང་། ཀུན་འབྱུང་བ་དང་། འགོག་པ་དང་། ལམ་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 34,
       "of": 110,
       "span": [
@@ -1219,13 +1219,13 @@
     "row": 50
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 50,
     "target_side_text": "ཡེ་ཤེས་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 8,
       "of": 110,
       "span": [
@@ -1244,13 +1244,13 @@
     "row": 51
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 51,
     "target_side_text": "ཐོབ་པ་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 7,
       "of": 110,
       "span": [
@@ -1269,13 +1269,13 @@
     "row": 52
    },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 52,
     "target_side_text": "མ་ཐོབ་པ་ཡང་མེད་དོ། །",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 12,
       "of": 110,
       "span": [
@@ -1294,13 +1294,13 @@
     "row": 53
    },
    "targets": [
-    "1-19"
+    "2-10"
    ],
    "alignment": {
     "pair_row": 53,
     "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར།",
     "targets": {
-     "1-19": {
+     "2-10": {
       "letters": 46,
       "of": 79,
       "span": [
@@ -1319,13 +1319,13 @@
     "row": 54
    },
    "targets": [
-    "1-19"
+    "2-10"
    ],
    "alignment": {
     "pair_row": 54,
     "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ།",
     "targets": {
-     "1-19": {
+     "2-10": {
       "letters": 33,
       "of": 79,
       "span": [
@@ -1344,13 +1344,13 @@
     "row": 55
    },
    "targets": [
-    "1-20"
+    "2-11"
    ],
    "alignment": {
     "pair_row": 55,
     "target_side_text": "སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ།",
     "targets": {
-     "1-20": {
+     "2-11": {
       "letters": 26,
       "of": 67,
       "span": [
@@ -1369,13 +1369,13 @@
     "row": 56
    },
    "targets": [
-    "1-20"
+    "2-11"
    ],
    "alignment": {
     "pair_row": 56,
     "target_side_text": "ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་",
     "targets": {
-     "1-20": {
+     "2-11": {
       "letters": 21,
       "of": 67,
       "span": [
@@ -1394,13 +1394,13 @@
     "row": 57
    },
    "targets": [
-    "1-20"
+    "2-11"
    ],
    "alignment": {
     "pair_row": 57,
     "target_side_text": "མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ། །",
     "targets": {
-     "1-20": {
+     "2-11": {
       "letters": 20,
       "of": 67,
       "span": [
@@ -1430,13 +1430,13 @@
     "row": 59
    },
    "targets": [
-    "1-21"
+    "2-12"
    ],
    "alignment": {
     "pair_row": 59,
     "target_side_text": "​དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་",
     "targets": {
-     "1-21": {
+     "2-12": {
       "letters": 64,
       "of": 115,
       "span": [
@@ -1455,13 +1455,13 @@
     "row": 60
    },
    "targets": [
-    "1-21"
+    "2-12"
    ],
    "alignment": {
     "pair_row": 60,
     "target_side_text": "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ། །",
     "targets": {
-     "1-21": {
+     "2-12": {
       "letters": 51,
       "of": 115,
       "span": [
@@ -1480,13 +1480,13 @@
     "row": 61
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 61,
     "target_side_text": "​དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 32,
       "of": 165,
       "span": [
@@ -1505,13 +1505,13 @@
     "row": 62
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 62,
     "target_side_text": "རིག་པ་ཆེན་པོའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 15,
       "of": 165,
       "span": [
@@ -1530,13 +1530,13 @@
     "row": 63
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 63,
     "target_side_text": "བླ་ན་མེད་པའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 13,
       "of": 165,
       "span": [
@@ -1555,13 +1555,13 @@
     "row": 64
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 64,
     "target_side_text": "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 18,
       "of": 165,
       "span": [
@@ -1580,13 +1580,13 @@
     "row": 65
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 65,
     "target_side_text": "སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 32,
       "of": 165,
       "span": [
@@ -1605,13 +1605,13 @@
     "row": 66
    },
    "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 66,
     "target_side_text": "མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 25,
       "of": 165,
       "span": [
@@ -1663,13 +1663,13 @@
     "row": 73
    },
    "targets": [
-    "1-25"
+    "2-16"
    ],
    "alignment": {
     "pair_row": 73,
     "target_side_text": "​དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ།",
     "targets": {
-     "1-25": {
+     "2-16": {
       "letters": 34,
       "of": 128,
       "span": [
@@ -1688,13 +1688,13 @@
     "row": 74
    },
    "targets": [
-    "1-25"
+    "2-16"
    ],
    "alignment": {
     "pair_row": 74,
     "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་འཕགས་པ་སྤྱན་རས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས།",
     "targets": {
-     "1-25": {
+     "2-16": {
       "letters": 63,
       "of": 128,
       "span": [
@@ -1724,13 +1724,13 @@
     "row": 83
    },
    "targets": [
-    "1-29"
+    "2-20"
    ],
    "alignment": {
     "pair_row": 83,
     "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
     "targets": {
-     "1-29": {
+     "2-20": {
       "letters": 34,
       "of": 165,
       "span": [
@@ -1830,12 +1830,12 @@
  ],
  "concordance": {
   "copy_letters": 2415,
-  "target_letters": 2463,
+  "target_letters": 2642,
   "matched": 2415,
   "replaced": 0,
   "copy_only": 0,
-  "target_only": 48,
-  "ratio": 0.9902
+  "target_only": 227,
+  "ratio": 0.9551
  },
  "toc": {
   "kind": "tree",

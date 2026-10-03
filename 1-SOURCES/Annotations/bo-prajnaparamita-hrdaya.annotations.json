@@ -4,328 +4,42 @@
  "target_file": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
  "headings": [
   {
-   "line": "## གཞུང་མཆོག་འདི་ཉིད་ཀྱི་དོན་འཆད་པ། ^1-0",
+   "line": "## མདོའི་གླེང་གཞི། ^1-0",
    "path": "1",
    "level": 1,
-   "title": "གཞུང་མཆོག་འདི་ཉིད་ཀྱི་དོན་འཆད་པ།",
+   "title": "མདོའི་གླེང་གཞི།",
    "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
     "node": "1",
-    "via": "bo-display",
     "row": 2
    }
   },
   {
-   "line": "### དང་པོ་མཚན་གྱི་དོན། ^1-1-0",
-   "path": "1.1",
-   "level": 2,
-   "title": "དང་པོ་མཚན་གྱི་དོན།",
+   "line": "## མདོ་དོན་དངོས། ^2-0",
+   "path": "2",
+   "level": 1,
+   "title": "མདོ་དོན་དངོས།",
    "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.1",
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
     "via": "bo-display",
-    "row": 2
-   }
-  },
-  {
-   "line": "### གཉིས་པ་འགྱུར་ཕྱག། ^1-2-0",
-   "path": "1.2",
-   "level": 2,
-   "title": "གཉིས་པ་འགྱུར་ཕྱག།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.2",
-    "via": "bo-display",
-    "row": 5
-   }
-  },
-  {
-   "line": "### གསུམ་པ་གཞུང་གི་དོན། ^1-3-0",
-   "path": "1.3",
-   "level": 2,
-   "title": "གསུམ་པ་གཞུང་གི་དོན།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3",
-    "via": "bo-display",
-    "row": 6
-   }
-  },
-  {
-   "line": "#### དང་པོ་མདོ་བྱུང་བའི་གླེང་གཞི། ^1-3-1-0",
-   "path": "1.3.1",
-   "level": 3,
-   "title": "དང་པོ་མདོ་བྱུང་བའི་གླེང་གཞི།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1",
-    "via": "bo-display",
-    "row": 6
-   }
-  },
-  {
-   "line": "##### དང་པོ་གླེང་གཞི་ཐུན་མོང་བ། ^1-3-1-1-0",
-   "path": "1.3.1.1",
-   "level": 4,
-   "title": "དང་པོ་གླེང་གཞི་ཐུན་མོང་བ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.1",
-    "via": "bo-display",
-    "row": 6
-   }
-  },
-  {
-   "line": "###### དང་པོ་དུས་ཕུན་སུམ་ཚོགས་པ། ^1-3-1-1-1-0",
-   "path": "1.3.1.1.1",
-   "level": 5,
-   "title": "དང་པོ་དུས་ཕུན་སུམ་ཚོགས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.1.1",
-    "via": "bo-display",
-    "row": 6
-   }
-  },
-  {
-   "line": "##### གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་གླེང་གཞི། ^1-3-1-2-0",
-   "path": "1.3.1.2",
-   "level": 4,
-   "title": "གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་གླེང་གཞི།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.2",
-    "via": "bo-display",
-    "row": 8
-   }
-  },
-  {
-   "line": "#### གཉིས་པ་ཆོས་ཕུན་སུམ་ཚོགས་པ་མདོ་དངོས། ^1-3-2-0",
-   "path": "1.3.2",
-   "level": 3,
-   "title": "གཉིས་པ་ཆོས་ཕུན་སུམ་ཚོགས་པ་མདོ་དངོས།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2",
-    "via": "bo-display",
+    "node": "2",
     "row": 11
    }
   },
   {
-   "line": "##### དང་པོ་ཤཱ་རིའི་བུས་ཤེར་ཕྱིན་ལ་སྤྱོད་ཚུལ་དྲིས་པ། ^1-3-2-1-0",
-   "path": "1.3.2.1",
-   "level": 4,
-   "title": "དང་པོ་ཤཱ་རིའི་བུས་ཤེར་ཕྱིན་ལ་སྤྱོད་ཚུལ་དྲིས་པ།",
+   "line": "## མཇུག་བྱང་། ^3-0",
+   "path": "3",
+   "level": 1,
+   "title": "མཇུག་བྱང་།",
    "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.1",
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
     "via": "bo-display",
-    "row": 11
-   }
-  },
-  {
-   "line": "##### གཉིས་པ་ལན་བཏབ་ཚུལ། ^1-3-2-2-0",
-   "path": "1.3.2.2",
-   "level": 4,
-   "title": "གཉིས་པ་ལན་བཏབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2",
-    "via": "bo-display",
-    "row": 13
-   }
-  },
-  {
-   "line": "###### དང་པོ་དབང་རྟུལ་ལམ་ལ་སློབ་ཚུལ་སོ་སོར་བསྟན་པ། ^1-3-2-2-1-0",
-   "path": "1.3.2.2.1",
-   "level": 5,
-   "title": "དང་པོ་དབང་རྟུལ་ལམ་ལ་སློབ་ཚུལ་སོ་སོར་བསྟན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1",
-    "via": "bo-display",
-    "row": 13
-   }
-  },
-  {
-   "line": "###### **དང་པོ་ཚོགས་ལམ་དང་སྦྱོར་ལམ་དུ་ཤེར་ཕྱིན་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-1-0",
-   "path": "1.3.2.2.1.1",
-   "level": 6,
-   "title": "དང་པོ་ཚོགས་ལམ་དང་སྦྱོར་ལམ་དུ་ཤེར་ཕྱིན་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1",
-    "via": "bo-display",
-    "row": 13
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་གཟུགས་ཕུང་གི་རང་བཞིན་ལ་ཇི་ལྟར་སློབ་ཚུལ།** ^1-3-2-2-1-1-2-0",
-   "path": "1.3.2.2.1.1.2",
-   "level": 7,
-   "title": "གཉིས་པ་གཟུགས་ཕུང་གི་རང་བཞིན་ལ་ཇི་ལྟར་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1.2",
-    "via": "bo-display",
-    "row": 13
-   }
-  },
-  {
-   "line": "###### **གསུམ་པ་རིགས་པ་དེ་ཕུང་པོ་ལྷག་མ་བཞི་ལ་སྦྱོར་འཆད་པ།** ^1-3-2-2-1-1-3-0",
-   "path": "1.3.2.2.1.1.3",
-   "level": 7,
-   "title": "གསུམ་པ་རིགས་པ་དེ་ཕུང་པོ་ལྷག་མ་བཞི་ལ་སྦྱོར་འཆད་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1.3",
-    "via": "bo-display",
-    "row": 16
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་མཐོང་ལམ་དུ་སློབ་ཚུལ།** ^1-3-2-2-1-2-0",
-   "path": "1.3.2.2.1.2",
-   "level": 6,
-   "title": "གཉིས་པ་མཐོང་ལམ་དུ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.2",
-    "via": "bo-display",
-    "row": 17
-   }
-  },
-  {
-   "line": "###### **གསུམ་པ་སྒོམ་ལམ་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-3-0",
-   "path": "1.3.2.2.1.3",
-   "level": 6,
-   "title": "གསུམ་པ་སྒོམ་ལམ་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3",
-    "via": "bo-display",
-    "row": 18
-   }
-  },
-  {
-   "line": "###### **དང་པོ་སྒོམ་ལམ་སྤྱི་ལ་ཇི་ལྟར་སློབ་ཚུལ།** ^1-3-2-2-1-3-1-0",
-   "path": "1.3.2.2.1.3.1",
-   "level": 7,
-   "title": "དང་པོ་སྒོམ་ལམ་སྤྱི་ལ་ཇི་ལྟར་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3.1",
-    "via": "bo-display",
-    "row": 18
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་རྡོ་རྗེ་ལྟ་བུའི་ཏིང་ངེ་འཛིན་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-3-2-0",
-   "path": "1.3.2.2.1.3.2",
-   "level": 7,
-   "title": "གཉིས་པ་རྡོ་རྗེ་ལྟ་བུའི་ཏིང་ངེ་འཛིན་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3.2",
-    "via": "bo-display",
-    "row": 21
-   }
-  },
-  {
-   "line": "###### **བཞི་བ་མི་སློབ་ལམ་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-4-0",
-   "path": "1.3.2.2.1.4",
-   "level": 6,
-   "title": "བཞི་བ་མི་སློབ་ལམ་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.4",
-    "via": "bo-display",
-    "row": 22
-   }
-  },
-  {
-   "line": "###### གཉིས་པ་དབང་རྣོན་ལ་སྔགས་ཚིག་ཙམ་གྱིས་བསྡུས་ཏེ་བསྟན་པ། ^1-3-2-2-2-0",
-   "path": "1.3.2.2.2",
-   "level": 5,
-   "title": "གཉིས་པ་དབང་རྣོན་ལ་སྔགས་ཚིག་ཙམ་གྱིས་བསྡུས་ཏེ་བསྟན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.2",
-    "via": "bo-display",
-    "row": 24
-   }
-  },
-  {
-   "line": "###### གསུམ་པ་མདོར་བསྡུས་ཏེ་གདམས་པ། ^1-3-2-2-3-0",
-   "path": "1.3.2.2.3",
-   "level": 5,
-   "title": "གསུམ་པ་མདོར་བསྡུས་ཏེ་གདམས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.3",
-    "via": "bo-display",
-    "row": 26
-   }
-  },
-  {
-   "line": "##### བཅོམ་ལྡན་འདས་ཀྱིས་སྤྱན་རས་གཟིགས་ལ་ལེགས་སོ་བྱིན་པ། ^1-3-2-3-0",
-   "path": "1.3.2.3",
-   "level": 4,
-   "title": "བཅོམ་ལྡན་འདས་ཀྱིས་སྤྱན་རས་གཟིགས་ལ་ལེགས་སོ་བྱིན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.3",
-    "via": "bo-display",
-    "row": 27
-   }
-  },
-  {
-   "line": "##### བཞི་པ་འཁོར་རྣམས་དགའ་ནས་འཛིན་པར་དམ་བཅས་པ། ^1-3-2-4-0",
-   "path": "1.3.2.4",
-   "level": 4,
-   "title": "བཞི་པ་འཁོར་རྣམས་དགའ་ནས་འཛིན་པར་དམ་བཅས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.4",
-    "via": "bo-display",
-    "row": 30
-   }
-  },
-  {
-   "line": "### བཞི་པ་མཇུག། ^1-4-0",
-   "path": "1.4",
-   "level": 2,
-   "title": "བཞི་པ་མཇུག།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.4",
-    "via": "bo-display",
-    "row": 32
+    "node": "3",
+    "row": 33
    }
   }
  ],
@@ -346,8 +60,8 @@
       "letters": 12,
       "of": 12,
       "span": [
-       1,
-       13
+       0,
+       12
       ],
       "whole": true
      }
@@ -560,24 +274,24 @@
    },
    "text": "ཕུང་པོ་ལྔ་པོ་དེ་དག་ལ་ཡང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་བལྟའོ། །"
   },
-  "1-10": {
+  "2-1": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 11
    },
    "targets": [
-    "1-7"
+    "2-1"
    ],
    "alignment": {
     "pair_row": 11,
     "target_side_text": "अथायुष्मान् शारिपुत्रो बुद्धानुभावेन आर्यावलोकितेश्वरं बोधिसत्त्वमेतदवोचत्- यः कश्चित् कुलपुत्रो [वा कुलदुहिता वा अस्यां] गम्भीरायां प्रज्ञापारमितायां चर्यां चर्तुकामः, कथं शिक्षितव्यः ?",
     "targets": {
-     "1-7": {
+     "2-1": {
       "letters": 163,
       "of": 163,
       "span": [
        0,
-       184
+       182
       ],
       "whole": true
      }
@@ -585,24 +299,24 @@
    },
    "text": "​དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས། ​ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །​"
   },
-  "1-11": {
+  "2-2": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 12
    },
    "targets": [
-    "1-8"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 12,
     "target_side_text": "एवमुक्ते आर्यावलोकितेश्वरो बोधिसत्त्वो महासत्त्वः आयुष्मन्तं शारिपुत्रमेतदवोचत्- यः कश्चिच्छारिपुत्र कुलपुत्रो वा कुलदुहिता वा [अस्यां] गम्भीरायां प्रज्ञापारमितायां चर्यां चर्तुकामः, तेनैवं व्यवलोकितव्यम्-पञ्च स्कन्धांस्तांश्च स्वभावशून्यान् समनुपश्यति स्म।",
     "targets": {
-     "1-8": {
+     "2-2": {
       "letters": 229,
       "of": 229,
       "span": [
        0,
-       256
+       254
       ],
       "whole": true
      }
@@ -610,19 +324,19 @@
    },
    "text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །​ཤཱ་རིའི་བུ་རིགས་ཀྱི་བུའམ། རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ། ​ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ། །"
   },
-  "1-12": {
+  "2-3": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 13
    },
    "targets": [
-    "1-9"
+    "2-3"
    ],
    "alignment": {
     "pair_row": 13,
     "target_side_text": "रूपं शून्यता, शून्यतैव रूपम्।",
     "targets": {
-     "1-9": {
+     "2-3": {
       "letters": 24,
       "of": 24,
       "span": [
@@ -635,13 +349,13 @@
    },
    "text": "​གཟུགས་སྟོང་པའོ། །སྟོང་པ་ཉིད་གཟུགས་སོ། །"
   },
-  "1-13": {
+  "2-4": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 15
    },
    "targets": [
-    "1-10"
+    "2-4"
    ],
    "alignment": {
     "pair_row": 15,
@@ -656,12 +370,12 @@
      "decided_by": "Claude, on the vault owner's instruction of 2026-10-03 (\"read it and fix if it really makes sense\")",
      "date": "2026-10-03",
      "human_targets": [
-      "1-11"
+      "2-5"
      ]
     },
     "target_side_text": "रूपान्न पृथक् शून्यता, शून्यताया न पृथग् रूपम्।",
     "targets": {
-     "1-10": {
+     "2-4": {
       "letters": 39,
       "of": 39,
       "span": [
@@ -674,19 +388,19 @@
    },
    "text": "​གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན། སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ། །"
   },
-  "1-14": {
+  "2-5": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 16
    },
    "targets": [
-    "1-12"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 16,
     "target_side_text": "एवं वेदनासंज्ञासंस्कारविज्ञानानि च शून्यता।",
     "targets": {
-     "1-12": {
+     "2-6": {
       "letters": 39,
       "of": 39,
       "span": [
@@ -699,19 +413,19 @@
    },
    "text": "​དེ་བཞིན་དུ་ཚོར་བ་དང་། ​འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ། །"
   },
-  "1-15": {
+  "2-6": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 17
    },
    "targets": [
-    "1-13"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 17,
     "target_side_text": "एवं शारिपुत्र सर्वधर्माः शून्यतालक्षणा अनुत्पन्ना अनिरुद्धा अमला विमला अनूना असंपूर्णाः।",
     "targets": {
-     "1-13": {
+     "2-7": {
       "letters": 78,
       "of": 78,
       "span": [
@@ -724,19 +438,19 @@
    },
    "text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ། མཚན་ཉིད་མེད་པ། མ་སྐྱེས་པ། ​མ་འགགས་པ། དྲི་མ་མེད་པ། དྲི་མ་དང་བྲལ་བ་མེད་པ། ​བྲི་བ་མེད་པ། གང་བ་མེད་པའོ། །"
   },
-  "1-16": {
+  "2-7": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 18
    },
    "targets": [
-    "1-14"
+    "2-8"
    ],
    "alignment": {
     "pair_row": 18,
     "target_side_text": "तस्मात्तर्हि शारिपुत्र शून्यतायां न रूपम्, न वेदना, न संज्ञा, न संस्काराः, न विज्ञानम्, न चक्षुर्न श्रोत्रं न घ्राणं न जिह्वा न कायो न मनो न रूपं न शब्दो न गन्धो न रसो न स्प्रष्टव्यं न धर्मः।",
     "targets": {
-     "1-14": {
+     "2-8": {
       "letters": 150,
       "of": 150,
       "span": [
@@ -749,19 +463,19 @@
    },
    "text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད། ཚོར་བ་མེད། ​འདུ་ཤེས་མེད། འདུ་བྱེད་མེད། རྣམ་པར་ཤེས་པ་མེད། མིག་མེད། རྣ་བ་མེད། སྣ་མེད། ལྕེ་མེད། ལུས་མེད། ཡིད་མེད །གཟུགས་མེད། སྒྲ་མེད། དྲི་མེད། རོ་མེད། རེག་བྱ་མེད། ཆོས་མེད་དོ། །"
   },
-  "1-17": {
+  "2-8": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 19
    },
    "targets": [
-    "1-15"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 19,
     "target_side_text": "न चक्षुर्धातुर्यावन्न मनोधातुर्न धर्मधातुर्न मनोविज्ञानधातुः।",
     "targets": {
-     "1-15": {
+     "2-9": {
       "letters": 56,
       "of": 56,
       "span": [
@@ -774,19 +488,19 @@
    },
    "text": "​མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད། ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ། །"
   },
-  "1-18": {
+  "2-9": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 20
    },
    "targets": [
-    "1-16"
+    "2-10"
    ],
    "alignment": {
     "pair_row": 20,
     "target_side_text": "न विद्या नाविद्या न क्षयो यावन्न जरामरणं न जरामरणक्षयः, न दुःखसमुदयनिरोधमार्गा न ज्ञानं न प्राप्तिर्नाप्राप्तिः।",
     "targets": {
-     "1-16": {
+     "2-10": {
       "letters": 96,
       "of": 96,
       "span": [
@@ -799,19 +513,19 @@
    },
    "text": "​མ་རིག་པ་མེད། ​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད། ​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། ། སྡུག་བསྔལ་བ་དང་། ཀུན་འབྱུང་བ་དང་། འགོག་པ་དང་། ལམ་མེད། ཡེ་ཤེས་མེད། ཐོབ་པ་མེད། མ་ཐོབ་པ་ཡང་མེད་དོ། །"
   },
-  "1-19": {
+  "2-10": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 21
    },
    "targets": [
-    "1-17"
+    "2-11"
    ],
    "alignment": {
     "pair_row": 21,
     "target_side_text": "तस्माच्छारिपुत्र अप्राप्तित्वेन बोधिसत्त्वानां प्रज्ञापारमितामाश्रित्य विहरति चित्तावरणः।",
     "targets": {
-     "1-17": {
+     "2-11": {
       "letters": 83,
       "of": 83,
       "span": [
@@ -824,19 +538,19 @@
    },
    "text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ།"
   },
-  "1-20": {
+  "2-11": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 22
    },
    "targets": [
-    "1-18"
+    "2-12"
    ],
    "alignment": {
     "pair_row": 22,
     "target_side_text": "चित्तावरणनास्तित्वादत्रस्तो विपर्यासातिक्रान्तो निष्ठनिर्वाणः।",
     "targets": {
-     "1-18": {
+     "2-12": {
       "letters": 59,
       "of": 59,
       "span": [
@@ -849,19 +563,19 @@
    },
    "text": "སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ། ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ། །"
   },
-  "1-21": {
+  "2-12": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 23
    },
    "targets": [
-    "1-19"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 23,
     "target_side_text": "त्र्यध्वव्यवस्थिताः सर्वबुद्धाः प्रज्ञापारमितामाश्रित्य अनुत्तरां सम्यक्संबोधिमभिसंबुद्धाः।",
     "targets": {
-     "1-19": {
+     "2-13": {
       "letters": 86,
       "of": 86,
       "span": [
@@ -874,19 +588,19 @@
    },
    "text": "​དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ། །"
   },
-  "1-22": {
+  "2-13": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 24
    },
    "targets": [
-    "1-20"
+    "2-14"
    ],
    "alignment": {
     "pair_row": 24,
     "target_side_text": "तस्माद् ज्ञातव्यः प्रज्ञापारमितामहामन्त्रः अनुत्तरमन्त्रः असमसममन्त्रः सर्वदुःखप्रशमनमन्त्रः सत्यममिथ्यत्वात् प्रज्ञापारमितायामुक्तो मन्त्रः।",
     "targets": {
-     "1-20": {
+     "2-14": {
       "letters": 132,
       "of": 132,
       "span": [
@@ -899,19 +613,19 @@
    },
    "text": "​དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས། རིག་པ་ཆེན་པོའི་སྔགས། བླ་ན་མེད་པའི་སྔགས། མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས། སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས། མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།"
   },
-  "1-23": {
+  "2-14": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 25
    },
    "targets": [
-    "1-21"
+    "2-15"
    ],
    "alignment": {
     "pair_row": 25,
     "target_side_text": "तद्यथा- गते गते पारगते पारसंगते बोधि स्वाहा।",
     "targets": {
-     "1-21": {
+     "2-15": {
       "letters": 36,
       "of": 36,
       "span": [
@@ -924,19 +638,19 @@
    },
    "text": "ཏདྱ་ཐཱ། ག་ཏེ་ག་ཏེ་པཱ་ར་ག་ཏེ། པཱ་ར་སཾ་ག་ཏེ། བོ་དྷི་སྭ་ཧཱ།"
   },
-  "1-24": {
+  "2-15": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 26
    },
    "targets": [
-    "1-22"
+    "2-16"
    ],
    "alignment": {
     "pair_row": 26,
     "target_side_text": "एवं शारिपुत्र गम्भीरायां प्रज्ञापारमितायां चर्यायां शिक्षितव्यं बोधिसत्त्वेन॥",
     "targets": {
-     "1-22": {
+     "2-16": {
       "letters": 70,
       "of": 70,
       "span": [
@@ -949,19 +663,19 @@
    },
    "text": "ཤཱ་རིའི་བུ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ། །"
   },
-  "1-25": {
+  "2-16": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 27
    },
    "targets": [
-    "1-23"
+    "2-17"
    ],
    "alignment": {
     "pair_row": 27,
     "target_side_text": "अथ खलु भगवान् तस्मात्समाधेर्व्युत्थाय आर्यावलोकितेश्वरस्य बोधिसत्त्वस्य साधुकारमदात्- साधु साधु कुलपुत्र।",
     "targets": {
-     "1-23": {
+     "2-17": {
       "letters": 94,
       "of": 94,
       "span": [
@@ -974,19 +688,19 @@
    },
    "text": "​དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་འཕགས་པ ་སྤྱན་རས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས། ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ནོ། །​"
   },
-  "1-26": {
+  "2-17": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 28
    },
    "targets": [
-    "1-24"
+    "2-18"
    ],
    "alignment": {
     "pair_row": 28,
     "target_side_text": "एवमेतत् कुलपुत्र, एवमेतद् गम्भीरायां प्रज्ञापारमितायां चर्यं चर्तव्यं यथा त्वया निर्दिष्टम्।",
     "targets": {
-     "1-24": {
+     "2-18": {
       "letters": 81,
       "of": 81,
       "span": [
@@ -999,19 +713,19 @@
    },
    "text": "རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ཏེ། ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།"
   },
-  "1-27": {
+  "2-18": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 29
    },
    "targets": [
-    "1-25"
+    "2-19"
    ],
    "alignment": {
     "pair_row": 29,
     "target_side_text": "अनुमोद्यते तथागतैरर्हद्भिः॥",
     "targets": {
-     "1-25": {
+     "2-19": {
       "letters": 25,
       "of": 25,
       "span": [
@@ -1024,19 +738,19 @@
    },
    "text": "དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་། །"
   },
-  "1-28": {
+  "2-19": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 30
    },
    "targets": [
-    "1-26"
+    "2-20"
    ],
    "alignment": {
     "pair_row": 30,
     "target_side_text": "इदमवोचद्भगवान्।",
     "targets": {
-     "1-26": {
+     "2-20": {
       "letters": 14,
       "of": 14,
       "span": [
@@ -1049,19 +763,19 @@
    },
    "text": "​བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།"
   },
-  "1-29": {
+  "2-20": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 31
    },
    "targets": [
-    "1-27"
+    "2-21"
    ],
    "alignment": {
     "pair_row": 31,
     "target_side_text": "आनन्दमना आयुष्मान् शारिपुत्रः आर्यावलोकितेश्वरश्च बोधिसत्त्वः सा च सर्वावती परिषत् सदेवमानुषासुरगन्धर्वश्च लोको भगवतो भाषितमभ्यनन्दन्॥",
     "targets": {
-     "1-27": {
+     "2-21": {
       "letters": 121,
       "of": 121,
       "span": [
@@ -1074,19 +788,19 @@
    },
    "text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་། ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་། ​ལྷ་དང་། མི་དང་། ལྷ་མ་ཡིན་དང་། དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ། བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །"
   },
-  "1-30": {
+  "2-21": {
    "source": {
     "file": "sherab-root-bo(display).md",
     "row": 32
    },
    "targets": [
-    "1-28"
+    "2-22"
    ],
    "alignment": {
     "pair_row": 32,
     "target_side_text": "इति प्रज्ञापारमिताहृदयसूत्रं समाप्तम्।",
     "targets": {
-     "1-28": {
+     "2-22": {
       "letters": 35,
       "of": 35,
       "span": [
@@ -1098,6 +812,24 @@
     }
    },
    "text": "​འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྫོགས་སོ། །​"
+  },
+  "3-1": {
+   "source": {
+    "file": "sherab-root-bo(display).md",
+    "row": 33,
+    "supplement": {
+     "source": "Wikisource, Page:ཤེས་རབ་སྙིང་པོ། སྡེ་དགེ།.pdf/3 (revision 1239769), section part2 — the Derge Kangyur, proofread (quality 4); the page-only line break inside བསྒྱུར་ཅིང་ dropped",
+     "edition": "Derge Kangyur (the Dzongsar display text has no translators' colophon)",
+     "reason": "The translators' colophon, section 3 (མཇུག་བྱང་།) of the Wikisource table of contents, is missing from the Dzongsar text; added so that section has its text. No Sanskrit or Chinese counterpart.",
+     "decided_by": "the vault owner (\"add the colophon from the wikisource and the section\")",
+     "date": "2026-10-03"
+    }
+   },
+   "alignment": {
+    "pair_row": 33,
+    "unaligned": true
+   },
+   "text": "རྒྱ་གར་གྱི་མཁན་པོ་བི་མ་ལ་མི་ཏྲ་དང་། ལོཙྪ་བ་དགེ་སློང་རིན་ཆེན་སྡེས་བསྒྱུར་ཅིང་ཞུ་ཆེན་གྱི་ལོཙྪ་བ་དགེ་བློ་དང་ནམ་མཁའ་ལ་སོགས་པས་ཞུས་ཏེ་གཏན་ལ་ཕབ་པ།། །།དཔལ་བསམ་ཡས་ལྷུན་གྱིས་གྲུབ་པའི་གཙུག་ལག་གི་དགེ་རྒྱས་བྱེ་མ་གླིང་གི་རྩིག་ངོས་ལ་བྲིས་པ་དང་ཞུ་དག་ལེགས་པར་བགྱིས་སོ།། །།"
   }
  },
  "legend": null,
@@ -1117,27 +849,9 @@
   "target_only": 0,
   "ratio": 1.0
  },
- "toc_nodes_without_rows": [
-  {
-   "node": "1.3.1.1.2",
-   "title": "གཉིས་པ་སྟོན་པ་ཕུན་སུམ་ཚོགས་པ།"
-  },
-  {
-   "node": "1.3.1.1.3",
-   "title": "གསུམ་པ་གནས་ཕུན་སུམ་ཚོགས།"
-  },
-  {
-   "node": "1.3.1.1.4",
-   "title": "བཞི་བ་འཁོར་ཕུན་སུམ་ཚོགས་པ།"
-  },
-  {
-   "node": "1.3.2.2.1.1.1",
-   "title": "དང་པོ་འཚམས་སྦྱར་བ།"
-  }
- ],
  "toc": {
-  "kind": "projected",
-  "source_work": "bo-lobzang-gyaltsen-senge-nyinje",
-  "note": "The root text has no outline of its own and the Dzongsar data has no TOC for it, so its TOC is the outline of Lobsang Gyaltsen Sengge's commentary (2-RAILS/Sections/Raw/toc-tree/lobzang-gyaltsen-senge-nyinje.md), carried onto the display Tibetan through that commentary's own human row alignment, and from there onto this file through its own pairing. Chosen (2026-10-03, on the vault owner's instruction to add a TOC to the root texts) because it is the only commentary outline whose nodes cover the whole root — title, translator's homage, text, conclusion — and land on distinct segments in order. Its division of the answer by the five paths is that commentary's (Gelug) reading. To use another commentary's outline, change source_work and rebuild."
+  "kind": "outline",
+  "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+  "note": "The root text has no outline of its own; its TOC is the three-part table of contents of the Derge Kangyur Heart Sūtra on Wikisource (Index:ཤེས་རབ་སྙིང་པོ། སྡེ་དགེ།.pdf, revision 1228972) — མདོའི་གླེང་གཞི། · མདོ་དོན་དངོས། · མཇུག་བྱང་། — placed on the rows of the display Tibetan where the Index's proofread pages put each heading, and carried onto the Sanskrit and the Chinese through their own row pairings, each with headings in its own language (Tibetan verbatim; Sanskrit and Chinese editorial translations). Chosen by the vault owner on 2026-10-03, replacing first the projection of Lobsang Gyaltsen Sengge's toc-generate outline (far too granular) and then, the same day, a six-part outline from the Tibetan Wikipedia article."
  }
 }

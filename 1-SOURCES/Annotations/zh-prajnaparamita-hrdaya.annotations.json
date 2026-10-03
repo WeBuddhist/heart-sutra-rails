@@ -4,315 +4,29 @@
  "target_file": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
  "headings": [
   {
-   "line": "## གཞུང་མཆོག་འདི་ཉིད་ཀྱི་དོན་འཆད་པ། ^1-0",
+   "line": "## 序分 ^1-0",
    "path": "1",
    "level": 1,
-   "title": "གཞུང་མཆོག་འདི་ཉིད་ཀྱི་དོན་འཆད་པ།",
+   "title": "序分",
    "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
     "node": "1",
-    "via": "bo-display",
     "row": 2
    }
   },
   {
-   "line": "### དང་པོ་མཚན་གྱི་དོན། ^1-1-0",
-   "path": "1.1",
-   "level": 2,
-   "title": "དང་པོ་མཚན་གྱི་དོན།",
+   "line": "## 正宗分 ^2-0",
+   "path": "2",
+   "level": 1,
+   "title": "正宗分",
    "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.1",
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
     "via": "bo-display",
-    "row": 2
-   }
-  },
-  {
-   "line": "### གཉིས་པ་འགྱུར་ཕྱག། ^1-2-0",
-   "path": "1.2",
-   "level": 2,
-   "title": "གཉིས་པ་འགྱུར་ཕྱག།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.2",
-    "via": "bo-display",
-    "row": 7
-   }
-  },
-  {
-   "line": "### གསུམ་པ་གཞུང་གི་དོན། ^1-3-0",
-   "path": "1.3",
-   "level": 2,
-   "title": "གསུམ་པ་གཞུང་གི་དོན།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3",
-    "via": "bo-display",
-    "row": 8
-   }
-  },
-  {
-   "line": "#### དང་པོ་མདོ་བྱུང་བའི་གླེང་གཞི། ^1-3-1-0",
-   "path": "1.3.1",
-   "level": 3,
-   "title": "དང་པོ་མདོ་བྱུང་བའི་གླེང་གཞི།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1",
-    "via": "bo-display",
-    "row": 8
-   }
-  },
-  {
-   "line": "##### དང་པོ་གླེང་གཞི་ཐུན་མོང་བ། ^1-3-1-1-0",
-   "path": "1.3.1.1",
-   "level": 4,
-   "title": "དང་པོ་གླེང་གཞི་ཐུན་མོང་བ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.1",
-    "via": "bo-display",
-    "row": 8
-   }
-  },
-  {
-   "line": "###### དང་པོ་དུས་ཕུན་སུམ་ཚོགས་པ། ^1-3-1-1-1-0",
-   "path": "1.3.1.1.1",
-   "level": 5,
-   "title": "དང་པོ་དུས་ཕུན་སུམ་ཚོགས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.1.1",
-    "via": "bo-display",
-    "row": 8
-   }
-  },
-  {
-   "line": "##### གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་གླེང་གཞི། ^1-3-1-2-0",
-   "path": "1.3.1.2",
-   "level": 4,
-   "title": "གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་གླེང་གཞི།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.1.2",
-    "via": "bo-display",
-    "row": 11
-   }
-  },
-  {
-   "line": "#### གཉིས་པ་ཆོས་ཕུན་སུམ་ཚོགས་པ་མདོ་དངོས། ^1-3-2-0",
-   "path": "1.3.2",
-   "level": 3,
-   "title": "གཉིས་པ་ཆོས་ཕུན་སུམ་ཚོགས་པ་མདོ་དངོས།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2",
-    "via": "bo-display",
+    "node": "2",
     "row": 15
-   }
-  },
-  {
-   "line": "##### དང་པོ་ཤཱ་རིའི་བུས་ཤེར་ཕྱིན་ལ་སྤྱོད་ཚུལ་དྲིས་པ། ^1-3-2-1-0",
-   "path": "1.3.2.1",
-   "level": 4,
-   "title": "དང་པོ་ཤཱ་རིའི་བུས་ཤེར་ཕྱིན་ལ་སྤྱོད་ཚུལ་དྲིས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.1",
-    "via": "bo-display",
-    "row": 15
-   }
-  },
-  {
-   "line": "##### གཉིས་པ་ལན་བཏབ་ཚུལ། ^1-3-2-2-0",
-   "path": "1.3.2.2",
-   "level": 4,
-   "title": "གཉིས་པ་ལན་བཏབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2",
-    "via": "bo-display",
-    "row": 25
-   }
-  },
-  {
-   "line": "###### དང་པོ་དབང་རྟུལ་ལམ་ལ་སློབ་ཚུལ་སོ་སོར་བསྟན་པ། ^1-3-2-2-1-0",
-   "path": "1.3.2.2.1",
-   "level": 5,
-   "title": "དང་པོ་དབང་རྟུལ་ལམ་ལ་སློབ་ཚུལ་སོ་སོར་བསྟན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1",
-    "via": "bo-display",
-    "row": 25
-   }
-  },
-  {
-   "line": "###### **དང་པོ་ཚོགས་ལམ་དང་སྦྱོར་ལམ་དུ་ཤེར་ཕྱིན་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-1-0",
-   "path": "1.3.2.2.1.1",
-   "level": 6,
-   "title": "དང་པོ་ཚོགས་ལམ་དང་སྦྱོར་ལམ་དུ་ཤེར་ཕྱིན་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1",
-    "via": "bo-display",
-    "row": 25
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་གཟུགས་ཕུང་གི་རང་བཞིན་ལ་ཇི་ལྟར་སློབ་ཚུལ།** ^1-3-2-2-1-1-2-0",
-   "path": "1.3.2.2.1.1.2",
-   "level": 7,
-   "title": "གཉིས་པ་གཟུགས་ཕུང་གི་རང་བཞིན་ལ་ཇི་ལྟར་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1.2",
-    "via": "bo-display",
-    "row": 25
-   }
-  },
-  {
-   "line": "###### **གསུམ་པ་རིགས་པ་དེ་ཕུང་པོ་ལྷག་མ་བཞི་ལ་སྦྱོར་འཆད་པ།** ^1-3-2-2-1-1-3-0",
-   "path": "1.3.2.2.1.1.3",
-   "level": 7,
-   "title": "གསུམ་པ་རིགས་པ་དེ་ཕུང་པོ་ལྷག་མ་བཞི་ལ་སྦྱོར་འཆད་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.1.3",
-    "via": "bo-display",
-    "row": 29
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་མཐོང་ལམ་དུ་སློབ་ཚུལ།** ^1-3-2-2-1-2-0",
-   "path": "1.3.2.2.1.2",
-   "level": 6,
-   "title": "གཉིས་པ་མཐོང་ལམ་དུ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.2",
-    "via": "bo-display",
-    "row": 33
-   }
-  },
-  {
-   "line": "###### **གསུམ་པ་སྒོམ་ལམ་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-3-0",
-   "path": "1.3.2.2.1.3",
-   "level": 6,
-   "title": "གསུམ་པ་སྒོམ་ལམ་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3",
-    "via": "bo-display",
-    "row": 42
-   }
-  },
-  {
-   "line": "###### **དང་པོ་སྒོམ་ལམ་སྤྱི་ལ་ཇི་ལྟར་སློབ་ཚུལ།** ^1-3-2-2-1-3-1-0",
-   "path": "1.3.2.2.1.3.1",
-   "level": 7,
-   "title": "དང་པོ་སྒོམ་ལམ་སྤྱི་ལ་ཇི་ལྟར་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3.1",
-    "via": "bo-display",
-    "row": 42
-   }
-  },
-  {
-   "line": "###### **གཉིས་པ་རྡོ་རྗེ་ལྟ་བུའི་ཏིང་ངེ་འཛིན་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-3-2-0",
-   "path": "1.3.2.2.1.3.2",
-   "level": 7,
-   "title": "གཉིས་པ་རྡོ་རྗེ་ལྟ་བུའི་ཏིང་ངེ་འཛིན་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.3.2",
-    "via": "bo-display",
-    "row": 72
-   }
-  },
-  {
-   "line": "###### **བཞི་བ་མི་སློབ་ལམ་ལ་སློབ་ཚུལ།** ^1-3-2-2-1-4-0",
-   "path": "1.3.2.2.1.4",
-   "level": 6,
-   "title": "བཞི་བ་མི་སློབ་ལམ་ལ་སློབ་ཚུལ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.1.4",
-    "via": "bo-display",
-    "row": 75
-   }
-  },
-  {
-   "line": "###### གཉིས་པ་དབང་རྣོན་ལ་སྔགས་ཚིག་ཙམ་གྱིས་བསྡུས་ཏེ་བསྟན་པ། ^1-3-2-2-2-0",
-   "path": "1.3.2.2.2",
-   "level": 5,
-   "title": "གཉིས་པ་དབང་རྣོན་ལ་སྔགས་ཚིག་ཙམ་གྱིས་བསྡུས་ཏེ་བསྟན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.2",
-    "via": "bo-display",
-    "row": 81
-   }
-  },
-  {
-   "line": "###### གསུམ་པ་མདོར་བསྡུས་ཏེ་གདམས་པ། ^1-3-2-2-3-0",
-   "path": "1.3.2.2.3",
-   "level": 5,
-   "title": "གསུམ་པ་མདོར་བསྡུས་ཏེ་གདམས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.2.3",
-    "via": "bo-display",
-    "row": 89
-   }
-  },
-  {
-   "line": "##### བཅོམ་ལྡན་འདས་ཀྱིས་སྤྱན་རས་གཟིགས་ལ་ལེགས་སོ་བྱིན་པ། ^1-3-2-3-0",
-   "path": "1.3.2.3",
-   "level": 4,
-   "title": "བཅོམ་ལྡན་འདས་ཀྱིས་སྤྱན་རས་གཟིགས་ལ་ལེགས་སོ་བྱིན་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.3",
-    "via": "bo-display",
-    "row": 92
-   }
-  },
-  {
-   "line": "##### བཞི་པ་འཁོར་རྣམས་དགའ་ནས་འཛིན་པར་དམ་བཅས་པ། ^1-3-2-4-0",
-   "path": "1.3.2.4",
-   "level": 4,
-   "title": "བཞི་པ་འཁོར་རྣམས་དགའ་ནས་འཛིན་པར་དམ་བཅས་པ།",
-   "source": {
-    "origin": "projected",
-    "from": "bo-lobzang-gyaltsen-senge-nyinje",
-    "node": "1.3.2.4",
-    "via": "bo-display",
-    "row": 103
    }
   }
  ],
@@ -357,7 +71,86 @@
   "1-1": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 2
+    "row": 2,
+    "merged_rows": [
+     {
+      "row": 2,
+      "text": "印度語（梵語）裡",
+      "alignment": {
+       "pair_row": 2,
+       "target_side_text": "༄༅། རྒྱ་གར་སྐད་དུ།",
+       "targets": {
+        "1-1": {
+         "letters": 10,
+         "of": 31,
+         "span": [
+          6,
+          19
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 3,
+      "text": "般若波羅蜜多心經",
+      "alignment": {
+       "pair_row": 3,
+       "target_side_text": "བྷ་ག་ཝ་ཏཱི་པྲཛྙཱ་པཱ་ར་མི་ཏཱ་ཧྲི་ད་ཡ།",
+       "targets": {
+        "1-1": {
+         "letters": 20,
+         "of": 31,
+         "span": [
+          21,
+          53
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "ཝ",
+         "target": "བ",
+         "target_block": "1-1"
+        },
+        {
+         "copy": "ཱ",
+         "target": "",
+         "target_block": "1-1"
+        },
+        {
+         "copy": "ཱ",
+         "target": "",
+         "target_block": "1-1"
+        },
+        {
+         "copy": "ཱ",
+         "target": "",
+         "target_block": "1-1"
+        },
+        {
+         "copy": "",
+         "target": "ྀ",
+         "target_block": "1-1"
+        },
+        {
+         "copy": "ི",
+         "target": "",
+         "target_block": "1-1"
+        }
+       ]
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
     "1-1"
@@ -377,69 +170,59 @@
      }
     }
    },
-   "text": "印度語（梵語）裡"
+   "text": "印度語（梵語）裡 般若波羅蜜多心經"
   },
   "1-2": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 3
-   },
-   "targets": [
-    "1-1"
-   ],
-   "alignment": {
-    "pair_row": 3,
-    "target_side_text": "བྷ་ག་ཝ་ཏཱི་པྲཛྙཱ་པཱ་ར་མི་ཏཱ་ཧྲི་ད་ཡ།",
-    "targets": {
-     "1-1": {
-      "letters": 20,
-      "of": 31,
-      "span": [
-       21,
-       53
-      ],
-      "whole": false
+    "row": 4,
+    "merged_rows": [
+     {
+      "row": 4,
+      "text": "藏語裡",
+      "alignment": {
+       "pair_row": 4,
+       "target_side_text": "བོད་སྐད་དུ།",
+       "targets": {
+        "1-2": {
+         "letters": 8,
+         "of": 46,
+         "span": [
+          0,
+          10
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 5,
+      "text": "般若波羅蜜多心經",
+      "alignment": {
+       "pair_row": 5,
+       "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+       "targets": {
+        "1-2": {
+         "letters": 38,
+         "of": 46,
+         "span": [
+          12,
+          63
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    },
-    "variants": [
-     {
-      "copy": "ཝ",
-      "target": "བ",
-      "target_block": "1-1"
-     },
-     {
-      "copy": "ཱ",
-      "target": "",
-      "target_block": "1-1"
-     },
-     {
-      "copy": "ཱ",
-      "target": "",
-      "target_block": "1-1"
-     },
-     {
-      "copy": "ཱ",
-      "target": "",
-      "target_block": "1-1"
-     },
-     {
-      "copy": "",
-      "target": "ྀ",
-      "target_block": "1-1"
-     },
-     {
-      "copy": "ི",
-      "target": "",
-      "target_block": "1-1"
-     }
-    ]
-   },
-   "text": "般若波羅蜜多心經"
-  },
-  "1-3": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 4
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
     "1-2"
@@ -459,34 +242,9 @@
      }
     }
    },
-   "text": "藏語裡"
+   "text": "藏語裡 般若波羅蜜多心經"
   },
-  "1-4": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 5
-   },
-   "targets": [
-    "1-2"
-   ],
-   "alignment": {
-    "pair_row": 5,
-    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
-    "targets": {
-     "1-2": {
-      "letters": 38,
-      "of": 46,
-      "span": [
-       12,
-       63
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "般若波羅蜜多心經"
-  },
-  "1-5": {
+  "1-3": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 6
@@ -511,7 +269,7 @@
    },
    "text": "第一卷"
   },
-  "1-6": {
+  "1-4": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 7
@@ -543,7 +301,7 @@
    },
    "text": "敬禮薄伽梵母般若波羅蜜多"
   },
-  "1-7": {
+  "1-5": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 8
@@ -568,10 +326,57 @@
    },
    "text": "如是我聞，一時"
   },
-  "1-8": {
+  "1-6": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 9
+    "row": 9,
+    "merged_rows": [
+     {
+      "row": 9,
+      "text": "薄伽梵 住王舍城 鷲峰山中，與大苾蒭眾",
+      "alignment": {
+       "pair_row": 9,
+       "target_side_text": "བཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ་བྱ་རྒོད་ཕུང་པོའི་རི་ལ་དགེ་སློང་གི་དགེ་འདུན་ཆེན་པོ་དང་།",
+       "targets": {
+        "1-6": {
+         "letters": 59,
+         "of": 102,
+         "span": [
+          0,
+          78
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 10,
+      "text": "及諸菩薩摩訶薩俱",
+      "alignment": {
+       "pair_row": 10,
+       "target_side_text": "བྱང་ཆུབ་སེམས་དཔའི་དགེ་འདུན་ཆེན་པོ་དང་ཐབས་ཅིག་ཏུ་བཞུགས་ཏེ།",
+       "targets": {
+        "1-6": {
+         "letters": 43,
+         "of": 102,
+         "span": [
+          82,
+          138
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
     "1-6"
@@ -591,34 +396,9 @@
      }
     }
    },
-   "text": "薄伽梵 住王舍城 鷲峰山中，與大苾蒭眾"
+   "text": "薄伽梵 住王舍城 鷲峰山中，與大苾蒭眾 及諸菩薩摩訶薩俱"
   },
-  "1-9": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 10
-   },
-   "targets": [
-    "1-6"
-   ],
-   "alignment": {
-    "pair_row": 10,
-    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའི་དགེ་འདུན་ཆེན་པོ་དང་ཐབས་ཅིག་ཏུ་བཞུགས་ཏེ།",
-    "targets": {
-     "1-6": {
-      "letters": 43,
-      "of": 102,
-      "span": [
-       82,
-       138
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "及諸菩薩摩訶薩俱"
-  },
-  "1-10": {
+  "1-7": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 11
@@ -643,10 +423,69 @@
    },
    "text": "爾時世尊等入甚深明瞭三摩地法之異門"
   },
-  "1-11": {
+  "1-8": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 12
+    "row": 12,
+    "merged_rows": [
+     {
+      "row": 12,
+      "text": "複于爾時，觀自在菩薩摩訶薩",
+      "alignment": {
+       "pair_row": 12,
+       "target_side_text": "ཡང་དེའི་ཚེ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་",
+       "targets": {
+        "1-8": {
+         "letters": 56,
+         "of": 102,
+         "span": [
+          1,
+          74
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 13,
+      "text": "行深般若波羅蜜多時",
+      "alignment": {
+       "pair_row": 13,
+       "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་ཉིད་ལ་རྣམ་པར་ལྟ་ཞིང་",
+       "targets": {
+        "1-8": {
+         "letters": 43,
+         "of": 102,
+         "span": [
+          75,
+          138
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "",
+         "target": "འི",
+         "target_block": "1-8"
+        },
+        {
+         "copy": "",
+         "target": "བ",
+         "target_block": "1-8"
+        }
+       ]
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
     "1-8"
@@ -666,46 +505,9 @@
      }
     }
    },
-   "text": "複于爾時，觀自在菩薩摩訶薩"
+   "text": "複于爾時，觀自在菩薩摩訶薩 行深般若波羅蜜多時"
   },
-  "1-12": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 13
-   },
-   "targets": [
-    "1-8"
-   ],
-   "alignment": {
-    "pair_row": 13,
-    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་ཉིད་ལ་རྣམ་པར་ལྟ་ཞིང་",
-    "targets": {
-     "1-8": {
-      "letters": 43,
-      "of": 102,
-      "span": [
-       75,
-       138
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
-     {
-      "copy": "",
-      "target": "འི",
-      "target_block": "1-8"
-     },
-     {
-      "copy": "",
-      "target": "བ",
-      "target_block": "1-8"
-     }
-    ]
-   },
-   "text": "行深般若波羅蜜多時"
-  },
-  "1-13": {
+  "1-9": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 14
@@ -737,19 +539,73 @@
    },
    "text": "觀察照見五蘊體性悉皆是空"
   },
-  "1-14": {
+  "2-1": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 15
+    "row": 15,
+    "merged_rows": [
+     {
+      "row": 15,
+      "text": "時具壽舍利子承佛威力",
+      "alignment": {
+       "pair_row": 15,
+       "target_side_text": "དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས།",
+       "targets": {
+        "2-1": {
+         "letters": 18,
+         "of": 92,
+         "span": [
+          1,
+          24
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 16,
+      "text": "舍利子 觀自在菩薩摩訶薩曰",
+      "alignment": {
+       "pair_row": 16,
+       "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
+       "targets": {
+        "2-1": {
+         "letters": 74,
+         "of": 92,
+         "span": [
+          27,
+          126
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "སེམསདཔའ",
+         "target": "",
+         "target_block": "2-1"
+        }
+       ]
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
-    "1-10"
+    "2-1"
    ],
    "alignment": {
     "pair_row": 15,
     "target_side_text": "དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས།",
     "targets": {
-     "1-10": {
+     "2-1": {
       "letters": 18,
       "of": 92,
       "span": [
@@ -760,53 +616,208 @@
      }
     }
    },
-   "text": "時具壽舍利子承佛威力"
+   "text": "時具壽舍利子承佛威力 舍利子 觀自在菩薩摩訶薩曰"
   },
-  "1-15": {
+  "2-2": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 16
-   },
-   "targets": [
-    "1-10"
-   ],
-   "alignment": {
-    "pair_row": 16,
-    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
-    "targets": {
-     "1-10": {
-      "letters": 74,
-      "of": 92,
-      "span": [
-       27,
-       126
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 17,
+    "merged_rows": [
      {
-      "copy": "སེམསདཔའ",
-      "target": "",
-      "target_block": "1-10"
+      "row": 17,
+      "text": "善男子 欲修行甚深般若波羅蜜多者 複當云何修學",
+      "alignment": {
+       "pair_row": 17,
+       "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པ་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ།",
+       "targets": {
+        "2-2": {
+         "letters": 68,
+         "of": 325,
+         "span": [
+          0,
+          98
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "",
+         "target": "འི",
+         "target_block": "2-2"
+        },
+        {
+         "copy": "",
+         "target": "ར",
+         "target_block": "2-2"
+        }
+       ]
+      }
+     },
+     {
+      "row": 18,
+      "text": "作是語已",
+      "alignment": {
+       "pair_row": 18,
+       "target_side_text": "དེ་སྐད་ཅེས་སྨྲས་པ་དང་།",
+       "targets": {
+        "2-2": {
+         "letters": 15,
+         "of": 325,
+         "span": [
+          100,
+          120
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 19,
+      "text": "觀自在菩薩摩訶薩答",
+      "alignment": {
+       "pair_row": 19,
+       "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་",
+       "targets": {
+        "2-2": {
+         "letters": 51,
+         "of": 325,
+         "span": [
+          123,
+          189
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 20,
+      "text": "具壽舍利子言",
+      "alignment": {
+       "pair_row": 20,
+       "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
+       "targets": {
+        "2-2": {
+         "letters": 34,
+         "of": 325,
+         "span": [
+          190,
+          238
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "ི",
+         "target": "",
+         "target_block": "2-2"
+        }
+       ]
+      }
+     },
+     {
+      "row": 21,
+      "text": "舍利子 善男子",
+      "alignment": {
+       "pair_row": 21,
+       "target_side_text": "ཤཱ་རིའི་བུ། རིགས་ཀྱི་བུའམ།",
+       "targets": {
+        "2-2": {
+         "letters": 19,
+         "of": 325,
+         "span": [
+          242,
+          266
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 22,
+      "text": "善女人等",
+      "alignment": {
+       "pair_row": 22,
+       "target_side_text": "རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་",
+       "targets": {
+        "2-2": {
+         "letters": 15,
+         "of": 325,
+         "span": [
+          268,
+          289
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 23,
+      "text": "欲修行甚深般若波羅蜜多者 彼應如是觀察",
+      "alignment": {
+       "pair_row": 23,
+       "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ།",
+       "targets": {
+        "2-2": {
+         "letters": 64,
+         "of": 325,
+         "span": [
+          290,
+          380
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "",
+         "target": "འི",
+         "target_block": "2-2"
+        }
+       ]
+      }
+     },
+     {
+      "row": 24,
+      "text": "五蘊本性皆空",
+      "alignment": {
+       "pair_row": 24,
+       "target_side_text": "ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ།",
+       "targets": {
+        "2-2": {
+         "letters": 54,
+         "of": 325,
+         "span": [
+          383,
+          456
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "舍利子 觀自在菩薩摩訶薩曰"
-  },
-  "1-16": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 17
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
-    "1-11"
+    "2-2"
    ],
    "alignment": {
     "pair_row": 17,
     "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པ་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ།",
     "targets": {
-     "1-11": {
+     "2-2": {
       "letters": 68,
       "of": 325,
       "span": [
@@ -820,219 +831,77 @@
      {
       "copy": "",
       "target": "འི",
-      "target_block": "1-11"
+      "target_block": "2-2"
      },
      {
       "copy": "",
       "target": "ར",
-      "target_block": "1-11"
+      "target_block": "2-2"
      }
     ]
    },
-   "text": "善男子 欲修行甚深般若波羅蜜多者 複當云何修學"
+   "text": "善男子 欲修行甚深般若波羅蜜多者 複當云何修學 作是語已 觀自在菩薩摩訶薩答 具壽舍利子言 舍利子 善男子 善女人等 欲修行甚深般若波羅蜜多者 彼應如是觀察 五蘊本性皆空"
   },
-  "1-17": {
+  "2-3": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 18
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 18,
-    "target_side_text": "དེ་སྐད་ཅེས་སྨྲས་པ་དང་།",
-    "targets": {
-     "1-11": {
-      "letters": 15,
-      "of": 325,
-      "span": [
-       100,
-       120
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "作是語已"
-  },
-  "1-18": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 19
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 19,
-    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་",
-    "targets": {
-     "1-11": {
-      "letters": 51,
-      "of": 325,
-      "span": [
-       123,
-       189
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "觀自在菩薩摩訶薩答"
-  },
-  "1-19": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 20
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 20,
-    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ།",
-    "targets": {
-     "1-11": {
-      "letters": 34,
-      "of": 325,
-      "span": [
-       190,
-       238
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 25,
+    "merged_rows": [
      {
-      "copy": "ི",
-      "target": "",
-      "target_block": "1-11"
-     }
-    ]
-   },
-   "text": "具壽舍利子言"
-  },
-  "1-20": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 21
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 21,
-    "target_side_text": "ཤཱ་རིའི་བུ། རིགས་ཀྱི་བུའམ།",
-    "targets": {
-     "1-11": {
-      "letters": 19,
-      "of": 325,
-      "span": [
-       242,
-       266
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "舍利子 善男子"
-  },
-  "1-21": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 22
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 22,
-    "target_side_text": "རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་",
-    "targets": {
-     "1-11": {
-      "letters": 15,
-      "of": 325,
-      "span": [
-       268,
-       289
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "善女人等"
-  },
-  "1-22": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 23
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 23,
-    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ།",
-    "targets": {
-     "1-11": {
-      "letters": 64,
-      "of": 325,
-      "span": [
-       290,
-       380
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+      "row": 25,
+      "text": "色即是空",
+      "alignment": {
+       "pair_row": 25,
+       "target_side_text": "གཟུགས་སྟོང་པའོ།",
+       "targets": {
+        "2-3": {
+         "letters": 12,
+         "of": 27,
+         "span": [
+          1,
+          15
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
      {
-      "copy": "",
-      "target": "འི",
-      "target_block": "1-11"
+      "row": 26,
+      "text": "空即是色",
+      "alignment": {
+       "pair_row": 26,
+       "target_side_text": "སྟོང་པ་ཉིད་གཟུགས་སོ།",
+       "targets": {
+        "2-3": {
+         "letters": 15,
+         "of": 27,
+         "span": [
+          18,
+          37
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "欲修行甚深般若波羅蜜多者 彼應如是觀察"
-  },
-  "1-23": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 24
-   },
-   "targets": [
-    "1-11"
-   ],
-   "alignment": {
-    "pair_row": 24,
-    "target_side_text": "ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ།",
-    "targets": {
-     "1-11": {
-      "letters": 54,
-      "of": 325,
-      "span": [
-       383,
-       456
-      ],
-      "whole": false
-     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "五蘊本性皆空"
-  },
-  "1-24": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 25
-   },
    "targets": [
-    "1-12"
+    "2-3"
    ],
    "alignment": {
     "pair_row": 25,
     "target_side_text": "གཟུགས་སྟོང་པའོ།",
     "targets": {
-     "1-12": {
+     "2-3": {
       "letters": 12,
       "of": 27,
       "span": [
@@ -1043,46 +912,68 @@
      }
     }
    },
-   "text": "色即是空"
+   "text": "色即是空 空即是色"
   },
-  "1-25": {
+  "2-4": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 26
-   },
-   "targets": [
-    "1-12"
-   ],
-   "alignment": {
-    "pair_row": 26,
-    "target_side_text": "སྟོང་པ་ཉིད་གཟུགས་སོ།",
-    "targets": {
-     "1-12": {
-      "letters": 15,
-      "of": 27,
-      "span": [
-       18,
-       37
-      ],
-      "whole": false
+    "row": 27,
+    "merged_rows": [
+     {
+      "row": 27,
+      "text": "空不異色",
+      "alignment": {
+       "pair_row": 27,
+       "target_side_text": "གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན།",
+       "targets": {
+        "2-4": {
+         "letters": 22,
+         "of": 49,
+         "span": [
+          1,
+          30
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 28,
+      "text": "色不異空",
+      "alignment": {
+       "pair_row": 28,
+       "target_side_text": "སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ།",
+       "targets": {
+        "2-4": {
+         "letters": 27,
+         "of": 49,
+         "span": [
+          32,
+          68
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "空即是色"
-  },
-  "1-26": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 27
-   },
    "targets": [
-    "1-13"
+    "2-4"
    ],
    "alignment": {
     "pair_row": 27,
     "target_side_text": "གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན།",
     "targets": {
-     "1-13": {
+     "2-4": {
       "letters": 22,
       "of": 49,
       "span": [
@@ -1093,46 +984,106 @@
      }
     }
    },
-   "text": "空不異色"
+   "text": "空不異色 色不異空"
   },
-  "1-27": {
+  "2-5": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 28
-   },
-   "targets": [
-    "1-13"
-   ],
-   "alignment": {
-    "pair_row": 28,
-    "target_side_text": "སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ།",
-    "targets": {
-     "1-13": {
-      "letters": 27,
-      "of": 49,
-      "span": [
-       32,
-       68
-      ],
-      "whole": false
+    "row": 29,
+    "merged_rows": [
+     {
+      "row": 29,
+      "text": "如是 受",
+      "alignment": {
+       "pair_row": 29,
+       "target_side_text": "དེ་བཞིན་དུ་ཚོར་བ་དང་།",
+       "targets": {
+        "2-5": {
+         "letters": 14,
+         "of": 51,
+         "span": [
+          1,
+          20
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 30,
+      "text": "想",
+      "alignment": {
+       "pair_row": 30,
+       "target_side_text": "འདུ་ཤེས་དང་།",
+       "targets": {
+        "2-5": {
+         "letters": 8,
+         "of": 51,
+         "span": [
+          24,
+          34
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 31,
+      "text": "行",
+      "alignment": {
+       "pair_row": 31,
+       "target_side_text": "འདུ་བྱེད་དང་།",
+       "targets": {
+        "2-5": {
+         "letters": 9,
+         "of": 51,
+         "span": [
+          37,
+          48
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 32,
+      "text": "識亦複皆空",
+      "alignment": {
+       "pair_row": 32,
+       "target_side_text": "རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ།",
+       "targets": {
+        "2-5": {
+         "letters": 20,
+         "of": 51,
+         "span": [
+          51,
+          77
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "色不異空"
-  },
-  "1-28": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 29
-   },
    "targets": [
-    "1-14"
+    "2-5"
    ],
    "alignment": {
     "pair_row": 29,
     "target_side_text": "དེ་བཞིན་དུ་ཚོར་བ་དང་།",
     "targets": {
-     "1-14": {
+     "2-5": {
       "letters": 14,
       "of": 51,
       "span": [
@@ -1143,96 +1094,201 @@
      }
     }
    },
-   "text": "如是 受"
+   "text": "如是 受 想 行 識亦複皆空"
   },
-  "1-29": {
+  "2-6": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 30
-   },
-   "targets": [
-    "1-14"
-   ],
-   "alignment": {
-    "pair_row": 30,
-    "target_side_text": "འདུ་ཤེས་དང་།",
-    "targets": {
-     "1-14": {
-      "letters": 8,
-      "of": 51,
-      "span": [
-       24,
-       34
-      ],
-      "whole": false
+    "row": 33,
+    "merged_rows": [
+     {
+      "row": 33,
+      "text": "舍利子",
+      "alignment": {
+       "pair_row": 33,
+       "target_side_text": "ཤཱ་རིའི་བུ།",
+       "targets": {
+        "2-6": {
+         "letters": 8,
+         "of": 95,
+         "span": [
+          1,
+          11
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 34,
+      "text": "是故 諸法皆空",
+      "alignment": {
+       "pair_row": 34,
+       "target_side_text": "དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
+       "targets": {
+        "2-6": {
+         "letters": 25,
+         "of": 95,
+         "span": [
+          12,
+          47
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 35,
+      "text": "空相",
+      "alignment": {
+       "pair_row": 35,
+       "target_side_text": "མཚན་ཉིད་མེད་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 10,
+         "of": 95,
+         "span": [
+          49,
+          62
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 36,
+      "text": "不生",
+      "alignment": {
+       "pair_row": 36,
+       "target_side_text": "མ་སྐྱེས་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 7,
+         "of": 95,
+         "span": [
+          64,
+          73
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 37,
+      "text": "不滅",
+      "alignment": {
+       "pair_row": 37,
+       "target_side_text": "མ་འགགས་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 6,
+         "of": 95,
+         "span": [
+          76,
+          84
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 38,
+      "text": "不垢",
+      "alignment": {
+       "pair_row": 38,
+       "target_side_text": "དྲི་མ་མེད་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 8,
+         "of": 95,
+         "span": [
+          86,
+          97
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 39,
+      "text": "不離垢",
+      "alignment": {
+       "pair_row": 39,
+       "target_side_text": "དྲི་མ་དང་བྲལ་བ་མེད་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 14,
+         "of": 95,
+         "span": [
+          99,
+          119
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 40,
+      "text": "不減",
+      "alignment": {
+       "pair_row": 40,
+       "target_side_text": "བྲི་བ་མེད་པ།",
+       "targets": {
+        "2-6": {
+         "letters": 8,
+         "of": 95,
+         "span": [
+          122,
+          133
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 41,
+      "text": "不增",
+      "alignment": {
+       "pair_row": 41,
+       "target_side_text": "གང་བ་མེད་པའོ།",
+       "targets": {
+        "2-6": {
+         "letters": 9,
+         "of": 95,
+         "span": [
+          135,
+          147
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "想"
-  },
-  "1-30": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 31
-   },
    "targets": [
-    "1-14"
-   ],
-   "alignment": {
-    "pair_row": 31,
-    "target_side_text": "འདུ་བྱེད་དང་།",
-    "targets": {
-     "1-14": {
-      "letters": 9,
-      "of": 51,
-      "span": [
-       37,
-       48
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "行"
-  },
-  "1-31": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 32
-   },
-   "targets": [
-    "1-14"
-   ],
-   "alignment": {
-    "pair_row": 32,
-    "target_side_text": "རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ།",
-    "targets": {
-     "1-14": {
-      "letters": 20,
-      "of": 51,
-      "span": [
-       51,
-       77
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "識亦複皆空"
-  },
-  "1-32": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 33
-   },
-   "targets": [
-    "1-15"
+    "2-6"
    ],
    "alignment": {
     "pair_row": 33,
     "target_side_text": "ཤཱ་རིའི་བུ།",
     "targets": {
-     "1-15": {
+     "2-6": {
       "letters": 8,
       "of": 95,
       "span": [
@@ -1243,221 +1299,379 @@
      }
     }
    },
-   "text": "舍利子"
+   "text": "舍利子 是故 諸法皆空 空相 不生 不滅 不垢 不離垢 不減 不增"
   },
-  "1-33": {
+  "2-7": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 34
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 34,
-    "target_side_text": "དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ།",
-    "targets": {
-     "1-15": {
-      "letters": 25,
-      "of": 95,
-      "span": [
-       12,
-       47
-      ],
-      "whole": false
+    "row": 42,
+    "merged_rows": [
+     {
+      "row": 42,
+      "text": "舍利子",
+      "alignment": {
+       "pair_row": 42,
+       "target_side_text": "ཤཱ་རིའི་བུ།",
+       "targets": {
+        "2-7": {
+         "letters": 8,
+         "of": 146,
+         "span": [
+          1,
+          11
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 43,
+      "text": "是故 空性之中無色",
+      "alignment": {
+       "pair_row": 43,
+       "target_side_text": "དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 24,
+         "of": 146,
+         "span": [
+          12,
+          45
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 44,
+      "text": "無受",
+      "alignment": {
+       "pair_row": 44,
+       "target_side_text": "ཚོར་བ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 7,
+         "of": 146,
+         "span": [
+          47,
+          56
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 45,
+      "text": "無想",
+      "alignment": {
+       "pair_row": 45,
+       "target_side_text": "འདུ་ཤེས་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 9,
+         "of": 146,
+         "span": [
+          59,
+          70
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 46,
+      "text": "無行",
+      "alignment": {
+       "pair_row": 46,
+       "target_side_text": "འདུ་བྱེད་ནམས་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 10,
+         "of": 146,
+         "span": [
+          72,
+          84
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "ནམས",
+         "target": "",
+         "target_block": "2-7"
+        }
+       ]
+      }
+     },
+     {
+      "row": 47,
+      "text": "無識",
+      "alignment": {
+       "pair_row": 47,
+       "target_side_text": "རྣམ་པར་ཤེས་པ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 12,
+         "of": 146,
+         "span": [
+          86,
+          102
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 48,
+      "text": "無眼",
+      "alignment": {
+       "pair_row": 48,
+       "target_side_text": "མིག་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          104,
+          111
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 49,
+      "text": "無耳",
+      "alignment": {
+       "pair_row": 49,
+       "target_side_text": "རྣ་བ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          113,
+          121
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 50,
+      "text": "無鼻",
+      "alignment": {
+       "pair_row": 50,
+       "target_side_text": "སྣ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 5,
+         "of": 146,
+         "span": [
+          123,
+          129
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 51,
+      "text": "無舌",
+      "alignment": {
+       "pair_row": 51,
+       "target_side_text": "ལྕེ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          131,
+          138
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 52,
+      "text": "無身",
+      "alignment": {
+       "pair_row": 52,
+       "target_side_text": "ལུས་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          140,
+          147
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 53,
+      "text": "無意",
+      "alignment": {
+       "pair_row": 53,
+       "target_side_text": "ཡིད་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          149,
+          156
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 54,
+      "text": "無色",
+      "alignment": {
+       "pair_row": 54,
+       "target_side_text": "གཟུགས་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 8,
+         "of": 146,
+         "span": [
+          158,
+          167
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 55,
+      "text": "無聲",
+      "alignment": {
+       "pair_row": 55,
+       "target_side_text": "སྒྲ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          169,
+          176
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 56,
+      "text": "無香",
+      "alignment": {
+       "pair_row": 56,
+       "target_side_text": "དྲི་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 6,
+         "of": 146,
+         "span": [
+          178,
+          185
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 57,
+      "text": "無味",
+      "alignment": {
+       "pair_row": 57,
+       "target_side_text": "རོ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 5,
+         "of": 146,
+         "span": [
+          187,
+          193
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 58,
+      "text": "無觸",
+      "alignment": {
+       "pair_row": 58,
+       "target_side_text": "རེག་བྱ་མེད།",
+       "targets": {
+        "2-7": {
+         "letters": 8,
+         "of": 146,
+         "span": [
+          195,
+          205
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 59,
+      "text": "無法",
+      "alignment": {
+       "pair_row": 59,
+       "target_side_text": "ཆོས་མེད་དོ།",
+       "targets": {
+        "2-7": {
+         "letters": 8,
+         "of": 146,
+         "span": [
+          207,
+          217
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "是故 諸法皆空"
-  },
-  "1-34": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 35
-   },
    "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 35,
-    "target_side_text": "མཚན་ཉིད་མེད་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 10,
-      "of": 95,
-      "span": [
-       49,
-       62
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "空相"
-  },
-  "1-35": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 36
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 36,
-    "target_side_text": "མ་སྐྱེས་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 7,
-      "of": 95,
-      "span": [
-       64,
-       73
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不生"
-  },
-  "1-36": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 37
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 37,
-    "target_side_text": "མ་འགགས་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 6,
-      "of": 95,
-      "span": [
-       76,
-       84
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不滅"
-  },
-  "1-37": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 38
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 38,
-    "target_side_text": "དྲི་མ་མེད་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 8,
-      "of": 95,
-      "span": [
-       86,
-       97
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不垢"
-  },
-  "1-38": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 39
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 39,
-    "target_side_text": "དྲི་མ་དང་བྲལ་བ་མེད་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 14,
-      "of": 95,
-      "span": [
-       99,
-       119
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不離垢"
-  },
-  "1-39": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 40
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 40,
-    "target_side_text": "བྲི་བ་མེད་པ།",
-    "targets": {
-     "1-15": {
-      "letters": 8,
-      "of": 95,
-      "span": [
-       122,
-       133
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不減"
-  },
-  "1-40": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 41
-   },
-   "targets": [
-    "1-15"
-   ],
-   "alignment": {
-    "pair_row": 41,
-    "target_side_text": "གང་བ་མེད་པའོ།",
-    "targets": {
-     "1-15": {
-      "letters": 9,
-      "of": 95,
-      "span": [
-       135,
-       147
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "不增"
-  },
-  "1-41": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 42
-   },
-   "targets": [
-    "1-16"
+    "2-7"
    ],
    "alignment": {
     "pair_row": 42,
     "target_side_text": "ཤཱ་རིའི་བུ།",
     "targets": {
-     "1-16": {
+     "2-7": {
       "letters": 8,
       "of": 146,
       "span": [
@@ -1468,453 +1682,68 @@
      }
     }
    },
-   "text": "舍利子"
+   "text": "舍利子 是故 空性之中無色 無受 無想 無行 無識 無眼 無耳 無鼻 無舌 無身 無意 無色 無聲 無香 無味 無觸 無法"
   },
-  "1-42": {
+  "2-8": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 43
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 43,
-    "target_side_text": "དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 24,
-      "of": 146,
-      "span": [
-       12,
-       45
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "是故 空性之中無色"
-  },
-  "1-43": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 44
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 44,
-    "target_side_text": "ཚོར་བ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 7,
-      "of": 146,
-      "span": [
-       47,
-       56
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無受"
-  },
-  "1-44": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 45
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 45,
-    "target_side_text": "འདུ་ཤེས་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 9,
-      "of": 146,
-      "span": [
-       59,
-       70
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無想"
-  },
-  "1-45": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 46
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 46,
-    "target_side_text": "འདུ་བྱེད་ནམས་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 10,
-      "of": 146,
-      "span": [
-       72,
-       84
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 60,
+    "merged_rows": [
      {
-      "copy": "ནམས",
-      "target": "",
-      "target_block": "1-16"
+      "row": 60,
+      "text": "無眼界 無意界",
+      "alignment": {
+       "pair_row": 60,
+       "target_side_text": "མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
+       "targets": {
+        "2-8": {
+         "letters": 26,
+         "of": 60,
+         "span": [
+          1,
+          36
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 61,
+      "text": "無意識界",
+      "alignment": {
+       "pair_row": 61,
+       "target_side_text": "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ།",
+       "targets": {
+        "2-8": {
+         "letters": 34,
+         "of": 60,
+         "span": [
+          38,
+          84
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "無行"
-  },
-  "1-46": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 47
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 47,
-    "target_side_text": "རྣམ་པར་ཤེས་པ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 12,
-      "of": 146,
-      "span": [
-       86,
-       102
-      ],
-      "whole": false
-     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "無識"
-  },
-  "1-47": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 48
-   },
    "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 48,
-    "target_side_text": "མིག་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       104,
-       111
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無眼"
-  },
-  "1-48": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 49
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 49,
-    "target_side_text": "རྣ་བ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       113,
-       121
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無耳"
-  },
-  "1-49": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 50
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 50,
-    "target_side_text": "སྣ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 5,
-      "of": 146,
-      "span": [
-       123,
-       129
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無鼻"
-  },
-  "1-50": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 51
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 51,
-    "target_side_text": "ལྕེ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       131,
-       138
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無舌"
-  },
-  "1-51": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 52
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 52,
-    "target_side_text": "ལུས་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       140,
-       147
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無身"
-  },
-  "1-52": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 53
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 53,
-    "target_side_text": "ཡིད་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       149,
-       156
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無意"
-  },
-  "1-53": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 54
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 54,
-    "target_side_text": "གཟུགས་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 8,
-      "of": 146,
-      "span": [
-       158,
-       167
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無色"
-  },
-  "1-54": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 55
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 55,
-    "target_side_text": "སྒྲ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       169,
-       176
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無聲"
-  },
-  "1-55": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 56
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 56,
-    "target_side_text": "དྲི་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 6,
-      "of": 146,
-      "span": [
-       178,
-       185
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無香"
-  },
-  "1-56": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 57
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 57,
-    "target_side_text": "རོ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 5,
-      "of": 146,
-      "span": [
-       187,
-       193
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無味"
-  },
-  "1-57": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 58
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 58,
-    "target_side_text": "རེག་བྱ་མེད།",
-    "targets": {
-     "1-16": {
-      "letters": 8,
-      "of": 146,
-      "span": [
-       195,
-       205
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無觸"
-  },
-  "1-58": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 59
-   },
-   "targets": [
-    "1-16"
-   ],
-   "alignment": {
-    "pair_row": 59,
-    "target_side_text": "ཆོས་མེད་དོ།",
-    "targets": {
-     "1-16": {
-      "letters": 8,
-      "of": 146,
-      "span": [
-       207,
-       217
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無法"
-  },
-  "1-59": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 60
-   },
-   "targets": [
-    "1-17"
+    "2-8"
    ],
    "alignment": {
     "pair_row": 60,
     "target_side_text": "མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད།",
     "targets": {
-     "1-17": {
+     "2-8": {
       "letters": 26,
       "of": 60,
       "span": [
@@ -1925,46 +1754,227 @@
      }
     }
    },
-   "text": "無眼界 無意界"
+   "text": "無眼界 無意界 無意識界"
   },
-  "1-60": {
+  "2-9": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 61
-   },
-   "targets": [
-    "1-17"
-   ],
-   "alignment": {
-    "pair_row": 61,
-    "target_side_text": "ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ།",
-    "targets": {
-     "1-17": {
-      "letters": 34,
-      "of": 60,
-      "span": [
-       38,
-       84
-      ],
-      "whole": false
+    "row": 62,
+    "merged_rows": [
+     {
+      "row": 62,
+      "text": "無無明",
+      "alignment": {
+       "pair_row": 62,
+       "target_side_text": "མ་རིག་པ་མེད།",
+       "targets": {
+        "2-9": {
+         "letters": 8,
+         "of": 110,
+         "span": [
+          1,
+          12
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 63,
+      "text": "亦無無明盡 無老死",
+      "alignment": {
+       "pair_row": 63,
+       "target_side_text": "མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་་མེད།",
+       "targets": {
+        "2-9": {
+         "letters": 21,
+         "of": 110,
+         "span": [
+          15,
+          46
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 64,
+      "text": "亦無老死盡。",
+      "alignment": {
+       "pair_row": 64,
+       "target_side_text": "རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ།",
+       "targets": {
+        "2-9": {
+         "letters": 20,
+         "of": 110,
+         "span": [
+          49,
+          77
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 65,
+      "text": "是故 無苦",
+      "alignment": {
+       "pair_row": 65,
+       "target_side_text": "དེ་བཞིན་དུ་སྡུག་བསྔལ་བ་དང་།",
+       "targets": {
+        "2-9": {
+         "letters": 11,
+         "of": 110,
+         "span": [
+          81,
+          95
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "དེབཞིནདུ",
+         "target": "",
+         "target_block": "2-9"
+        }
+       ]
+      }
+     },
+     {
+      "row": 66,
+      "text": "集",
+      "alignment": {
+       "pair_row": 66,
+       "target_side_text": "ཀུན་འབྱུང་བ་དང་།",
+       "targets": {
+        "2-9": {
+         "letters": 11,
+         "of": 110,
+         "span": [
+          98,
+          112
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 67,
+      "text": "滅 及",
+      "alignment": {
+       "pair_row": 67,
+       "target_side_text": "འགོག་པ་དང་།",
+       "targets": {
+        "2-9": {
+         "letters": 7,
+         "of": 110,
+         "span": [
+          115,
+          124
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 68,
+      "text": "無道",
+      "alignment": {
+       "pair_row": 68,
+       "target_side_text": "ལམ་མེད།",
+       "targets": {
+        "2-9": {
+         "letters": 5,
+         "of": 110,
+         "span": [
+          127,
+          133
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 69,
+      "text": "無智",
+      "alignment": {
+       "pair_row": 69,
+       "target_side_text": "ཡེ་ཤེས་མེད།",
+       "targets": {
+        "2-9": {
+         "letters": 8,
+         "of": 110,
+         "span": [
+          135,
+          145
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 70,
+      "text": "無得",
+      "alignment": {
+       "pair_row": 70,
+       "target_side_text": "ཐོབ་པ་མེད།",
+       "targets": {
+        "2-9": {
+         "letters": 7,
+         "of": 110,
+         "span": [
+          147,
+          156
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 71,
+      "text": "亦無不得",
+      "alignment": {
+       "pair_row": 71,
+       "target_side_text": "མ་ཐོབ་པ་ཡང་མེད་དོ།",
+       "targets": {
+        "2-9": {
+         "letters": 12,
+         "of": 110,
+         "span": [
+          158,
+          175
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "無意識界"
-  },
-  "1-61": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 62
-   },
    "targets": [
-    "1-18"
+    "2-9"
    ],
    "alignment": {
     "pair_row": 62,
     "target_side_text": "མ་རིག་པ་མེད།",
     "targets": {
-     "1-18": {
+     "2-9": {
       "letters": 8,
       "of": 110,
       "span": [
@@ -1975,253 +1985,87 @@
      }
     }
    },
-   "text": "無無明"
+   "text": "無無明 亦無無明盡 無老死 亦無老死盡。 是故 無苦 集 滅 及 無道 無智 無得 亦無不得"
   },
-  "1-62": {
+  "2-10": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 63
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 63,
-    "target_side_text": "མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་་མེད།",
-    "targets": {
-     "1-18": {
-      "letters": 21,
-      "of": 110,
-      "span": [
-       15,
-       46
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "亦無無明盡 無老死"
-  },
-  "1-63": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 64
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 64,
-    "target_side_text": "རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ།",
-    "targets": {
-     "1-18": {
-      "letters": 20,
-      "of": 110,
-      "span": [
-       49,
-       77
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "亦無老死盡。"
-  },
-  "1-64": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 65
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 65,
-    "target_side_text": "དེ་བཞིན་དུ་སྡུག་བསྔལ་བ་དང་།",
-    "targets": {
-     "1-18": {
-      "letters": 11,
-      "of": 110,
-      "span": [
-       81,
-       95
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 72,
+    "merged_rows": [
      {
-      "copy": "དེབཞིནདུ",
-      "target": "",
-      "target_block": "1-18"
+      "row": 72,
+      "text": "舍利子",
+      "alignment": {
+       "pair_row": 72,
+       "target_side_text": "ཤཱ་རིའི་བུ།",
+       "targets": {
+        "2-10": {
+         "letters": 8,
+         "of": 79,
+         "span": [
+          1,
+          11
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 73,
+      "text": "是故 諸菩薩眾 以無所得故",
+      "alignment": {
+       "pair_row": 73,
+       "target_side_text": "དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར།",
+       "targets": {
+        "2-10": {
+         "letters": 38,
+         "of": 79,
+         "span": [
+          12,
+          63
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 74,
+      "text": "依止般若波羅蜜多",
+      "alignment": {
+       "pair_row": 74,
+       "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ།",
+       "targets": {
+        "2-10": {
+         "letters": 33,
+         "of": 79,
+         "span": [
+          65,
+          110
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "是故 無苦"
-  },
-  "1-65": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 66
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 66,
-    "target_side_text": "ཀུན་འབྱུང་བ་དང་།",
-    "targets": {
-     "1-18": {
-      "letters": 11,
-      "of": 110,
-      "span": [
-       98,
-       112
-      ],
-      "whole": false
-     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "集"
-  },
-  "1-66": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 67
-   },
    "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 67,
-    "target_side_text": "འགོག་པ་དང་།",
-    "targets": {
-     "1-18": {
-      "letters": 7,
-      "of": 110,
-      "span": [
-       115,
-       124
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "滅 及"
-  },
-  "1-67": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 68
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 68,
-    "target_side_text": "ལམ་མེད།",
-    "targets": {
-     "1-18": {
-      "letters": 5,
-      "of": 110,
-      "span": [
-       127,
-       133
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無道"
-  },
-  "1-68": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 69
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 69,
-    "target_side_text": "ཡེ་ཤེས་མེད།",
-    "targets": {
-     "1-18": {
-      "letters": 8,
-      "of": 110,
-      "span": [
-       135,
-       145
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無智"
-  },
-  "1-69": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 70
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 70,
-    "target_side_text": "ཐོབ་པ་མེད།",
-    "targets": {
-     "1-18": {
-      "letters": 7,
-      "of": 110,
-      "span": [
-       147,
-       156
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "無得"
-  },
-  "1-70": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 71
-   },
-   "targets": [
-    "1-18"
-   ],
-   "alignment": {
-    "pair_row": 71,
-    "target_side_text": "མ་ཐོབ་པ་ཡང་མེད་དོ།",
-    "targets": {
-     "1-18": {
-      "letters": 12,
-      "of": 110,
-      "span": [
-       158,
-       175
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "亦無不得"
-  },
-  "1-71": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 72
-   },
-   "targets": [
-    "1-19"
+    "2-10"
    ],
    "alignment": {
     "pair_row": 72,
     "target_side_text": "ཤཱ་རིའི་བུ།",
     "targets": {
-     "1-19": {
+     "2-10": {
       "letters": 8,
       "of": 79,
       "span": [
@@ -2232,71 +2076,87 @@
      }
     }
    },
-   "text": "舍利子"
+   "text": "舍利子 是故 諸菩薩眾 以無所得故 依止般若波羅蜜多"
   },
-  "1-72": {
+  "2-11": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 73
-   },
-   "targets": [
-    "1-19"
-   ],
-   "alignment": {
-    "pair_row": 73,
-    "target_side_text": "དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར།",
-    "targets": {
-     "1-19": {
-      "letters": 38,
-      "of": 79,
-      "span": [
-       12,
-       63
-      ],
-      "whole": false
+    "row": 75,
+    "merged_rows": [
+     {
+      "row": 75,
+      "text": "心無障礙",
+      "alignment": {
+       "pair_row": 75,
+       "target_side_text": "སེམས་ལ་སྒྲིབ་པ་མེད་པས་",
+       "targets": {
+        "2-11": {
+         "letters": 16,
+         "of": 67,
+         "span": [
+          0,
+          21
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 76,
+      "text": "無有恐怖",
+      "alignment": {
+       "pair_row": 76,
+       "target_side_text": "སྐྲག་པ་མེད་དེ།",
+       "targets": {
+        "2-11": {
+         "letters": 10,
+         "of": 67,
+         "span": [
+          22,
+          35
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 77,
+      "text": "超過顛倒 究竟涅槃",
+      "alignment": {
+       "pair_row": 77,
+       "target_side_text": "ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ།",
+       "targets": {
+        "2-11": {
+         "letters": 41,
+         "of": 67,
+         "span": [
+          37,
+          93
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "是故 諸菩薩眾 以無所得故"
-  },
-  "1-73": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 74
-   },
    "targets": [
-    "1-19"
-   ],
-   "alignment": {
-    "pair_row": 74,
-    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ།",
-    "targets": {
-     "1-19": {
-      "letters": 33,
-      "of": 79,
-      "span": [
-       65,
-       110
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "依止般若波羅蜜多"
-  },
-  "1-74": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 75
-   },
-   "targets": [
-    "1-20"
+    "2-11"
    ],
    "alignment": {
     "pair_row": 75,
     "target_side_text": "སེམས་ལ་སྒྲིབ་པ་མེད་པས་",
     "targets": {
-     "1-20": {
+     "2-11": {
       "letters": 16,
       "of": 67,
       "span": [
@@ -2307,71 +2167,87 @@
      }
     }
    },
-   "text": "心無障礙"
+   "text": "心無障礙 無有恐怖 超過顛倒 究竟涅槃"
   },
-  "1-75": {
+  "2-12": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 76
-   },
-   "targets": [
-    "1-20"
-   ],
-   "alignment": {
-    "pair_row": 76,
-    "target_side_text": "སྐྲག་པ་མེད་དེ།",
-    "targets": {
-     "1-20": {
-      "letters": 10,
-      "of": 67,
-      "span": [
-       22,
-       35
-      ],
-      "whole": false
+    "row": 78,
+    "merged_rows": [
+     {
+      "row": 78,
+      "text": "三世諸佛",
+      "alignment": {
+       "pair_row": 78,
+       "target_side_text": "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་།",
+       "targets": {
+        "2-12": {
+         "letters": 37,
+         "of": 115,
+         "span": [
+          1,
+          49
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 79,
+      "text": "依般若波羅蜜多故",
+      "alignment": {
+       "pair_row": 79,
+       "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས།",
+       "targets": {
+        "2-12": {
+         "letters": 27,
+         "of": 115,
+         "span": [
+          50,
+          87
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 80,
+      "text": "證得無上正等菩提",
+      "alignment": {
+       "pair_row": 80,
+       "target_side_text": "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ།",
+       "targets": {
+        "2-12": {
+         "letters": 51,
+         "of": 115,
+         "span": [
+          88,
+          157
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "無有恐怖"
-  },
-  "1-76": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 77
-   },
    "targets": [
-    "1-20"
-   ],
-   "alignment": {
-    "pair_row": 77,
-    "target_side_text": "ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ།",
-    "targets": {
-     "1-20": {
-      "letters": 41,
-      "of": 67,
-      "span": [
-       37,
-       93
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "超過顛倒 究竟涅槃"
-  },
-  "1-77": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 78
-   },
-   "targets": [
-    "1-21"
+    "2-12"
    ],
    "alignment": {
     "pair_row": 78,
     "target_side_text": "དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་།",
     "targets": {
-     "1-21": {
+     "2-12": {
       "letters": 37,
       "of": 115,
       "span": [
@@ -2382,71 +2258,163 @@
      }
     }
    },
-   "text": "三世諸佛"
+   "text": "三世諸佛 依般若波羅蜜多故 證得無上正等菩提"
   },
-  "1-78": {
+  "2-13": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 79
-   },
-   "targets": [
-    "1-21"
-   ],
-   "alignment": {
-    "pair_row": 79,
-    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས།",
-    "targets": {
-     "1-21": {
-      "letters": 27,
-      "of": 115,
-      "span": [
-       50,
-       87
-      ],
-      "whole": false
+    "row": 81,
+    "merged_rows": [
+     {
+      "row": 81,
+      "text": "是故當知般若波羅蜜多大密咒者",
+      "alignment": {
+       "pair_row": 81,
+       "target_side_text": "དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས།",
+       "targets": {
+        "2-13": {
+         "letters": 32,
+         "of": 165,
+         "span": [
+          1,
+          45
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 82,
+      "text": "是大明咒",
+      "alignment": {
+       "pair_row": 82,
+       "target_side_text": "རིག་པ་ཆེན་པོའི་སྔགས།",
+       "targets": {
+        "2-13": {
+         "letters": 15,
+         "of": 165,
+         "span": [
+          47,
+          66
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 83,
+      "text": "是無上咒",
+      "alignment": {
+       "pair_row": 83,
+       "target_side_text": "བླ་ན་མེད་པའི་སྔགས།",
+       "targets": {
+        "2-13": {
+         "letters": 13,
+         "of": 165,
+         "span": [
+          68,
+          85
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 84,
+      "text": "是無等等咒",
+      "alignment": {
+       "pair_row": 84,
+       "target_side_text": "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
+       "targets": {
+        "2-13": {
+         "letters": 18,
+         "of": 165,
+         "span": [
+          87,
+          111
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 85,
+      "text": "能除一切諸苦之咒",
+      "alignment": {
+       "pair_row": 85,
+       "target_side_text": "སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས།",
+       "targets": {
+        "2-13": {
+         "letters": 32,
+         "of": 165,
+         "span": [
+          113,
+          155
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 86,
+      "text": "真實不虛",
+      "alignment": {
+       "pair_row": 86,
+       "target_side_text": "མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ།",
+       "targets": {
+        "2-13": {
+         "letters": 25,
+         "of": 165,
+         "span": [
+          157,
+          191
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 87,
+      "text": "故說般若波羅蜜多咒",
+      "alignment": {
+       "pair_row": 87,
+       "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
+       "targets": {
+        "2-13": {
+         "letters": 30,
+         "of": 165,
+         "span": [
+          193,
+          233
+         ],
+         "whole": false
+        }
+       }
+      }
      }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "依般若波羅蜜多故"
-  },
-  "1-79": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 80
-   },
    "targets": [
-    "1-21"
-   ],
-   "alignment": {
-    "pair_row": 80,
-    "target_side_text": "བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ།",
-    "targets": {
-     "1-21": {
-      "letters": 51,
-      "of": 115,
-      "span": [
-       88,
-       157
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "證得無上正等菩提"
-  },
-  "1-80": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 81
-   },
-   "targets": [
-    "1-22"
+    "2-13"
    ],
    "alignment": {
     "pair_row": 81,
     "target_side_text": "དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས།",
     "targets": {
-     "1-22": {
+     "2-13": {
       "letters": 32,
       "of": 165,
       "span": [
@@ -2457,171 +2425,21 @@
      }
     }
    },
-   "text": "是故當知般若波羅蜜多大密咒者"
+   "text": "是故當知般若波羅蜜多大密咒者 是大明咒 是無上咒 是無等等咒 能除一切諸苦之咒 真實不虛 故說般若波羅蜜多咒"
   },
-  "1-81": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 82
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 82,
-    "target_side_text": "རིག་པ་ཆེན་པོའི་སྔགས།",
-    "targets": {
-     "1-22": {
-      "letters": 15,
-      "of": 165,
-      "span": [
-       47,
-       66
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "是大明咒"
-  },
-  "1-82": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 83
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 83,
-    "target_side_text": "བླ་ན་མེད་པའི་སྔགས།",
-    "targets": {
-     "1-22": {
-      "letters": 13,
-      "of": 165,
-      "span": [
-       68,
-       85
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "是無上咒"
-  },
-  "1-83": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 84
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 84,
-    "target_side_text": "མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས།",
-    "targets": {
-     "1-22": {
-      "letters": 18,
-      "of": 165,
-      "span": [
-       87,
-       111
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "是無等等咒"
-  },
-  "1-84": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 85
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 85,
-    "target_side_text": "སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས།",
-    "targets": {
-     "1-22": {
-      "letters": 32,
-      "of": 165,
-      "span": [
-       113,
-       155
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "能除一切諸苦之咒"
-  },
-  "1-85": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 86
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 86,
-    "target_side_text": "མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ།",
-    "targets": {
-     "1-22": {
-      "letters": 25,
-      "of": 165,
-      "span": [
-       157,
-       191
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "真實不虛"
-  },
-  "1-86": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 87
-   },
-   "targets": [
-    "1-22"
-   ],
-   "alignment": {
-    "pair_row": 87,
-    "target_side_text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
-    "targets": {
-     "1-22": {
-      "letters": 30,
-      "of": 165,
-      "span": [
-       193,
-       233
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "故說般若波羅蜜多咒"
-  },
-  "1-87": {
+  "2-14": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 88
    },
    "targets": [
-    "1-23"
+    "2-14"
    ],
    "alignment": {
     "pair_row": 88,
     "target_side_text": "ཏདྱ་ཐཱ། ཨོཾ་ག་ཏེ་ག་ཏེ་པཱ་ར་ག་ཏེ་པཱ་ར་སཾ་ག་ཏེ་བོ་དྷི་སྭཱ་ཧཱ།",
     "targets": {
-     "1-23": {
+     "2-14": {
       "letters": 34,
       "of": 34,
       "span": [
@@ -2635,30 +2453,103 @@
      {
       "copy": "ཨོཾ",
       "target": "",
-      "target_block": "1-23"
+      "target_block": "2-14"
      },
      {
       "copy": "ཱ",
       "target": "",
-      "target_block": "1-23"
+      "target_block": "2-14"
      }
     ]
    },
    "text": "唵 揭諦揭諦 波羅揭諦 波羅僧揭諦 菩提薩婆訶"
   },
-  "1-88": {
+  "2-15": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 89
+    "row": 89,
+    "merged_rows": [
+     {
+      "row": 89,
+      "text": "舍利子",
+      "alignment": {
+       "pair_row": 89,
+       "target_side_text": "ཤཱ་རིའི་བུ་",
+       "targets": {
+        "2-15": {
+         "letters": 8,
+         "of": 72,
+         "span": [
+          0,
+          10
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 90,
+      "text": "菩薩摩訶薩",
+      "alignment": {
+       "pair_row": 90,
+       "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་",
+       "targets": {
+        "2-15": {
+         "letters": 25,
+         "of": 72,
+         "span": [
+          11,
+          43
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "ས",
+         "target": "",
+         "target_block": "2-15"
+        }
+       ]
+      }
+     },
+     {
+      "row": 91,
+      "text": "應如是修學甚深般若波羅蜜多",
+      "alignment": {
+       "pair_row": 91,
+       "target_side_text": "དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ།",
+       "targets": {
+        "2-15": {
+         "letters": 39,
+         "of": 72,
+         "span": [
+          44,
+          98
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
-    "1-24"
+    "2-15"
    ],
    "alignment": {
     "pair_row": 89,
     "target_side_text": "ཤཱ་རིའི་བུ་",
     "targets": {
-     "1-24": {
+     "2-15": {
       "letters": 8,
       "of": 72,
       "span": [
@@ -2669,78 +2560,175 @@
      }
     }
    },
-   "text": "舍利子"
+   "text": "舍利子 菩薩摩訶薩 應如是修學甚深般若波羅蜜多"
   },
-  "1-89": {
+  "2-16": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 90
-   },
-   "targets": [
-    "1-24"
-   ],
-   "alignment": {
-    "pair_row": 90,
-    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་",
-    "targets": {
-     "1-24": {
-      "letters": 25,
-      "of": 72,
-      "span": [
-       11,
-       43
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 92,
+    "merged_rows": [
      {
-      "copy": "ས",
-      "target": "",
-      "target_block": "1-24"
+      "row": 92,
+      "text": "爾時世尊從彼定起",
+      "alignment": {
+       "pair_row": 92,
+       "target_side_text": "དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ་",
+       "targets": {
+        "2-16": {
+         "letters": 34,
+         "of": 128,
+         "span": [
+          1,
+          46
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 93,
+      "text": "告聖者觀自在菩薩摩訶薩曰",
+      "alignment": {
+       "pair_row": 93,
+       "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
+       "targets": {
+        "2-16": {
+         "letters": 44,
+         "of": 128,
+         "span": [
+          48,
+          108
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "",
+         "target": "ས",
+         "target_block": "2-16"
+        },
+        {
+         "copy": "སགཟིག",
+         "target": "",
+         "target_block": "2-16"
+        }
+       ]
+      }
+     },
+     {
+      "row": 94,
+      "text": "善哉",
+      "alignment": {
+       "pair_row": 94,
+       "target_side_text": "ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས།",
+       "targets": {
+        "2-16": {
+         "letters": 18,
+         "of": 128,
+         "span": [
+          109,
+          133
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 95,
+      "text": "善哉",
+      "alignment": {
+       "pair_row": 95,
+       "target_side_text": "ལེགས་སོ།",
+       "targets": {
+        "2-16": {
+         "letters": 6,
+         "of": 128,
+         "span": [
+          135,
+          142
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 96,
+      "text": "善哉",
+      "alignment": {
+       "pair_row": 96,
+       "target_side_text": "ལེགས་སོ།",
+       "targets": {
+        "2-16": {
+         "letters": 6,
+         "of": 128,
+         "span": [
+          143,
+          150
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 97,
+      "text": "善男子",
+      "alignment": {
+       "pair_row": 97,
+       "target_side_text": "རིགས་ཀྱི་བུ།",
+       "targets": {
+        "2-16": {
+         "letters": 9,
+         "of": 128,
+         "span": [
+          152,
+          163
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 98,
+      "text": "如是",
+      "alignment": {
+       "pair_row": 98,
+       "target_side_text": "དེ་དེ་བཞིན་ནོ།",
+       "targets": {
+        "2-16": {
+         "letters": 10,
+         "of": 128,
+         "span": [
+          164,
+          177
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "菩薩摩訶薩"
-  },
-  "1-90": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 91
-   },
-   "targets": [
-    "1-24"
-   ],
-   "alignment": {
-    "pair_row": 91,
-    "target_side_text": "དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ།",
-    "targets": {
-     "1-24": {
-      "letters": 39,
-      "of": 72,
-      "span": [
-       44,
-       98
-      ],
-      "whole": false
-     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "應如是修學甚深般若波羅蜜多"
-  },
-  "1-91": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 92
-   },
    "targets": [
-    "1-25"
+    "2-16"
    ],
    "alignment": {
     "pair_row": 92,
     "target_side_text": "དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ་",
     "targets": {
-     "1-25": {
+     "2-16": {
       "letters": 34,
       "of": 128,
       "span": [
@@ -2751,183 +2739,87 @@
      }
     }
    },
-   "text": "爾時世尊從彼定起"
+   "text": "爾時世尊從彼定起 告聖者觀自在菩薩摩訶薩曰 善哉 善哉 善哉 善男子 如是"
   },
-  "1-92": {
+  "2-17": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 93
-   },
-   "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 93,
-    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་",
-    "targets": {
-     "1-25": {
-      "letters": 44,
-      "of": 128,
-      "span": [
-       48,
-       108
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
+    "row": 99,
+    "merged_rows": [
      {
-      "copy": "",
-      "target": "ས",
-      "target_block": "1-25"
+      "row": 99,
+      "text": "善男子",
+      "alignment": {
+       "pair_row": 99,
+       "target_side_text": "རིགས་ཀྱི་བུ།",
+       "targets": {
+        "2-17": {
+         "letters": 9,
+         "of": 78,
+         "span": [
+          0,
+          11
+         ],
+         "whole": false
+        }
+       }
+      }
      },
      {
-      "copy": "སགཟིག",
-      "target": "",
-      "target_block": "1-25"
+      "row": 100,
+      "text": "如是",
+      "alignment": {
+       "pair_row": 100,
+       "target_side_text": "དེ་དེ་བཞིན་ཏེ།",
+       "targets": {
+        "2-17": {
+         "letters": 10,
+         "of": 78,
+         "span": [
+          12,
+          25
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 101,
+      "text": "如汝所說 彼當如是修學般若波羅蜜多",
+      "alignment": {
+       "pair_row": 101,
+       "target_side_text": "ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།",
+       "targets": {
+        "2-17": {
+         "letters": 59,
+         "of": 78,
+         "span": [
+          27,
+          108
+         ],
+         "whole": false
+        }
+       }
+      }
      }
-    ]
-   },
-   "text": "告聖者觀自在菩薩摩訶薩曰"
-  },
-  "1-93": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 94
-   },
-   "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 94,
-    "target_side_text": "ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས།",
-    "targets": {
-     "1-25": {
-      "letters": 18,
-      "of": 128,
-      "span": [
-       109,
-       133
-      ],
-      "whole": false
-     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
     }
    },
-   "text": "善哉"
-  },
-  "1-94": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 95
-   },
    "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 95,
-    "target_side_text": "ལེགས་སོ།",
-    "targets": {
-     "1-25": {
-      "letters": 6,
-      "of": 128,
-      "span": [
-       135,
-       142
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "善哉"
-  },
-  "1-95": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 96
-   },
-   "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 96,
-    "target_side_text": "ལེགས་སོ།",
-    "targets": {
-     "1-25": {
-      "letters": 6,
-      "of": 128,
-      "span": [
-       143,
-       150
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "善哉"
-  },
-  "1-96": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 97
-   },
-   "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 97,
-    "target_side_text": "རིགས་ཀྱི་བུ།",
-    "targets": {
-     "1-25": {
-      "letters": 9,
-      "of": 128,
-      "span": [
-       152,
-       163
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "善男子"
-  },
-  "1-97": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 98
-   },
-   "targets": [
-    "1-25"
-   ],
-   "alignment": {
-    "pair_row": 98,
-    "target_side_text": "དེ་དེ་བཞིན་ནོ།",
-    "targets": {
-     "1-25": {
-      "letters": 10,
-      "of": 128,
-      "span": [
-       164,
-       177
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "如是"
-  },
-  "1-98": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 99
-   },
-   "targets": [
-    "1-26"
+    "2-17"
    ],
    "alignment": {
     "pair_row": 99,
     "target_side_text": "རིགས་ཀྱི་བུ།",
     "targets": {
-     "1-26": {
+     "2-17": {
       "letters": 9,
       "of": 78,
       "span": [
@@ -2938,71 +2830,21 @@
      }
     }
    },
-   "text": "善男子"
+   "text": "善男子 如是 如汝所說 彼當如是修學般若波羅蜜多"
   },
-  "1-99": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 100
-   },
-   "targets": [
-    "1-26"
-   ],
-   "alignment": {
-    "pair_row": 100,
-    "target_side_text": "དེ་དེ་བཞིན་ཏེ།",
-    "targets": {
-     "1-26": {
-      "letters": 10,
-      "of": 78,
-      "span": [
-       12,
-       25
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "如是"
-  },
-  "1-100": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 101
-   },
-   "targets": [
-    "1-26"
-   ],
-   "alignment": {
-    "pair_row": 101,
-    "target_side_text": "ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།",
-    "targets": {
-     "1-26": {
-      "letters": 59,
-      "of": 78,
-      "span": [
-       27,
-       108
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "如汝所說 彼當如是修學般若波羅蜜多"
-  },
-  "1-101": {
+  "2-18": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 102
    },
    "targets": [
-    "1-27"
+    "2-18"
    ],
    "alignment": {
     "pair_row": 102,
     "target_side_text": "དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་།",
     "targets": {
-     "1-27": {
+     "2-18": {
       "letters": 31,
       "of": 31,
       "span": [
@@ -3015,19 +2857,19 @@
    },
    "text": "一切如來亦當隨喜"
   },
-  "1-102": {
+  "2-19": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
     "row": 103
    },
    "targets": [
-    "1-28"
+    "2-19"
    ],
    "alignment": {
     "pair_row": 103,
     "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
     "targets": {
-     "1-28": {
+     "2-19": {
       "letters": 30,
       "of": 30,
       "span": [
@@ -3040,19 +2882,201 @@
    },
    "text": "薄伽梵說是語已"
   },
-  "1-103": {
+  "2-20": {
    "source": {
     "file": "sherab-root-zh(bo-zh).md",
-    "row": 104
+    "row": 104,
+    "merged_rows": [
+     {
+      "row": 104,
+      "text": "具壽舍利子",
+      "alignment": {
+       "pair_row": 104,
+       "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་རྭ་ཏིའི་བུ་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 21,
+         "of": 165,
+         "span": [
+          0,
+          30
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "ར",
+         "target": "ད",
+         "target_block": "2-20"
+        }
+       ]
+      }
+     },
+     {
+      "row": 105,
+      "text": "聖者觀自在菩薩摩訶薩",
+      "alignment": {
+       "pair_row": 105,
+       "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 45,
+         "of": 165,
+         "span": [
+          33,
+          91
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "འཕགསཔ",
+         "target": "",
+         "target_block": "2-20"
+        }
+       ]
+      }
+     },
+     {
+      "row": 106,
+      "text": "一切世間",
+      "alignment": {
+       "pair_row": 106,
+       "target_side_text": "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 23,
+         "of": 165,
+         "span": [
+          94,
+          125
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 107,
+      "text": "神",
+      "alignment": {
+       "pair_row": 107,
+       "target_side_text": "ལྷ་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 4,
+         "of": 165,
+         "span": [
+          129,
+          134
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 108,
+      "text": "人及",
+      "alignment": {
+       "pair_row": 108,
+       "target_side_text": "མི་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 4,
+         "of": 165,
+         "span": [
+          137,
+          142
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 109,
+      "text": "阿修羅及",
+      "alignment": {
+       "pair_row": 109,
+       "target_side_text": "ལྷ་མ་ཡིན་དང་།",
+       "targets": {
+        "2-20": {
+         "letters": 8,
+         "of": 165,
+         "span": [
+          145,
+          156
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 110,
+      "text": "乾闥婆等 聞佛所說 皆大歡喜",
+      "alignment": {
+       "pair_row": 110,
+       "target_side_text": "དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ།",
+       "targets": {
+        "2-20": {
+         "letters": 26,
+         "of": 165,
+         "span": [
+          159,
+          193
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 111,
+      "text": "薄伽梵傳授 讚頌",
+      "alignment": {
+       "pair_row": 111,
+       "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
+       "targets": {
+        "2-20": {
+         "letters": 34,
+         "of": 165,
+         "span": [
+          195,
+          239
+         ],
+         "whole": false
+        }
+       },
+       "variants": [
+        {
+         "copy": "",
+         "target": "འཕགསཔཤེསརབཀྱིཕརོལཏུཕྱིནཔའིསྙིངཔོརྫོགསསོརྒྱགརགྱིམཁནཔོབིམལམིཏྲདངལོཙྪབདགེསློངརིནཆེནསྡེསབསྒྱུརཅིངཞུཆེནགྱིལོཙྪབདགེབློདངནམམཁའལསོགསཔསཞུསཏེགཏནལཕབཔདཔལབསམཡསལྷུནགྱིསགྲུབཔའིགཙུགལགགིདགེརྒྱསབྱེམགླིངགིརྩིགངོསལབྲིསཔདངཞུདགལེགསཔརབགྱིསསོ",
+         "target_block": "2-21"
+        }
+       ]
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "The Dzongsar Tibetan-Chinese doc cuts the Chinese into 111 short phrases, so most Tibetan segments were transcluded several times in a row. Consecutive rows that transclude the same Tibetan segment are joined into one block (with a space, the Chinese text's own phrase separator), giving one block per Tibetan segment (30; the Tibetan's closing title and translators' colophon have no Chinese). Every row and its alignment stay in the sidecar.",
+     "decided_by": "the vault owner (\"add the chinese together to make it have same number of segments as the tibetan\")",
+     "date": "2026-10-03"
+    }
    },
    "targets": [
-    "1-29"
+    "2-20"
    ],
    "alignment": {
     "pair_row": 104,
     "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་རྭ་ཏིའི་བུ་དང་།",
     "targets": {
-     "1-29": {
+     "2-20": {
       "letters": 21,
       "of": 165,
       "span": [
@@ -3066,200 +3090,11 @@
      {
       "copy": "ར",
       "target": "ད",
-      "target_block": "1-29"
+      "target_block": "2-20"
      }
     ]
    },
-   "text": "具壽舍利子"
-  },
-  "1-104": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 105
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 105,
-    "target_side_text": "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་།",
-    "targets": {
-     "1-29": {
-      "letters": 45,
-      "of": 165,
-      "span": [
-       33,
-       91
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
-     {
-      "copy": "འཕགསཔ",
-      "target": "",
-      "target_block": "1-29"
-     }
-    ]
-   },
-   "text": "聖者觀自在菩薩摩訶薩"
-  },
-  "1-105": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 106
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 106,
-    "target_side_text": "ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་།",
-    "targets": {
-     "1-29": {
-      "letters": 23,
-      "of": 165,
-      "span": [
-       94,
-       125
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "一切世間"
-  },
-  "1-106": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 107
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 107,
-    "target_side_text": "ལྷ་དང་།",
-    "targets": {
-     "1-29": {
-      "letters": 4,
-      "of": 165,
-      "span": [
-       129,
-       134
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "神"
-  },
-  "1-107": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 108
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 108,
-    "target_side_text": "མི་དང་།",
-    "targets": {
-     "1-29": {
-      "letters": 4,
-      "of": 165,
-      "span": [
-       137,
-       142
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "人及"
-  },
-  "1-108": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 109
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 109,
-    "target_side_text": "ལྷ་མ་ཡིན་དང་།",
-    "targets": {
-     "1-29": {
-      "letters": 8,
-      "of": 165,
-      "span": [
-       145,
-       156
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "阿修羅及"
-  },
-  "1-109": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 110
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 110,
-    "target_side_text": "དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ།",
-    "targets": {
-     "1-29": {
-      "letters": 26,
-      "of": 165,
-      "span": [
-       159,
-       193
-      ],
-      "whole": false
-     }
-    }
-   },
-   "text": "乾闥婆等 聞佛所說 皆大歡喜"
-  },
-  "1-110": {
-   "source": {
-    "file": "sherab-root-zh(bo-zh).md",
-    "row": 111
-   },
-   "targets": [
-    "1-29"
-   ],
-   "alignment": {
-    "pair_row": 111,
-    "target_side_text": "བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
-    "targets": {
-     "1-29": {
-      "letters": 34,
-      "of": 165,
-      "span": [
-       195,
-       239
-      ],
-      "whole": false
-     }
-    },
-    "variants": [
-     {
-      "copy": "",
-      "target": "འཕགསཔཤེསརབཀྱིཕརོལཏུཕྱིནཔའིསྙིངཔོརྫོགསསོ",
-      "target_block": "1-30"
-     }
-    ]
-   },
-   "text": "薄伽梵傳授 讚頌"
+   "text": "具壽舍利子 聖者觀自在菩薩摩訶薩 一切世間 神 人及 阿修羅及 乾闥婆等 聞佛所說 皆大歡喜 薄伽梵傳授 讚頌"
   }
  },
  "legend": null,
@@ -3267,38 +3102,22 @@
  "target_side_rows_without_counterpart": [],
  "concordance": {
   "copy_letters": 2424,
-  "target_letters": 2463,
+  "target_letters": 2642,
   "matched": 2383,
   "replaced": 3,
   "copy_only": 38,
-  "target_only": 77,
-  "ratio": 0.9752
+  "target_only": 256,
+  "ratio": 0.9408
  },
  "toc_nodes_without_rows": [
   {
-   "node": "1.3.1.1.2",
-   "title": "གཉིས་པ་སྟོན་པ་ཕུན་སུམ་ཚོགས་པ།"
-  },
-  {
-   "node": "1.3.1.1.3",
-   "title": "གསུམ་པ་གནས་ཕུན་སུམ་ཚོགས།"
-  },
-  {
-   "node": "1.3.1.1.4",
-   "title": "བཞི་བ་འཁོར་ཕུན་སུམ་ཚོགས་པ།"
-  },
-  {
-   "node": "1.3.2.2.1.1.1",
-   "title": "དང་པོ་འཚམས་སྦྱར་བ།"
-  },
-  {
-   "node": "1.4",
-   "title": "བཞི་པ་མཇུག།"
+   "node": "3",
+   "title": "譯跋"
   }
  ],
  "toc": {
-  "kind": "projected",
-  "source_work": "bo-lobzang-gyaltsen-senge-nyinje",
-  "note": "The root text has no outline of its own and the Dzongsar data has no TOC for it, so its TOC is the outline of Lobsang Gyaltsen Sengge's commentary (2-RAILS/Sections/Raw/toc-tree/lobzang-gyaltsen-senge-nyinje.md), carried onto the display Tibetan through that commentary's own human row alignment, and from there onto this file through its own pairing. Chosen (2026-10-03, on the vault owner's instruction to add a TOC to the root texts) because it is the only commentary outline whose nodes cover the whole root — title, translator's homage, text, conclusion — and land on distinct segments in order. Its division of the answer by the five paths is that commentary's (Gelug) reading. To use another commentary's outline, change source_work and rebuild."
+  "kind": "outline",
+  "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+  "note": "The root text has no outline of its own; its TOC is the three-part table of contents of the Derge Kangyur Heart Sūtra on Wikisource (Index:ཤེས་རབ་སྙིང་པོ། སྡེ་དགེ།.pdf, revision 1228972) — མདོའི་གླེང་གཞི། · མདོ་དོན་དངོས། · མཇུག་བྱང་། — placed on the rows of the display Tibetan where the Index's proofread pages put each heading, and carried onto the Sanskrit and the Chinese through their own row pairings, each with headings in its own language (Tibetan verbatim; Sanskrit and Chinese editorial translations). Chosen by the vault owner on 2026-10-03, replacing first the projection of Lobsang Gyaltsen Sengge's toc-generate outline (far too granular) and then, the same day, a six-part outline from the Tibetan Wikipedia article."
  }
 }

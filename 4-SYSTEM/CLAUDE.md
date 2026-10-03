@@ -441,6 +441,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Add or re-add block IDs | `add-block-ids` |
 | Insert root-verse transclusions into a commentary | `transclusion` |
 | Build a structural outline / table of contents | `toc-generate` (sa bcad) · `structural-outline-ingest` · `add-toc` |
+| Apply a TOC taken from the text's Wikisource Index page (or Wikipedia) | `wiki-toc-import` |
 | Tag inline structural announcements | `tag-inline-toc` |
 | **Metadata** | |
 | Fill a file's frontmatter | `frontmatter` |
