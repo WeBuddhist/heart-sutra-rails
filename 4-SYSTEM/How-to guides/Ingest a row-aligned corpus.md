@@ -43,6 +43,7 @@ Every human alignment was made against its *own copy* of the root text: each com
 | **Wrong-looking pairings** | three Sanskrit↔Tibetan pairings fixed (rows 2, 5, 15 — reasons in the manifest); one stray character removed (commentary 1, row 83) | Fix only on a human decision; record reason, who, when; the original stays in the sidecar |
 | **A reading the copies disagree on** | the display has ཕྱིན་པ་ in ^9 and ^12, all nine commentary copies lack it → keep the display text; the variant is recorded per row and nothing after it shifts | The stored text is never edited to match a copy |
 | **Where each TOC comes from** | Tāranātha: the team's TOC doc (numbered labels); the others: `toc-generate` from their own *sa bcad*; a commentary without *sa bcad*: none, with the reason | Ids are derived from the TOC, so it must exist first |
+| **The root's TOC** | The root has no outline and the data no TOC for it → Lobsang Gyaltsen Sengge's outline, projected through his row alignment onto the Tibetan, and through the pairings onto the Sanskrit and the Chinese (the only outline covering title → colophon with nodes on distinct segments) | The root's ids follow its TOC too (`^1-12`), and every transclusion into it is regenerated |
 
 Read every **short** pair (root ↔ translation) row by row before building — that is where a shifted pairing hides (Heart Sūtra: Tibetan row 14 empty, so the Tibetan of Sanskrit row 14 sat on row 15).
 
@@ -88,6 +89,7 @@ For each commentary choose one:
   4. **Placement**: one isolated subagent with `aligned-corpus-intake/prompts/place-toc-at-rows.md` → `0-INBOX/temp/TOC-<id>/placement.md` (tree + `[[line]]` pointers + a TSV of opening clauses). `toc-generate`'s own prompts emit no pointers, and headings may only stand between rows — this pass supplies both. Then `python3 $S/toc_rows.py place <id>` (refuses if the subagent changed anything but the pointers).
   5. `qc_tree_vs_source.py --source 0-INBOX/temp/TOC-<id>/source.md`. Check **every** flag against the source yourself. On the Heart Sūtra, every flag that survived review was one of: several headings on one row (one row announcing a chain; several sections opening inside one long row); a section opening on a bare ordinal (`གཉིས་པ་ནི།`) with its title only in the parent's enumeration; a title only in a closing formula (`འདིས་ནི་ … བསྟན་ཏོ།`); a part placed at the passage an announcing verse names; a division count misread by the heuristic (the text says `གཉིས་ཏེ`). Write the evidence lines at the end of the QC report and `issues_after_review: 0`. Anything else → a repair round (`pass4-qc-repair.md`, isolated subagent) and placement again. A part the author announces but never opens is removed and reported (Lama Kunga 3.2.3.15.3).
   6. `python3 $S/toc_rows.py promote <id> <work-key> [--accept]` → `2-RAILS/Sections/Raw/toc-tree/<id>.md` with `pointer_source_sha1` (from `source.json`) and the placement TSV under `## Placement`; the candidates, enumerations and both QC reports move next to it. The build refuses a tree whose sha1 no longer matches.
+- **`toc: {kind: projected, source_work: <commentary key>}`** — for the **root and its translations**, once the commentary TOCs are done (the projection reads them): carries one commentary's outline onto the stored root through that commentary's human row alignment, and onto each translation through its pairing. To choose the commentary, project all of them (count, per outline, how many nodes land on distinct root segments in order and whether title, homage, text and colophon are covered) and take the best fit; write the reason in the manifest. Rebuilding regenerates every transclusion into the re-keyed files.
 - **`toc: {kind: none, reason: "…"}`** — no outline. A commentary whose Phase A finds only a doctrinal list (Heart Sūtra: Vairocana's "five excellences") and whose Phase B finds no division announcement has no *sa bcad*; do not build a tree from a doctrinal list — it would title the whole rest of the text with its last item.
 
 ### 3.5 Test build, verify, dry-run
@@ -109,8 +111,9 @@ Same command without `--out`; `verify.py` again on the vault. Then register the 
 
 | File | Ids | Example |
 |---|---|---|
-| Root and translations (no TOC) | `^N` = the row number in the alignment Doc; gaps where a row is empty on that side | Tibetan `^15` transcludes Sanskrit `^14` (a corrected pairing); Sanskrit has no `^3`–`^5` |
+| Root and translations (projected TOC) | headings `^<path>-0` from the projected outline; body `^<top-level>-<n>`; the title line `^0-1` | Tibetan `^1-13` (row 15) transcludes Sanskrit `^1-10` (row 14, a corrected pairing); Sanskrit `^1-11` (row 15) has no Tibetan counterpart; each block's row number stays in its sidecar |
 | Commentaries | headings `^<path>-0` from the TOC; body `^<top-level>-<n>` counted through deeper headings; before the first heading `^0-<n>` | `## … ^2-0`, `### … ^2-1-0`, body `^2-7` |
+| Any text without a TOC (`id_scheme: flat`) | `^N` = the row number in the alignment Doc | only if the vault owner wants no TOC |
 
 Transclusions sit on their own lines directly before the block they belong to. A commentary row that comments on part of a stored segment repeats that segment's transclusion (the library's parser counts only `![[…]]` embeds attached to a block). The sidecar keeps the exact character span.
 

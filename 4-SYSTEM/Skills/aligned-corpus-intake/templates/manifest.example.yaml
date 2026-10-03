@@ -83,11 +83,13 @@ works:
 # ── Route B: Google Docs exported as Markdown (row N of one doc ↔ row N of the other) ──
 # See references/md-export-format.md. Build order = dependency order.
 
-# The root: rows are its segmentation; no TOC -> flat ids = row numbers.
+# The root: rows are its segmentation; its TOC is a commentary's outline projected
+# through that commentary's row alignment (or id_scheme: flat with no toc = row-number ids).
 - key: sa-root
   path: 1-SOURCES/Text/sa-<slug>.md
   adapter: md_rows
-  id_scheme: flat
+  id_scheme: h2
+  toc: {kind: projected, source_work: bo-<commentary>}
   text: <prefix>-root-sa(bo-sa).md
   title: <title>
   frontmatter: {title: …, language: Sanskrit, lang_tag: sa, file_type: root-text, verse_id_format: verse,
@@ -97,7 +99,8 @@ works:
 - key: bo-display
   path: 1-SOURCES/Translations/bo-<slug>.md
   adapter: md_rows
-  id_scheme: flat
+  id_scheme: h2
+  toc: {kind: projected, source_work: bo-<commentary>}
   text: <prefix>-root-bo(display).md          # the ONE stored segmentation of this text
   pair: {own_side: <prefix>-root-bo(bo-sa).md, target_side: <prefix>-root-sa(bo-sa).md}
   target: sa-root

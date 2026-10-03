@@ -414,6 +414,131 @@ def _apply_labels(ctx, spec, items, rep):
 
 
 # --------------------------------------------------------------------------
+# a TOC projected from a commentary onto a root text (or its translations)
+# --------------------------------------------------------------------------
+
+def _spec(ctx, key):
+    for w in ctx.m["works"]:
+        if w["key"] == key:
+            return w
+    raise ValueError(f"no work {key!r} in the manifest")
+
+
+def _lettered_rows(ctx, rel):
+    return [(str(r["row"]), r["text"]) for r in _rows(ctx, rel) if has_letters(r["text"])]
+
+
+def _source_sections(ctx, toc):
+    """Walk the source commentary (rows + its own headings) and return, for
+    every row of the stored root it comments on, the TOC node whose section
+    first reaches it — the projection through the commentary's own human
+    row alignment. Returns (display_rows_in_order, row -> node-index | None,
+    nodes)."""
+    src = _spec(ctx, toc["source_work"])
+    items, _ = _blocks(ctx, src, {})
+    kind = (src.get("toc") or {}).get("kind")
+    if kind == "tree":
+        items = _apply_tree(ctx, src, items, {}, src["title"])
+    elif kind == "labels":
+        items, _ = _apply_labels(ctx, src, items, {})
+    else:
+        raise ValueError(f"{toc['source_work']} has no TOC to project")
+    stored = _spec(ctx, src["target"])                      # the stored root the commentary points at
+    disp = _lettered_rows(ctx, stored["text"])
+    order = [r for r, _ in disp]
+    copy = _lettered_rows(ctx, src["pair"]["target_side"])
+    conc = Concordance(disp, [(int(r), t) for r, t in copy], min_overlap=src.get("min_overlap", 3))
+    corrections = {int(c["row"]): [int(x) for x in c.get("target_side_rows") or []]
+                   for c in src.get("pair_corrections") or []}
+    copy_rows = {int(r) for r, _ in copy}
+    nodes, node_of, cur = [], {}, None
+    for it in items:
+        if it["kind"] == "heading":
+            nodes.append(it)
+            cur = len(nodes) - 1
+            continue
+        k = it["row"]
+        rows = corrections.get(k, [k] if k in copy_rows else [])
+        for r in rows:
+            for d in conc.row(r)["targets"]:
+                node_of.setdefault(d, cur)
+    # rows the commentary never reaches belong to the section before them
+    last = None
+    for d in order:
+        if d in node_of:
+            last = node_of[d]
+        else:
+            node_of[d] = last
+    return order, node_of, nodes
+
+
+def _apply_projected(ctx, spec, items, rep):
+    """toc: {kind: projected, source_work: <commentary key>}. The commentary's
+    TOC nodes are carried onto this work's rows: onto the stored root through
+    the commentary's own row alignment, and from there onto a translation of
+    it (or onto the text it translates) through that pair's row alignment.
+    Headings stand only between rows; a node that reaches no row of this work
+    gets no heading here (recorded)."""
+    toc = spec["toc"]
+    order, node_of, nodes = _source_sections(ctx, toc)
+    stored_key = _spec(ctx, toc["source_work"])["target"]
+    pos = {d: i for i, d in enumerate(order)}
+    # this work's row -> stored-root rows
+    if spec["key"] == stored_key:
+        to_stored = {it["row"]: [str(it["row"])] for it in items}
+    elif spec.get("target") == stored_key:              # a translation of the stored root
+        tgt = _lettered_rows(ctx, spec["pair"]["target_side"])
+        conc = Concordance([(d, t) for d, t in _lettered_rows(ctx, _spec(ctx, stored_key)["text"])],
+                           [(int(r), t) for r, t in tgt], min_overlap=spec.get("min_overlap", 3))
+        to_stored = {it["row"]: conc.row(it["row"])["targets"] for it in items}
+    elif _spec(ctx, stored_key).get("target") == spec["key"]:   # the text the stored root translates
+        st = _spec(ctx, stored_key)
+        corr = {int(c["row"]): [int(x) for x in c.get("target_side_rows") or []]
+                for c in st.get("pair_corrections") or []}
+        to_stored = {}
+        for d in order:
+            for r in corr.get(int(d), [int(d)]):
+                to_stored.setdefault(r, []).append(d)
+        to_stored = {it["row"]: sorted(to_stored.get(it["row"], []), key=pos.get) for it in items}
+    else:
+        raise ValueError(f"{spec['key']}: no row alignment links it to {stored_key}")
+    # parent of each node, from heading levels in tree order
+    parent, stack = [], []
+    for i, n in enumerate(nodes):
+        lvl = vault_writer.heading_level(n)
+        while stack and vault_writer.heading_level(nodes[stack[-1]]) >= lvl:
+            stack.pop()
+        parent.append(stack[-1] if stack else None)
+        stack.append(i)
+    emitted, placements, current, moved_back = set(), [], None, []
+    for idx, it in enumerate(items):
+        ds = [d for d in to_stored.get(it["row"], []) if d in pos]
+        node = node_of.get(min(ds, key=pos.get)) if ds else current
+        if node is None or node == current:
+            continue
+        if current is not None and node < current:
+            moved_back.append(it["row"])                 # mapping runs backwards: stay in the current section
+            continue
+        chain, n = [], node
+        while n is not None and n not in emitted:
+            chain.append(n)
+            n = parent[n]
+        for n in reversed(chain):
+            h = dict(nodes[n])
+            h["source"] = {"origin": "projected", "from": toc["source_work"],
+                           "node": nodes[n]["path"], "via": stored_key, "row": it["row"]}
+            placements.append((idx, "before", h))
+            emitted.add(n)
+        current = node
+    dropped = [{"node": n["path"], "title": n["title"]} for i, n in enumerate(nodes) if i not in emitted]
+    rep["headings"] = len(placements)
+    rep["toc_nodes_without_rows"] = dropped
+    if moved_back:
+        rep["rows_kept_in_current_section"] = moved_back
+    return _insert(items, placements), dropped
+
+
+# --------------------------------------------------------------------------
 # the adapter
 # --------------------------------------------------------------------------
 
@@ -432,6 +557,10 @@ def adapt_md_rows(ctx, spec, rep):
         items, gone = _apply_labels(ctx, spec, items, rep)
         if gone:
             extra["rows_that_were_only_toc_labels"] = gone
+    elif toc["kind"] == "projected":
+        items, dropped = _apply_projected(ctx, spec, items, rep)
+        if dropped:
+            extra["toc_nodes_without_rows"] = dropped
     elif toc["kind"] != "none":
         raise ValueError(f"{spec['key']}: unknown toc kind {toc['kind']!r}")
     extra["toc"] = {k: v for k, v in toc.items() if k != "labels"}

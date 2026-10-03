@@ -65,9 +65,10 @@ prefix `sherab-`):
    Fix only what a human decides (`pair_corrections`, `text_corrections` in the
    manifest, with reason, who, when). Never re-pair silently.
 5. **Where the headings come from**: a TOC doc's labels (`toc.kind: labels`), a
-   `toc-generate` tree (`toc.kind: tree`), or none (`toc.kind: none` with the
-   reason). The TOC comes *before* ids and transclusions — ids are derived from
-   the sections.
+   `toc-generate` tree (`toc.kind: tree`), a commentary's outline projected onto
+   a root and its translations (`toc.kind: projected`), or none (`toc.kind:
+   none` with the reason). The TOC comes *before* ids and transclusions — ids
+   are derived from the sections.
 
 ## 4. How the alignment is carried onto the stored segmentation
 

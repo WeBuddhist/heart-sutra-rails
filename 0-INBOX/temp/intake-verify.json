@@ -7,7 +7,7 @@
   "numbered": 0,
   "matching": 0,
   "blocks": 29,
-  "headings": 1,
+  "headings": 25,
   "transclusions": 0,
   "letters": 2062,
   "missing": 0,
@@ -25,7 +25,7 @@
   "numbered": 0,
   "matching": 0,
   "blocks": 31,
-  "headings": 1,
+  "headings": 26,
   "transclusions": 28,
   "letters": 2463,
   "missing": 0,
@@ -42,35 +42,35 @@
    "edition_variant_rows": 4,
    "_variants": [
     {
-     "block": "3",
+     "block": "1-2",
      "row": 3,
      "letters_found": 0.79,
      "targets": [
-      "2"
+      "1-1"
      ]
     },
     {
-     "block": "65",
+     "block": "1-64",
      "row": 65,
      "letters_found": 0.84,
      "targets": [
-      "20"
+      "1-18"
      ]
     },
     {
-     "block": "88",
+     "block": "1-87",
      "row": 88,
      "letters_found": 0.89,
      "targets": [
-      "25"
+      "1-23"
      ]
     },
     {
-     "block": "93",
+     "block": "1-92",
      "row": 93,
      "letters_found": 0.9,
      "targets": [
-      "27"
+      "1-25"
      ]
     }
    ]
@@ -78,7 +78,7 @@
   "numbered": 0,
   "matching": 0,
   "blocks": 111,
-  "headings": 1,
+  "headings": 25,
   "transclusions": 111,
   "letters": 618,
   "missing": 0,

@@ -20,16 +20,16 @@ works:
 - key: sa-root
   path: 1-SOURCES/Text/sa-prajnaparamita-hrdaya.md
   adapter: md_rows
-  id_scheme: flat
+  id_scheme: h2
   text: sherab-root-sa(bo-sa).md
   title: प्रज्ञापारमिताहृदय
-  notes: 'The Sanskrit is the root of this vault (it came first; the Tibetan is its translation). Rows are the Dzongsar team''s segmentation of the Sanskrit-Tibetan pair; rows 3-5 are empty on this side (the Tibetan has its translator''s preamble there). Ids are flat: no TOC, no internal chapters.'
+  notes: The Sanskrit is the root of this vault (it came first; the Tibetan is its translation). Rows are the Dzongsar team's segmentation of the Sanskrit-Tibetan pair; rows 3-5 are empty on this side (the Tibetan has its translator's preamble there).
   frontmatter:
     title: प्रज्ञापारमिताहृदय
     language: Sanskrit
     lang_tag: sa
     file_type: root-text
-    verse_id_format: verse
+    verse_id_format: section-paragraph
     category_id: null
     license: cc0
     source: https://docs.google.com/document/d/1PDtR6wX987NkpHL86t3onLwokdqcJnHCaDjiX2hIWZo/edit
@@ -40,10 +40,14 @@ works:
     text_id: null
     edition_id: null
     toc_id: null
+  toc:
+    kind: projected
+    source_work: bo-lobzang-gyaltsen-senge-nyinje
+    note: The root text has no outline of its own and the Dzongsar data has no TOC for it, so its TOC is the outline of Lobsang Gyaltsen Sengge's commentary (2-RAILS/Sections/Raw/toc-tree/lobzang-gyaltsen-senge-nyinje.md), carried onto the display Tibetan through that commentary's own human row alignment, and from there onto this file through its own pairing. Chosen (2026-10-03, on the vault owner's instruction to add a TOC to the root texts) because it is the only commentary outline whose nodes cover the whole root — title, translator's homage, text, conclusion — and land on distinct segments in order. Its division of the answer by the five paths is that commentary's (Gelug) reading. To use another commentary's outline, change source_work and rebuild.
 - key: bo-display
   path: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
   adapter: md_rows
-  id_scheme: flat
+  id_scheme: h2
   text: sherab-root-bo(display).md
   pair:
     own_side: sherab-root-bo(bo-sa).md
@@ -84,7 +88,7 @@ works:
     lang_tag: bo
     file_type: translation
     root_text: 1-SOURCES/Text/sa-prajnaparamita-hrdaya.md
-    verse_id_format: verse
+    verse_id_format: section-paragraph
     category_id: null
     license: public
     source: https://library.bdrc.io/show/bdr:WA0RK0529?s=q%3D%2522%25E0%25BD%25A4%25E0%25BD%25BA%25E0%25BD%25A6%25E0%25BC%258B%25E0%25BD%25A2%25E0%25BD%2596%25E0%25BC%258B%25E0%25BD%25A6%25E0%25BE%2599%25E0%25BD%25B2%25E0%25BD%2584%25E0%25BC%258B%25E0%25BD%2594%25E0%25BD%25BC%25E0%25BC%258D%2522~1%26lg%3Dbo%26t%3DWork%26n%3D1
@@ -96,10 +100,14 @@ works:
     text_id: null
     edition_id: null
     toc_id: null
+  toc:
+    kind: projected
+    source_work: bo-lobzang-gyaltsen-senge-nyinje
+    note: The root text has no outline of its own and the Dzongsar data has no TOC for it, so its TOC is the outline of Lobsang Gyaltsen Sengge's commentary (2-RAILS/Sections/Raw/toc-tree/lobzang-gyaltsen-senge-nyinje.md), carried onto the display Tibetan through that commentary's own human row alignment, and from there onto this file through its own pairing. Chosen (2026-10-03, on the vault owner's instruction to add a TOC to the root texts) because it is the only commentary outline whose nodes cover the whole root — title, translator's homage, text, conclusion — and land on distinct segments in order. Its division of the answer by the five paths is that commentary's (Gelug) reading. To use another commentary's outline, change source_work and rebuild.
 - key: zh-translation
   path: 1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md
   adapter: md_rows
-  id_scheme: flat
+  id_scheme: h2
   text: sherab-root-zh(bo-zh).md
   pair:
     own_side: sherab-root-zh(bo-zh).md
@@ -113,7 +121,7 @@ works:
     lang_tag: zh
     file_type: translation
     root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
-    verse_id_format: verse
+    verse_id_format: section-paragraph
     category_id: null
     license: unknown
     source: https://docs.google.com/document/d/1U1FAXWHGWtqTdTClz25n_vSvV_KHNSYiQzQKC_fEp7I/edit
@@ -123,6 +131,10 @@ works:
     text_id: null
     edition_id: null
     toc_id: null
+  toc:
+    kind: projected
+    source_work: bo-lobzang-gyaltsen-senge-nyinje
+    note: The root text has no outline of its own and the Dzongsar data has no TOC for it, so its TOC is the outline of Lobsang Gyaltsen Sengge's commentary (2-RAILS/Sections/Raw/toc-tree/lobzang-gyaltsen-senge-nyinje.md), carried onto the display Tibetan through that commentary's own human row alignment, and from there onto this file through its own pairing. Chosen (2026-10-03, on the vault owner's instruction to add a TOC to the root texts) because it is the only commentary outline whose nodes cover the whole root — title, translator's homage, text, conclusion — and land on distinct segments in order. Its division of the answer by the five paths is that commentary's (Gelug) reading. To use another commentary's outline, change source_work and rebuild.
 - key: bo-vairocana-ngagsu-trelwa
   path: 1-SOURCES/Commentaries/bo-vairocana-ngagsu-trelwa.md
   adapter: md_rows
