@@ -1,18 +1,18 @@
 {
   "status": "ok",
   "source": "1-SOURCES/Commentaries/bo-vimalamitra-tika.md",
-  "validated_at": "2026-10-04T05:51:13.441471+00:00",
+  "validated_at": "2026-10-04T07:33:56.420187+00:00",
   "notes": [
     "wiki: not set (optional)",
     "date: not set (optional)",
     "translation_of: not set (optional)",
+    "commentary_of: 'bt0xXVpb3CcXI6cYqTr8n'",
     "root_text: '1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md'",
     "tag_ids: not set (optional)",
     "source: source = 'http://purl.bdrc.io/resource/WA0RT3163'",
     "toc: 9 headers found"
   ],
   "warnings": [
-    "commentary_of: not set — resolve from root_text's text_id (set text_id on the root text first)",
     "author 'Vimalamitra': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
   ],
   "text_input": {
@@ -29,7 +29,7 @@
       }
     ],
     "language": "bo",
-    "commentary_of": null,
+    "commentary_of": "bt0xXVpb3CcXI6cYqTr8n",
     "translation_of": null,
     "category_id": "uGpinx0GZlvU1uw44RyYS",
     "license": "public",

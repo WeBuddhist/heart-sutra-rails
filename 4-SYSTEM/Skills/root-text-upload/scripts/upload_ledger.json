@@ -1,1 +1,30 @@
-{}
+{
+  "sa-prajnaparamita-hrdaya": {
+    "edition_id": "2C5NmJoo3zcMJHSOqFRtI",
+    "file_type": "root-text",
+    "lang_tag": "sa",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "j0aFMqWUNkfR99ekbFf4T",
+        "ts": "2026-10-04T13:01:12"
+      },
+      {
+        "chars": 2329,
+        "edition_id": "2C5NmJoo3zcMJHSOqFRtI",
+        "segments": 29,
+        "step": "edition",
+        "ts": "2026-10-04T13:01:13"
+      },
+      {
+        "step": "toc",
+        "subsections": 2,
+        "toc_id": "78BO1mm4lguEjIe8L6IQS",
+        "ts": "2026-10-04T13:01:13"
+      }
+    ],
+    "source_file": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+    "text_id": "j0aFMqWUNkfR99ekbFf4T",
+    "toc_id": "78BO1mm4lguEjIe8L6IQS"
+  }
+}

@@ -1,13 +1,12 @@
 {
   "status": "ok",
   "source": "1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md",
-  "validated_at": "2026-10-04T05:51:12.867838+00:00",
+  "validated_at": "2026-10-04T07:33:20.684129+00:00",
   "notes": [
     "bdrc_work_id: not set (optional)",
     "wiki: not set (optional)",
     "date: not set (optional)",
     "commentary_of: not set (optional)",
-    "translation_of: not set (optional)",
     "root_text: '1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md'",
     "tag_ids: not set (optional)",
     "source: source = 'https://docs.google.com/document/d/1U1FAXWHGWtqTdTClz25n_vSvV_KHNSYiQzQKC_fEp7I/edit'",
@@ -27,7 +26,7 @@
     "alt_titles": null,
     "language": "zh",
     "commentary_of": null,
-    "translation_of": null,
+    "translation_of": "bt0xXVpb3CcXI6cYqTr8n",
     "category_id": "uGpinx0GZlvU1uw44RyYS",
     "license": "unknown",
     "contributions": null,

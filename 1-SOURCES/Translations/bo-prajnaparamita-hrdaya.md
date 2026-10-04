@@ -14,7 +14,6 @@ file_type: translation
 root_text: 1-SOURCES/Text/sa-prajnaparamita-hrdaya.md
 verse_id_format: section-paragraph
 category_id: uGpinx0GZlvU1uw44RyYS
-tag_ids: [FZ5STsdU0eLvo7Nb2CpvH, ZPcgMZgVJxAMQ7rpfW72a]
 license: public
 source: https://library.bdrc.io/show/bdr:WA0RK0529?s=q%3D%2522%25E0%25BD%25A4%25E0%25BD%25BA%25E0%25BD%25A6%25E0%25BC%258B%25E0%25BD%25A2%25E0%25BD%2596%25E0%25BC%258B%25E0%25BD%25A6%25E0%25BE%2599%25E0%25BD%25B2%25E0%25BD%2584%25E0%25BC%258B%25E0%25BD%2594%25E0%25BD%25BC%25E0%25BC%258D%2522~1%26lg%3Dbo%26t%3DWork%26n%3D1
 bdrc_work_id: WA0RK0529
@@ -22,9 +21,9 @@ other_ids:
 - 'Dzongsar: M29C34F4A'
 - 'OpenPecha: BdfDD44nDSOqa13HgTvd7'
 source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། Tibetan- Sanskrit' (the display segmentation), exported as sherab-root-bo(display).md. Titles, author and source from sherab-root.csv; translator from OpenPecha text BdfDD44nDSOqa13HgTvd7; licence as recorded at the 2026-10-02 intake. A translation of the Sanskrit root, aligned by the Dzongsar team's row pairing (three pairings corrected, see the sidecar).
-text_id: null
-edition_id: null
-toc_id: null
+text_id: bt0xXVpb3CcXI6cYqTr8n
+edition_id: V7DB0V8522WjIyoxpkjuP
+toc_id: Yt4vqX6se0A3XwujIenuA
 raw_sources:
 - file: 0-INBOX/raw-data/sherab-root-bo(display).md
   sha1: a90cc291382b83e87f5ad198df6bfb91a28c00f4
@@ -52,6 +51,7 @@ related_commentaries:
 - 1-SOURCES/Commentaries/bo-lobzang-gyaltsen-senge-nyinje.md
 - 1-SOURCES/Commentaries/bo-gendun-rinchen-migje.md
 - 1-SOURCES/Commentaries/bo-lama-kunga-shebum.md
+aligned_to_edition_id: 2C5NmJoo3zcMJHSOqFRtI
 ---
 
 # བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ^0

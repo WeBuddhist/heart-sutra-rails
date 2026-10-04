@@ -2,7 +2,7 @@
 title: Tāranātha's Wondrous Word Commentary on the Heart of the Perfection of Wisdom Sūtra
 track: DharmaMitra zero-shot (english)
 title_original: ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས།
-title_source: "machine: DharmaMitra cat-translate of the Tibetan title, 2026-10-04"
+title_source: "edited from DharmaMitra cat-translate of the Tibetan title (2026-10-04): the raw call gave a generic title; the wording was made specific (author named) by Claude so titles stay unique per language on the library"
 language: English
 lang_tag: en
 file_type: translation

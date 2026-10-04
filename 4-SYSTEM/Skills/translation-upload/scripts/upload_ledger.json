@@ -1,1 +1,112 @@
-{}
+{
+  "bo-prajnaparamita-hrdaya": {
+    "aligned_to_edition_id": "2C5NmJoo3zcMJHSOqFRtI",
+    "edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "lang_tag": "bo",
+    "log": [
+      {
+        "error": "HTTP 404 POST https://library.webuddhist.com/v2/texts\n         {\"error\":\"Work 'RJJSgBH6fg886o2xq10b6' or Tag 'FZ5STsdU0eLvo7Nb2CpvH' not found\"}",
+        "step": "error",
+        "ts": "2026-10-04T13:01:38"
+      },
+      {
+        "step": "text",
+        "text_id": "bt0xXVpb3CcXI6cYqTr8n",
+        "ts": "2026-10-04T13:03:00"
+      },
+      {
+        "chars": 3820,
+        "edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "segments": 32,
+        "step": "edition",
+        "ts": "2026-10-04T13:03:01"
+      },
+      {
+        "pairs": 28,
+        "root_edition_id": "2C5NmJoo3zcMJHSOqFRtI",
+        "step": "alignment",
+        "ts": "2026-10-04T13:03:01"
+      },
+      {
+        "step": "toc",
+        "subsections": 3,
+        "toc_id": "Yt4vqX6se0A3XwujIenuA",
+        "ts": "2026-10-04T13:03:02"
+      }
+    ],
+    "root_edition_id": "2C5NmJoo3zcMJHSOqFRtI",
+    "root_text_id": "j0aFMqWUNkfR99ekbFf4T",
+    "text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "toc_id": "Yt4vqX6se0A3XwujIenuA"
+  },
+  "en-prajnaparamita-hrdaya": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "HyBq1Dyy9QlXTPYE563Fi",
+    "lang_tag": "en",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "JDKwwWvxUyLyZYHZfxT7k",
+        "ts": "2026-10-04T13:03:27"
+      },
+      {
+        "chars": 3838,
+        "edition_id": "HyBq1Dyy9QlXTPYE563Fi",
+        "segments": 25,
+        "step": "edition",
+        "ts": "2026-10-04T13:03:27"
+      },
+      {
+        "pairs": 31,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:03:27"
+      },
+      {
+        "step": "toc",
+        "subsections": 2,
+        "toc_id": "gGbXIN60Oa5NQaU8mTXcS",
+        "ts": "2026-10-04T13:03:28"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "text_id": "JDKwwWvxUyLyZYHZfxT7k",
+    "toc_id": "gGbXIN60Oa5NQaU8mTXcS"
+  },
+  "zh-prajnaparamita-hrdaya": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "76bDGiJK4N1awzfSX4sbS",
+    "lang_tag": "zh",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "jAbkANAPGQNpXFgGJodLW",
+        "ts": "2026-10-04T13:03:22"
+      },
+      {
+        "chars": 730,
+        "edition_id": "76bDGiJK4N1awzfSX4sbS",
+        "segments": 30,
+        "step": "edition",
+        "ts": "2026-10-04T13:03:22"
+      },
+      {
+        "pairs": 30,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:03:22"
+      },
+      {
+        "step": "toc",
+        "subsections": 2,
+        "toc_id": "RL5GFUptVa8tUjw7kN5T4",
+        "ts": "2026-10-04T13:03:23"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "text_id": "jAbkANAPGQNpXFgGJodLW",
+    "toc_id": "RL5GFUptVa8tUjw7kN5T4"
+  }
+}

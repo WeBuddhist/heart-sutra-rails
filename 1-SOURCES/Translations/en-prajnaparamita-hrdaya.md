@@ -14,9 +14,9 @@ other_ids:
 - 'OpenPecha instance: 1EENMb457ICcq3d2DwQBs'
 - 'OpenPecha alignment: RabOvu9MOaJzRz6hY05Il'
 source_description: OpenPecha API v2 text MrsRfx7ML8QZxQPnhGesn (critical instance 1EENMb457ICcq3d2DwQBs, source lotsawahouse.org), downloaded verbatim 2026-10-04 to 0-INBOX/raw-data/openpecha-api/. Title and licence (CC BY-NC) from its text.json. One block per segment of its segmentation annotation; aligned to the display Tibetan through its upstream alignment to OpenPecha BdfDD44nDSOqa13HgTvd7, carried onto the display Tibetan by letters.
-text_id: null
-edition_id: null
-toc_id: null
+text_id: JDKwwWvxUyLyZYHZfxT7k
+edition_id: HyBq1Dyy9QlXTPYE563Fi
+toc_id: gGbXIN60Oa5NQaU8mTXcS
 raw_sources:
 - file: 0-INBOX/raw-data/openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/text.json
   sha1: d9a5668d0d5de42f7bb926ffe07c0c9dffcbdc10
@@ -38,6 +38,7 @@ intake:
   date: '2026-10-04'
   annotations: 1-SOURCES/Annotations/en-prajnaparamita-hrdaya.annotations.json
 covers_verses: 0-1–2-21
+aligned_to_edition_id: V7DB0V8522WjIyoxpkjuP
 ---
 
 # The Sūtra of the Heart of Transcendent Wisdom ^0

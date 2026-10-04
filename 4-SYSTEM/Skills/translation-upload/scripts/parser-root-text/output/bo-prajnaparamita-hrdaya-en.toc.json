@@ -1,0 +1,42 @@
+{
+  "sections": [
+    {
+      "title": {
+        "en": "The Heart of the Blessed Mother, the Perfection of Wisdom"
+      },
+      "span": {
+        "start": 0,
+        "end": 4272
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "The Introductory Narrative of the Sutra"
+          },
+          "span": {
+            "start": 58,
+            "end": 775
+          }
+        },
+        {
+          "title": {
+            "en": "The Actual Meaning of the Sūtra"
+          },
+          "span": {
+            "start": 775,
+            "end": 3953
+          }
+        },
+        {
+          "title": {
+            "en": "Colophon"
+          },
+          "span": {
+            "start": 3953,
+            "end": 4272
+          }
+        }
+      ]
+    }
+  ]
+}

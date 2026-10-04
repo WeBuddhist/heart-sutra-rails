@@ -1,1 +1,113 @@
-{}
+{
+  "bo-prasastrasena-tika": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+    "file_type": "commentary",
+    "lang_tag": "bo",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "QZGVWIFEDxv5DJy2byPDj",
+        "ts": "2026-10-04T13:04:05"
+      },
+      {
+        "chars": 29081,
+        "edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+        "segments": 70,
+        "step": "edition",
+        "ts": "2026-10-04T13:04:06"
+      },
+      {
+        "nodes": 12,
+        "step": "toc",
+        "toc_id": "sPmWoj3tBfz8bQSdlzCGX",
+        "ts": "2026-10-04T13:04:06"
+      },
+      {
+        "pairs": 73,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:04:07"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "source_file": "1-SOURCES/Commentaries/bo-prasastrasena-tika.md",
+    "text_id": "QZGVWIFEDxv5DJy2byPDj",
+    "toc_id": "sPmWoj3tBfz8bQSdlzCGX"
+  },
+  "bo-taranatha-tsikdrel": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+    "file_type": "commentary",
+    "lang_tag": "bo",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "JmjgpOmWu27Z8Qu0zldVO",
+        "ts": "2026-10-04T13:04:13"
+      },
+      {
+        "chars": 22348,
+        "edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+        "segments": 79,
+        "step": "edition",
+        "ts": "2026-10-04T13:04:14"
+      },
+      {
+        "nodes": 24,
+        "step": "toc",
+        "toc_id": "KcayBdyMz3DRLHZCJTSAi",
+        "ts": "2026-10-04T13:04:14"
+      },
+      {
+        "pairs": 79,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:04:15"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "source_file": "1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md",
+    "text_id": "JmjgpOmWu27Z8Qu0zldVO",
+    "toc_id": "KcayBdyMz3DRLHZCJTSAi"
+  },
+  "bo-vimalamitra-tika": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+    "file_type": "commentary",
+    "lang_tag": "bo",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "OZUuFf2TG8JOgD95uwSBA",
+        "ts": "2026-10-04T13:03:58"
+      },
+      {
+        "chars": 44757,
+        "edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+        "segments": 65,
+        "step": "edition",
+        "ts": "2026-10-04T13:03:59"
+      },
+      {
+        "nodes": 9,
+        "step": "toc",
+        "toc_id": "S8desTjpIPOeHzJVfo31E",
+        "ts": "2026-10-04T13:03:59"
+      },
+      {
+        "pairs": 61,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:04:00"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "source_file": "1-SOURCES/Commentaries/bo-vimalamitra-tika.md",
+    "text_id": "OZUuFf2TG8JOgD95uwSBA",
+    "toc_id": "S8desTjpIPOeHzJVfo31E"
+  }
+}

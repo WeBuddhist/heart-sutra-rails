@@ -19,9 +19,9 @@ other_ids:
 - 'Dzongsar: R429207AA'
 - 'OpenPecha: L8AO1YmhubqOfyug5QZaX'
 source_description: Dzongsar alignment doc exported as sherab-comm-4(root-com).md, paired row for row with sherab-root-4(root-com).md (the team's own cut of the Tibetan root), carried onto the display Tibetan by letters. Title, author and source from sherab-comm-4.csv; the author's BDRC id, other ids and licence as recorded for this work at the 2026-10-02 intake.
-text_id: null
-edition_id: null
-toc_id: null
+text_id: OZUuFf2TG8JOgD95uwSBA
+edition_id: IdK1G7Vdnbzw4V6YzFTpV
+toc_id: S8desTjpIPOeHzJVfo31E
 raw_sources:
 - file: 0-INBOX/raw-data/sherab-comm-4(root-com).md
   sha1: 80be4a9708e7c5822f35e6dff26158d9d6de8245
@@ -37,6 +37,8 @@ intake:
   date: '2026-10-03'
   annotations: 1-SOURCES/Annotations/bo-vimalamitra-tika.annotations.json
 covers_verses: 1-5–2-20
+commentary_of: bt0xXVpb3CcXI6cYqTr8n
+aligned_to_edition_id: V7DB0V8522WjIyoxpkjuP
 ---
 
 # ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ། ^0

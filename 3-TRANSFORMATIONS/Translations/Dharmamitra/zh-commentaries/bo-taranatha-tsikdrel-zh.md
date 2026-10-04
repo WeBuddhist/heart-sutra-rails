@@ -2,7 +2,7 @@
 title: 多羅那他《般若波羅蜜多心經》稀有詞句釋
 track: DharmaMitra zero-shot (modern chinese)
 title_original: ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས།
-title_source: "machine: DharmaMitra cat-translate of the Tibetan title, 2026-10-04"
+title_source: "edited from DharmaMitra cat-translate of the Tibetan title (2026-10-04): the raw call gave a generic title; the wording was made specific (author named) by Claude so titles stay unique per language on the library"
 language: Chinese
 lang_tag: zh
 file_type: translation

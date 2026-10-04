@@ -17,9 +17,9 @@ other_ids:
 - 'Dzongsar: RB76B7B48'
 - 'OpenPecha: bxTFl1Q3u8M3ZtyaCJmnm'
 source_description: Dzongsar alignment doc exported as sherab-comm-3(root-com).md, paired row for row with sherab-root-3(root-com).md (the team's own cut of the Tibetan root), carried onto the display Tibetan by letters. Title, author and source from sherab-comm-3.csv; the author's BDRC id, other ids and licence as recorded for this work at the 2026-10-02 intake.
-text_id: null
-edition_id: null
-toc_id: null
+text_id: JmjgpOmWu27Z8Qu0zldVO
+edition_id: xUsnIpw1eZlQbPUu4MpWt
+toc_id: KcayBdyMz3DRLHZCJTSAi
 raw_sources:
 - file: 0-INBOX/raw-data/sherab-comm-3(root-com).md
   sha1: 62be7cba87c7e00e9be479b2604ec34c72700b5a
@@ -37,6 +37,8 @@ intake:
   date: '2026-10-03'
   annotations: 1-SOURCES/Annotations/bo-taranatha-tsikdrel.annotations.json
 covers_verses: 1-2–2-20
+commentary_of: bt0xXVpb3CcXI6cYqTr8n
+aligned_to_edition_id: V7DB0V8522WjIyoxpkjuP
 ---
 
 # ཤེར་ཕྱིན་སྙིང་པོའི་མདོའི་ཚིག་འགྲེལ་རྨད་དུ་བྱུང་བ་བཞུགས། ^0

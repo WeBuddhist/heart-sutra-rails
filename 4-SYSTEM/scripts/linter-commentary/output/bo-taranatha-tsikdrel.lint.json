@@ -1,18 +1,18 @@
 {
   "status": "ok",
   "source": "1-SOURCES/Commentaries/bo-taranatha-tsikdrel.md",
-  "validated_at": "2026-10-04T05:51:14.511071+00:00",
+  "validated_at": "2026-10-04T07:34:09.825122+00:00",
   "notes": [
     "wiki: not set (optional)",
     "date: not set (optional)",
     "translation_of: not set (optional)",
+    "commentary_of: 'bt0xXVpb3CcXI6cYqTr8n'",
     "root_text: '1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md'",
     "tag_ids: not set (optional)",
     "source: source = 'https://library.bdrc.io/show/bdr:WA0XLBC8FE150050C?tabs=bdr:MW22276_BC8FE1'",
     "toc: 24 headers found"
   ],
   "warnings": [
-    "commentary_of: not set — resolve from root_text's text_id (set text_id on the root text first)",
     "alt_titles: missing — ignored for now",
     "author 'Tāranātha': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
   ],
@@ -26,7 +26,7 @@
     },
     "alt_titles": null,
     "language": "bo",
-    "commentary_of": null,
+    "commentary_of": "bt0xXVpb3CcXI6cYqTr8n",
     "translation_of": null,
     "category_id": "uGpinx0GZlvU1uw44RyYS",
     "license": "public",

@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "title": {
+        "en": "Vimalamitra’s Extensive Commentary on the Prajñāpāramitāhṛdaya"
+      },
+      "span": {
+        "start": 0,
+        "end": 58469
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "The Introduction"
+          },
+          "span": {
+            "start": 72,
+            "end": 2623
+          }
+        },
+        {
+          "title": {
+            "en": "The Act of Composition"
+          },
+          "span": {
+            "start": 2623,
+            "end": 5057
+          }
+        },
+        {
+          "title": {
+            "en": "Demonstrating the Inclusion of the Teachings"
+          },
+          "span": {
+            "start": 5057,
+            "end": 7609
+          }
+        },
+        {
+          "title": {
+            "en": "Introduction"
+          },
+          "span": {
+            "start": 7609,
+            "end": 13080
+          }
+        },
+        {
+          "title": {
+            "en": "The Eleven Aspects"
+          },
+          "span": {
+            "start": 13080,
+            "end": 17236
+          }
+        },
+        {
+          "title": {
+            "en": "Questions"
+          },
+          "span": {
+            "start": 17236,
+            "end": 18765
+          }
+        },
+        {
+          "title": {
+            "en": "Response"
+          },
+          "span": {
+            "start": 18765,
+            "end": 54953
+          }
+        },
+        {
+          "title": {
+            "en": "Rejoicing"
+          },
+          "span": {
+            "start": 54953,
+            "end": 58469
+          }
+        }
+      ]
+    }
+  ]
+}

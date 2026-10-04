@@ -5,15 +5,16 @@ lang_tag: sa
 file_type: root-text
 verse_id_format: section-paragraph
 category_id: uGpinx0GZlvU1uw44RyYS
+tag_ids: [FZ5STsdU0eLvo7Nb2CpvH, ZPcgMZgVJxAMQ7rpfW72a]
 license: cc0
 source: https://docs.google.com/document/d/1PDtR6wX987NkpHL86t3onLwokdqcJnHCaDjiX2hIWZo/edit
 other_ids:
 - 'OpenPecha: y7Ufx0I2sJMVYsWQxcLfG'
 - 'Dzongsar: M29C34F4A (Sanskrit-Tsawa Align)'
 source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། Sanskrit-Tsawa Align', exported as sherab-root-sa(bo-sa).md; letter-identical to the 2026-10-02 download of that doc and to OpenPecha text y7Ufx0I2sJMVYsWQxcLfG, whose title and licence (CC0) are used here. One block per row of the Sanskrit-Tibetan alignment.
-text_id: null
-edition_id: null
-toc_id: null
+text_id: j0aFMqWUNkfR99ekbFf4T
+edition_id: 2C5NmJoo3zcMJHSOqFRtI
+toc_id: 78BO1mm4lguEjIe8L6IQS
 raw_sources:
 - file: 0-INBOX/raw-data/sherab-root-sa(bo-sa).md
   sha1: 651a677fb31d6c8be1077d02129bcc239cc1b8ca

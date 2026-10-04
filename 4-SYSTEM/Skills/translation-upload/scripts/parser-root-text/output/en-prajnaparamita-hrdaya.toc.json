@@ -1,0 +1,33 @@
+{
+  "sections": [
+    {
+      "title": {
+        "en": "The Sūtra of the Heart of Transcendent Wisdom"
+      },
+      "span": {
+        "start": 0,
+        "end": 3838
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "The Setting of the Sūtra"
+          },
+          "span": {
+            "start": 45,
+            "end": 805
+          }
+        },
+        {
+          "title": {
+            "en": "The Main Body of the Sūtra"
+          },
+          "span": {
+            "start": 805,
+            "end": 3838
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -11,9 +11,9 @@ source: https://docs.google.com/document/d/1U1FAXWHGWtqTdTClz25n_vSvV_KHNSYiQzQK
 other_ids:
 - 'Dzongsar: M29C34F4A (心經 Chinese -Tibetan)'
 source_description: Dzongsar Google Doc 'M29C34F4A ཤེས་རབ་སྙིང་པོ། 心經 Chinese -Tibetan', exported as sherab-root-zh(bo-zh).md (letter-identical to the 2026-10-02 download of that doc). A translation of the Tibetan; no translator recorded upstream.
-text_id: null
-edition_id: null
-toc_id: null
+text_id: jAbkANAPGQNpXFgGJodLW
+edition_id: 76bDGiJK4N1awzfSX4sbS
+toc_id: RL5GFUptVa8tUjw7kN5T4
 raw_sources:
 - file: 0-INBOX/raw-data/sherab-root-zh(bo-zh).md
   sha1: 470d1ab004181ded18c0f156c70e508e12baddd8
@@ -27,6 +27,7 @@ intake:
   date: '2026-10-03'
   annotations: 1-SOURCES/Annotations/zh-prajnaparamita-hrdaya.annotations.json
 covers_verses: 0-1–2-20
+aligned_to_edition_id: V7DB0V8522WjIyoxpkjuP
 ---
 
 # 般若波羅密多心經 ^0
