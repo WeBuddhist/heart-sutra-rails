@@ -131,3 +131,60 @@ python3 4-SYSTEM/Skills/aligned-corpus-intake/scripts/verify.py 0-INBOX/raw-data
 ```
 
 Build and verify JSON for this run: `0-INBOX/temp/intake-build-report.json`, `0-INBOX/temp/intake-verify.json`. Once anything in `2-RAILS/` cites these block ids, re-segmenting is a migration (annex §2 log).
+
+
+---
+
+## 9. Addendum 2026-10-04 — three translations from the OpenPecha API
+
+**What was added.** Three human translations of the Tibetan, each aligned by transclusion to `1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md`:
+
+| File | OpenPecha text / instance | Language (lang_tag) | Licence | Blocks | Headings | Transclusions |
+|---|---|---|---|---|---|---|
+| `1-SOURCES/Translations/en-prajnaparamita-hrdaya.md` | `MrsRfx7ML8QZxQPnhGesn` / `1EENMb457ICcq3d2DwQBs` (lotsawahouse.org) | English (`en`) | `cc-by-nc` | 25 | 2 + title | 31 |
+| `1-SOURCES/Translations/tib-prajnaparamita-hrdaya.md` | `ysb3nzBwYpMPcS9Jm064y` / `88UIsXzJTkawquPqwKgBu` (openpecha.org) | Tibetan, colloquial (`tib`) | `public` (Public Domain Mark) | 25 | 2 + title | 31 |
+| `1-SOURCES/Translations/tibphono-prajnaparamita-hrdaya.md` | `8LbtYe5XRXQODfqkBkKJy` / `rj2dtxUr9tSKn7P6qfL0g` (www.openpecha.org) | Tibetan phonetics (`tibphono`) | `public` (Public Domain Mark) | 25 | 2 + title | 31 |
+
+Sidecars: `1-SOURCES/Annotations/{en,tib,tibphono}-prajnaparamita-hrdaya.annotations.json` (each block's OpenPecha segment id and span, the old-Tibetan span it is aligned to, the letters it covers in each display block, the merged segments).
+
+**Raw data.** `0-INBOX/raw-data/openpecha-api/`: the three texts and their parent `BdfDD44nDSOqa13HgTvd7` (instance `FsrpfLxgRL9UniIrc7c5o`, 27 segments), fetched 2026-10-04 from `https://api-aq25662yyq-uc.a.run.app` as received (31 files; `tree.json` and `manifest.json` are indexes written by the download). Every API file is content-identical to the 2026-10-02 download of the same texts (in git history).
+
+**How the alignment was made.** Each translation segment is aligned upstream, one to one, to an old-Tibetan segment (27 ↔ 27). That old Tibetan is letter-identical to the display Tibetan (2,463 of 2,463 letters matched; the display's extra 179 letters are the translators' colophon added from Wikisource), so each segment transcludes the display blocks its counterpart's letters fall in. Mapping (identical for all three files): 0-1→0-1, 1-1→1-1+1-2, 1-2→1-3, 1-3→1-4, 1-4→1-5+1-6, 1-5→1-7, 1-6→1-8+1-9, 2-1→2-1, 2-2→2-2, 2-3→2-3+2-4, 2-4→2-5, 2-5→2-6, 2-6→2-7, 2-7→2-8, 2-8→2-9, 2-9→2-10+2-11, 2-10→2-12, 2-11→2-13, 2-12→2-14, 2-13→2-15, 2-14→2-16, 2-15→2-17+2-18, 2-16→2-19, 2-17→2-20, 2-18→2-21. Each file covers 31 of the 32 display blocks; the only one unaligned is `^3-1`, the translators' colophon (none of the three has it).
+
+**Decisions** (in the manifest, `decided_by: Claude (instructed by vault owner 2026-10-04)`):
+- D2 — carried onto the display Tibetan by letters, no segmentation changed.
+- D9 — in each file segments 9+10 fall inside display `^2-2` and segments 16+17 inside `^2-9`; each pair is merged (joined with a space) so no display block is transcluded twice in a row: 27 segments → 25 blocks.
+- D5 — headings from the root's Wikisource outline (labels added to `2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md`): English *The Setting of the Sūtra* / *The Main Body of the Sūtra* (/ *Translators' Colophon*, not shown); colloquial Tibetan: the Tibetan headings verbatim (same language and script, no human colloquial rendering exists); phonetics: *do i lengzhi* / *do dön ngö* (/ *jukjang*), transcribed in the text's own phonetic spelling. Sections open at segments 2 and 8, where they open in the Tibetan; no split needed (D7).
+- D10 — no brackets in any of the three texts.
+
+**Tooling change** (`aligned-corpus-intake`, vault copy): `md_export.read_source_rows` reads `openpecha:<text_id>` (row k = segment k) and `openpecha:<text_id>#parent` (row k = the parent span the upstream alignment pairs with segment k) as md_rows row sources, used by `md_adapter` and `verify.py`; `build_sources.py --write-only <keys>` writes only the listed works. Existing works build byte-identically (bodies and sidecars checked against the vault before writing).
+
+**Review items for you**
+1. **Language codes.** The WeBuddhist library (`GET https://library.webuddhist.com/v2/languages`, 2026-10-04) accepts bo, en, fr, hi, i9 (a probe entry), ja, lzh, mn, mr, ne, pi, ru, sa, th, vi, zh — **not `tib` or `tibphono`**. The two files carry OpenPecha's codes and cannot be uploaded until a code is chosen or added. (`references/pecha-conventions.md` says such a text is "reported, not built"; built here on your instruction.) `About Sources.md` §12 has no tag for either.
+2. **Headings** — check the English renderings and the phonetic transcriptions (`do i lengzhi`, `do dön ngö`, `jukjang`) and the choice of verbatim Tibetan for the colloquial file.
+3. **D9 merges** — in each of the three files, block `^2-2` (segments 9+10, transcludes Tibetan `^2-2`) and block `^2-8` (segments 16+17, transcludes Tibetan `^2-9`).
+4. **Phonetics defects upstream**, reproduced verbatim: syllables with diacritic letters are missing (e.g. `^2-2` " i bu" for Śāriputra, the mantra `^2-12` "   ga té ga té  ra ga té …", `^1-1` "gawa ti dra  ra mi  hré ya"); its last segment's span ends one character past the content.
+5. **English translator** — the Lotsawa House page credits "Adam Pearcey, 2019" (CC BY-NC 4.0); the OpenPecha record has no contributor, so the frontmatter has no `translator`.
+6. **Upload** — like the Chinese, these files do not have identity alignment (translation `^N` ≠ Tibetan `^N`), which `translation-upload` requires (item 10 above).
+7. **Tibetan `related_translations`** does not list the three files (the Tibetan file was deliberately not rewritten); the next full rebuild adds them.
+8. **Manifest vs vault** — six commentaries in the vault have `category_id: null` while the manifest has `uGpinx0GZlvU1uw44RyYS` (Vairocana, Vajrapāṇi, Ngawang Nyima, Lobzang Gyaltsen Senge, Gendün Rinchen, Lama Kunga); a full rebuild would write the manifest value.
+
+**Verifier output** (on the vault, 2026-10-04):
+
+```
+OK  sa-root                          blocks=   29 headings=  3 transclusions=    0 letters=   2062 missing=0 extra=0 rows=29
+OK  bo-display                       blocks=   32 headings=  4 transclusions=   28 letters=   2642 missing=0 extra=0 rows=32 aligned_ok=32/32 content_ok=28/28
+OK  zh-translation                   blocks=   30 headings=  3 transclusions=   30 letters=    618 missing=0 extra=0 rows=111 aligned_ok=30/30 content_ok=30/30 edition_variant_rows=2
+OK  bo-vairocana-ngagsu-trelwa       blocks=   64 headings=  1 transclusions=   61 letters=   8830 missing=0 extra=0 rows=64 aligned_ok=64/64 content_ok=60/60
+OK  bo-vajrapani-dongyi-dronma       blocks=   81 headings=  5 transclusions=   54 letters=  20529 missing=0 extra=0 rows=81 aligned_ok=81/81 content_ok=53/53
+OK  bo-taranatha-tsikdrel            blocks=   79 headings= 24 transclusions=   62 letters=  15877 missing=0 extra=0 rows=80 aligned_ok=79/79 content_ok=61/61
+OK  bo-vimalamitra-tika              blocks=   65 headings=  9 transclusions=   56 letters=  31434 missing=0 extra=0 rows=62 aligned_ok=65/65 content_ok=55/55
+OK  bo-ngawang-nyima-drelwa          blocks=   54 headings= 18 transclusions=   42 letters=  10780 missing=0 extra=0 rows=54 aligned_ok=54/54 content_ok=42/42
+OK  bo-prasastrasena-tika            blocks=   70 headings= 12 transclusions=   59 letters=  20235 missing=0 extra=0 rows=70 aligned_ok=70/70 content_ok=57/57
+OK  bo-lobzang-gyaltsen-senge-nyinje blocks=   50 headings= 30 transclusions=   32 letters=  23369 missing=0 extra=0 rows=50 aligned_ok=50/50 content_ok=28/28
+OK  bo-gendun-rinchen-migje          blocks=   62 headings= 35 transclusions=   40 letters=  17861 missing=0 extra=0 rows=62 aligned_ok=62/62 content_ok=37/37
+OK  bo-lama-kunga-shebum             blocks=   91 headings= 72 transclusions=   74 letters=  25189 missing=0 extra=0 rows=91 aligned_ok=91/91 content_ok=72/72
+OK  en-translation-lotsawahouse      blocks=   25 headings=  3 transclusions=   31 letters=   3113 missing=0 extra=0 rows=27 aligned_ok=25/25 content_ok=25/25
+OK  tib-translation-colloquial       blocks=   25 headings=  3 transclusions=   31 letters=   2368 missing=0 extra=0 rows=27 aligned_ok=25/25 content_ok=25/25
+OK  tibphono-translation             blocks=   25 headings=  3 transclusions=   31 letters=   2558 missing=0 extra=0 rows=27 aligned_ok=25/25 content_ok=25/25
+```

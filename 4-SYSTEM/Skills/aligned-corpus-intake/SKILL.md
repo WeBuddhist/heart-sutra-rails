@@ -163,6 +163,10 @@ Use this route when the Google Docs arrive as **Markdown** (`Download → Markdo
 7. **Test build, verify, dry-run** exactly as steps 7–8 of the procedure above. `verify.py` adds, per md_rows work: `rows=` (every row with letters is exactly one block), `aligned_ok=` (transclusions equal the row pairing), `content_ok=` (the paired row's letters are really in the transcluded segments; 50–90 % rows listed as edition variants).
 8. **Build into the vault, verify again, register, report** (steps 6, 9, 10 above).
 
+**OpenPecha translations as md_rows works.** A text from an OpenPecha download aligned upstream to a parent that is the same text as a built work (another cut of it) is read as rows: `text: openpecha:<text_id>` (row k = segment k) with `pair: {own_side: openpecha:<text_id>, target_side: "openpecha:<text_id>#parent"}` (row k = the parent span the alignment annotation pairs with segment k); the parent's letters then carry the alignment onto the target like any other copy. List the JSON files under `extra_raw` for provenance. A parent span aligned to two segments, or an alignment span that is not a segment, stops the build. Worked example: the three OpenPecha translations added to Heart Sūtra on 2026-10-04.
+
+**Adding works to a built vault.** `build_sources.py <manifest> --write-only key,key` builds every work (later works need earlier ids) but writes only the listed files and sidecars — compare a full `--out` scratch build with the vault first; if every existing body and sidecar is unchanged, add the new works this way without rewriting files others may be using.
+
 **What the sidecar keeps per block** (`1-SOURCES/Annotations/<stem>.annotations.json`): the row number and raw export text, every emphasis span, the paired row's text, every target with the number of letters and character span it covers, the variants between the two editions, dropped boundary overlaps, any human correction with the original pairing, and for headings the label's source line and where inside a row it really fell.
 
 ---
