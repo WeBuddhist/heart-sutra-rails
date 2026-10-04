@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
 translation_of_text_id: null
 translation_of_edition_id: null
-text_id:
-edition_id:
-toc_id:
+text_id: nAeaBpPotJGaMqCyZxV0j
+edition_id: WJddwrJM62SyOolKahzlE
+toc_id: HN5dIptITmNKnDuK26xjZ
 category_id: uGpinx0GZlvU1uw44RyYS
 license: public
 translator: dharmamitra cat-translate v1
@@ -33,6 +33,7 @@ blocks_total: 32
 headings_translated: 3
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: V7DB0V8522WjIyoxpkjuP
 ---
 
 # The Heart of the Blessed Mother, the Perfection of Wisdom ^0

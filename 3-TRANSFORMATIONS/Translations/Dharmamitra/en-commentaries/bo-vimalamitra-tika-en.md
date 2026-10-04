@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/bo-vimalamitra-tika.md
 translation_of_text_id: null
 translation_of_edition_id: null
-text_id:
-edition_id:
-toc_id:
+text_id: t87Woj2uiKZdWLd6TQHBX
+edition_id: wfw6oIRHD9ZIPCefpetU8
+toc_id: IGPAGZDme9148COXK40tb
 category_id: uGpinx0GZlvU1uw44RyYS
 license: public
 translator: dharmamitra cat-translate v1
@@ -33,6 +33,7 @@ blocks_total: 65
 headings_translated: 8
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: IdK1G7Vdnbzw4V6YzFTpV
 ---
 
 # Vimalamitra’s Extensive Commentary on the Prajñāpāramitāhṛdaya ^0

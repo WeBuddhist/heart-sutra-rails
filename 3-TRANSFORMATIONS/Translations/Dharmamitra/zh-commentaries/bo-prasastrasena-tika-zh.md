@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/bo-prasastrasena-tika.md
 translation_of_text_id: null
 translation_of_edition_id: null
-text_id:
-edition_id:
-toc_id:
+text_id: SwJoF0w5SG8FFGKZI6SXB
+edition_id: RjEeVZKlIRCl18ZSQ4sp6
+toc_id: avnvkbVDzrgUF3TfWgDdZ
 category_id: uGpinx0GZlvU1uw44RyYS
 license: public
 translator: dharmamitra cat-translate v1
@@ -33,6 +33,7 @@ blocks_total: 70
 headings_translated: 11
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: vMhOG3Aj0aST8UPfUqOLT
 ---
 
 # 聖般若波羅蜜多心經廣釋（普拉夏斯特拉塞） ^0

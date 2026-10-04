@@ -39,6 +39,251 @@
     "text_id": "bt0xXVpb3CcXI6cYqTr8n",
     "toc_id": "Yt4vqX6se0A3XwujIenuA"
   },
+  "bo-prajnaparamita-hrdaya-en": {
+    "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "edition_id": "WJddwrJM62SyOolKahzlE",
+    "lang_tag": "en",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "nAeaBpPotJGaMqCyZxV0j",
+        "ts": "2026-10-04T13:09:27"
+      },
+      {
+        "chars": 4272,
+        "edition_id": "WJddwrJM62SyOolKahzlE",
+        "segments": 32,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:28"
+      },
+      {
+        "pairs": 32,
+        "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:28"
+      },
+      {
+        "step": "toc",
+        "subsections": 3,
+        "toc_id": "HN5dIptITmNKnDuK26xjZ",
+        "ts": "2026-10-04T13:09:28"
+      }
+    ],
+    "root_edition_id": "V7DB0V8522WjIyoxpkjuP",
+    "root_text_id": "bt0xXVpb3CcXI6cYqTr8n",
+    "text_id": "nAeaBpPotJGaMqCyZxV0j",
+    "toc_id": "HN5dIptITmNKnDuK26xjZ"
+  },
+  "bo-prasastrasena-tika-en": {
+    "aligned_to_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+    "edition_id": "VpMk6CRlX7QhIHHt0f4bK",
+    "lang_tag": "en",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "duhYxXCHv5kp773KuJTtE",
+        "ts": "2026-10-04T13:09:38"
+      },
+      {
+        "chars": 38778,
+        "edition_id": "VpMk6CRlX7QhIHHt0f4bK",
+        "segments": 70,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:38"
+      },
+      {
+        "pairs": 70,
+        "root_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:39"
+      },
+      {
+        "step": "toc",
+        "subsections": 1,
+        "toc_id": "W8zc8x1biygyp2XGUTPt3",
+        "ts": "2026-10-04T13:09:39"
+      }
+    ],
+    "root_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+    "root_text_id": "QZGVWIFEDxv5DJy2byPDj",
+    "text_id": "duhYxXCHv5kp773KuJTtE",
+    "toc_id": "W8zc8x1biygyp2XGUTPt3"
+  },
+  "bo-prasastrasena-tika-zh": {
+    "aligned_to_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+    "edition_id": "RjEeVZKlIRCl18ZSQ4sp6",
+    "lang_tag": "zh",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "SwJoF0w5SG8FFGKZI6SXB",
+        "ts": "2026-10-04T13:09:55"
+      },
+      {
+        "chars": 8739,
+        "edition_id": "RjEeVZKlIRCl18ZSQ4sp6",
+        "segments": 70,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:55"
+      },
+      {
+        "pairs": 70,
+        "root_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:56"
+      },
+      {
+        "step": "toc",
+        "subsections": 1,
+        "toc_id": "avnvkbVDzrgUF3TfWgDdZ",
+        "ts": "2026-10-04T13:09:56"
+      }
+    ],
+    "root_edition_id": "vMhOG3Aj0aST8UPfUqOLT",
+    "root_text_id": "QZGVWIFEDxv5DJy2byPDj",
+    "text_id": "SwJoF0w5SG8FFGKZI6SXB",
+    "toc_id": "avnvkbVDzrgUF3TfWgDdZ"
+  },
+  "bo-taranatha-tsikdrel-en": {
+    "aligned_to_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+    "edition_id": "2C8blqQ7zOpSfGUJaAO8e",
+    "lang_tag": "en",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "qHgJFLVZFopDNT5FZGljD",
+        "ts": "2026-10-04T13:09:43"
+      },
+      {
+        "chars": 32666,
+        "edition_id": "2C8blqQ7zOpSfGUJaAO8e",
+        "segments": 79,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:44"
+      },
+      {
+        "pairs": 79,
+        "root_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:44"
+      },
+      {
+        "step": "toc",
+        "subsections": 23,
+        "toc_id": "54Uci15b0TudKyuIQP1PZ",
+        "ts": "2026-10-04T13:09:45"
+      }
+    ],
+    "root_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+    "root_text_id": "JmjgpOmWu27Z8Qu0zldVO",
+    "text_id": "qHgJFLVZFopDNT5FZGljD",
+    "toc_id": "54Uci15b0TudKyuIQP1PZ"
+  },
+  "bo-taranatha-tsikdrel-zh": {
+    "aligned_to_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+    "edition_id": "x4bBO0JFuBY8HJO031iso",
+    "lang_tag": "zh",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "G6p1fyd9Na8WGRcV8TetB",
+        "ts": "2026-10-04T13:10:00"
+      },
+      {
+        "chars": 7569,
+        "edition_id": "x4bBO0JFuBY8HJO031iso",
+        "segments": 79,
+        "step": "edition",
+        "ts": "2026-10-04T13:10:01"
+      },
+      {
+        "pairs": 79,
+        "root_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+        "step": "alignment",
+        "ts": "2026-10-04T13:10:01"
+      },
+      {
+        "step": "toc",
+        "subsections": 23,
+        "toc_id": "ZiH0n9zaYxGL5QYTZl1dF",
+        "ts": "2026-10-04T13:10:02"
+      }
+    ],
+    "root_edition_id": "xUsnIpw1eZlQbPUu4MpWt",
+    "root_text_id": "JmjgpOmWu27Z8Qu0zldVO",
+    "text_id": "G6p1fyd9Na8WGRcV8TetB",
+    "toc_id": "ZiH0n9zaYxGL5QYTZl1dF"
+  },
+  "bo-vimalamitra-tika-en": {
+    "aligned_to_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+    "edition_id": "wfw6oIRHD9ZIPCefpetU8",
+    "lang_tag": "en",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "t87Woj2uiKZdWLd6TQHBX",
+        "ts": "2026-10-04T13:09:32"
+      },
+      {
+        "chars": 58469,
+        "edition_id": "wfw6oIRHD9ZIPCefpetU8",
+        "segments": 65,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:33"
+      },
+      {
+        "pairs": 65,
+        "root_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:33"
+      },
+      {
+        "step": "toc",
+        "subsections": 8,
+        "toc_id": "IGPAGZDme9148COXK40tb",
+        "ts": "2026-10-04T13:09:34"
+      }
+    ],
+    "root_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+    "root_text_id": "OZUuFf2TG8JOgD95uwSBA",
+    "text_id": "t87Woj2uiKZdWLd6TQHBX",
+    "toc_id": "IGPAGZDme9148COXK40tb"
+  },
+  "bo-vimalamitra-tika-zh": {
+    "aligned_to_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+    "edition_id": "1BODF1N7GH90AJ4a2oXLt",
+    "lang_tag": "zh",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "6beV72f8OtrCLRpvthzWH",
+        "ts": "2026-10-04T13:09:49"
+      },
+      {
+        "chars": 13646,
+        "edition_id": "1BODF1N7GH90AJ4a2oXLt",
+        "segments": 65,
+        "step": "edition",
+        "ts": "2026-10-04T13:09:49"
+      },
+      {
+        "pairs": 65,
+        "root_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+        "step": "alignment",
+        "ts": "2026-10-04T13:09:50"
+      },
+      {
+        "step": "toc",
+        "subsections": 8,
+        "toc_id": "DBgnOMDnFkf5Yk7QVLBSG",
+        "ts": "2026-10-04T13:09:50"
+      }
+    ],
+    "root_edition_id": "IdK1G7Vdnbzw4V6YzFTpV",
+    "root_text_id": "OZUuFf2TG8JOgD95uwSBA",
+    "text_id": "6beV72f8OtrCLRpvthzWH",
+    "toc_id": "DBgnOMDnFkf5Yk7QVLBSG"
+  },
   "en-prajnaparamita-hrdaya": {
     "aligned_to_edition_id": "V7DB0V8522WjIyoxpkjuP",
     "edition_id": "HyBq1Dyy9QlXTPYE563Fi",
