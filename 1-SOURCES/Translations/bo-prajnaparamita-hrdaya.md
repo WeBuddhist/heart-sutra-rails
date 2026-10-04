@@ -13,7 +13,7 @@ lang_tag: bo
 file_type: translation
 root_text: 1-SOURCES/Text/sa-prajnaparamita-hrdaya.md
 verse_id_format: section-paragraph
-category_id: null
+category_id: uGpinx0GZlvU1uw44RyYS
 license: public
 source: https://library.bdrc.io/show/bdr:WA0RK0529?s=q%3D%2522%25E0%25BD%25A4%25E0%25BD%25BA%25E0%25BD%25A6%25E0%25BC%258B%25E0%25BD%25A2%25E0%25BD%2596%25E0%25BC%258B%25E0%25BD%25A6%25E0%25BE%2599%25E0%25BD%25B2%25E0%25BD%2584%25E0%25BC%258B%25E0%25BD%2594%25E0%25BD%25BC%25E0%25BC%258D%2522~1%26lg%3Dbo%26t%3DWork%26n%3D1
 bdrc_work_id: WA0RK0529

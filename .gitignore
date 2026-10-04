@@ -13,3 +13,7 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Library API credentials (never commit)
+4-SYSTEM/scripts/.env
+.env

@@ -5,7 +5,7 @@ lang_tag: zh
 file_type: translation
 root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
 verse_id_format: section-paragraph
-category_id: null
+category_id: uGpinx0GZlvU1uw44RyYS
 license: unknown
 source: https://docs.google.com/document/d/1U1FAXWHGWtqTdTClz25n_vSvV_KHNSYiQzQKC_fEp7I/edit
 other_ids:

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Text/sa-prajnaparamita-hrdaya.md",
+  "validated_at": "2026-10-04T05:50:11.477923+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "translation_of: not set (optional)",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://docs.google.com/document/d/1PDtR6wX987NkpHL86t3onLwokdqcJnHCaDjiX2hIWZo/edit'",
+    "toc: 3 headers found"
+  ],
+  "warnings": [
+    "contributions: author/translator missing — ignored for now",
+    "alt_titles: missing — ignored for now"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "sa": "प्रज्ञापारमिताहृदय"
+    },
+    "alt_titles": null,
+    "language": "sa",
+    "commentary_of": null,
+    "translation_of": null,
+    "category_id": "uGpinx0GZlvU1uw44RyYS",
+    "license": "cc0",
+    "contributions": null,
+    "tag_ids": null
+  }
+}

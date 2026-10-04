@@ -1,0 +1,28 @@
+{
+  "bdrc": "WA0RK0529",
+  "title": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+    "en": "The Heart of Wisdom"
+  },
+  "alt_titles": [
+    {
+      "bo": "ཤེར་རབ་སྙིང་པོ།"
+    },
+    {
+      "bo": "ཤེར་སྙིང་།"
+    },
+    {
+      "bo": "འཕགས་པ་བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།"
+    }
+  ],
+  "language": "bo",
+  "category_id": "uGpinx0GZlvU1uw44RyYS",
+  "license": "public",
+  "contributions": [
+    {
+      "type": "person",
+      "role": "translator",
+      "bdrc_id": "P1256"
+    }
+  ]
+}

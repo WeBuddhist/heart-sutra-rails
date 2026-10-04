@@ -11,7 +11,7 @@ lang_tag: bo
 file_type: commentary
 root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
 verse_id_format: section-paragraph
-category_id: null
+category_id: uGpinx0GZlvU1uw44RyYS
 license: public
 source: http://purl.bdrc.io/resource/WA0RT3163
 bdrc_work_id: WA0RT3163

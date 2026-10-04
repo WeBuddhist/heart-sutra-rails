@@ -4,7 +4,7 @@ language: Sanskrit
 lang_tag: sa
 file_type: root-text
 verse_id_format: section-paragraph
-category_id: null
+category_id: uGpinx0GZlvU1uw44RyYS
 license: cc0
 source: https://docs.google.com/document/d/1PDtR6wX987NkpHL86t3onLwokdqcJnHCaDjiX2hIWZo/edit
 other_ids:

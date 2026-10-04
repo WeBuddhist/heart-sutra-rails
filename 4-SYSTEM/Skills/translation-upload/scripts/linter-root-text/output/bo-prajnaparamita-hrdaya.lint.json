@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+  "validated_at": "2026-10-04T05:51:12.322482+00:00",
+  "notes": [
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "translation_of: not set (optional)",
+    "root_text: '1-SOURCES/Text/sa-prajnaparamita-hrdaya.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://library.bdrc.io/show/bdr:WA0RK0529?s=q%3D%2522%25E0%25BD%25A4%25E0%25BD%25BA%25E0%25BD%25A6%25E0%25BC%258B%25E0%25BD%25A2%25E0%25BD%2596%25E0%25BC%258B%25E0%25BD%25A6%25E0%25BE%2599%25E0%25BD%25B2%25E0%25BD%2584%25E0%25BC%258B%25E0%25BD%2594%25E0%25BD%25BC%25E0%25BC%258D%2522~1%26lg%3Dbo%26t%3DWork%26n%3D1'",
+    "toc: 4 headers found"
+  ],
+  "warnings": [
+    "author 'Buddha': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": "WA0RK0529",
+    "wiki": null,
+    "date": null,
+    "title": {
+      "bo": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+      "en": "The Heart of Wisdom"
+    },
+    "alt_titles": [
+      {
+        "bo": "ཤེར་རབ་སྙིང་པོ།"
+      },
+      {
+        "bo": "ཤེར་སྙིང་།"
+      },
+      {
+        "bo": "འཕགས་པ་བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།"
+      }
+    ],
+    "language": "bo",
+    "commentary_of": null,
+    "translation_of": null,
+    "category_id": "uGpinx0GZlvU1uw44RyYS",
+    "license": "public",
+    "contributions": [
+      {
+        "type": "person",
+        "role": "translator",
+        "bdrc_id": "P1256"
+      }
+    ],
+    "tag_ids": null
+  }
+}
