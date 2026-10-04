@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build vault source files from human-made raw data, driven by a manifest.
 
-    python3 build_sources.py <manifest.yaml> [--only key,key] [--dry-run]
+    python3 build_sources.py <manifest.yaml> [--out <root>] [--write-only key,key] [--dry-run]
 
 The manifest (see ../templates/manifest.example.yaml) lists every *work* to
 produce, the raw files that supply its text, segmentation, headings and
@@ -1127,7 +1127,7 @@ def write_pretoc(manifest_path, vault, only=None):
         print(f"{spec['key']:34s} -> {d / 'source.md'}  sha1={meta['sha1']} lines={meta['lines']}", file=sys.stderr)
 
 
-def build(manifest_path, vault, only=None, dry=False, out=None):
+def build(manifest_path, vault, only=None, dry=False, out=None, write_only=None):
     manifest = yaml.safe_load(pathlib.Path(manifest_path).read_text(encoding="utf-8"))
     ctx = Ctx(manifest, vault)
     sidecar_dir = manifest.get("sidecar_dir", "1-SOURCES/Annotations")
@@ -1160,8 +1160,17 @@ def build(manifest_path, vault, only=None, dry=False, out=None):
         print(f"{key:28s} {spec['adapter']:15s} blocks={rep.get('blocks')} "
               f"transclusions={rep['transclusions']} -> {spec['path']}", file=sys.stderr)
     link_works(ctx, built)
+    if write_only:
+        unknown = set(write_only) - {w["key"] for w in manifest["works"]}
+        if unknown:
+            raise ValueError(f"--write-only names works not in the manifest: {sorted(unknown)}")
     if not dry:
-        for work in built:
+        keys = [w["key"] for w in manifest["works"]]
+        for key, work in zip(keys, built):
+            # every work is built (later works need earlier ones' ids), but
+            # with --write-only only the listed files and sidecars are written
+            if write_only and key not in write_only:
+                continue
             vault_writer.render(work, out or vault)
     return ctx
 
@@ -1223,11 +1232,14 @@ def main():
     ap.add_argument("--stage", choices=["pre-toc", "full"], default="full",
                     help="pre-toc: only write the texts toc-generate reads (0-INBOX/temp/TOC-<id>/source.md)")
     ap.add_argument("--only", help="comma-separated work keys (pre-toc stage)")
+    ap.add_argument("--write-only", help="comma-separated work keys: build every work, write only these "
+                                         "(adds new works without rewriting files already in the vault)")
     a = ap.parse_args()
     if a.stage == "pre-toc":
         write_pretoc(a.manifest, a.vault, only=set(a.only.split(",")) if a.only else None)
         return
-    ctx = build(a.manifest, a.vault, dry=a.dry_run, out=a.out)
+    ctx = build(a.manifest, a.vault, dry=a.dry_run, out=a.out,
+                write_only=set(a.write_only.split(",")) if a.write_only else None)
     if a.report:
         pathlib.Path(a.report).write_text(json.dumps(ctx.report, ensure_ascii=False, indent=1), encoding="utf-8")
 

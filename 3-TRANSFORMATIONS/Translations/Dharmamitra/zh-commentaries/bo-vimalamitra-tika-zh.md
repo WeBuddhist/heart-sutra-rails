@@ -1,7 +1,8 @@
 ---
-title: Vimalamitra, The Extensive Commentary to the Heart Sūtra — DharmaMitra zero-shot (modern chinese)
+title: 班智達無垢友所著般若波羅蜜多心經廣釋
 track: DharmaMitra zero-shot (modern chinese)
 title_original: ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་བཤད་པ།
+title_source: "machine: DharmaMitra cat-translate of the Tibetan title, 2026-10-04 (author's name added to the input for uniqueness)"
 language: Chinese
 lang_tag: zh
 file_type: translation
@@ -23,8 +24,8 @@ generator: dharmamitra cat-translate v1
 endpoint: https://dharmamitra.org/api-search/cat-translate/v1/translate
 focus: tibetan
 context_blocks: 3
-batching: <=1 blocks/call, <=900 src chars, <=6000 payload chars
-style_instruction: "This is a section heading of a Tibetan Buddhist liturgical text. Translate it into the target language as a short heading: one line only, no sentence, no commentary, no explanation, no quotation marks. Keep any leading numeral such as '1.' exactly as it is. Keep proper names and mantra syllables in transliteration rather than translating them."
+batching: <=3 blocks/call, <=900 src chars, <=6000 payload chars
+style_instruction: "Translate this passage of a Tibetan Buddhist commentary on the Heart Sūtra into clear modern written Chinese in Traditional characters. Translate the whole passage completely and in the same order: do not summarise, shorten or omit anything, and keep the same number of lines as the source. Use plain modern vocabulary and grammar, not classical Chinese. Use the established Chinese Buddhist terms where they exist (般若波羅蜜多, 觀自在菩薩, 舍利子, 五蘊, 空性). Where the commentary quotes or glosses words of the sūtra, keep those quoted words recognisable. Write mantra syllables in Chinese characters, never in Latin letters. Use full-width Chinese punctuation. Do not add commentary, notes, or explanation of your own."
 rails_used: none
 generated: 2026-10-04
 blocks_translated: 65
@@ -34,13 +35,13 @@ note: Machine baseline — not a rails-governed translation. Every line below is
 status: draft
 ---
 
-# Vimalamitra, The Extensive Commentary to the Heart Sūtra — DharmaMitra zero-shot (modern chinese) ^0
+# 班智達無垢友所著般若波羅蜜多心經廣釋 ^0
 
 ![[bo-vimalamitra-tika#^0-1]]
 
 聖般若波羅蜜多心經廣釋。 ^0-1
 
-## 发起缘起 ^1-0
+## 緣起 ^1-0
 
 ![[bo-vimalamitra-tika#^1-1]]
 
@@ -70,13 +71,13 @@ status: draft
 
 將所要宣說的義理作了簡要概括後，以「如是我聞」等前三句經文來發起緣起。所謂「我聞」，是指這是我親耳聽聞的，而非其他。此處是為了排除增減之過失，而誓願確立所聞之真實性。這也說明了，在聽聞一次之後，便能如實地領受並持守，從而將其正確地開示出來。因此，所謂「如實結集」，應當理解為：此人已在佛陀座下種植了善根，並已圓滿成熟，且有善知識作為依怙，曾供養諸佛並如實請法，且修習了布施、持戒等諸行。否則，若非如此，便不可能聽聞到這般般若波羅蜜多的核心義理。如護主彌勒菩薩所言：「於諸佛所作供養，於彼種植諸善根，具足善知識依怙，方為聽聞此法器。曾供養佛多請法，修習布施持戒等，智者知其為領受，以及持守之法器。」這也是為了令受化者生起淨信、不散亂及恭敬心等。所謂「我聞」，其第三種分別，是指如文字字面所示，僅僅是聽聞而已，因此，這排除了由聽聞所生起的智慧，即其自身所證悟的本質。若非如此，則「我聞」二字將會變成第六種分別，因為這涉及到了「所知」的義理。 ^1-4
 
-## 造论品 ^2-0
+## 造論 ^2-0
 
 ![[bo-vimalamitra-tika#^2-1]]
 
 接下來，為了顯示「聽聞」本身的本質，開始解說「一時」等經文。「時」是指說法等時機。「一時」這一詞，是用來限定「時」的具體性。這也與後文的「住」字相呼應。因為摧毀了四魔，所以稱為「薄伽梵」（世尊）；雖然其功德與事業無量，且已成就了作為眾生導師的至高地位，並已透過功德門圓滿了無量的名號，但為了向三乘眷屬及那些致力於自利利他者顯示，祂是眾生當下即應皈依的對象，因此，「薄伽梵」這一稱號的運用，顯示了祂是能斷除一切恐懼之因的導師。因此，在所有解釋的場合中，都稱呼為「薄伽梵」。所謂「王舍城」，是摩揭陀國都城的一種稱呼。在其一側，有一座名為「鷲峰」的山，是佛陀常住的處所，祂便住在那裡。應當了解，鷲峰山因為有薄伽梵居住，故已成為塔廟，且不會被火災等災難所毀壞，這是因為在《菩薩藏》中曾如此宣說。同樣地，在《聖月燈經》等經中也說：「於此王舍城東方，見諸千億諸佛陀，於諸勝者座前處，啟請此勝寂靜定。」這與上述內容相符。既然世尊已遠離了尋思、伺察等一切過失，那麼，無論祂以四威儀中的哪一種方式安住，該處所皆因世尊的威德而生，又怎會被那些災難所毀壞呢？由於具備了天、聖者與梵天所讚嘆的殊勝安住方式，即第四禪定、空性與大悲心，這三者為其主要的特徵，因此祂安住於此；「住」字即是已安住之意。世尊安住於彼處，是在結集正法之時。以「一時」這一限定詞，顯示了這位致力於大悲的眾生導師，在其他時間則是安住在其他地方。因此，追隨薄伽梵的弟子們，也應當以三種殊勝（意樂殊勝、加行殊勝、究竟殊勝）來安住，而非僅僅依賴於任何一種行為。 ^2-1
 
-## 显示教法摄集之义 ^3-0
+## 顯示教法攝集之義 ^3-0
 
 ![[bo-vimalamitra-tika#^3-1]]
 
@@ -92,7 +93,7 @@ status: draft
 
 世尊對於無煩惱的了知，在此亦被視為依據，因為諸煩惱的無煩惱，是指若能見到自性，便能斷除眾生的煩惱。諸佛的無煩惱，是指在城鎮等地，能斷除彼等眾生的煩惱。為了在下文中闡釋此義，故宣說「爾時」等語句。「爾時」是指世尊入於三摩地之時。「亦」字具有決定之義，因此意指「即是如是」。或者，「亦」字具有攝受之義，即攝受了入定之行，以及下文將出現的觀察之行。在此註釋中，應當專門攝受眷屬善根成熟之時，如此則攝受之義方能成立，否則便不成立。此處的「薩埵」（sattva）是指為了菩提，或因其心即是菩提，故稱為「菩提薩埵」（bodhisattva）。由於已進入佛位，對於獲得授記者，應當依據後面的語源解釋，那麼何謂「菩提」呢？菩提即是虛空的特徵，因為遠離了一切分別。如《大日經》中亦云：「菩提即虛空特徵，遠離一切分別。」凡是希求證悟此者，即是菩提薩埵，故對其作如是稱呼。由於顯示了眾生中最殊勝的「心大」等三種特質，且因進入大地的「波羅蜜多」之廣大，故此處的薩埵因其心廣大，而稱為「摩訶薩埵」（mahāsattva）。如《般若攝頌》中所云：「大施大慧大威力，入於諸佛最勝乘，披大鎧甲伏魔幻，故稱薩埵為大士。」遠離了罪惡與不善法，故稱為「聖者」（ārya）。若以觀自在（Avalokiteśvara）而言，因其能觀照眾生，且於恐懼與痛苦之因不生依賴，而獲得自在，故稱為「自在」（īśvara）。此既是聖者，又是觀自在，故稱為「聖觀自在」。因能了知種種相，或為智慧中最殊勝者，故稱為「般若」（prajñā）。殊勝的實體即是「波羅蜜多」（pāramitā），即是至高無上。世間中無有比此更殊勝者，故稱為殊勝；智慧的殊勝即是般若波羅蜜多。因此如是說：以自性空等相而了知，即成為殊勝，凡具備極致殊勝者，即是般若波羅蜜多。如《聖八千頌般若波羅蜜多經》中，阿難問：「世尊，若以智慧將善根迴向於無上正等正覺，此即是殊勝嗎？」世尊答：「阿難，是殊勝，善逝，是殊勝。」世尊又說：「因此，因其為殊勝，故獲得『波羅蜜多』之名。」若非如此，則語源解釋不合理，且難以安立詞句，亦會與世尊的語源解釋相違背。 ^4-2
 
-## 十一相 ^5-0
+## 十一種相 ^5-0
 
 ![[bo-vimalamitra-tika#^5-1]]
 
@@ -107,7 +108,7 @@ status: draft
 
 為了顯示應當觀察的對象有多少，因此宣說了「五蘊」。以「蘊」這個詞，也同時指涉了「處」與「界」，因為在結尾處也提到了這些。或者說，藉由「也」字，也包含了對「處」與「界」的觀察。經文中出現「彼等皆自性空」，這顯示了事物如其本然地存在，其含義即是「自性空」、「離」與「無我」。這也同時指涉了「無相」、「無生」等義理。 ^5-2
 
-## 提問 ^6-0
+## 設問 ^6-0
 
 ![[bo-vimalamitra-tika#^6-1]]
 
@@ -121,7 +122,7 @@ status: draft
 
 經文中出現「如是」，是指前述之內容。經文中出現「說」，是指「宣說」之意。 ^6-3
 
-## 答： ^7-0
+## 答覆 ^7-0
 
 ![[bo-vimalamitra-tika#^7-1]]
 
@@ -339,7 +340,7 @@ status: draft
 
 這是什麼意思呢？即是宣說了「應當修學般若波羅蜜多」等語。這是什麼樣的意思呢？即是宣說了「如汝所教導者」，其意旨為：應當依照汝所教導的內容，不違背地去修學。 ^7-44
 
-## 随喜 ^8-0
+## 隨喜 ^8-0
 
 ![[bo-vimalamitra-tika#^8-1]]
 

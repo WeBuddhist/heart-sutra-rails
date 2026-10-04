@@ -24,8 +24,8 @@ generator: dharmamitra cat-translate v1
 endpoint: https://dharmamitra.org/api-search/cat-translate/v1/translate
 focus: tibetan
 context_blocks: 3
-batching: <=3 blocks/call, <=900 src chars, <=6000 payload chars
-style_instruction: "Translate this passage of the Tibetan Heart Sūtra (Bhagavatī Prajñāpāramitā Hṛdaya) into clear, accurate English. Translate the whole passage completely and in the same order: do not summarise, shorten or omit anything, and keep the same number of lines as the source. Keep the mantra in Sanskrit transliteration (tadyathā oṃ gate gate pāragate pārasaṃgate bodhi svāhā) and proper names in their standard Sanskrit forms (Avalokiteśvara, Śāriputra, Rājagṛha). Do not add commentary, notes, or explanation of your own."
+batching: <=1 blocks/call, <=900 src chars, <=6000 payload chars
+style_instruction: "This is a section heading of a Tibetan Buddhist commentary. Translate it into English as a short heading: one line only, no sentence, no commentary, no quotation marks. The heading has no number: do not add any numeral or numbering. Keep proper names in transliteration."
 rails_used: none
 generated: 2026-10-04
 blocks_translated: 32
@@ -41,7 +41,7 @@ status: draft
 
 The Heart of the Blessed Mother, the Perfection of Wisdom. ^0-1
 
-## 1. The Introductory Narrative of the Sūtra ^1-0
+## The Introductory Narrative of the Sutra ^1-0
 
 ![[bo-prajnaparamita-hrdaya#^1-1]]
 

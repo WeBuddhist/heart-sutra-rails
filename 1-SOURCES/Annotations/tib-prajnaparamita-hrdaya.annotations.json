@@ -1,0 +1,1448 @@
+{
+ "file": "1-SOURCES/Translations/tib-prajnaparamita-hrdaya.md",
+ "id_scheme": "h2",
+ "target_file": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+ "headings": [
+  {
+   "line": "## མདོའི་གླེང་གཞི། ^1-0",
+   "path": "1",
+   "level": 1,
+   "title": "མདོའི་གླེང་གཞི།",
+   "source": {
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
+    "node": "1",
+    "row": 2
+   }
+  },
+  {
+   "line": "## མདོ་དོན་དངོས། ^2-0",
+   "path": "2",
+   "level": 1,
+   "title": "མདོ་དོན་དངོས།",
+   "source": {
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
+    "node": "2",
+    "row": 8
+   }
+  }
+ ],
+ "blocks": {
+  "0-1": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 1,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "5Mvv6UAqhYueHjxzEH1gL",
+     "start": 0,
+     "end": 54
+    }
+   },
+   "targets": [
+    "0-1"
+   ],
+   "alignment": {
+    "pair_row": 1,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "5Mvv6UAqhYueHjxzEH1gL",
+      "spans": [
+       {
+        "id": "fuDMzxb2tEzem0klFxLbH",
+        "start": 0,
+        "end": 54
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "0-1": {
+      "letters": 38,
+      "of": 38,
+      "span": [
+       0,
+       51
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། །"
+  },
+  "1-1": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 2,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "LIZC6pnLIqBWQBkqn3AXh",
+     "start": 54,
+     "end": 171
+    }
+   },
+   "targets": [
+    "1-1",
+    "1-2"
+   ],
+   "alignment": {
+    "pair_row": 2,
+    "target_side_text": "༄༅། །​རྒྱ་གར་སྐད་དུ། བྷ་ག་བ་ཏི་པྲ་ཛྙ་པ་ར་མི་ཏཱྀ་ཧྲད་ཡ། བོད་སྐད་དུ། བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "LIZC6pnLIqBWQBkqn3AXh",
+      "spans": [
+       {
+        "id": "INlt5NDPQ9PDqtM4JdgPD",
+        "start": 54,
+        "end": 173
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-1": {
+      "letters": 31,
+      "of": 31,
+      "span": [
+       6,
+       53
+      ],
+      "whole": true
+     },
+     "1-2": {
+      "letters": 46,
+      "of": 46,
+      "span": [
+       0,
+       63
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "འདི་རྒྱ་གར་སྐད་དུ་ \"བྷ་ག་བ་ཏི་པྲ་ཛྙ་པ་ར་མི་ཏཱྀ་ཧྲད་ཡ་\" ཟེར། བོད་སྐད་དུ་ \"ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་\" ཟེར།"
+  },
+  "1-2": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 3,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "UfoS7tkSMGbxe2eGImevc",
+     "start": 171,
+     "end": 190
+    }
+   },
+   "targets": [
+    "1-3"
+   ],
+   "alignment": {
+    "pair_row": 3,
+    "target_side_text": "བམ་པོ་གཅིག་གོ །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "UfoS7tkSMGbxe2eGImevc",
+      "spans": [
+       {
+        "id": "Wt9OzzPncPOUkNlM3AJJv",
+        "start": 173,
+        "end": 190
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-3": {
+      "letters": 10,
+      "of": 10,
+      "span": [
+       0,
+       13
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེབ་ཆུང་ངུ་ཞིག་རེད།"
+  },
+  "1-3": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 4,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "8QwHXZn9F7MVeyOGUqUtl",
+     "start": 190,
+     "end": 237
+    }
+   },
+   "targets": [
+    "1-4"
+   ],
+   "alignment": {
+    "pair_row": 4,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་དུ་ཕྱིན་པ་ལ་ཕྱག་འཚལ་ལོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "8QwHXZn9F7MVeyOGUqUtl",
+      "spans": [
+       {
+        "id": "tDpHPTHvdM0P5S25NIvBj",
+        "start": 190,
+        "end": 247
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-4": {
+      "letters": 39,
+      "of": 39,
+      "span": [
+       0,
+       54
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ཤེས་རབ་ཆེན་པོ་སྟོན་པའི་ལྷ་མོ་ལ་ཕྱག་འཚལ་གྱི་ཡོད།"
+  },
+  "1-4": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 5,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "ofQmjJbZh3o9bwXZiHuUG",
+     "start": 237,
+     "end": 423
+    }
+   },
+   "targets": [
+    "1-5",
+    "1-6"
+   ],
+   "alignment": {
+    "pair_row": 5,
+    "target_side_text": "​འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན། བཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ་བྱ་རྒོད་ཕུང་པོའི་རི་ལ་དགེ་སློང་གི་དགེ་འདུན་ཆེན་པོ་དང་། ​བྱང་ཆུབ་སེམས་དཔའི་དགེ་འདུན་ཆེན་པོ་དང་ཐབས་ཅིག་ཏུ་བཞུགས་ཏེ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "ofQmjJbZh3o9bwXZiHuUG",
+      "spans": [
+       {
+        "id": "q0NXZ6aAquD68Sey7G4Ge",
+        "start": 247,
+        "end": 422
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-5": {
+      "letters": 24,
+      "of": 24,
+      "span": [
+       1,
+       33
+      ],
+      "whole": true
+     },
+     "1-6": {
+      "letters": 102,
+      "of": 102,
+      "span": [
+       0,
+       138
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "ངས་སྒྲ་འདི་གཅིག་ནས་ཐོས་བྱུང་། དེ་དུས་སངས་རྒྱས་རང་གི་གསང་སྔགས་སྒོམ་ཉམས་ལེན་བྱེད་སའི་གནས་མཆོག་ བྱ་རྒོད་ཕུང་པོའི་རི་ ལ་བཞུགས་ཡོད། དགེ་སློང་ཆེན་པོ་དང་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་ཚང་མ་མཉམ་དུ་ཡོད།"
+  },
+  "1-5": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 6,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "aWCmjkQ94bgkFAMclH9H3",
+     "start": 423,
+     "end": 515
+    }
+   },
+   "targets": [
+    "1-7"
+   ],
+   "alignment": {
+    "pair_row": 6,
+    "target_side_text": "དེའི་ཚེ་བཅོམ་ལྡན་འདས་ཟབ་མོ་སྣང་བ་ཞེས་བྱ་བའི་ཆོས་ཀྱི་རྣམ་གྲངས་ཀྱི་ཏིང་ངེ་འཛིན་ལ་སྙོམས་པར་ཞུགས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "aWCmjkQ94bgkFAMclH9H3",
+      "spans": [
+       {
+        "id": "TwNkwp185z2bH2vjUsoQn",
+        "start": 422,
+        "end": 520
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-7": {
+      "letters": 71,
+      "of": 71,
+      "span": [
+       0,
+       95
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེ་དུས་སངས་རྒྱས་ཀྱིས་ ཟབ་མོ་སྣང་བ་ ཟེར་བའི་ཏིང་ངེ་འཛིན་ཟབ་མོ་ཞིག་ལ་སྒོམ་རྒྱག་བཞིན་བཞུགས་ཡོད།"
+  },
+  "1-6": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 7,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "oEjZm1y6uCv2AMVgtW2Q1",
+     "start": 515,
+     "end": 697
+    }
+   },
+   "targets": [
+    "1-8",
+    "1-9"
+   ],
+   "alignment": {
+    "pair_row": 7,
+    "target_side_text": "​ཡང་དེའི་ཚེ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་ཉིད་ལ་རྣམ་པར་བལྟ་ཞིང་། ཕུང་པོ་ལྔ་པོ་དེ་དག་ལ་ཡང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་བལྟའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "oEjZm1y6uCv2AMVgtW2Q1",
+      "spans": [
+       {
+        "id": "G1BtwYgZXEujT6Kkz6fxx",
+        "start": 520,
+        "end": 721
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-8": {
+      "letters": 102,
+      "of": 102,
+      "span": [
+       1,
+       138
+      ],
+      "whole": true
+     },
+     "1-9": {
+      "letters": 42,
+      "of": 42,
+      "span": [
+       0,
+       57
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "ཡང་དེ་དུས་སྤྱན་རས་གཟིགས་ཀྱིས་ཆོས་ཀྱི་གནས་ལུགས་ཟབ་མོ་དེ་ལ་བལྟས་ནས་བསམ་བློ་བཏང་། མིའི་ལུས་སེམས་འདི་ ཕུང་པོ་ལྔ་ ལས་གྲུབ་ཡོད་པ་དེ་ཚོར་ རང་བཞིན་གྱི་ངོ་བོ་གང་ཡང་མེད་པ་ སྟོང་པ་ཡིན་པར་མཐོང་།"
+  },
+  "2-1": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 8,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "trBcgs5Xv4ai2aWzKCjQl",
+     "start": 697,
+     "end": 802
+    }
+   },
+   "targets": [
+    "2-1"
+   ],
+   "alignment": {
+    "pair_row": 8,
+    "target_side_text": "​དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས། ​ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "trBcgs5Xv4ai2aWzKCjQl",
+      "spans": [
+       {
+        "id": "DIY55Tg9LJ7lxkJQXtHIb",
+        "start": 721,
+        "end": 851
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-1": {
+      "letters": 92,
+      "of": 92,
+      "span": [
+       1,
+       126
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེ་ནས་སངས་རྒྱས་ཀྱི་བྱིན་རླབས་ཀྱིས། སངས་རྒྱས་ཀྱི་ཉན་ཐོས་ ཤཱ་རིའི་བུ་ ཡིས་སྤྱན་རས་གཟིགས་ལ་འདི་སྐད་ཅེས་དྲིས།"
+  },
+  "2-2": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 9,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "OSMXnowohMgTFBIo3KTGw",
+     "start": 802,
+     "end": 973
+    },
+    "merged_rows": [
+     {
+      "row": 9,
+      "text": "ཤཱ་རིའི་བུ། མི་སུ་ཡིན་ནའང་ཆོས་ཀྱི་གནས་ལུགས་ཟབ་མོ་དེ་ཉམས་སུ་ལེན་འདོད་ན། ག་འདྲ་བྱས་ནས་སློབ་དགོས་སམ། དེ་སྐད་དྲིས་པ་དང་། སྤྱན་རས་གཟིགས་ཀྱིས་ཤཱ་རིའི་བུ་ལ་འདི་སྐད་ཅེས་ལན་བརྒྱབས།",
+      "alignment": {
+       "pair_row": 9,
+       "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "OSMXnowohMgTFBIo3KTGw",
+         "spans": [
+          {
+           "id": "K1uOa5OqyGMiY2VnG5DR1",
+           "start": 851,
+           "end": 1092
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-2": {
+         "letters": 171,
+         "of": 325,
+         "span": [
+          0,
+          238
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 10,
+      "text": "ཤཱ་རིའི་བུ། ཆོས་ཟབ་མོ་འདི་སློབ་འདོད་པའི་མི་ཚང་མས། རང་གི་ལུས་སེམས་གཉིས་ (ཕུང་པོ་ལྔ་) ལ་ རང་ངོས་ནས་ཡོད་པའི་ངོ་བོ་གང་ཡང་མེད་པ་ སྟོང་པ་ཡིན་པར་ཡང་དག་པར་བལྟ་དགོས།",
+      "alignment": {
+       "pair_row": 10,
+       "target_side_text": "​ཤཱ་རིའི་བུ། རིགས་ཀྱི་བུའམ་རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ། ​ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "YLhqBRpzaz6zsZ3rd58VU",
+         "spans": [
+          {
+           "id": "sfOFxnbq5eFpsHoeumq9c",
+           "start": 1092,
+           "end": 1310
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-2": {
+         "letters": 154,
+         "of": 325,
+         "span": [
+          242,
+          456
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra's question and the opening of Avalokiteśvara's answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).",
+     "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+     "date": "2026-10-04"
+    }
+   },
+   "targets": [
+    "2-2"
+   ],
+   "alignment": {
+    "pair_row": 9,
+    "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "OSMXnowohMgTFBIo3KTGw",
+      "spans": [
+       {
+        "id": "K1uOa5OqyGMiY2VnG5DR1",
+        "start": 851,
+        "end": 1092
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-2": {
+      "letters": 171,
+      "of": 325,
+      "span": [
+       0,
+       238
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "ཤཱ་རིའི་བུ། མི་སུ་ཡིན་ནའང་ཆོས་ཀྱི་གནས་ལུགས་ཟབ་མོ་དེ་ཉམས་སུ་ལེན་འདོད་ན། ག་འདྲ་བྱས་ནས་སློབ་དགོས་སམ། དེ་སྐད་དྲིས་པ་དང་། སྤྱན་རས་གཟིགས་ཀྱིས་ཤཱ་རིའི་བུ་ལ་འདི་སྐད་ཅེས་ལན་བརྒྱབས། ཤཱ་རིའི་བུ། ཆོས་ཟབ་མོ་འདི་སློབ་འདོད་པའི་མི་ཚང་མས། རང་གི་ལུས་སེམས་གཉིས་ (ཕུང་པོ་ལྔ་) ལ་ རང་ངོས་ནས་ཡོད་པའི་ངོ་བོ་གང་ཡང་མེད་པ་ སྟོང་པ་ཡིན་པར་ཡང་དག་པར་བལྟ་དགོས།"
+  },
+  "2-3": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 11,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "NmxjYLvkiL87YhpWUndcZ",
+     "start": 1129,
+     "end": 1268
+    }
+   },
+   "targets": [
+    "2-3",
+    "2-4"
+   ],
+   "alignment": {
+    "pair_row": 11,
+    "target_side_text": "​གཟུགས་སྟོང་པའོ། །སྟོང་པ་ཉིད་གཟུགས་སོ། །​གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན། སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "NmxjYLvkiL87YhpWUndcZ",
+      "spans": [
+       {
+        "id": "9spYM0ig3qmdsMLo0DqTz",
+        "start": 1310,
+        "end": 1421
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-3": {
+      "letters": 27,
+      "of": 27,
+      "span": [
+       1,
+       37
+      ],
+      "whole": true
+     },
+     "2-4": {
+      "letters": 49,
+      "of": 49,
+      "span": [
+       1,
+       68
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "ལུས་པོ་དང་ཕྱི་རོལ་གྱི་དངོས་པོ་ སྟོང་པ་ རེད། སྟོང་པ་ཉིད་དེ་གཟུགས་རང་རེད། གཟུགས་དང་སྟོང་པ་གཉིས་ཁ་ཁ་མ་རེད། སྟོང་པ་དང་གཟུགས་གཉིས་ཀྱང་ཁ་ཁ་མ་རེད།"
+  },
+  "2-4": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 12,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "CQPszkwbmFc3aQsSTtMMd",
+     "start": 1268,
+     "end": 1334
+    }
+   },
+   "targets": [
+    "2-5"
+   ],
+   "alignment": {
+    "pair_row": 12,
+    "target_side_text": "​དེ་བཞིན་དུ་ཚོར་བ་དང་། ​འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "CQPszkwbmFc3aQsSTtMMd",
+      "spans": [
+       {
+        "id": "Jj9A35mBqwMSRAtTTJifc",
+        "start": 1421,
+        "end": 1501
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-5": {
+      "letters": 51,
+      "of": 51,
+      "span": [
+       1,
+       77
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེ་བཞིན་དུ་ ཚོར་བ། འདུ་ཤེས། འདུ་བྱེད། རྣམ་ཤེས། ཚང་མ་ཡང་སྟོང་པ་རེད།"
+  },
+  "2-5": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 13,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "lyEBaARz2lzI6uRV37fRZ",
+     "start": 1334,
+     "end": 1488
+    }
+   },
+   "targets": [
+    "2-6"
+   ],
+   "alignment": {
+    "pair_row": 13,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ། མཚན་ཉིད་མེད་པ། མ་སྐྱེས་པ། ​མ་འགགས་པ། དྲི་མ་མེད་པ། དྲི་མ་དང་བྲལ་བ་མེད་པ། ​བྲི་བ་མེད་པ། གང་བ་མེད་པའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "lyEBaARz2lzI6uRV37fRZ",
+      "spans": [
+       {
+        "id": "MXUum50YjVTpOs2oPYGLD",
+        "start": 1501,
+        "end": 1651
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-6": {
+      "letters": 95,
+      "of": 95,
+      "span": [
+       1,
+       147
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ཤཱ་རིའི་བུ། དེས་ན་དངོས་པོ་གང་དང་གང་ཡིན་རུང་ཚང་མ་ སྟོང་པ་ཉིད་ རེད། ཁོང་ཚོར་ངེས་པའི་རང་གཤིས་མེད། སྐྱེ་བ་མེད། འགག་པ་མེད། ལེགས་ཉེས་མེད། ཉམས་པ་མེད། འཕེལ་བ་མེད།"
+  },
+  "2-6": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 14,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "8YgHyEvQEYdJWcqwcCTw0",
+     "start": 1488,
+     "end": 1646
+    }
+   },
+   "targets": [
+    "2-7"
+   ],
+   "alignment": {
+    "pair_row": 14,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད། ཚོར་བ་མེད། ​འདུ་ཤེས་མེད། འདུ་བྱེད་མེད། རྣམ་པར་ཤེས་པ་མེད། མིག་མེད། རྣ་བ་མེད། སྣ་མེད། ལྕེ་མེད། ལུས་མེད། ཡིད་མེད །གཟུགས་མེད། སྒྲ་མེད། དྲི་མེད། རོ་མེད། རེག་བྱ་མེད། ཆོས་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "8YgHyEvQEYdJWcqwcCTw0",
+      "spans": [
+       {
+        "id": "iFviTz7BoBw7QDLgMP6jx",
+        "start": 1651,
+        "end": 1871
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-7": {
+      "letters": 146,
+      "of": 146,
+      "span": [
+       1,
+       217
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ཤཱ་རིའི་བུ། དེས་ན་སྟོང་པ་ཉིད་ནང་གཟུགས་མེད། ཚོར་བ་མེད། འདུ་ཤེས་མེད། འདུ་བྱེད་མེད། རྣམ་ཤེས་མེད། མིག་རྣ་སྣ་ལྕེ་ལུས་ཡིད་མེད། གཟུགས་སྒྲ་དྲི་རོ་རེག་བྱ་ཆོས་སོགས་མེད།"
+  },
+  "2-7": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 15,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "CiWd8gFG8DO8oEqBRNkCh",
+     "start": 1646,
+     "end": 1764
+    }
+   },
+   "targets": [
+    "2-8"
+   ],
+   "alignment": {
+    "pair_row": 15,
+    "target_side_text": "​མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད། ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "CiWd8gFG8DO8oEqBRNkCh",
+      "spans": [
+       {
+        "id": "mhNP3b0epKmu1NmqMghHi",
+        "start": 1871,
+        "end": 1958
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-8": {
+      "letters": 60,
+      "of": 60,
+      "span": [
+       1,
+       84
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "མིག་གི་འབྱུང་ཁུངས་ནས་ཡིད་ཀྱི་འབྱུང་ཁུངས་དང་། ཡིད་ཤེས་ཀྱི་འབྱུང་ཁུངས་ཚུན་ཆད་གང་ཡང་མེད། (ཁམས་བཅོ་བརྒྱད་ཚང་མ་སྟོང་པ་རེད།)"
+  },
+  "2-8": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 16,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "c1PSkEu0msER2C9eqAYb3",
+     "start": 1764,
+     "end": 1915
+    },
+    "merged_rows": [
+     {
+      "row": 16,
+      "text": "ཆོས་ཀྱི་གནས་ལུགས་མི་ཤེས་པའི་ མ་རིག་པ་ མེད། མ་རིག་པ་ཟད་པ་ཡང་མེད། རྒ་བ་དང་འཆི་བ་མེད། རྒ་བ་དང་འཆི་བ་ཟད་པ་ཡང་མེད། (འཁོར་བའི་རྩ་བ་དང་ཡན་ལག་ཚང་མ་སྟོང་པ་རེད།)",
+      "alignment": {
+       "pair_row": 16,
+       "target_side_text": "​མ་རིག་པ་མེད། ​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད། ​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "c1PSkEu0msER2C9eqAYb3",
+         "spans": [
+          {
+           "id": "z86dgjGo70qShOk9rSpsy",
+           "start": 1958,
+           "end": 2038
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-9": {
+         "letters": 49,
+         "of": 110,
+         "span": [
+          1,
+          77
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 17,
+      "text": "སྡུག་བསྔལ་བའི་བདེན་པ་། ཀུན་འབྱུང་བའི་བདེན་པ་། འགོག་པའི་བདེན་པ་། ལམ་གྱི་བདེན་པ་ བཅས་ བདེན་པ་བཞི་ མེད། ཤེས་རབ་ཀྱི་ཡེ་ཤེས་མེད། མངོན་རྟོགས་བྱུང་བ་མེད། མ་བྱུང་བ་ཡང་མེད།",
+      "alignment": {
+       "pair_row": 17,
+       "target_side_text": "སྡུག་བསྔལ་བ་དང་། ཀུན་འབྱུང་བ་དང་། འགོག་པ་དང་། ལམ་མེད། ཡེ་ཤེས་མེད། ཐོབ་པ་མེད། མ་ཐོབ་པ་ཡང་མེད་དོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "sbyTQIS7Pdabli386Ovr9",
+         "spans": [
+          {
+           "id": "Iu6yzlGAI8nOULIty4J3L",
+           "start": 2038,
+           "end": 2136
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-9": {
+         "letters": 61,
+         "of": 110,
+         "span": [
+          81,
+          175
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra's question and the opening of Avalokiteśvara's answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).",
+     "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+     "date": "2026-10-04"
+    }
+   },
+   "targets": [
+    "2-9"
+   ],
+   "alignment": {
+    "pair_row": 16,
+    "target_side_text": "​མ་རིག་པ་མེད། ​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད། ​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "c1PSkEu0msER2C9eqAYb3",
+      "spans": [
+       {
+        "id": "z86dgjGo70qShOk9rSpsy",
+        "start": 1958,
+        "end": 2038
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-9": {
+      "letters": 49,
+      "of": 110,
+      "span": [
+       1,
+       77
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "ཆོས་ཀྱི་གནས་ལུགས་མི་ཤེས་པའི་ མ་རིག་པ་ མེད། མ་རིག་པ་ཟད་པ་ཡང་མེད། རྒ་བ་དང་འཆི་བ་མེད། རྒ་བ་དང་འཆི་བ་ཟད་པ་ཡང་མེད། (འཁོར་བའི་རྩ་བ་དང་ཡན་ལག་ཚང་མ་སྟོང་པ་རེད།) སྡུག་བསྔལ་བའི་བདེན་པ་། ཀུན་འབྱུང་བའི་བདེན་པ་། འགོག་པའི་བདེན་པ་། ལམ་གྱི་བདེན་པ་ བཅས་ བདེན་པ་བཞི་ མེད། ཤེས་རབ་ཀྱི་ཡེ་ཤེས་མེད། མངོན་རྟོགས་བྱུང་བ་མེད། མ་བྱུང་བ་ཡང་མེད།"
+  },
+  "2-9": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 18,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "4DBbpFB1QY9wvvrHdw9oM",
+     "start": 2078,
+     "end": 2307
+    }
+   },
+   "targets": [
+    "2-10",
+    "2-11"
+   ],
+   "alignment": {
+    "pair_row": 18,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ། སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ། ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "4DBbpFB1QY9wvvrHdw9oM",
+      "spans": [
+       {
+        "id": "TO6g2KXasPdWLHz2HBYLj",
+        "start": 2136,
+        "end": 2344
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-10": {
+      "letters": 79,
+      "of": 79,
+      "span": [
+       1,
+       110
+      ],
+      "whole": true
+     },
+     "2-11": {
+      "letters": 67,
+      "of": 67,
+      "span": [
+       0,
+       93
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "ཤཱ་རིའི་བུ། དེ་འདྲ་ཡིན་ཙང་བྱང་ཆུབ་སེམས་དཔའ་ཚོས་དངོས་པོ་གང་ཡང་འཐོབ་རྒྱུ་མེད་པའི་ཕྱིར། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་གནས་ཀྱི་ཡོད། སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ། བསམ་བློ་ནོར་བ་ཚང་མ་ལས་བརྒལ་ནས་མཐར་ མྱང་འདས འཐོབ་ཀྱི་རེད།"
+  },
+  "2-10": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 19,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "T0EctfGRqn6LwzQTwwejv",
+     "start": 2307,
+     "end": 2462
+    }
+   },
+   "targets": [
+    "2-12"
+   ],
+   "alignment": {
+    "pair_row": 19,
+    "target_side_text": "​དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "T0EctfGRqn6LwzQTwwejv",
+      "spans": [
+       {
+        "id": "jMrY75Xqpp2mw3KIIpegQ",
+        "start": 2344,
+        "end": 2504
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-12": {
+      "letters": 115,
+      "of": 115,
+      "span": [
+       1,
+       157
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "སྔོན་དང་ད་ལྟ་དང་མ་འོངས་པའི་སངས་རྒྱས་ཚང་མ་ཡང་ ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ ཉམས་ལེན་འདི་ལ་བརྟེན་ནས་གཞན་ལས་ལྷག་པའི་ རྫོགས་པའི་སངས་རྒྱས་ཀྱི་གོ་འཕང་ ཐོབ་པ་རེད།"
+  },
+  "2-11": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 20,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "VypfFP5QBzrYePWBuRkvc",
+     "start": 2462,
+     "end": 2685
+    }
+   },
+   "targets": [
+    "2-13"
+   ],
+   "alignment": {
+    "pair_row": 20,
+    "target_side_text": "​དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས། རིག་པ་ཆེན་པོའི་སྔགས། བླ་ན་མེད་པའི་སྔགས། མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས། སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས། མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "VypfFP5QBzrYePWBuRkvc",
+      "spans": [
+       {
+        "id": "6AQoV2m3fbnZEztD8FQZh",
+        "start": 2504,
+        "end": 2739
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-13": {
+      "letters": 165,
+      "of": 165,
+      "span": [
+       1,
+       233
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེ་འདྲ་ཡིན་ཙང་། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ ནང་དོན་འདི་ནི་ གཟུངས་སྔགས་ ཡིན། སྔགས་འདི་ནི་ཤེས་རབ་ཀྱི་སྔགས་ཆེན་པོ། གཞན་ལས་ལྷག་པ། སྡུག་བསྔལ་ཚང་མ་ཞི་བྱེད་ཀྱི་སྔགས་རེད། འདི་ནི་རྫུན་མ་མ་ཡིན་པས་བདེན་པ་ཡིན་པར་ཤེས་དགོས། སྔགས་དེ་ནི།"
+  },
+  "2-12": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 21,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "VdWqvFMw4sGD69nKtqLEo",
+     "start": 2685,
+     "end": 2772
+    }
+   },
+   "targets": [
+    "2-14"
+   ],
+   "alignment": {
+    "pair_row": 21,
+    "target_side_text": "ཏདྱ་ཐཱ། ག་ཏེ་ག་ཏེ་པཱ་ར་ག་ཏེ། པཱ་ར་སཾ་ག་ཏེ། བོ་དྷི་སྭ་ཧཱ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "VdWqvFMw4sGD69nKtqLEo",
+      "spans": [
+       {
+        "id": "vq3YQH5UGWtkx8kwR9yuA",
+        "start": 2739,
+        "end": 2796
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-14": {
+      "letters": 34,
+      "of": 34,
+      "span": [
+       0,
+       55
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "འདི་ལྟར། ཕྱིན་ནོ། ཕྱིན་ནོ། ཕ་རོལ་ཏུ་ཕྱིན་ནོ། ཡོངས་སུ་ཕ་རོལ་ཏུ་ཕྱིན་ནོ། བྱང་ཆུབ་སྩོལ་ཅིག"
+  },
+  "2-13": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 22,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "KHSgxU3lpZxckMf5OU1Zs",
+     "start": 2772,
+     "end": 2847
+    }
+   },
+   "targets": [
+    "2-15"
+   ],
+   "alignment": {
+    "pair_row": 22,
+    "target_side_text": "ཤཱ་རིའི་བུ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "KHSgxU3lpZxckMf5OU1Zs",
+      "spans": [
+       {
+        "id": "JelkwUkIoHQQOo0z3P4wB",
+        "start": 2796,
+        "end": 2897
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-15": {
+      "letters": 72,
+      "of": 72,
+      "span": [
+       0,
+       98
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ཤཱ་རིའི་བུ། བྱང་ཆུབ་སེམས་དཔའ་ཚོས་ཆོས་ཀྱི་གནས་ལུགས་ཟབ་མོ་འདི་ལྟར་སློབ་དགོས།"
+  },
+  "2-14": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 23,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "SvU8bSYphiwkbAxwt5wFd",
+     "start": 2847,
+     "end": 2962
+    }
+   },
+   "targets": [
+    "2-16"
+   ],
+   "alignment": {
+    "pair_row": 23,
+    "target_side_text": "​དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་འཕགས་པ ་སྤྱན་རས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས། ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ནོ། །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "SvU8bSYphiwkbAxwt5wFd",
+      "spans": [
+       {
+        "id": "1MgIX64eWaMYSYrVzsDVq",
+        "start": 2897,
+        "end": 3079
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-16": {
+      "letters": 128,
+      "of": 128,
+      "span": [
+       1,
+       177
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "དེ་ནས་སངས་རྒྱས་སྒོམ་ལས་བཞེངས་ནས། སྤྱན་རས་གཟིགས་ལ་ ལེགས་སོ་ གསུངས། ལེགས་སོ་ལེགས་སོ། ཁྱེད་ཀྱི་བཤད་པ་དེ་གནས་ལུགས་རེད།"
+  },
+  "2-15": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 24,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "Ah9DsPRrABVCTapSGJZGw",
+     "start": 2962,
+     "end": 3104
+    }
+   },
+   "targets": [
+    "2-17",
+    "2-18"
+   ],
+   "alignment": {
+    "pair_row": 24,
+    "target_side_text": "རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ཏེ། ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "Ah9DsPRrABVCTapSGJZGw",
+      "spans": [
+       {
+        "id": "njTz4vN5AHxtlQoL3KA5s",
+        "start": 3079,
+        "end": 3233
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-17": {
+      "letters": 78,
+      "of": 78,
+      "span": [
+       0,
+       108
+      ],
+      "whole": true
+     },
+     "2-18": {
+      "letters": 31,
+      "of": 31,
+      "span": [
+       0,
+       41
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "གནས་ལུགས་རེད། ཁྱེད་ཀྱིས་བཤད་པ་ལྟར་བྱས་ནས་ ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ ཟབ་མོ་འདི་ཉམས་ལེན་བྱེད་དགོས། སངས་རྒྱས་ཚང་མ་ཡང་འདི་ལ་དགའ་པོ་བྱེད་ཀྱི་ཡོད།"
+  },
+  "2-16": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 25,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "K4GxsW9cQAmBfeoNle8TL",
+     "start": 3104,
+     "end": 3141
+    }
+   },
+   "targets": [
+    "2-19"
+   ],
+   "alignment": {
+    "pair_row": 25,
+    "target_side_text": "​བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "K4GxsW9cQAmBfeoNle8TL",
+      "spans": [
+       {
+        "id": "IdFA4U6b59IFaQOAydYcE",
+        "start": 3233,
+        "end": 3275
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-19": {
+      "letters": 30,
+      "of": 30,
+      "span": [
+       1,
+       40
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "སངས་རྒྱས་ཀྱིས་དེ་སྐད་ཅེས་གསུངས་རྗེས།"
+  },
+  "2-17": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 26,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "EpRqzhQaDSrNPgSnnrqU6",
+     "start": 3141,
+     "end": 3313
+    }
+   },
+   "targets": [
+    "2-20"
+   ],
+   "alignment": {
+    "pair_row": 26,
+    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་། ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་། ​ལྷ་དང་། མི་དང་། ལྷ་མ་ཡིན་དང་། དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ། བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "EpRqzhQaDSrNPgSnnrqU6",
+      "spans": [
+       {
+        "id": "AjxBjX9YYPgYwadNmyfhs",
+        "start": 3275,
+        "end": 3517
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-20": {
+      "letters": 165,
+      "of": 165,
+      "span": [
+       0,
+       239
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ཤཱ་རིའི་བུ་དང་། སྤྱན་རས་གཟིགས་དང་། ཚོགས་འདུས་ལ་ཡོད་པའི་ལྷ་དང་། མི། ལྷ་མ་ཡིན། དྲི་ཟ་སོགས་འཇིག་རྟེན་གྱི་མི་དང་མི་མ་ཡིན་པ་ཚང་མས་དགའ་སྤྲོ་སྐྱེས། སངས་རྒྱས་ཀྱི་བཀའ་ལ་བསྟོད་པ་བྱས།"
+  },
+  "2-18": {
+   "source": {
+    "file": "openpecha:ysb3nzBwYpMPcS9Jm064y",
+    "row": 27,
+    "openpecha": {
+     "text_id": "ysb3nzBwYpMPcS9Jm064y",
+     "instance_id": "88UIsXzJTkawquPqwKgBu",
+     "segment": "CCwjZVjYGlBhsBiUp4A9G",
+     "start": 3313,
+     "end": 3372
+    }
+   },
+   "targets": [
+    "2-21"
+   ],
+   "alignment": {
+    "pair_row": 27,
+    "target_side_text": "​འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྫོགས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "CCwjZVjYGlBhsBiUp4A9G",
+      "spans": [
+       {
+        "id": "lZJmc1sTtk1bUVzF2VlHM",
+        "start": 3517,
+        "end": 3573
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-21": {
+      "letters": 39,
+      "of": 39,
+      "span": [
+       1,
+       53
+      ],
+      "whole": true
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "རྒྱགརགྱིམཁནཔོབིམལམིཏྲདངལོཙྪབདགེསློངརིནཆེནསྡེསབསྒྱུརཅིངཞུཆེནགྱིལོཙྪབདགེབློདངནམམཁའལསོགསཔསཞུསཏེགཏནལཕབཔདཔལབསམཡསལྷུནགྱིསགྲུབཔའིགཙུགལགགིདགེརྒྱསབྱེམགླིངགིརྩིགངོསལབྲིསཔདངཞུདགལེགསཔརབགྱིསསོ",
+      "target_block": "3-1"
+     }
+    ]
+   },
+   "text": "ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་ འདི་མཇུག་བསྒྲིལ་སོང་།"
+  }
+ },
+ "legend": null,
+ "notes": "Language code tib (OpenPecha's code for colloquial Tibetan) is not one the WeBuddhist library accepts (GET https://library.webuddhist.com/v2/languages, 2026-10-04): this file cannot be published until a code is chosen or added.",
+ "target_side_rows_without_counterpart": [],
+ "concordance": {
+  "copy_letters": 2463,
+  "target_letters": 2642,
+  "matched": 2463,
+  "replaced": 0,
+  "copy_only": 0,
+  "target_only": 179,
+  "ratio": 0.9649
+ },
+ "toc_nodes_without_rows": [
+  {
+   "node": "3",
+   "title": "མཇུག་བྱང་།"
+  }
+ ],
+ "toc": {
+  "kind": "outline",
+  "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+  "note": "The Wikisource Index table of contents of the Derge Kangyur Heart Sūtra, the same outline as the root, the Tibetan and the Chinese (see bo-display), carried onto this file through its upstream OpenPecha alignment and the letters of the old Tibetan in the display Tibetan. Sections 1 and 2 open at segments 2 and 8, exactly where they open in the display Tibetan, so no segment is split; section 3 (the translators' colophon, added to the Tibetan from Wikisource) has no counterpart here.",
+  "labels_decision": {
+   "reason": "D5: the Tibetan headings verbatim. The colloquial Tibetan is the same language in the same script, keeps literary terms such as ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ unchanged, and no human colloquial rendering of the headings exists; a colloquial paraphrase would be an invented editorial layer.",
+   "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+   "date": "2026-10-04"
+  }
+ }
+}

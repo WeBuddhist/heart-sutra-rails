@@ -1,0 +1,1448 @@
+{
+ "file": "1-SOURCES/Translations/tibphono-prajnaparamita-hrdaya.md",
+ "id_scheme": "h2",
+ "target_file": "1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md",
+ "headings": [
+  {
+   "line": "## do i lengzhi ^1-0",
+   "path": "1",
+   "level": 1,
+   "title": "do i lengzhi",
+   "source": {
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
+    "node": "1",
+    "row": 2
+   }
+  },
+  {
+   "line": "## do dön ngö ^2-0",
+   "path": "2",
+   "level": 1,
+   "title": "do dön ngö",
+   "source": {
+    "origin": "outline",
+    "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+    "via": "bo-display",
+    "node": "2",
+    "row": 8
+   }
+  }
+ ],
+ "blocks": {
+  "0-1": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 1,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "5zANn51XXBgHUZuuIwXFP",
+     "start": 0,
+     "end": 50
+    }
+   },
+   "targets": [
+    "0-1"
+   ],
+   "alignment": {
+    "pair_row": 1,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "5zANn51XXBgHUZuuIwXFP",
+      "spans": [
+       {
+        "id": "gliB0onxL6kZuvJUb4GBP",
+        "start": 0,
+        "end": 54
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "0-1": {
+      "letters": 38,
+      "of": 38,
+      "span": [
+       0,
+       51
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "chomdendé ma sherab kyi parol tu chinpa i nyingpo"
+  },
+  "1-1": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 2,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "J5d5R5mipCWKrwyWWpdlM",
+     "start": 50,
+     "end": 153
+    }
+   },
+   "targets": [
+    "1-1",
+    "1-2"
+   ],
+   "alignment": {
+    "pair_row": 2,
+    "target_side_text": "༄༅། །​རྒྱ་གར་སྐད་དུ། བྷ་ག་བ་ཏི་པྲ་ཛྙ་པ་ར་མི་ཏཱྀ་ཧྲད་ཡ། བོད་སྐད་དུ། བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "J5d5R5mipCWKrwyWWpdlM",
+      "spans": [
+       {
+        "id": "8DVvwHZq0iQAYGSEioOLZ",
+        "start": 54,
+        "end": 173
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-1": {
+      "letters": 31,
+      "of": 31,
+      "span": [
+       6,
+       53
+      ],
+      "whole": true
+     },
+     "1-2": {
+      "letters": 46,
+      "of": 46,
+      "span": [
+       0,
+       63
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "gyagar ké du   gawa ti dra  ra mi  hré ya  böké du  chomdendé ma sherab kyi parol tu chinpa i nyingpo"
+  },
+  "1-2": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 3,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "H0um4lY4PnuFrfCIXXwwC",
+     "start": 153,
+     "end": 167
+    }
+   },
+   "targets": [
+    "1-3"
+   ],
+   "alignment": {
+    "pair_row": 3,
+    "target_side_text": "བམ་པོ་གཅིག་གོ །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "H0um4lY4PnuFrfCIXXwwC",
+      "spans": [
+       {
+        "id": "lCTkakT14JWJPtNfBXgwr",
+        "start": 173,
+        "end": 190
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-3": {
+      "letters": 10,
+      "of": 10,
+      "span": [
+       0,
+       13
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "bampo chik go"
+  },
+  "1-3": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 4,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "WLd0tN1lvY6YGt76qcYeL",
+     "start": 167,
+     "end": 223
+    }
+   },
+   "targets": [
+    "1-4"
+   ],
+   "alignment": {
+    "pair_row": 4,
+    "target_side_text": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་དུ་ཕྱིན་པ་ལ་ཕྱག་འཚལ་ལོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "WLd0tN1lvY6YGt76qcYeL",
+      "spans": [
+       {
+        "id": "RMPxttvSVvj5oG2rTAIWy",
+        "start": 190,
+        "end": 247
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-4": {
+      "letters": 39,
+      "of": 39,
+      "span": [
+       0,
+       54
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "chomdendé ma sherab kyi parol du chinpa la chak tsal lo"
+  },
+  "1-4": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 5,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "Zf9ulfP22s6VPblrMhCv8",
+     "start": 223,
+     "end": 381
+    }
+   },
+   "targets": [
+    "1-5",
+    "1-6"
+   ],
+   "alignment": {
+    "pair_row": 5,
+    "target_side_text": "​འདི་སྐད་བདག་གིས་ཐོས་པ་དུས་གཅིག་ན། བཅོམ་ལྡན་འདས་རྒྱལ་པོའི་ཁབ་བྱ་རྒོད་ཕུང་པོའི་རི་ལ་དགེ་སློང་གི་དགེ་འདུན་ཆེན་པོ་དང་། ​བྱང་ཆུབ་སེམས་དཔའི་དགེ་འདུན་ཆེན་པོ་དང་ཐབས་ཅིག་ཏུ་བཞུགས་ཏེ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "Zf9ulfP22s6VPblrMhCv8",
+      "spans": [
+       {
+        "id": "1s1VzG4Xv3qNuANJyExVE",
+        "start": 247,
+        "end": 422
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-5": {
+      "letters": 24,
+      "of": 24,
+      "span": [
+       1,
+       33
+      ],
+      "whole": true
+     },
+     "1-6": {
+      "letters": 102,
+      "of": 102,
+      "span": [
+       0,
+       138
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "diké dak gi töpa dü chik na  chomdendé gyalpo i khab jagö pungpo i ri la gelong gi gendun chenpo dang  jangchub sempa i gendun chenpo dang tabchik tu zhuk té"
+  },
+  "1-5": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 6,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "EpQcHsJt7EX8ocUkdaCnn",
+     "start": 381,
+     "end": 474
+    }
+   },
+   "targets": [
+    "1-7"
+   ],
+   "alignment": {
+    "pair_row": 6,
+    "target_side_text": "དེའི་ཚེ་བཅོམ་ལྡན་འདས་ཟབ་མོ་སྣང་བ་ཞེས་བྱ་བའི་ཆོས་ཀྱི་རྣམ་གྲངས་ཀྱི་ཏིང་ངེ་འཛིན་ལ་སྙོམས་པར་ཞུགས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "EpQcHsJt7EX8ocUkdaCnn",
+      "spans": [
+       {
+        "id": "ry2S0GFxjtlD9hWZKtVw3",
+        "start": 422,
+        "end": 520
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-7": {
+      "letters": 71,
+      "of": 71,
+      "span": [
+       0,
+       95
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "dé i tsé chomdendé zabmo nangwa zhé jawa i chö kyi nam drang kyi tingezin la nyompar zhuk so"
+  },
+  "1-6": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 7,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "MOjwbDt3gu2g4uaXF0ISG",
+     "start": 474,
+     "end": 673
+    }
+   },
+   "targets": [
+    "1-8",
+    "1-9"
+   ],
+   "alignment": {
+    "pair_row": 7,
+    "target_side_text": "​ཡང་དེའི་ཚེ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་ཉིད་ལ་རྣམ་པར་བལྟ་ཞིང་། ཕུང་པོ་ལྔ་པོ་དེ་དག་ལ་ཡང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་བལྟའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "MOjwbDt3gu2g4uaXF0ISG",
+      "spans": [
+       {
+        "id": "1fbrIQw68KxAWoEdDigMw",
+        "start": 520,
+        "end": 721
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "1-8": {
+      "letters": 102,
+      "of": 102,
+      "span": [
+       1,
+       138
+      ],
+      "whole": true
+     },
+     "1-9": {
+      "letters": 42,
+      "of": 42,
+      "span": [
+       0,
+       57
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "yang dé i tsé jangchub sempa sempa chenpo pagpa chenré zik wangchuk sherab kyi parol tu chinpa zabmo i chöpa nyi la nampa ra ta zhing  pungpo ngapo dedak la yang rangzhin gyi tongpa ra nampa ra ta o"
+  },
+  "2-1": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 8,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "YpBFMi3i4x74aXuhaoDZ2",
+     "start": 673,
+     "end": 787
+    }
+   },
+   "targets": [
+    "2-1"
+   ],
+   "alignment": {
+    "pair_row": 8,
+    "target_side_text": "​དེ་ནས་སངས་རྒྱས་ཀྱི་མཐུས། ​ཚེ་དང་ལྡན་པ་ཤཱ་རིའི་བུས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "YpBFMi3i4x74aXuhaoDZ2",
+      "spans": [
+       {
+        "id": "f4vtMCdIW7AGRqtBY1qmb",
+        "start": 721,
+        "end": 851
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-1": {
+      "letters": 92,
+      "of": 92,
+      "span": [
+       1,
+       126
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "dené sankgyé kyi tu sa  tsé dang denpa  i bü jangchub sempa chenpo pagpa chenré zik wangchuk la diké ché ma sa so"
+  },
+  "2-2": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 9,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "UiRND3V7HTDWPSA8sdOBo",
+     "start": 787,
+     "end": 1015
+    },
+    "merged_rows": [
+     {
+      "row": 9,
+      "text": "rik kyi bu ganglala sherab kyi parol tu chinpa zabmo i chöpa chepa ra döpa dé sa jitar labpa ra ja  deké ché mepa dang  jangchub sempa sempa chenpo pagpa chenré zik wangchuk gi tsé dang denpa  ra da ta i bu la diké ché ma sa so",
+      "alignment": {
+       "pair_row": 9,
+       "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "UiRND3V7HTDWPSA8sdOBo",
+         "spans": [
+          {
+           "id": "tHVvJhsQ9p8EJwrJXUOej",
+           "start": 851,
+           "end": 1092
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-2": {
+         "letters": 171,
+         "of": 325,
+         "span": [
+          0,
+          238
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 10,
+      "text": "i bu  rik kyi bu am rik kyi bumo ganglala sherab kyi parol tu chinpa zabmo i chöpa chepa ra döpa dé sa ditar nampa ra tawa ra ja té  pungpo ngapo dedak kyang rangzhin gyi tongpa ra nampa ra yangdagpa ra jesu ta o",
+      "alignment": {
+       "pair_row": 10,
+       "target_side_text": "​ཤཱ་རིའི་བུ། རིགས་ཀྱི་བུའམ་རིགས་ཀྱི་བུ་མོ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་འདི་ལྟར་རྣམ་པར་བལྟ་བར་བྱ་སྟེ། ​ཕུང་པོ་ལྔ་པོ་དེ་དག་ཀྱང་རང་བཞིན་གྱིས་སྟོང་པར་རྣམ་པར་ཡང་དག་པར་རྗེས་སུ་བལྟའོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "HavkdqLMD2KIXyjrzqUG2",
+         "spans": [
+          {
+           "id": "sb0qFk29okVSE5fSK4spe",
+           "start": 1092,
+           "end": 1310
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-2": {
+         "letters": 154,
+         "of": 325,
+         "span": [
+          242,
+          456
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra's question and the opening of Avalokiteśvara's answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).",
+     "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+     "date": "2026-10-04"
+    }
+   },
+   "targets": [
+    "2-2"
+   ],
+   "alignment": {
+    "pair_row": 9,
+    "target_side_text": "རིགས་ཀྱི་བུ་གང་ལ་ལ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོའི་སྤྱོད་པ་སྤྱད་པར་འདོད་པ་དེས་ཇི་ལྟར་བསླབ་པར་བྱ། དེ་སྐད་ཅེས་སྨྲས་པ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏའི་བུ་ལ་འདི་སྐད་ཅེས་སྨྲས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "UiRND3V7HTDWPSA8sdOBo",
+      "spans": [
+       {
+        "id": "tHVvJhsQ9p8EJwrJXUOej",
+        "start": 851,
+        "end": 1092
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-2": {
+      "letters": 171,
+      "of": 325,
+      "span": [
+       0,
+       238
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "rik kyi bu ganglala sherab kyi parol tu chinpa zabmo i chöpa chepa ra döpa dé sa jitar labpa ra ja  deké ché mepa dang  jangchub sempa sempa chenpo pagpa chenré zik wangchuk gi tsé dang denpa  ra da ta i bu la diké ché ma sa so i bu  rik kyi bu am rik kyi bumo ganglala sherab kyi parol tu chinpa zabmo i chöpa chepa ra döpa dé sa ditar nampa ra tawa ra ja té  pungpo ngapo dedak kyang rangzhin gyi tongpa ra nampa ra yangdagpa ra jesu ta o"
+  },
+  "2-3": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 11,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "rZK3NXgcFNdoRbMuXC78c",
+     "start": 1229,
+     "end": 1333
+    }
+   },
+   "targets": [
+    "2-3",
+    "2-4"
+   ],
+   "alignment": {
+    "pair_row": 11,
+    "target_side_text": "​གཟུགས་སྟོང་པའོ། །སྟོང་པ་ཉིད་གཟུགས་སོ། །​གཟུགས་ལས་སྟོང་པ་ཉིད་གཞན་མ་ཡིན། སྟོང་པ་ཉིད་ལས་ཀྱང་གཟུགས་གཞན་མ་ཡིན་ནོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "rZK3NXgcFNdoRbMuXC78c",
+      "spans": [
+       {
+        "id": "Syrmiz0CWaKZsykyfyZzl",
+        "start": 1310,
+        "end": 1421
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-3": {
+      "letters": 27,
+      "of": 27,
+      "span": [
+       1,
+       37
+      ],
+      "whole": true
+     },
+     "2-4": {
+      "letters": 49,
+      "of": 49,
+      "span": [
+       1,
+       68
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "zuk tongpa o  tongpanyi zuk so  zuk la sa tongpanyi zhenma yin  tongpanyi la sa kyang zuk zhenma yin no"
+  },
+  "2-4": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 12,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "TcoDUtPrspCQ63jCXC2ok",
+     "start": 1333,
+     "end": 1407
+    }
+   },
+   "targets": [
+    "2-5"
+   ],
+   "alignment": {
+    "pair_row": 12,
+    "target_side_text": "​དེ་བཞིན་དུ་ཚོར་བ་དང་། ​འདུ་ཤེས་དང་། འདུ་བྱེད་དང་། རྣམ་པར་ཤེས་པ་རྣམས་སྟོང་པའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "TcoDUtPrspCQ63jCXC2ok",
+      "spans": [
+       {
+        "id": "qMxPwjMFmEBuNz9jRgS7A",
+        "start": 1421,
+        "end": 1501
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-5": {
+      "letters": 51,
+      "of": 51,
+      "span": [
+       1,
+       77
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "dezhin du tsorwa dang  dushé dang  dujé dang  nampa ra shepa nam tongpa o"
+  },
+  "2-5": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 13,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "4fSG5sJOdvajsDyBvnQMG",
+     "start": 1407,
+     "end": 1540
+    }
+   },
+   "targets": [
+    "2-6"
+   ],
+   "alignment": {
+    "pair_row": 13,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་ཆོས་ཐམས་ཅད་སྟོང་པ་ཉིད་དེ། མཚན་ཉིད་མེད་པ། མ་སྐྱེས་པ། ​མ་འགགས་པ། དྲི་མ་མེད་པ། དྲི་མ་དང་བྲལ་བ་མེད་པ། ​བྲི་བ་མེད་པ། གང་བ་མེད་པའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "4fSG5sJOdvajsDyBvnQMG",
+      "spans": [
+       {
+        "id": "1XUJIjY0bfATU8ICWjI90",
+        "start": 1501,
+        "end": 1651
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-6": {
+      "letters": 95,
+      "of": 95,
+      "span": [
+       1,
+       147
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "i bu detawena chö tamché tongpanyi dé  tsenyi mepa  ma kyepa  ma gagpa  dima mepa  dima dang dralwa mepa  driwa mepa  gangwa mepa o"
+  },
+  "2-6": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 14,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "6ANdbXHtKZn9TN14uQnv8",
+     "start": 1540,
+     "end": 1716
+    }
+   },
+   "targets": [
+    "2-7"
+   ],
+   "alignment": {
+    "pair_row": 14,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་སྟོང་པ་ཉིད་ལ་གཟུགས་མེད། ཚོར་བ་མེད། ​འདུ་ཤེས་མེད། འདུ་བྱེད་མེད། རྣམ་པར་ཤེས་པ་མེད། མིག་མེད། རྣ་བ་མེད། སྣ་མེད། ལྕེ་མེད། ལུས་མེད། ཡིད་མེད །གཟུགས་མེད། སྒྲ་མེད། དྲི་མེད། རོ་མེད། རེག་བྱ་མེད། ཆོས་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "6ANdbXHtKZn9TN14uQnv8",
+      "spans": [
+       {
+        "id": "053HYYxqFTjQsXnlPJGPd",
+        "start": 1651,
+        "end": 1871
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-7": {
+      "letters": 146,
+      "of": 146,
+      "span": [
+       1,
+       217
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "i bu detawena tongpanyi la zuk mé  tsorwa mé  dushé mé  dujé mé  nampa ra shepa mé  mik mé  nawa mé  namé  chemé  lümé  yi mé  zuk mé  dramé  dimé  ro mé  regja mé  chö mé do"
+  },
+  "2-7": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 15,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "68kryup9uWxHqrYJkT7y0",
+     "start": 1716,
+     "end": 1803
+    }
+   },
+   "targets": [
+    "2-8"
+   ],
+   "alignment": {
+    "pair_row": 15,
+    "target_side_text": "​མིག་གི་ཁམས་མེད་པ་ནས་ཡིད་ཀྱི་ཁམས་མེད། ཡིད་ཀྱི་རྣམ་པར་ཤེས་པའི་ཁམས་ཀྱི་བར་དུ་ཡང་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "68kryup9uWxHqrYJkT7y0",
+      "spans": [
+       {
+        "id": "eIpX7ms2yiYiftDzlF9I3",
+        "start": 1871,
+        "end": 1958
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-8": {
+      "letters": 60,
+      "of": 60,
+      "span": [
+       1,
+       84
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "mik gi kham mepa né yi kyi kham mé  yi kyi nampa ra shepa i kham kyi war du yang mé do"
+  },
+  "2-8": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 16,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "ZZPbe1bjS7MCoBJlvggQu",
+     "start": 1803,
+     "end": 1877
+    },
+    "merged_rows": [
+     {
+      "row": 16,
+      "text": "marigpa mé  marigpa zepa mepa né gashi mé  gashi zepa i war du yang mé do",
+      "alignment": {
+       "pair_row": 16,
+       "target_side_text": "​མ་རིག་པ་མེད། ​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད། ​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "ZZPbe1bjS7MCoBJlvggQu",
+         "spans": [
+          {
+           "id": "9SpvDNrQWMmZuVNuFovsr",
+           "start": 1958,
+           "end": 2038
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-9": {
+         "letters": 49,
+         "of": 110,
+         "span": [
+          1,
+          77
+         ],
+         "whole": false
+        }
+       }
+      }
+     },
+     {
+      "row": 17,
+      "text": "dugngalwa dang  künjungwa dang  gogpa dang  lam mé  yeshé mé  tobpa mé  ma tobpa yang mé do",
+      "alignment": {
+       "pair_row": 17,
+       "target_side_text": "སྡུག་བསྔལ་བ་དང་། ཀུན་འབྱུང་བ་དང་། འགོག་པ་དང་། ལམ་མེད། ཡེ་ཤེས་མེད། ཐོབ་པ་མེད། མ་ཐོབ་པ་ཡང་མེད་དོ། །",
+       "target_side_openpecha": [
+        {
+         "text_id": "BdfDD44nDSOqa13HgTvd7",
+         "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+         "aligned_to_segment": "GdwCSu5CGrrOu00VXuFYb",
+         "spans": [
+          {
+           "id": "HNybIrmuw4Z2tHazAQhwT",
+           "start": 2038,
+           "end": 2136
+          }
+         ]
+        }
+       ],
+       "targets": {
+        "2-9": {
+         "letters": 61,
+         "of": 110,
+         "span": [
+          81,
+          175
+         ],
+         "whole": false
+        }
+       }
+      }
+     }
+    ],
+    "merge": {
+     "mode": "by_target",
+     "joiner": " ",
+     "reason": "D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra's question and the opening of Avalokiteśvara's answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).",
+     "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+     "date": "2026-10-04"
+    }
+   },
+   "targets": [
+    "2-9"
+   ],
+   "alignment": {
+    "pair_row": 16,
+    "target_side_text": "​མ་རིག་པ་མེད། ​མ་རིག་པ་ཟད་པ་མེད་པ་ནས་རྒ་ཤི་མེད། ​རྒ་ཤི་ཟད་པའི་བར་དུ་ཡང་མེད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "ZZPbe1bjS7MCoBJlvggQu",
+      "spans": [
+       {
+        "id": "9SpvDNrQWMmZuVNuFovsr",
+        "start": 1958,
+        "end": 2038
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-9": {
+      "letters": 49,
+      "of": 110,
+      "span": [
+       1,
+       77
+      ],
+      "whole": false
+     }
+    }
+   },
+   "text": "marigpa mé  marigpa zepa mepa né gashi mé  gashi zepa i war du yang mé do dugngalwa dang  künjungwa dang  gogpa dang  lam mé  yeshé mé  tobpa mé  ma tobpa yang mé do"
+  },
+  "2-9": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 18,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "PwN0csyGv3sWEfHFC8lL0",
+     "start": 1969,
+     "end": 2173
+    }
+   },
+   "targets": [
+    "2-10",
+    "2-11"
+   ],
+   "alignment": {
+    "pair_row": 18,
+    "target_side_text": "​ཤཱ་རིའི་བུ་དེ་ལྟ་བས་ན་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཐོབ་པ་མེད་པའི་ཕྱིར། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ཅིང་གནས་ཏེ། སེམས་ལ་སྒྲིབ་པ་མེད་པས་སྐྲག་པ་མེད་དེ། ཕྱིན་ཅི་ལོག་ལས་ཤིན་ཏུ་འདས་ནས་མྱ་ངན་ལས་འདས་པར་མཐར་ཕྱིན་ཏོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "PwN0csyGv3sWEfHFC8lL0",
+      "spans": [
+       {
+        "id": "Ofk3hHdxE0B759oLkd2Ne",
+        "start": 2136,
+        "end": 2344
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-10": {
+      "letters": 79,
+      "of": 79,
+      "span": [
+       1,
+       110
+      ],
+      "whole": true
+     },
+     "2-11": {
+      "letters": 67,
+      "of": 67,
+      "span": [
+       0,
+       93
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "i bu detawena jangchub sempa nam tobpa mepa i chir  sherab kyi parol tu chinpa la ten ching né té  sem la dribpa mepa sa dragpa mé dé  chin chi lok la sa shintu dé né nyangen la sa depa ra ta ra chin to"
+  },
+  "2-10": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 19,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "und4iBwnLqIpqVTq2ER1U",
+     "start": 2173,
+     "end": 2332
+    }
+   },
+   "targets": [
+    "2-12"
+   ],
+   "alignment": {
+    "pair_row": 19,
+    "target_side_text": "​དུས་གསུམ་དུ་རྣམ་པར་བཞུགས་པའི་སངས་རྒྱས་ཐམས་ཅད་ཀྱང་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ལ་བརྟེན་ནས་བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་ཏུ་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "und4iBwnLqIpqVTq2ER1U",
+      "spans": [
+       {
+        "id": "EGj2RXBkXLccifa34KnmN",
+        "start": 2344,
+        "end": 2504
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-12": {
+      "letters": 115,
+      "of": 115,
+      "span": [
+       1,
+       157
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "düsum du nampa ra zhugpa i sankgyé tamché kyang sherab kyi parol tu chinpa la ten né la na mepa yangdagpa ra dzogpa i jangchub tu ngönpar dzogpa ra sankgyé so"
+  },
+  "2-11": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 20,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "sESw83jx5po8JktQ5rNG4",
+     "start": 2332,
+     "end": 2568
+    }
+   },
+   "targets": [
+    "2-13"
+   ],
+   "alignment": {
+    "pair_row": 20,
+    "target_side_text": "​དེ་ལྟ་བས་ན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས། རིག་པ་ཆེན་པོའི་སྔགས། བླ་ན་མེད་པའི་སྔགས། མི་མཉམ་པ་དང་མཉམ་པའི་སྔགས། སྡུག་བསྔལ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་བྱེད་པའི་སྔགས། མི་རྫུན་པས་ན་བདེན་པར་ཤེས་པར་བྱ་སྟེ། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྔགས་སྨྲས་པ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "sESw83jx5po8JktQ5rNG4",
+      "spans": [
+       {
+        "id": "WxAQZ2rNCC8YSOmaOA30C",
+        "start": 2504,
+        "end": 2739
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-13": {
+      "letters": 165,
+      "of": 165,
+      "span": [
+       1,
+       233
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "detawena sherab kyi parol tu chinpa i ngak  rigpa chenpo i ngak  la na mepa i ngak  minyampa dang nyampa i ngak  dugngal tamché rabtu zhiwa ra jepa i ngak  mi dzünpa sa na denpa ra shepa ra ja té  sherab kyi parol tu chinpa i ngak mepa"
+  },
+  "2-12": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 21,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "yVaiMlFURvUI7SlOASM3F",
+     "start": 2568,
+     "end": 2614
+    }
+   },
+   "targets": [
+    "2-14"
+   ],
+   "alignment": {
+    "pair_row": 21,
+    "target_side_text": "ཏདྱ་ཐཱ། ག་ཏེ་ག་ཏེ་པཱ་ར་ག་ཏེ། པཱ་ར་སཾ་ག་ཏེ། བོ་དྷི་སྭ་ཧཱ།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "yVaiMlFURvUI7SlOASM3F",
+      "spans": [
+       {
+        "id": "DhaHhEQtUpXwC1voVi4p9",
+        "start": 2739,
+        "end": 2796
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-14": {
+      "letters": 34,
+      "of": 34,
+      "span": [
+       0,
+       55
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "ga té ga té  ra ga té   ra  ga té  wo  sa"
+  },
+  "2-13": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 22,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "Qkv4Hz5DRLHzCzN2HLbiO",
+     "start": 2614,
+     "end": 2704
+    }
+   },
+   "targets": [
+    "2-15"
+   ],
+   "alignment": {
+    "pair_row": 22,
+    "target_side_text": "ཤཱ་རིའི་བུ་བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་དེ་ལྟར་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་བསླབ་པར་བྱའོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "Qkv4Hz5DRLHzCzN2HLbiO",
+      "spans": [
+       {
+        "id": "c3r450lzTDacO2dsgnduG",
+        "start": 2796,
+        "end": 2897
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-15": {
+      "letters": 72,
+      "of": 72,
+      "span": [
+       0,
+       98
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "i bu jangchub sempa sempa chenpo detar sherab kyi parol tu chinpa zabmo la labpa ra ja o"
+  },
+  "2-14": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 23,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "LSmrnMGC4GDjNVJNN09dL",
+     "start": 2704,
+     "end": 2862
+    }
+   },
+   "targets": [
+    "2-16"
+   ],
+   "alignment": {
+    "pair_row": 23,
+    "target_side_text": "​དེ་ནས་བཅོམ་ལྡན་འདས་ཏིང་ངེ་འཛིན་དེ་ལས་བཞེངས་ཏེ། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོས་འཕགས་པ ་སྤྱན་རས་དབང་ཕྱུག་ལ་ལེགས་སོ་ཞེས་བྱ་བ་བྱིན་ནས། ལེགས་སོ་ལེགས་སོ། རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ནོ། །​",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "LSmrnMGC4GDjNVJNN09dL",
+      "spans": [
+       {
+        "id": "jcz1hN3qMP8oanmIhMX5h",
+        "start": 2897,
+        "end": 3079
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-16": {
+      "letters": 128,
+      "of": 128,
+      "span": [
+       1,
+       177
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "dené chomdendé tingezin delé zheng té  jangchub sempa sempa chenpo sa pagpa chenré wangchuk la lek so zhé jawa jin né  lek so lek so  rik kyi bu dedé zhin no"
+  },
+  "2-15": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 24,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "DUoEtTHV06nGFaNtKzbJH",
+     "start": 2862,
+     "end": 3009
+    }
+   },
+   "targets": [
+    "2-17",
+    "2-18"
+   ],
+   "alignment": {
+    "pair_row": 24,
+    "target_side_text": "རིགས་ཀྱི་བུ་དེ་དེ་བཞིན་ཏེ། ཇི་ལྟར་ཁྱོད་ཀྱིས་བསྟན་པ་བཞིན་དུ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཟབ་མོ་ལ་སྤྱད་པར་བྱ་སྟེ།དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱང་རྗེས་སུ་ཡི་རང་ངོ་། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "DUoEtTHV06nGFaNtKzbJH",
+      "spans": [
+       {
+        "id": "2kMMa254qmc2zxt2kv9gL",
+        "start": 3079,
+        "end": 3233
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-17": {
+      "letters": 78,
+      "of": 78,
+      "span": [
+       0,
+       108
+      ],
+      "whole": true
+     },
+     "2-18": {
+      "letters": 31,
+      "of": 31,
+      "span": [
+       0,
+       41
+      ],
+      "whole": true
+     }
+    },
+    "flags": [
+     "spans_several_target_segments"
+    ]
+   },
+   "text": "rik kyi bu dedé zhin té  jitar khyö kyi tenpa zhin du sherab kyi parol tu chinpa zabmo la chepa ra ja té  dezhin shegpa nam kyang jesu yi rang ngo"
+  },
+  "2-16": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 25,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "2CpYPeYZPoHu9BmFqNPlM",
+     "start": 3009,
+     "end": 3043
+    }
+   },
+   "targets": [
+    "2-19"
+   ],
+   "alignment": {
+    "pair_row": 25,
+    "target_side_text": "​བཅོམ་ལྡན་འདས་ཀྱིས་དེ་སྐད་ཅེས་བཀའ་སྩལ་ནས།",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "2CpYPeYZPoHu9BmFqNPlM",
+      "spans": [
+       {
+        "id": "RFPW0KsUIsleGWb44GsI6",
+        "start": 3233,
+        "end": 3275
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-19": {
+      "letters": 30,
+      "of": 30,
+      "span": [
+       1,
+       40
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "chomdendé kyi deké ché ka tsal né"
+  },
+  "2-17": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 26,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "EaacoPQj2eB4p6yz01lI0",
+     "start": 3043,
+     "end": 3276
+    }
+   },
+   "targets": [
+    "2-20"
+   ],
+   "alignment": {
+    "pair_row": 26,
+    "target_side_text": "ཚེ་དང་ལྡན་པ་ཤཱ་ར་དྭ་ཏིའི་བུ་དང་། བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་དང་། ཐམས་ཅད་དང་ལྡན་པའི་འཁོར་དེ་དག་དང་། ​ལྷ་དང་། མི་དང་། ལྷ་མ་ཡིན་དང་། དྲི་ཟར་བཅས་པའི་འཇིག་རྟེན་ཡི་རངས་ཏེ། བཅོམ་ལྡན་འདས་ཀྱིས་གསུངས་པ་ལ་མངོན་པར་བསྟོད་དོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "EaacoPQj2eB4p6yz01lI0",
+      "spans": [
+       {
+        "id": "kLisZhiv8HuC3ZvF2dzkD",
+        "start": 3275,
+        "end": 3517
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-20": {
+      "letters": 165,
+      "of": 165,
+      "span": [
+       0,
+       239
+      ],
+      "whole": true
+     }
+    }
+   },
+   "text": "tsé dang denpa  ra da ti bu dang  jangchub sempa sempa chenpo chenré zik wangchuk dang  tamché dang denpa i khor dedak dang  lha dang  mi dang  lhama yin dang  diza ra chepa i jigten yi rang té  chomdendé kyi sungpa la ngönpar tö do"
+  },
+  "2-18": {
+   "source": {
+    "file": "openpecha:8LbtYe5XRXQODfqkBkKJy",
+    "row": 27,
+    "openpecha": {
+     "text_id": "8LbtYe5XRXQODfqkBkKJy",
+     "instance_id": "rj2dtxUr9tSKn7P6qfL0g",
+     "segment": "ZxPEn9urSa6CxS8HUT4vX",
+     "start": 3276,
+     "end": 3327
+    }
+   },
+   "targets": [
+    "2-21"
+   ],
+   "alignment": {
+    "pair_row": 27,
+    "target_side_text": "​འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ་རྫོགས་སོ། །",
+    "target_side_openpecha": [
+     {
+      "text_id": "BdfDD44nDSOqa13HgTvd7",
+      "instance_id": "FsrpfLxgRL9UniIrc7c5o",
+      "aligned_to_segment": "ZxPEn9urSa6CxS8HUT4vX",
+      "spans": [
+       {
+        "id": "Bn6lvN4PkP6lFGFexKcXV",
+        "start": 3517,
+        "end": 3573
+       }
+      ]
+     }
+    ],
+    "targets": {
+     "2-21": {
+      "letters": 39,
+      "of": 39,
+      "span": [
+       1,
+       53
+      ],
+      "whole": true
+     }
+    },
+    "variants": [
+     {
+      "copy": "",
+      "target": "རྒྱགརགྱིམཁནཔོབིམལམིཏྲདངལོཙྪབདགེསློངརིནཆེནསྡེསབསྒྱུརཅིངཞུཆེནགྱིལོཙྪབདགེབློདངནམམཁའལསོགསཔསཞུསཏེགཏནལཕབཔདཔལབསམཡསལྷུནགྱིསགྲུབཔའིགཙུགལགགིདགེརྒྱསབྱེམགླིངགིརྩིགངོསལབྲིསཔདངཞུདགལེགསཔརབགྱིསསོ",
+      "target_block": "3-1"
+     }
+    ]
+   },
+   "text": "pagpa sherab kyi parol tu chinpa i nyingpo dzok so"
+  }
+ },
+ "legend": null,
+ "notes": "Language code tibphono is not one the WeBuddhist library accepts (GET https://library.webuddhist.com/v2/languages, 2026-10-04): this file cannot be published until a code is chosen or added (references/pecha-conventions.md says such a text is reported, not built; built here on the vault owner's instruction). Upstream defect, reproduced verbatim: letters with some diacritics and several syllables are missing from the phonetics (e.g. segment 10 ' i bu' for Śāriputra, segment 21 '   ga té ga té  ra ga té ...' for the mantra, segment 2 'gawa ti dra  ra mi  hré ya'); the last segment's span ends one character past the content (3327 / 3326).",
+ "target_side_rows_without_counterpart": [],
+ "concordance": {
+  "copy_letters": 2463,
+  "target_letters": 2642,
+  "matched": 2463,
+  "replaced": 0,
+  "copy_only": 0,
+  "target_only": 179,
+  "ratio": 0.9649
+ },
+ "toc_nodes_without_rows": [
+  {
+   "node": "3",
+   "title": "jukjang"
+  }
+ ],
+ "toc": {
+  "kind": "outline",
+  "file": "2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md",
+  "note": "The Wikisource Index table of contents of the Derge Kangyur Heart Sūtra, the same outline as the root, the Tibetan and the Chinese (see bo-display), carried onto this file through its upstream OpenPecha alignment and the letters of the old Tibetan in the display Tibetan. Sections 1 and 2 open at segments 2 and 8, exactly where they open in the display Tibetan, so no segment is split; section 3 (the translators' colophon, added to the Tibetan from Wikisource) has no counterpart here.",
+  "labels_decision": {
+   "reason": "D5: headings in the file's own script and system. The Tibetan headings transcribed in the phonetic spelling this text itself uses (genitive 'i as a separate i — chinpa i nyingpo; o + final d/n/s as ö — töpa, ngönpar; byang as jang — jangchub): do i lengzhi (མདོའི་གླེང་གཞི།), do dön ngö (མདོ་དོན་དངོས།), jukjang (མཇུག་བྱང་།, not shown). Chosen over the Tibetan-script headings because a reader of phonetics may not read Tibetan script, and D5 keeps each file's headings in its own form.",
+   "decided_by": "Claude (instructed by vault owner 2026-10-04)",
+   "date": "2026-10-04"
+  }
+ }
+}

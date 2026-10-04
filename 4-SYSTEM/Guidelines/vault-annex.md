@@ -17,6 +17,11 @@ This vault serves **the Heart Sūtra** in its long recension — the Sanskrit te
 | 1 | प्रज्ञापारमिताहृदय | **Root** (Sanskrit) | `1-SOURCES/Text/sa-prajnaparamita-hrdaya.md` |
 | 2 | བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། | Translation of 1 — **the stored Tibetan text** (the "display" segmentation) | `1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md` |
 | 3 | 般若波羅密多心經 | Translation of 2 | `1-SOURCES/Translations/zh-prajnaparamita-hrdaya.md` |
+| 4 | The Sūtra of the Heart of Transcendent Wisdom | Translation of 2 (English, Lotsawa House; OpenPecha `MrsRfx7ML8QZxQPnhGesn`) — added 2026-10-04 | `1-SOURCES/Translations/en-prajnaparamita-hrdaya.md` |
+| 5 | བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽ | Translation of 2 (colloquial Tibetan; OpenPecha `ysb3nzBwYpMPcS9Jm064y`) — added 2026-10-04 | `1-SOURCES/Translations/tib-prajnaparamita-hrdaya.md` |
+| 6 | chomdendé ma sherab kyi parol tu chinpa i nyingpo | Translation of 2 (Tibetan phonetics; OpenPecha `8LbtYe5XRXQODfqkBkKJy`) — added 2026-10-04 | `1-SOURCES/Translations/tibphono-prajnaparamita-hrdaya.md` |
+
+Translations 4–6 come from the public OpenPecha API (verbatim download in `0-INBOX/raw-data/openpecha-api/`). Each is aligned upstream, segment for segment, to OpenPecha text `BdfDD44nDSOqa13HgTvd7` — the same Tibetan text as file 2, cut into 27 segments — and that old Tibetan is carried onto file 2's blocks by letters, like every other cut of the root (manifest entries `en-translation-lotsawahouse`, `tib-translation-colloquial`, `tibphono-translation`).
 
 **Direction of every relation (decision of the vault owner, 2026-10-03).** The Sanskrit came first, so it is the root and the Tibetan is its translation. Everything that was aligned to the Tibetan — the Chinese and every commentary — points at the Tibetan file (`root_text:` and every transclusion) and is uploaded that way. Nothing is re-pointed to the Sanskrit: data stays true to what the humans aligned.
 
@@ -53,7 +58,7 @@ Not applicable: the root is one short text without verses or chapters. Ids follo
 
 #### ⚑ Root and translation TOC taken from Wikisource — overrides `annotation-conventions.md` §1–§2 (registered 2026-10-03, revised the same day)
 
-Files: the three files in §1. The default gives a root text the headings of its own structure (its author's TOC). The Heart Sūtra has none; its headings are the table of contents of the Derge Kangyur edition on Wikisource, placed through the human row alignment (see "Root and translations" above), and the Sanskrit and Chinese headings are editorial renderings of the Tibetan ones. **Why:** the vault owner directed that the root texts carry a TOC and that their segment ids follow it, and chose the Wikisource Index's table of contents. Two earlier versions the same day were replaced on the vault owner's instruction: a projection of Lobsang Gyaltsen Sengge's `toc-generate` outline (far too granular, and Tibetan headings in the Sanskrit and Chinese files), then a six-part summary outline from the Tibetan Wikipedia article.
+Files: files 1–3 in §1, and since 2026-10-04 also files 4–6 (headings: English editorial renderings; the Tibetan verbatim for the colloquial Tibetan; a transcription in the phonetics file's own spelling — labels and reasons in the outline file and the manifest). The default gives a root text the headings of its own structure (its author's TOC). The Heart Sūtra has none; its headings are the table of contents of the Derge Kangyur edition on Wikisource, placed through the human row alignment (see "Root and translations" above), and the Sanskrit and Chinese headings are editorial renderings of the Tibetan ones. **Why:** the vault owner directed that the root texts carry a TOC and that their segment ids follow it, and chose the Wikisource Index's table of contents. Two earlier versions the same day were replaced on the vault owner's instruction: a projection of Lobsang Gyaltsen Sengge's `toc-generate` outline (far too granular, and Tibetan headings in the Sanskrit and Chinese files), then a six-part summary outline from the Tibetan Wikipedia article.
 
 #### ⚑ Text added to the Tibetan root from another edition — overrides `About Sources.md` (one source per file) (registered 2026-10-03)
 
@@ -80,6 +85,8 @@ Files: `1-SOURCES/Commentaries/*.md`. A commentary's title line and opening vers
 **2026-10-03 (later still) — root, translation and Vimalamitra TOCs replaced; their ids re-keyed.** On the vault owner's instruction, the root's TOC (projected from Lobsang Gyaltsen Sengge's outline) and Vimalamitra's `toc-generate` tree were replaced by the tables of contents on their Wikisource Index pages (Derge; `2-RAILS/Sections/Raw/toc-wikisource/`). An intermediate version taken from the Tibetan Wikipedia articles (six summary sections for the root, 4+5 for Vimalamitra) was built and replaced the same day; nothing cited it. Ids changed in the Sanskrit, Tibetan and Chinese files (e.g. the Tibetan `^1-12` གཟུགས་སྟོང་པའོ… is now `^2-3`) and in `bo-vimalamitra-tika.md`, which also gained three blocks from the two split rows; the Tibetan gained `^3-1`, the translators' colophon added from Wikisource. Every transclusion into the root files — Tibetan → Sanskrit, Chinese → Tibetan, all nine commentaries → Tibetan — was regenerated by the same build, and each changed link was checked to resolve to the same text as before; the other eight commentaries' own ids did not change. Nothing in `2-RAILS/` or `3-TRANSFORMATIONS/` cited the changed ids. Of the five commentaries the vault owner's sheet lists, only Vimalamitra's is in this vault; Alak Shaten Dar's, Mahājana's, Atiśa's and Rongtön's are not, and were skipped. The superseded Vimalamitra tree stays in `2-RAILS/Sections/Raw/toc-tree/` as evidence.
 
 **2026-10-03 (last) — Chinese rows merged to one block per Tibetan segment.** On the vault owner's instruction, consecutive rows of `zh-prajnaparamita-hrdaya.md` that transclude the same Tibetan segment were joined into one block (manifest `merge_rows: by_target`, joined with a space, the Chinese text's own phrase separator): 111 blocks became 30, one per Tibetan segment the Chinese translates — the Tibetan's closing title (`^2-21`) and translators' colophon (`^3-1`) have no Chinese. The Chinese ids now coincide with the Tibetan ones they transclude (zh `^2-3` ↔ bo `^2-3`). The Chinese text is unchanged apart from the joining spaces, the Tibetan segments shown are the same and in the same order, and every row with its own alignment stays in the sidecar (`source.merged_rows`). Nothing cited the Chinese ids.
+
+**2026-10-04 — three OpenPecha translations added (no migration).** `en-`, `tib-` and `tibphono-prajnaparamita-hrdaya.md` were built from the manifest with `build_sources.py --write-only`, so no existing file was rewritten (a scratch build of every existing file was first checked to have an unchanged body and sidecar). Each has 25 blocks (27 upstream segments; in each, segments 9+10 and 16+17 fall inside one Tibetan block, `^2-2` and `^2-9`, and were merged — D9). The Tibetan file's `related_translations` does not list them yet; the next full rebuild adds them.
 
 **2026-10-03 — Sanskrit editorial brackets removed (no id change).** On the vault owner's instruction, the three square-bracket pairs of the Sanskrit edition (words its editor supplied: `^0-1` विस्तरमातृका, `^2-1` वा कुलदुहिता वा अस्यां, `^2-2` अस्यां) were removed and the words kept (manifest `text_corrections`), because Obsidian rendered them like link syntax. The bracketed originals stay in the manifest and the sidecar (`source.corrections`).
 
@@ -124,6 +131,9 @@ One `<stem>.annotations.json` sidecar per source file, written only by `aligned-
 | `sa` | Sanskrit | Root (source) | — | — |
 | `bo` | Tibetan | Translation of the root; the text the commentaries comment on | — | — |
 | `zh` | Chinese (Traditional) | Translation of the Tibetan | — | — |
+| `en` | English | Translation of the Tibetan (Lotsawa House, via OpenPecha) | — | — |
+| `tib` | Tibetan (colloquial) | Translation of the Tibetan (OpenPecha code; not a WeBuddhist library language code) | — | — |
+| `tibphono` | Tibetan (phonetics) | Transcription of the Tibetan (OpenPecha code; not a WeBuddhist library language code) | — | — |
 
 No transformation tracks exist yet.
 
@@ -152,6 +162,9 @@ None yet.
 | `-sa` | Devanāgarī | The Sanskrit root |
 | `-bo` | Unicode Tibetan | The Tibetan translation and all commentaries |
 | `-zh` | Unicode Traditional Chinese | The Chinese translation |
+| `-en` | English | The English translation (Lotsawa House) |
+| `tib-` | Unicode Tibetan, colloquial register | The colloquial Tibetan translation — OpenPecha's language code, used as the file prefix; not in `About Sources.md` §12 |
+| `tibphono-` | Latin-script phonetics of Tibetan | The phonetics translation — OpenPecha's language code, used as the file prefix; not in `About Sources.md` §12 |
 
 ---
 

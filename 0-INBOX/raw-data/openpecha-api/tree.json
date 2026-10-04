@@ -1,0 +1,124 @@
+{
+ "root_text_id": "BdfDD44nDSOqa13HgTvd7",
+ "texts": [
+  {
+   "text_id": "BdfDD44nDSOqa13HgTvd7",
+   "type": "translation_source",
+   "language": "bo",
+   "title": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ།"
+   },
+   "target": null,
+   "parent": null,
+   "relationship": null,
+   "depth": 0,
+   "bdrc": "WA0RK0529",
+   "license": "Public Domain Mark",
+   "instances": [
+    {
+     "id": "FsrpfLxgRL9UniIrc7c5o",
+     "type": "critical",
+     "source": "bdrc.io"
+    },
+    {
+     "id": "jwd9i50MRmkmHQyZ0gouh",
+     "type": "diplomatic",
+     "source": "source-name"
+    }
+   ]
+  },
+  {
+   "text_id": "MrsRfx7ML8QZxQPnhGesn",
+   "type": "translation",
+   "language": "en",
+   "title": {
+    "en": "The Sūtra of the Heart of Transcendent Wisdom"
+   },
+   "target": "BdfDD44nDSOqa13HgTvd7",
+   "parent": "BdfDD44nDSOqa13HgTvd7",
+   "relationship": "translation",
+   "depth": 1,
+   "bdrc": null,
+   "license": "CC BY-NC",
+   "instances": [
+    {
+     "id": "1EENMb457ICcq3d2DwQBs",
+     "type": "critical",
+     "source": "lotsawahouse.org"
+    }
+   ]
+  },
+  {
+   "text_id": "ysb3nzBwYpMPcS9Jm064y",
+   "type": "translation",
+   "language": "tib",
+   "title": {
+    "tib": "བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽"
+   },
+   "target": "BdfDD44nDSOqa13HgTvd7",
+   "parent": "BdfDD44nDSOqa13HgTvd7",
+   "relationship": "translation",
+   "depth": 1,
+   "bdrc": null,
+   "license": "Public Domain Mark",
+   "instances": [
+    {
+     "id": "88UIsXzJTkawquPqwKgBu",
+     "type": "critical",
+     "source": "openpecha.org"
+    }
+   ]
+  },
+  {
+   "text_id": "8LbtYe5XRXQODfqkBkKJy",
+   "type": "translation",
+   "language": "tibphono",
+   "title": {
+    "tibphono": "chomdendé ma sherab kyi parol tu chinpa i nyingpo"
+   },
+   "target": "BdfDD44nDSOqa13HgTvd7",
+   "parent": "BdfDD44nDSOqa13HgTvd7",
+   "relationship": "translation",
+   "depth": 1,
+   "bdrc": null,
+   "license": "Public Domain Mark",
+   "instances": [
+    {
+     "id": "rj2dtxUr9tSKn7P6qfL0g",
+     "type": "critical",
+     "source": "www.openpecha.org"
+    }
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "relationship": "translation",
+   "derived_text": "MrsRfx7ML8QZxQPnhGesn",
+   "derived_instance": "1EENMb457ICcq3d2DwQBs",
+   "parent_text": "BdfDD44nDSOqa13HgTvd7",
+   "parent_instance": "FsrpfLxgRL9UniIrc7c5o",
+   "alignment_annotation": "RabOvu9MOaJzRz6hY05Il",
+   "alignment_file": "texts/MrsRfx7ML8QZxQPnhGesn/alignments/RabOvu9MOaJzRz6hY05Il.json"
+  },
+  {
+   "relationship": "translation",
+   "derived_text": "ysb3nzBwYpMPcS9Jm064y",
+   "derived_instance": "88UIsXzJTkawquPqwKgBu",
+   "parent_text": "BdfDD44nDSOqa13HgTvd7",
+   "parent_instance": "FsrpfLxgRL9UniIrc7c5o",
+   "alignment_annotation": "TmIo2ARiirgxFCv4sqHsu",
+   "alignment_file": "texts/ysb3nzBwYpMPcS9Jm064y/alignments/TmIo2ARiirgxFCv4sqHsu.json"
+  },
+  {
+   "relationship": "translation",
+   "derived_text": "8LbtYe5XRXQODfqkBkKJy",
+   "derived_instance": "rj2dtxUr9tSKn7P6qfL0g",
+   "parent_text": "BdfDD44nDSOqa13HgTvd7",
+   "parent_instance": "FsrpfLxgRL9UniIrc7c5o",
+   "alignment_annotation": "50jCriLaJPJDWyv5jrgsI",
+   "alignment_file": "texts/8LbtYe5XRXQODfqkBkKJy/alignments/50jCriLaJPJDWyv5jrgsI.json"
+  }
+ ],
+ "excluded": []
+}

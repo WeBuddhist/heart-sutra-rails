@@ -14,7 +14,17 @@
 # Replaces the 2026-10-02 manifest, which read the .docx/OpenPecha downloads since
 # removed from raw-data (still in git history).
 
+#
+# Added 2026-10-04: three human translations from the public OpenPecha API (verbatim
+# download in openpecha-api/, layout per scripts/openpecha_model.py), each a translation of
+# OpenPecha text BdfDD44nDSOqa13HgTvd7 — the same Tibetan text as bo-display, cut into 27
+# segments. They are read as row sources `openpecha:<text_id>` (row k = segment k) paired
+# with `openpecha:<text_id>#parent` (row k = the old-Tibetan span the upstream alignment
+# annotation pairs with segment k), and that old Tibetan is carried onto the display
+# Tibetan by letters (concordance.py), exactly as the commentaries' own cuts are (D2).
+
 raw_root: 0-INBOX/raw-data
+openpecha_root: openpecha-api
 sidecar_dir: 1-SOURCES/Annotations
 works:
 - key: sa-root
@@ -555,6 +565,198 @@ works:
     - 'Dzongsar: RA25D53E9'
     - 'OpenPecha: tDGw9s3CFxH6H1zo7nuGU'
     source_description: Dzongsar alignment doc exported as sherab-comm-9(root-com).md, paired row for row with sherab-root-9(root-com).md (the team's own cut of the Tibetan root), carried onto the display Tibetan by letters. Title, author and source from sherab-comm-9.csv; the author's BDRC id, other ids and licence as recorded for this work at the 2026-10-02 intake.
+    text_id: null
+    edition_id: null
+    toc_id: null
+- key: en-translation-lotsawahouse
+  path: 1-SOURCES/Translations/en-prajnaparamita-hrdaya.md
+  adapter: md_rows
+  id_scheme: h2
+  text: openpecha:MrsRfx7ML8QZxQPnhGesn
+  pair:
+    own_side: openpecha:MrsRfx7ML8QZxQPnhGesn
+    target_side: openpecha:MrsRfx7ML8QZxQPnhGesn#parent
+  target: bo-display
+  title: The Sūtra of the Heart of Transcendent Wisdom
+  toc:
+    kind: outline
+    file: 2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md
+    note: The Wikisource Index table of contents of the Derge Kangyur Heart Sūtra, the same outline as the root, the Tibetan and the Chinese (see bo-display), carried onto this file through its upstream OpenPecha alignment and the letters of the old Tibetan in the display Tibetan. Sections 1 and 2 open at segments 2 and 8, exactly where they open in the display Tibetan, so no segment is split; section 3 (the translators' colophon, added to the Tibetan from Wikisource) has no counterpart here.
+    labels_decision:
+      reason: 'D5: headings in the file''s own language. English editorial renderings of the three Wikisource Tibetan headings, using the translation''s own word ''Sūtra'': The Setting of the Sūtra (མདོའི་གླེང་གཞི།), The Main Body of the Sūtra (མདོ་དོན་དངོས།), Translators'' Colophon (མཇུག་བྱང་།, not shown: no counterpart).'
+      decided_by: Claude (instructed by vault owner 2026-10-04)
+      date: '2026-10-04'
+  decisions:
+  - decision: Alignment carried by letters (D2)
+    reason: Every segment of this text is aligned upstream, one to one, to a segment of OpenPecha BdfDD44nDSOqa13HgTvd7 (27 ↔ 27). That old Tibetan is the same text as the display Tibetan but cut into 27 instead of 32 segments, so each segment transcludes the display blocks the letters of its old-Tibetan counterpart fall in (one to several); no segmentation is changed.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: Merge where a display block is repeated (D9) — see merge_rows
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: No bracket correction (D10)
+    reason: The text contains no square brackets.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  merge_rows:
+    mode: by_target
+    joiner: ' '
+    reason: 'D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra''s question and the opening of Avalokiteśvara''s answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).'
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  extra_raw:
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/text.json
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/instances/1EENMb457ICcq3d2DwQBs.json
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/annotations/KxfIZap3UrHepdIZ0gkfh.json
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/annotations/7ZUCR4DAmLndgL9nFg1Ba.json
+  - openpecha-api/texts/MrsRfx7ML8QZxQPnhGesn/alignments/RabOvu9MOaJzRz6hY05Il.json
+  - openpecha-api/texts/BdfDD44nDSOqa13HgTvd7/instances/FsrpfLxgRL9UniIrc7c5o.json
+  - openpecha-api/tree.json
+  notes: Human translation from Lotsawa House (instance source lotsawahouse.org); the Lotsawa House page (https://www.lotsawahouse.org/words-of-the-buddha/heart-sutra, checked 2026-10-04) has the same text and credits it 'Translated by Adam Pearcey, 2019' under CC BY-NC 4.0 — the translator is not in the OpenPecha record, so it is not in the frontmatter. Segment 1 is the title (bibliography annotation 'title'), kept as block 0-1 like the Tibetan's own title line. Segment texts are verbatim; the instance content has no separators between segments.
+  frontmatter:
+    title: The Sūtra of the Heart of Transcendent Wisdom
+    language: English
+    lang_tag: en
+    file_type: translation
+    root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: uGpinx0GZlvU1uw44RyYS
+    license: cc-by-nc
+    source: https://www.lotsawahouse.org/words-of-the-buddha/heart-sutra
+    edition_type: critical
+    other_ids:
+    - 'OpenPecha: MrsRfx7ML8QZxQPnhGesn'
+    - 'OpenPecha instance: 1EENMb457ICcq3d2DwQBs'
+    - 'OpenPecha alignment: RabOvu9MOaJzRz6hY05Il'
+    source_description: OpenPecha API v2 text MrsRfx7ML8QZxQPnhGesn (critical instance 1EENMb457ICcq3d2DwQBs, source lotsawahouse.org), downloaded verbatim 2026-10-04 to 0-INBOX/raw-data/openpecha-api/. Title and licence (CC BY-NC) from its text.json. One block per segment of its segmentation annotation; aligned to the display Tibetan through its upstream alignment to OpenPecha BdfDD44nDSOqa13HgTvd7, carried onto the display Tibetan by letters.
+    text_id: null
+    edition_id: null
+    toc_id: null
+- key: tib-translation-colloquial
+  path: 1-SOURCES/Translations/tib-prajnaparamita-hrdaya.md
+  adapter: md_rows
+  id_scheme: h2
+  text: openpecha:ysb3nzBwYpMPcS9Jm064y
+  pair:
+    own_side: openpecha:ysb3nzBwYpMPcS9Jm064y
+    target_side: openpecha:ysb3nzBwYpMPcS9Jm064y#parent
+  target: bo-display
+  title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽
+  toc:
+    kind: outline
+    file: 2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md
+    note: The Wikisource Index table of contents of the Derge Kangyur Heart Sūtra, the same outline as the root, the Tibetan and the Chinese (see bo-display), carried onto this file through its upstream OpenPecha alignment and the letters of the old Tibetan in the display Tibetan. Sections 1 and 2 open at segments 2 and 8, exactly where they open in the display Tibetan, so no segment is split; section 3 (the translators' colophon, added to the Tibetan from Wikisource) has no counterpart here.
+    labels_decision:
+      reason: 'D5: the Tibetan headings verbatim. The colloquial Tibetan is the same language in the same script, keeps literary terms such as ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ unchanged, and no human colloquial rendering of the headings exists; a colloquial paraphrase would be an invented editorial layer.'
+      decided_by: Claude (instructed by vault owner 2026-10-04)
+      date: '2026-10-04'
+  decisions:
+  - decision: Alignment carried by letters (D2)
+    reason: Every segment of this text is aligned upstream, one to one, to a segment of OpenPecha BdfDD44nDSOqa13HgTvd7 (27 ↔ 27). That old Tibetan is the same text as the display Tibetan but cut into 27 instead of 32 segments, so each segment transcludes the display blocks the letters of its old-Tibetan counterpart fall in (one to several); no segmentation is changed.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: Merge where a display block is repeated (D9) — see merge_rows
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: No bracket correction (D10)
+    reason: The text contains no square brackets.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  merge_rows:
+    mode: by_target
+    joiner: ' '
+    reason: 'D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra''s question and the opening of Avalokiteśvara''s answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).'
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  extra_raw:
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/text.json
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/instances/88UIsXzJTkawquPqwKgBu.json
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/annotations/WTAr9mCSXEZZL1OQkCoY7.json
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/annotations/HplcoYyAWSJ35NInPXpTU.json
+  - openpecha-api/texts/ysb3nzBwYpMPcS9Jm064y/alignments/TmIo2ARiirgxFCv4sqHsu.json
+  - openpecha-api/texts/BdfDD44nDSOqa13HgTvd7/instances/FsrpfLxgRL9UniIrc7c5o.json
+  - openpecha-api/tree.json
+  notes: 'Language code tib (OpenPecha''s code for colloquial Tibetan) is not one the WeBuddhist library accepts (GET https://library.webuddhist.com/v2/languages, 2026-10-04): this file cannot be published until a code is chosen or added.'
+  frontmatter:
+    title: བཅོམ་ལྡན་འདས་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོ། ༼ཁ་སྐད།༽
+    language: Tibetan (colloquial)
+    lang_tag: tib
+    file_type: translation
+    root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: uGpinx0GZlvU1uw44RyYS
+    license: public
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/ysb3nzBwYpMPcS9Jm064y
+    edition_type: critical
+    other_ids:
+    - 'OpenPecha: ysb3nzBwYpMPcS9Jm064y'
+    - 'OpenPecha instance: 88UIsXzJTkawquPqwKgBu'
+    - 'OpenPecha alignment: TmIo2ARiirgxFCv4sqHsu'
+    source_description: OpenPecha API v2 text ysb3nzBwYpMPcS9Jm064y (language code tib, critical instance 88UIsXzJTkawquPqwKgBu, source openpecha.org), downloaded verbatim 2026-10-04 to 0-INBOX/raw-data/openpecha-api/. Title and licence (Public Domain Mark) from its text.json. A colloquial Tibetan rendering of the sūtra; one block per segment; aligned to the display Tibetan through its upstream alignment to OpenPecha BdfDD44nDSOqa13HgTvd7, carried onto the display Tibetan by letters.
+    text_id: null
+    edition_id: null
+    toc_id: null
+- key: tibphono-translation
+  path: 1-SOURCES/Translations/tibphono-prajnaparamita-hrdaya.md
+  adapter: md_rows
+  id_scheme: h2
+  text: openpecha:8LbtYe5XRXQODfqkBkKJy
+  pair:
+    own_side: openpecha:8LbtYe5XRXQODfqkBkKJy
+    target_side: openpecha:8LbtYe5XRXQODfqkBkKJy#parent
+  target: bo-display
+  title: chomdendé ma sherab kyi parol tu chinpa i nyingpo
+  toc:
+    kind: outline
+    file: 2-RAILS/Sections/Raw/toc-wikisource/prajnaparamita-hrdaya.md
+    note: The Wikisource Index table of contents of the Derge Kangyur Heart Sūtra, the same outline as the root, the Tibetan and the Chinese (see bo-display), carried onto this file through its upstream OpenPecha alignment and the letters of the old Tibetan in the display Tibetan. Sections 1 and 2 open at segments 2 and 8, exactly where they open in the display Tibetan, so no segment is split; section 3 (the translators' colophon, added to the Tibetan from Wikisource) has no counterpart here.
+    labels_decision:
+      reason: 'D5: headings in the file''s own script and system. The Tibetan headings transcribed in the phonetic spelling this text itself uses (genitive ''i as a separate i — chinpa i nyingpo; o + final d/n/s as ö — töpa, ngönpar; byang as jang — jangchub): do i lengzhi (མདོའི་གླེང་གཞི།), do dön ngö (མདོ་དོན་དངོས།), jukjang (མཇུག་བྱང་།, not shown). Chosen over the Tibetan-script headings because a reader of phonetics may not read Tibetan script, and D5 keeps each file''s headings in its own form.'
+      decided_by: Claude (instructed by vault owner 2026-10-04)
+      date: '2026-10-04'
+  decisions:
+  - decision: Alignment carried by letters (D2)
+    reason: Every segment of this text is aligned upstream, one to one, to a segment of OpenPecha BdfDD44nDSOqa13HgTvd7 (27 ↔ 27). That old Tibetan is the same text as the display Tibetan but cut into 27 instead of 32 segments, so each segment transcludes the display blocks the letters of its old-Tibetan counterpart fall in (one to several); no segmentation is changed.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: Merge where a display block is repeated (D9) — see merge_rows
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  - decision: No bracket correction (D10)
+    reason: The text contains no square brackets.
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  merge_rows:
+    mode: by_target
+    joiner: ' '
+    reason: 'D9 (handoff step 8: merge any translation that repeats a Tibetan segment). Overall this text is cut more coarsely than the display Tibetan (27 segments against 32 blocks), but in two places two consecutive segments fall inside one display block — segments 9 and 10 (Śāriputra''s question and the opening of Avalokiteśvara''s answer) both inside ^2-2, and segments 16 and 17 (no ignorance … no old age and death / no suffering, origin, cessation, path) both inside ^2-9 — so that block would be transcluded twice in a row. Those two pairs are joined with a space, giving 25 blocks; every segment and its own alignment stay in the sidecar (source.merged_rows).'
+    decided_by: Claude (instructed by vault owner 2026-10-04)
+    date: '2026-10-04'
+  extra_raw:
+  - openpecha-api/texts/8LbtYe5XRXQODfqkBkKJy/text.json
+  - openpecha-api/texts/8LbtYe5XRXQODfqkBkKJy/instances/rj2dtxUr9tSKn7P6qfL0g.json
+  - openpecha-api/texts/8LbtYe5XRXQODfqkBkKJy/annotations/hQLxI0OZyyIY42XVKDTex.json
+  - openpecha-api/texts/8LbtYe5XRXQODfqkBkKJy/annotations/DgIoo5WHbynT0cI7AmCbF.json
+  - openpecha-api/texts/8LbtYe5XRXQODfqkBkKJy/alignments/50jCriLaJPJDWyv5jrgsI.json
+  - openpecha-api/texts/BdfDD44nDSOqa13HgTvd7/instances/FsrpfLxgRL9UniIrc7c5o.json
+  - openpecha-api/tree.json
+  notes: 'Language code tibphono is not one the WeBuddhist library accepts (GET https://library.webuddhist.com/v2/languages, 2026-10-04): this file cannot be published until a code is chosen or added (references/pecha-conventions.md says such a text is reported, not built; built here on the vault owner''s instruction). Upstream defect, reproduced verbatim: letters with some diacritics and several syllables are missing from the phonetics (e.g. segment 10 '' i bu'' for Śāriputra, segment 21 ''   ga té ga té  ra ga té ...'' for the mantra, segment 2 ''gawa ti dra  ra mi  hré ya''); the last segment''s span ends one character past the content (3327 / 3326).'
+  frontmatter:
+    title: chomdendé ma sherab kyi parol tu chinpa i nyingpo
+    language: Tibetan (phonetics)
+    lang_tag: tibphono
+    file_type: translation
+    root_text: 1-SOURCES/Translations/bo-prajnaparamita-hrdaya.md
+    verse_id_format: section-paragraph
+    category_id: uGpinx0GZlvU1uw44RyYS
+    license: public
+    source: https://api-aq25662yyq-uc.a.run.app/v2/texts/8LbtYe5XRXQODfqkBkKJy
+    edition_type: critical
+    other_ids:
+    - 'OpenPecha: 8LbtYe5XRXQODfqkBkKJy'
+    - 'OpenPecha instance: rj2dtxUr9tSKn7P6qfL0g'
+    - 'OpenPecha alignment: 50jCriLaJPJDWyv5jrgsI'
+    source_description: OpenPecha API v2 text 8LbtYe5XRXQODfqkBkKJy (language code tibphono, critical instance rj2dtxUr9tSKn7P6qfL0g, source www.openpecha.org), downloaded verbatim 2026-10-04 to 0-INBOX/raw-data/openpecha-api/. Title and licence (Public Domain Mark) from its text.json. A phonetic transcription of the Tibetan; one block per segment; aligned to the display Tibetan through its upstream alignment to OpenPecha BdfDD44nDSOqa13HgTvd7, carried onto the display Tibetan by letters.
     text_id: null
     edition_id: null
     toc_id: null

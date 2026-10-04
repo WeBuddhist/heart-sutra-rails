@@ -92,7 +92,7 @@ def check_md_rows(spec, man, root, raw, side, blocks, trans, problems):
     """Segmentation and alignment checks for an md_rows work. Returns the
     counts printed in the summary line."""
     stats = {}
-    own = {k: t for k, t in md_rows_source(raw, spec).items() if any(is_letter(c) for c in t)}
+    own = {k: t for k, t in md_rows_source(raw, spec, man.get("openpecha_root", "openpecha-api")).items() if any(is_letter(c) for c in t)}
     by_row = {}
     for bid, b in side["blocks"].items():
         src = b.get("source") or {}
@@ -112,7 +112,8 @@ def check_md_rows(spec, man, root, raw, side, blocks, trans, problems):
         return stats
     tgt_spec = next(w for w in man["works"] if w["key"] == spec["target"])
     t_heads, t_blocks, _ = parse(read_md(root / tgt_spec["path"]))
-    tgt_rows = {r["row"]: r["text"] for r in md_export.read_rows(raw_path(raw, spec["pair"]["target_side"]))}
+    tgt_rows = {r["row"]: r["text"] for r in md_export.read_source_rows(raw, spec["pair"]["target_side"],
+                                                                         man.get("openpecha_root", "openpecha-api"))}
     conc = Concordance([(b, t) for b, t, _ in t_blocks],
                        [(k, t) for k, t in tgt_rows.items() if any(is_letter(c) for c in t)],
                        min_overlap=spec.get("min_overlap", 3))
@@ -175,14 +176,14 @@ def check_md_rows(spec, man, root, raw, side, blocks, trans, problems):
     return stats
 
 
-def md_rows_source(ctx_raw, spec):
+def md_rows_source(ctx_raw, spec, op_dir="openpecha-api"):
     """Rows of an md_rows work's own text, after the manifest's human
     text_corrections (whose originals the sidecar keeps)."""
     corr = {}
     for c in spec.get("text_corrections") or []:
         corr.setdefault(int(c["row"]), []).append(c)
     rows = {}
-    for r in md_export.read_rows(raw_path(ctx_raw, spec["text"])):
+    for r in md_export.read_source_rows(ctx_raw, spec["text"], op_dir):
         t = r["text"]
         for c in corr.get(r["row"], []):
             t = t.replace(c["find"], c["replace"], 1)
@@ -196,7 +197,7 @@ def source_text(ctx_raw, spec, op_root):
     """The raw text the work's body was made from."""
     ad = spec["adapter"]
     if ad == "md_rows":
-        return "\n".join(md_rows_source(ctx_raw, spec).values())
+        return "\n".join(md_rows_source(ctx_raw, spec, str(pathlib.Path(op_root).relative_to(ctx_raw))).values())
     if ad in ("op_translation", "op_text"):
         return openpecha_model.load(op_root, spec["openpecha_text"])["content"]
     rel = spec["pair"]["other"] if ad == "parallel" else spec["text"]

@@ -123,6 +123,82 @@ def read_rows(path):
     return out
 
 
+OP_PREFIX = "openpecha:"
+
+
+def _clean_segment(text):
+    """A segment's text in the shape read_rows gives a row: one line per
+    non-blank source line, outer whitespace trimmed. Wording is untouched."""
+    return "\n".join(l.strip(" \t ") for l in text.replace("\r\n", "\n").split("\n")
+                     if l.strip(" \t "))
+
+
+def op_rows(op_root, ref):
+    """Rows of an OpenPecha API v2 download (layout: openpecha_model.py), so
+    an aligned OpenPecha text can be read by md_rows like a row-aligned pair.
+
+      '<text_id>'          row k = the k-th segment of the text's segmentation
+                           annotation (1-based, in document order)
+      '<text_id>#parent'   row k = the parent text's spans that the upstream
+                           alignment annotation pairs with segment k (joined
+                           by a newline, in the parent's order); empty when
+                           segment k has no aligned counterpart
+
+    The pairing row k <-> row k is therefore exactly the human alignment
+    annotation. An alignment span that does not coincide with a segment, or a
+    parent span aligned to more than one segment, is refused (a human must
+    decide how to read it) rather than silently re-paired."""
+    import pathlib
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import openpecha_model
+    text_id, _, side = ref.partition("#")
+    m = openpecha_model.load(op_root, text_id)
+    segs = m["segments"]
+    if side == "":
+        return [{"row": k, "text": _clean_segment(m["content"][s["start"]:s["end"]]),
+                 "raw": m["content"][s["start"]:s["end"]], "runs": [],
+                 "openpecha": {"text_id": text_id, "instance_id": m["instance_id"], "segment": s["id"],
+                               "start": s["start"], "end": s["end"]}}
+                for k, s in enumerate(segs, 1)]
+    if side != "parent":
+        raise ValueError(f"{OP_PREFIX}{ref}: unknown side {side!r} (use '#parent')")
+    if not m["alignment"]:
+        raise ValueError(f"{OP_PREFIX}{ref}: {text_id} has no alignment in tree.json")
+    parent = openpecha_model.load(op_root, m["alignment"]["parent_text"], m["alignment"]["parent_instance"])
+    by_span = {(s["start"], s["end"]): k for k, s in enumerate(segs, 1)}
+    targets, owner = {}, {}
+    for p in m["alignment"]["pairs"]:
+        k = by_span.get((p["start"], p["end"]))
+        if k is None:
+            raise ValueError(f"{OP_PREFIX}{ref}: alignment span {p['start']}-{p['end']} is not a segment of {text_id}")
+        t = (p["target_start"], p["target_end"], p["target_id"])
+        if owner.setdefault(t[2], k) != k:
+            raise ValueError(f"{OP_PREFIX}{ref}: parent span {t[2]} is aligned to segments {owner[t[2]]} and {k}")
+        targets.setdefault(k, [])
+        if t not in targets[k]:
+            targets[k].append(t)
+    out = []
+    for k, s in enumerate(segs, 1):
+        ts = sorted(targets.get(k, []))
+        raw = "\n".join(parent["content"][a:b] for a, b, _ in ts)
+        out.append({"row": k, "text": "\n".join(_clean_segment(parent["content"][a:b]) for a, b, _ in ts),
+                    "raw": raw, "runs": [],
+                    "openpecha": {"text_id": parent["text_id"], "instance_id": parent["instance_id"],
+                                  "aligned_to_segment": s["id"],
+                                  "spans": [{"id": i, "start": a, "end": b} for a, b, i in ts]}})
+    return out
+
+
+def read_source_rows(raw_root, rel, op_dir="openpecha-api"):
+    """Rows of a manifest row source: a Markdown export under raw_root, or
+    'openpecha:<text_id>[#parent]' read from raw_root/op_dir (see op_rows)."""
+    import pathlib
+    if rel.startswith(OP_PREFIX):
+        return op_rows(pathlib.Path(raw_root) / op_dir, rel[len(OP_PREFIX):])
+    from common import raw_path
+    return read_rows(raw_path(raw_root, rel))
+
+
 def read_meta(path):
     """A Dzongsar metadata sheet exported as CSV: rows `field,BO,EN[,ZH]`
     under an `Entries,…` header (an optional banner row above it is

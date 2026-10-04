@@ -1,0 +1,168 @@
+{
+ "api_base": "https://api-aq25662yyq-uc.a.run.app",
+ "started": "2026-10-04T06:04:58+00:00",
+ "finished": "2026-10-04T06:06:36+00:00",
+ "root_text_id": "BdfDD44nDSOqa13HgTvd7",
+ "selection": "the root text and the three human translations requested by the vault owner on 2026-10-04",
+ "note": "Every file under texts/ is the API response body exactly as received (bytes unchanged). tree.json and this manifest.json are indexes written by the download script, not API responses.",
+ "texts": 4,
+ "alignment_pairs": 3,
+ "files_fetched": 31,
+ "files": [
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/BdfDD44nDSOqa13HgTvd7",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/text.json",
+   "bytes": 1534
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/BdfDD44nDSOqa13HgTvd7/instances",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/instances.json",
+   "bytes": 446
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/FsrpfLxgRL9UniIrc7c5o?content=true&annotation=true",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/instances/FsrpfLxgRL9UniIrc7c5o.json",
+   "bytes": 10845
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/E2cU3ctxqEhnuALIkG8tA",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/annotations/E2cU3ctxqEhnuALIkG8tA.json",
+   "bytes": 1769
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/H8qiA2vfQotjQb58Iy5rr",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/annotations/H8qiA2vfQotjQb58Iy5rr.json",
+   "bytes": 194
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/FsrpfLxgRL9UniIrc7c5o/related",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/related/FsrpfLxgRL9UniIrc7c5o.json",
+   "bytes": 10434
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/jwd9i50MRmkmHQyZ0gouh?content=true&annotation=true",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/instances/jwd9i50MRmkmHQyZ0gouh.json",
+   "bytes": 374
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/YOnM8LA27OtoPuFskh4Xz",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/annotations/YOnM8LA27OtoPuFskh4Xz.json",
+   "bytes": 271
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/jwd9i50MRmkmHQyZ0gouh/related",
+   "file": "texts/BdfDD44nDSOqa13HgTvd7/related/jwd9i50MRmkmHQyZ0gouh.json",
+   "bytes": 9940
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/MrsRfx7ML8QZxQPnhGesn",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/text.json",
+   "bytes": 319
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/MrsRfx7ML8QZxQPnhGesn/instances",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/instances.json",
+   "bytes": 194
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/1EENMb457ICcq3d2DwQBs?content=true&annotation=true",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/instances/1EENMb457ICcq3d2DwQBs.json",
+   "bytes": 4316
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/KxfIZap3UrHepdIZ0gkfh",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/annotations/KxfIZap3UrHepdIZ0gkfh.json",
+   "bytes": 1769
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/7ZUCR4DAmLndgL9nFg1Ba",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/annotations/7ZUCR4DAmLndgL9nFg1Ba.json",
+   "bytes": 136
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/hBVh9SrdCGPwQZdpY7gw1",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/annotations/hBVh9SrdCGPwQZdpY7gw1.json",
+   "bytes": 130
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/1EENMb457ICcq3d2DwQBs/related",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/related/1EENMb457ICcq3d2DwQBs.json",
+   "bytes": 2977
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/RabOvu9MOaJzRz6hY05Il",
+   "file": "texts/MrsRfx7ML8QZxQPnhGesn/alignments/RabOvu9MOaJzRz6hY05Il.json",
+   "bytes": 4735
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/ysb3nzBwYpMPcS9Jm064y",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/text.json",
+   "bytes": 472
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/ysb3nzBwYpMPcS9Jm064y/instances",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/instances.json",
+   "bytes": 191
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/88UIsXzJTkawquPqwKgBu?content=true&annotation=true",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/instances/88UIsXzJTkawquPqwKgBu.json",
+   "bytes": 10202
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/HplcoYyAWSJ35NInPXpTU",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/annotations/HplcoYyAWSJ35NInPXpTU.json",
+   "bytes": 194
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/WTAr9mCSXEZZL1OQkCoY7",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/annotations/WTAr9mCSXEZZL1OQkCoY7.json",
+   "bytes": 1767
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/88UIsXzJTkawquPqwKgBu/related",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/related/88UIsXzJTkawquPqwKgBu.json",
+   "bytes": 2977
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/TmIo2ARiirgxFCv4sqHsu",
+   "file": "texts/ysb3nzBwYpMPcS9Jm064y/alignments/TmIo2ARiirgxFCv4sqHsu.json",
+   "bytes": 4733
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/8LbtYe5XRXQODfqkBkKJy",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/text.json",
+   "bytes": 351
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/texts/8LbtYe5XRXQODfqkBkKJy/instances",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/instances.json",
+   "bytes": 195
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/rj2dtxUr9tSKn7P6qfL0g?content=true&annotation=true",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/instances/rj2dtxUr9tSKn7P6qfL0g.json",
+   "bytes": 3791
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/hQLxI0OZyyIY42XVKDTex",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/annotations/hQLxI0OZyyIY42XVKDTex.json",
+   "bytes": 1769
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/DgIoo5WHbynT0cI7AmCbF",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/annotations/DgIoo5WHbynT0cI7AmCbF.json",
+   "bytes": 130
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/instances/rj2dtxUr9tSKn7P6qfL0g/related",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/related/rj2dtxUr9tSKn7P6qfL0g.json",
+   "bytes": 2977
+  },
+  {
+   "url": "https://api-aq25662yyq-uc.a.run.app/v2/annotations/50jCriLaJPJDWyv5jrgsI",
+   "file": "texts/8LbtYe5XRXQODfqkBkKJy/alignments/50jCriLaJPJDWyv5jrgsI.json",
+   "bytes": 4735
+  }
+ ]
+}

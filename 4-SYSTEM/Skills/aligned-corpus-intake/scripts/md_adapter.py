@@ -50,7 +50,7 @@ import sys
 
 from common import raw_path
 from concordance import Concordance
-from md_export import read_rows, strip_markup
+from md_export import read_source_rows, strip_markup
 from project import Projector, is_letter
 import vault_writer
 
@@ -83,7 +83,7 @@ def _supplement_rows(ctx, rel):
 
 
 def _rows(ctx, rel):
-    rows = read_rows(raw_path(ctx.raw, rel))
+    rows = read_source_rows(ctx.raw, rel, ctx.m.get("openpecha_root", "openpecha-api"))
     sup = _supplement_rows(ctx, rel)
     if sup:
         last = max((r["row"] for r in rows), default=0)
@@ -122,6 +122,8 @@ def _blocks(ctx, spec, rep):
         src = {"file": rel, "row": r["row"]}
         if r.get("supplement"):
             src["supplement"] = r["supplement"]
+        if r.get("openpecha"):
+            src["openpecha"] = r["openpecha"]          # segment id and span in the API download
         for c in corr.pop(r["row"], []):
             if text.count(c["find"]) != 1:
                 raise ValueError(f"{spec['key']}: text correction {c} does not match exactly once in row {r['row']}")
@@ -161,6 +163,7 @@ def _pair(ctx, spec, items, rep):
             raise ValueError(f"{spec['key']}: pair.own_side differs from text in rows {bad[:10]}")
     tgt_rows = _rows(ctx, tgt_rel)
     tgt_text = {r["row"]: r["text"] for r in tgt_rows}
+    tgt_op = {r["row"]: r["openpecha"] for r in tgt_rows if r.get("openpecha")}
     target = ctx.works[spec["target"]]
     conc = Concordance(target["blocks"], [(r["row"], r["text"]) for r in tgt_rows if has_letters(r["text"])],
                        min_overlap=spec.get("min_overlap", 3))
@@ -194,6 +197,8 @@ def _pair(ctx, spec, items, rep):
                 {t for tr in human for t in conc.row(tr)["targets"]}, key=conc.pos.get)
         if rows:
             al["target_side_text"] = "\n".join(tgt_text[r] for r in rows)
+            if any(r in tgt_op for r in rows):
+                al["target_side_openpecha"] = [tgt_op[r] for r in rows if r in tgt_op]
             al["targets"] = detail
             if variants:
                 al["variants"] = variants
