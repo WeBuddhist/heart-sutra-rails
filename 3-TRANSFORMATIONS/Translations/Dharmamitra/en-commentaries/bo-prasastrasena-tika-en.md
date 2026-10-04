@@ -1,7 +1,8 @@
 ---
-title: Praśāstrasena, Extensive Commentary on the Heart Sutra — DharmaMitra zero-shot (english)
+title: Praśāstrasena's Extensive Commentary on the Noble Heart of the Perfection of Wisdom
 track: DharmaMitra zero-shot (english)
 title_original: འཕགས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་སྙིང་པོའི་རྒྱ་ཆེར་འགྲེལ་པ།
+title_source: "machine: DharmaMitra cat-translate of the Tibetan title, 2026-10-04"
 language: English
 lang_tag: en
 file_type: translation
@@ -29,20 +30,20 @@ rails_used: none
 generated: 2026-10-04
 blocks_translated: 70
 blocks_total: 70
-headings_translated: 0
+headings_translated: 11
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 ---
 
-# Praśāstrasena, Extensive Commentary on the Heart Sutra — DharmaMitra zero-shot (english) ^0
+# Praśāstrasena's Extensive Commentary on the Noble Heart of the Perfection of Wisdom ^0
 
 ![[bo-prasastrasena-tika#^0-1]]
 
 In the language of India: Ārya-prajñāpāramitā-hṛdaya-ṭīkā. ^0-1
 
-## མདོ་སྡེ་འདི་བཤད་པ། ^1-0
+## Explanation of this Sūtra ^1-0
 
-### ཤེས་རབ་ཀྱི་མིང། ^1-1-0
+### The Designation of Wisdom ^1-1-0
 
 ![[bo-prasastrasena-tika#^1-1]]
 
@@ -58,19 +59,19 @@ Unsurpassable wisdom is the tathāgata’s knowledge that there is no self in pe
 "Pāramitā" means that birth, death, and suffering are the near shore, while nirvāṇa is the far shore. Sentient beings, driven by the desires of cyclic existence, are in between. By using this wisdom as a boat or a raft, one is brought to the shore of nirvāṇa, and thus it is called "pāramitā."
 "Hṛdaya" means that because all the sūtras of the hundred-thousand-verse chapter of the prajñāpāramitā are gathered within this, it is called the "heart." Alternatively, because it is proclaimed as the supreme among all that the tathāgata has taught, specifically this very ultimate prajñāpāramitā, it is called the "heart." ^1-1
 
-### གླེང་གཞི། ^1-2-0
+### Introduction ^1-2-0
 
 ![[bo-prasastrasena-tika#^1-2]]
 
 This is the introductory framing. If it were not taught, one would not know where, to whom, or what was being taught; therefore, the introductory framing is stated in order to teach the location and the audience to whom it was taught. The phrase "Thus have I heard" refers to the meanings that follow below, and by this, superimposition and denial are abandoned. The phrase "by me" indicates that it was heard directly; it shows that the Dharma was heard directly, but that the meaning was not yet realized. The word "heard" means that it was grasped by the consciousness of the ear faculty capable of listening. The phrase "at one time" means that it was heard on a single occasion, either in the morning or in the evening. The term "Bhagavān" is used because he has abandoned the afflictions that are to be abandoned through seeing and meditation. Where was it taught? Because of that, "Rājagṛha" is stated, for that specific city is called Rājagṛha. Since that city is extremely vast and there is no fixed place where he was residing, "Gṛdhrakūṭa mountain" is stated, because that mountain is naturally shaped like a vulture. Because all afflictions are vanquished, he is a "bhikṣu." Because he cannot be divided by opponents, he is part of the "saṅgha," and "great" is used because of the greatness of their number and qualities. Because they establish themselves in unsurpassable enlightenment, they are "bodhisattvas." Because they establish all sentient beings on the level of non-abiding nirvāṇa, they are "mahāsattvas." "Residing" should be understood as residing in terms of deportment. By these, it is shown when, by whom, where, and to whom it was taught, clarifying the objects examined by realization. When was it taught? It was taught at one time. By whom? By the Bhagavān, and by this, the perfection of the teacher is shown. Where? At Rājagṛha, on Gṛdhrakūṭa mountain, and by this, the perfection of the location is shown. To whom? To the bhikṣus and the bodhisattvas, and by this, the perfection of the retinue is shown. ^1-2
 
-### སྙོམས་པར་འཇུག་པ། ^1-3-0
+### Meditative Attainment ^1-3-0
 
 ![[bo-prasastrasena-tika#^1-3]]
 
 This refers to meditative absorption; if one does not enter into meditative absorption, one does not clearly realize the objects of investigation, so meditative absorption is mentioned in order to clearly realize the objects of investigation. The phrase "at that time" refers to the time when the Blessed One was dwelling in Rājagṛha, and it should be connected with entering into meditative absorption and so forth. If one asks, "What is the meditative absorption that is called 'Profound Illumination'?" it is for this reason that the "profound Dharma discourse" is mentioned. In this context, phenomena are so called because they grasp their own and general characteristics. The "discourse" on those phenomena refers to the collections of phenomena, namely the five aggregates, the elements, and the sense spheres. "Profound" refers to the meaning of emptiness by nature, because there is no arising and no ceasing. If one enters into meditative absorption, one realizes that phenomena such as the aggregates are without arising and without ceasing; therefore, the name of that meditative absorption is called "Profound Illumination Dharma discourse," where "illumination" refers to realization. "Entered into" means to continuously place the mind one-pointedly upon meditative absorption. ^1-3
 
-### གླེང་བསླབ་པ་བསྟན་པ། ^1-4-0
+### Explanation of the Introductory Precepts ^1-4-0
 
 ![[bo-prasastrasena-tika#^1-4]]
 
@@ -80,7 +81,7 @@ This refers to the teaching of the introductory discourse; if the introduction i
 
 It is not only that one focuses on the meaning of being without birth and without cessation, but one also views the five aggregates, such as form, as empty. Regarding this, there are two types of emptiness: the emptiness of unconditioned space, and the emptiness of the ultimate, which is the self-cognizing awareness of the noble ones’ wisdom, free from subject and object. The meaning is that one views the five aggregates as empty, being free from subject and object. There are three types of views: the views of ordinary beings and non-Buddhists, the views of Shravakas and Pratyekabuddhas, and the views of Bodhisattvas and Tathāgatas. Regarding this, ordinary beings and non-Buddhists view the five aggregates as a life-force, a self, or a person. Shravakas and Pratyekabuddhas view the five aggregates as arising and as suffering. Bodhisattvas and Tathāgatas view and behold the five aggregates as empty by their very nature. ^1-5
 
-### ཤེས་རབ་ལ་འཇུག་པ། ^1-5-0
+### Engagement with Wisdom ^1-5-0
 
 ![[bo-prasastrasena-tika#^1-6]]
 
@@ -90,7 +91,7 @@ This is an entry into the perfection of wisdom; because the method of entry is n
 
 The words "whosoever" mean "whoever it may be." Regarding the "perfection of wisdom," wisdom is twofold: the wisdom that knows the conventional and the wisdom that knows the ultimate. Among these, the wisdom that knows the conventional is knowing all phenomena to be like illusions, mirages, and dreams. The wisdom that knows the ultimate is knowing all phenomena to be inexpressible and unthinkable, like the nature of space; because that wisdom leads to the attainment of non-abiding nirvāṇa, it is called the "perfection of wisdom." In essence, the profound meaning of the absence of birth and cessation is called the perfection of wisdom. "Practice" refers to the person, the bodhisattva. "Practiced" refers to the dharma, the perfection of wisdom. The words "how should one train?" mean: how should one enter into the meaning of the perfection of wisdom through the methods of listening, reflecting, and meditating? In two ways, one should train in the four types of practice. The four types of practice are: practicing the ultimate through non-conceptual wisdom; practicing the factors of enlightenment without defilements; practicing the ripening of sentient beings without attachment; and practicing the ripening of the Buddha-dharma without grasping. The words "how should one train?" mean: how should one practice these four types of practice? ^1-7
 
-### ཤེས་རབ་ཀྱི་མཚན་ཉིད། ^1-6-0
+### The Characteristics of Wisdom ^1-6-0
 
 ![[bo-prasastrasena-tika#^1-8]]
 
@@ -123,7 +124,7 @@ Since form and emptiness are non-existent, they are to be abandoned. In this reg
 
 Regarding the statement "feeling, perception, mental formations, and consciousness are empty," it is said as follows: In the preceding discussion on viewing the five aggregates as empty, the emptiness of form was mentioned, and by explaining that form is empty and stating the phrasing that shows emptiness and form are inseparable, this becomes sixfold when applied to the three types of explanation. The three types of explanation are: first, explaining that they are empty by nature and thus one; second, applying them to the three types of imputed phenomena and explaining that they are of one taste; and third, abandoning the two extremes—the ordinary person of cyclic existence who dwells in the extreme of substantial existence, and the śrāvaka who dwells in the extreme of empty nirvāṇa—and establishing the entry into the middle path. Just as it becomes sixfold by applying the phrase "form is empty, emptiness is form" to each of the three, this method is also explained for the five or four aggregates. Just as the mutual emptiness was explained through five aspects, the remaining aggregates—feeling, perception, mental formations, and consciousness—should also be explained through the five aspects of mutual emptiness. These phenomena are the continuum of one's own mind, and the mind, as the characteristic of emptiness devoid of form, ripens from latent tendencies and depends upon that aggregate of form. This is like an empty vessel, in that it depends upon the vessel. If that vessel is destroyed, there is no basis for dependence, and it is inseparable from great emptiness. It is similar to this: because the aggregate of form is examined as empty, that aggregate of mind also has no location, and is inseparable from the ultimate dharmadhātu. If one asks what makes it evident that the five aggregates are empty by nature, it is explained in the *Akṣayamatinirdeśa*: The aggregate of form is like a lump of foam, unable to withstand being grasped or cut. The aggregate of feeling is like a bubble of water, impermanent because it is momentary. The aggregate of perception is like a mirage, because it grasps at what is mistaken due to the thirst of craving. The aggregate of mental formations is like a plantain tree, having no essence when dismantled. The aggregate of consciousness is like a dream, because it grasps at what is illusory. Therefore, the five aggregates are not a self, not an individual, not a sentient being, not a life-force, not a nourisher, and not a person. The nature of the five aggregates is not like this; the nature of the five aggregates is like this: they are empty of self and what belongs to self. They are unborn. They have not arisen. They are non-existent. They are the expanse of space. They are unconditioned. They are by nature nirvāṇa. Thus, by knowing the four great external elements as empty, form is empty. By knowing the four internal mental [aggregates] as empty, it is called "emptiness of emptiness," and by abandoning the sign of form and emptiness being one, and being free from the two of the grasper and the grasped, it is called the liberated body. ^1-14
 
-### ཤེས་རབ་ཀྱི་སྤྱོད་ཡུལ། ^1-7-0
+### The Domain of Analytical Wisdom ^1-7-0
 
 ![[bo-prasastrasena-tika#^1-15]]
 
@@ -257,7 +258,7 @@ Regarding the phrase "there is no wisdom, no attainment, and also no non-attainm
 
 "Attainment" refers to attaining something that was previously non-existent. If there were attainment, there would also be emptiness, and if there were a result, it would be subject to destruction; therefore, the essence of Buddhahood, which abides equally in all sentient beings, is empty from the beginning, and in the end, there is no attainment. The mention of the sequence of the ten stages is merely the gradual purification of the latencies of ignorance within the *ālaya-vijñāna*. Once the latencies of ignorance are purified, in the *dharmadhātu*—which is like the mirror-like wisdom of a Buddha—there is no designation of "attainment" or "non-attainment," and therefore there is no attainment. ^1-47
 
-### ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ཡོན་ཏན། ^1-8-0
+### The Qualities of the Perfection of Wisdom ^1-8-0
 
 ![[bo-prasastrasena-tika#^1-48]]
 
@@ -279,7 +280,7 @@ Regarding "having completely transcended inverted views," the *ālaya-vijñāna*
 
 Regarding "having reached *nirvāṇa*," ignorance is the basis of all afflictions. It is taught that because it also becomes the cause of *saṃsāra* within the twelve links of dependent origination, in the end, it results in the gathering of nothing but a heap of suffering. If one knows that there is no ignorance, then all suffering and all afflictions also become non-existent. Therefore, it is said that one has reached *nirvāṇa*. ^1-52
 
-### ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་འབྲས་བུ། ^1-9-0
+### The Fruit of the Perfection of Wisdom ^1-9-0
 
 ![[bo-prasastrasena-tika#^1-53]]
 
@@ -293,7 +294,7 @@ Regarding "all the Buddhas who reside throughout the three times rely upon the *
 
 Regarding "attained manifest, complete, and perfect awakening to unsurpassed, true, and complete enlightenment," it is said: "unsurpassed" means having transcended the three realms. "True and complete" means the ultimate end of the unerring *tathatā* (suchness). "Awakening" means the *dharmadhātu* of *tathatā*. "Attained enlightenment" means that by practicing the *prajñāpāramitā* in a manner free from conceptualization, one manifests buddhahood, which is not different from the Buddhas of the past and is equal in qualities. ^1-55
 
-### ཤེས་རབ་ཀྱི་གཟུངས། ^1-10-0
+### Dhāraṇī of Wisdom ^1-10-0
 
 ![[bo-prasastrasena-tika#^1-56]]
 
